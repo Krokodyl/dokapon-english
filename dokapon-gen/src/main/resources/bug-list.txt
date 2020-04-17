@@ -1,0 +1,16 @@
+BIG DEV
+City names using slanted double chars
+Days of the week
+
+SPRITES
+Menu arrows are wrong (aka Flag)
+
+MENU
+Increase Info menu width by one. (Stats/Towns/Assets/Towns)
+Align the values in Stats menu
+
+TRANSLATIONS
+Lariat = Australia
+NA = North America / N.America
+SA = South America / S.America
+Towns / Castle distinction

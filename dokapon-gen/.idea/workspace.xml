@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5aeca86a-89ea-40e5-9112-018adffdbab0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aE4Ggrumst5FmgWj78MfdjmHK7" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/roms/Dokapon out new.smc" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/roms/Dokapon out new.smc" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dokapon" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/roms" />
+      <recent name="$PROJECT_DIR$/src/main/resources/logs/bug-days" />
+      <recent name="$PROJECT_DIR$/src/main/resources/backup" />
+      <recent name="$PROJECT_DIR$/src/main/resources/logs/bug-doublechar-menu" />
+      <recent name="$PROJECT_DIR$/src/main/resources/tables" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dokapon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images/double-chars" />
+      <recent name="$PROJECT_DIR$/src/main/resources/single-char" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/logs/colors" />
+      <recent name="$PROJECT_DIR$/src/main/resources/logs/comparable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Dokapon">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dokapon.App" />
+      <module name="Dokapon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dokapon.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dokapon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dokapon.Dokapon" />
+      <module name="Dokapon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dokapon.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dokapon.services.JsonLoader" />
+      <module name="Dokapon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dokapon.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Translator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dokapon.services.Translator" />
+      <module name="Dokapon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dokapon.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dokapon.services.Utils" />
+      <module name="Dokapon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dokapon.characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Dokapon" />
+        <item itemvalue="Application.Utils" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Translator" />
+        <item itemvalue="Application.JsonLoader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aeca86a-89ea-40e5-9112-018adffdbab0" name="Default Changelist" comment="" />
+      <created>1586287324489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586287324489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586349025162">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="418" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1586349025162" />
+    <state x="738" y="330" width="443" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587128337099">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="738" y="330" width="443" height="385" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587128337099" />
+    <state x="768" y="211" width="444" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1587149932128">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="768" y="211" width="444" height="624" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587149932128" />
+    <state x="654" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586349272179">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="654" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1586349272179" />
+    <state x="773" y="387" width="373" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587151234213">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="773" y="387" width="373" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587151234213" />
+    <state x="773" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586349275221">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="773" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1586349275221" />
+    <state x="718" y="180" key="#xdebugger.evaluate" timestamp="1587132775924">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="718" y="180" key="#xdebugger.evaluate/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587132775924" />
+    <state width="415" height="568" key="DebuggerActiveHint" timestamp="1587132744091">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="415" height="568" key="DebuggerActiveHint/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587132744091" />
+    <state x="84" y="107" width="1720" height="848" key="DiffContextDialog" timestamp="1587130433213">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="84" y="107" width="1720" height="848" key="DiffContextDialog/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587130433213" />
+    <state x="743" y="282" width="424" height="482" key="FileChooserDialogImpl" timestamp="1587130432784">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="743" y="282" width="424" height="482" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587130432784" />
+    <state width="1876" height="171" key="GridCell.Tab.0.bottom" timestamp="1587158159024">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="171" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587158159024" />
+    <state width="1876" height="171" key="GridCell.Tab.0.center" timestamp="1587158159024">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="171" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587158159024" />
+    <state width="1876" height="171" key="GridCell.Tab.0.left" timestamp="1587158159024">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="171" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587158159024" />
+    <state width="1876" height="171" key="GridCell.Tab.0.right" timestamp="1587158159024">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="171" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587158159024" />
+    <state width="1876" height="380" key="GridCell.Tab.1.bottom" timestamp="1587156326735">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="380" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587156326735" />
+    <state width="1876" height="380" key="GridCell.Tab.1.center" timestamp="1587156326735">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="380" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587156326735" />
+    <state width="1876" height="380" key="GridCell.Tab.1.left" timestamp="1587156326735">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="380" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587156326735" />
+    <state width="1876" height="380" key="GridCell.Tab.1.right" timestamp="1587156326735">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state width="1876" height="380" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587156326735" />
+    <state x="493" y="182" width="924" height="682" key="Maven.ArtifactSearchDialog" timestamp="1587076337182">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="493" y="182" width="924" height="682" key="Maven.ArtifactSearchDialog/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587076337182" />
+    <state x="100" y="100" width="1720" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587137680062">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="100" y="100" width="1720" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587137680062" />
+    <state x="664" y="248" width="712" height="610" key="find.popup" timestamp="1587158051625">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="664" y="248" width="712" height="610" key="find.popup/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587158051625" />
+    <state x="675" y="156" width="559" height="733" key="refactoring.ChangeSignatureDialog" timestamp="1587066240666">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="675" y="156" width="559" height="733" key="refactoring.ChangeSignatureDialog/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1587066240666" />
+    <state x="624" y="239" key="run.anything.popup" timestamp="1586957620477">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="624" y="239" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1586957620477" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1586884467296">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1048@0.0.1920.1048" timestamp="1586884467296" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dokapon/services/SpriteWriter.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,1098 @@
+{
+  "config": {
+    "rom-input" : "/home/yme/perso/dokapon/roms/Dokapon.smc",
+    "rom-output" : "/home/yme/perso/dokapon/roms/Dokapon out.smc",
+    "file.dico.jap" : "tables/table-complete.txt",
+    "file.dico.latin" : "tables/table-latin.txt",
+    "file.dico.noms" : "tables/table-noms.txt"
+  },
+  "tables": [
+    {
+      "id": 1,
+      "pointers": [
+        {
+          "start": 85852,
+          "end": 86184,
+          "shift": 32768
+        }
+      ],
+      "new-data-start": 1573120,
+      "new-data-shift": 1540096
+    },
+    {
+      "id": 2,
+      "pointers": [
+        {
+          "start": 262400,
+          "end": 262789,
+          "shift": 229376
+        }
+      ],
+      "new-data-start": 1605632,
+      "new-data-shift": 1572864,
+      "menu": true,
+      "counter": true
+    },
+    {
+      "id": 4,
+      "pointers": [
+        {
+          "start": 1376256,
+          "end": 1376766,
+          "shift": 1343488
+        }
+      ],
+      "new-data-start": 1671168,
+      "new-data-shift": 1638400
+    },
+    {
+      "id": 5,
+      "pointers": [
+        {
+          "start": 1388968,
+          "end": 1389382,
+          "shift": 1343488
+        }
+      ],
+      "new-data-start": 1703938,
+      "new-data-shift": 1671168
+    },
+    {
+      "id": 6,
+      "pointers": [
+        {
+          "start": 1474560,
+          "end": 1474598,
+          "shift": 1441792
+        }
+      ],
+      "new-data-start": 1474600,
+      "new-data-shift": 1441792
+    },
+    {
+      "id": 7,
+      "pointers": [
+        {
+          "start": 201859,
+          "end": 202169,
+          "shift": 163840
+        },
+        {
+          "start": 205161,
+          "end": 205225,
+          "shift": 163840
+        },
+        {
+          "start": 207177,
+          "end": 207207,
+          "shift": 163840
+        },
+        {
+          "start": 207913,
+          "end": 207945,
+          "shift": 163840
+        },
+        {
+          "start": 208861,
+          "end": 209179,
+          "shift": 163840
+        },
+        {
+          "start": 223817,
+          "end": 224097,
+          "shift": 163840
+        }
+      ],
+      "new-data-start": 1736704,
+      "new-data-shift": 1703936
+    }
+  ],
+  "translations-files": [
+    "translations/Table 1.txt",
+    "translations/Table 2.txt",
+    "translations/Table 4.txt",
+    "translations/Table 6.txt",
+    "translations/Table 5.txt",
+    "translations/Table 7.txt"
+  ],
+  "code-patches": [
+    {
+      "code": "e2 20 a5 22 c9 82 d0 09 a9 30 85 22 c2 20 a7 20 6b c9 aa d0 73 a5 20 c9 00 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 20 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 40 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 60 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 80 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 a0 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 c0 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 e0 d0 09 a9 33 85 22 c2 20 a7 20 6b a9 34 85 22 c2 20 a7 20 6b c9 86 d0 04 a9 35 85 22 c2 20 a7 20 6b",
+      "offset": "180000"
+    },
+    {
+      "code": "e2 20 a5 22 c9 88 d0 04 a9 31 85 22 c9 86 d0 04 a9 35 85 22 c2 20 a7 20 6b",
+      "offset": "1800a0"
+    },
+    {
+      "code": "a0 a1 a2 a3 a4 bf bf bf bf bf 00 00 a5 a6 a7 a8 a9 bf bf bf bf bf 00 fe 35 37 39 3b 3d 01 03 05 07 09 00 00 3f 41 43 45 47 0b 0d 0f 11 13 00 fd 49 4b 4d 4f 51 15 17 19 1b 1d 00 00 53 55 57 59 5b 1f 21 23 25 27 00 00 5d 5f 61 63 65 29 2b 2d 2f 31 00 00 67 bf bf bf bf 33 bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff 69 6b 6d 6f 71 bf bf bf bf bf 00 00 7d 7f 81 83 85 bf bf bf bf bf 00 fe 87 89 8b 8d 8f bf bf bf bf bf 00 00 91 93 95 99 97 bf bf bf bf bf 00 fd 9b 9d 9f ab ad bf bf bf bf bf 00 00 af b7 c1 c3 c5 bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf",
+      "offset": "43e8b"
+    },
+    {
+      "code": "1f 00 94 4f a0 4b 00 94 51 a0 35 00 94 53 a0 65 00 94 55 a0 3d 00 94 57 a0 57 00 94 59 a0 bf 00",
+      "offset": "19c22"
+    },
+    {
+      "code": "22 00 80 30",
+      "offset": "a852"
+    },
+    {
+      "code": "22 A0 80 30",
+      "offset": "a772"
+    },
+    {
+      "code": "E0 00",
+      "offset": "ae2e"
+    },
+    {
+      "code": "E0 00",
+      "offset": "644a"
+    }
+  ],
+  "latin": [
+    {
+      "value": "{CW}",
+      "code": "0020",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CR}",
+      "code": "0120",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CY}",
+      "code": "0220",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CG}",
+      "code": "0320",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CB}",
+      "code": "0420",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": " ",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-106.png"
+      },
+      "location": {
+        "offset": "d96e0",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "!",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-057.png"
+      }
+    },
+    {
+      "value": "#",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-072.png"
+      }
+    },
+    {
+      "value": "$",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-073.png"
+      }
+    },
+    {
+      "value": "%",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-074.png"
+      }
+    },
+    {
+      "value": "\u0027",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-052.png"
+      }
+    },
+    {
+      "value": "(",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-063.png"
+      }
+    },
+    {
+      "value": ")",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-064.png"
+      }
+    },
+    {
+      "value": "*",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-053.png"
+      }
+    },
+    {
+      "value": "+",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-061.png"
+      }
+    },
+    {
+      "value": ",",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-088.png"
+      },
+      "location": {
+        "offset": "d94a0",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "-",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-062.png"
+      }
+    },
+    {
+      "value": ".",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-060.png"
+      }
+    },
+    {
+      "value": "/",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-068.png"
+      }
+    },
+    {
+      "value": "0",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-075.png"
+      },
+      "location": {
+        "offset": "d9400",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "1",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-076.png"
+      },
+      "location": {
+        "offset": "d9400",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "2",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-077.png"
+      },
+      "location": {
+        "offset": "d9420",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "3",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-078.png"
+      },
+      "location": {
+        "offset": "d9420",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "4",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-079.png"
+      },
+      "location": {
+        "offset": "d9440",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "5",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-080.png"
+      },
+      "location": {
+        "offset": "d9440",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "6",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-081.png"
+      },
+      "location": {
+        "offset": "d9460",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "7",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-082.png"
+      },
+      "location": {
+        "offset": "d9460",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "8",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-083.png"
+      },
+      "location": {
+        "offset": "d9480",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "9",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-084.png"
+      },
+      "location": {
+        "offset": "d9480",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": ":",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-059.png"
+      }
+    },
+    {
+      "value": "\u003c",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-054.png"
+      }
+    },
+    {
+      "value": "\u003e",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-055.png"
+      }
+    },
+    {
+      "value": "?",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-058.png"
+      },
+      "location": {
+        "offset": "d9680",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "A",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-000.png"
+      }
+    },
+    {
+      "value": "B",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-001.png"
+      }
+    },
+    {
+      "value": "C",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-002.png"
+      }
+    },
+    {
+      "value": "D",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-003.png"
+      }
+    },
+    {
+      "value": "E",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-004.png"
+      }
+    },
+    {
+      "value": "F",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-005.png"
+      }
+    },
+    {
+      "value": "G",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-006.png"
+      }
+    },
+    {
+      "value": "H",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-007.png"
+      }
+    },
+    {
+      "value": "I",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-008.png"
+      }
+    },
+    {
+      "value": "J",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-009.png"
+      }
+    },
+    {
+      "value": "K",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-010.png"
+      }
+    },
+    {
+      "value": "L",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-011.png"
+      }
+    },
+    {
+      "value": "M",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-012.png"
+      }
+    },
+    {
+      "value": "N",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-013.png"
+      }
+    },
+    {
+      "value": "O",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-014.png"
+      }
+    },
+    {
+      "value": "P",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-015.png"
+      }
+    },
+    {
+      "value": "Q",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-016.png"
+      }
+    },
+    {
+      "value": "R",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-017.png"
+      }
+    },
+    {
+      "value": "S",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-018.png"
+      }
+    },
+    {
+      "value": "T",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-019.png"
+      }
+    },
+    {
+      "value": "U",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-020.png"
+      }
+    },
+    {
+      "value": "V",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-021.png"
+      }
+    },
+    {
+      "value": "W",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-022.png"
+      }
+    },
+    {
+      "value": "X",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-023.png"
+      }
+    },
+    {
+      "value": "Y",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-024.png"
+      }
+    },
+    {
+      "value": "Z",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-025.png"
+      }
+    },
+    {
+      "value": "[",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-065.png"
+      },
+      "location": {
+        "offset": "d94e0",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "\\",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-067.png"
+      }
+    },
+    {
+      "value": "]",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-066.png"
+      },
+      "location": {
+        "offset": "d9600",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "_",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-069.png"
+      }
+    },
+    {
+      "value": "a",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-026.png"
+      }
+    },
+    {
+      "value": "b",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-027.png"
+      }
+    },
+    {
+      "value": "c",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-028.png"
+      }
+    },
+    {
+      "value": "d",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-029.png"
+      }
+    },
+    {
+      "value": "e",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-030.png"
+      }
+    },
+    {
+      "value": "f",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-031.png"
+      }
+    },
+    {
+      "value": "g",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-032.png"
+      }
+    },
+    {
+      "value": "h",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-033.png"
+      }
+    },
+    {
+      "value": "i",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-034.png"
+      }
+    },
+    {
+      "value": "j",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-035.png"
+      }
+    },
+    {
+      "value": "k",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-036.png"
+      }
+    },
+    {
+      "value": "l",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-037.png"
+      }
+    },
+    {
+      "value": "m",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-038.png"
+      }
+    },
+    {
+      "value": "n",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-039.png"
+      }
+    },
+    {
+      "value": "o",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-040.png"
+      }
+    },
+    {
+      "value": "p",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-041.png"
+      }
+    },
+    {
+      "value": "q",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-042.png"
+      }
+    },
+    {
+      "value": "r",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-043.png"
+      }
+    },
+    {
+      "value": "s",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-044.png"
+      }
+    },
+    {
+      "value": "t",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-045.png"
+      }
+    },
+    {
+      "value": "u",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-046.png"
+      }
+    },
+    {
+      "value": "v",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-047.png"
+      }
+    },
+    {
+      "value": "w",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-048.png"
+      }
+    },
+    {
+      "value": "x",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-049.png"
+      }
+    },
+    {
+      "value": "y",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-050.png"
+      }
+    },
+    {
+      "value": "z",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-051.png"
+      }
+    },
+    {
+      "value": "{ARMOR}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-094.png"
+      }
+    },
+    {
+      "value": "{BR-ANGLE}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-087.png"
+      }
+    },
+    {
+      "value": "{BULLET}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-107.png"
+      }
+    },
+    {
+      "value": "{BUT}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-095.png"
+      }
+    },
+    {
+      "value": "{C-QUOTES}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-070.png"
+      }
+    },
+    {
+      "value": "{EQUAL}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-056.png"
+      }
+    },
+    {
+      "value": "{H-ANGLE}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-101.png"
+      },
+      "location": {
+        "offset": "d9ae0",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{ITEM}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-096.png"
+      }
+    },
+    {
+      "value": "{L-CIRCLE}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-102.png"
+      }
+    },
+    {
+      "value": "{L-WANTED}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-089.png"
+      }
+    },
+    {
+      "value": "{MAGIC}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-099.png"
+      },
+      "location": {
+        "offset": "d9a80",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{O-QUOTES}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-071.png"
+      }
+    },
+    {
+      "value": "{PILL}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-098.png"
+      }
+    },
+    {
+      "value": "{POISON}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-097.png"
+      }
+    },
+    {
+      "value": "{R-CIRCLE}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-103.png"
+      }
+    },
+    {
+      "value": "{R-WANTED}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-090.png"
+      }
+    },
+    {
+      "value": "{SHIELD}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-093.png"
+      }
+    },
+    {
+      "value": "{TL-ANGLE}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-086.png"
+      }
+    },
+    {
+      "value": "{V-ANGLE}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-100.png"
+      },
+      "location": {
+        "offset": "d9ae0",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{WEAP}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-092.png"
+      }
+    },
+    {
+      "value": "~",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-105.png"
+      }
+    },
+    {
+      "value": "§",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-104.png"
+      }
+    },
+    {
+      "value": "×",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-091.png"
+      }
+    },
+    {
+      "value": "→",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-085.png"
+      }
+    },
+    {
+      "value": "{DC-SU}",
+      "code": "e000",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-18.png",
+        "image-bot": "images/double-chars/straight/char-20.png"
+      },
+      "location": {
+        "offset": "d9c00",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{DC-MO}",
+      "code": "e100",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-12.png",
+        "image-bot": "images/double-chars/straight/char-14.png"
+      },
+      "location": {
+        "offset": "d9c20",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{DC-TU}",
+      "code": "e200",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-19.png",
+        "image-bot": "images/double-chars/straight/char-20.png"
+      },
+      "location": {
+        "offset": "d9c40",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{DC-WE}",
+      "code": "e300",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-22.png",
+        "image-bot": "images/double-chars/straight/char-04.png"
+      },
+      "location": {
+        "offset": "d9c60",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{DC-TH}",
+      "code": "e400",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-19.png",
+        "image-bot": "images/double-chars/straight/char-07.png"
+      },
+      "location": {
+        "offset": "d9c80",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{DC-FR}",
+      "code": "e500",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-05.png",
+        "image-bot": "images/double-chars/straight/char-17.png"
+      },
+      "location": {
+        "offset": "d9ca0",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{DC-SA}",
+      "code": "e600",
+      "type": "DOUBLE",
+      "sprite": {
+        "image-top": "images/double-chars/straight/char-18.png",
+        "image-bot": "images/double-chars/straight/char-00.png"
+      },
+      "location": {
+        "offset": "d9cc0",
+        "side": "ONE"
+      }
+    }
+  ]
+}
