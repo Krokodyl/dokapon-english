@@ -1,0 +1,83 @@
+##### BREAKPOINTS #####
+Welcome text : 02CFE8
+First menu : 088259
+Menu Week/Day : 0881F5
+
+##### BANK ADDRESS CONVERSION #####
+Adresse pointeur : 14fe8
+Breakpoint : 02CFE8
+DEBUG; $81/AF15 B7 20       LDA [$20],y[$82:CFE8]   A:008C X:0006 Y:008C P:envmxdIzc
+
+81/A86A   01A86A
+88/B61D
+
+##### Traduction premier texte in game #####
+
+OFFSET=14fe8
+VALEUR=e3c4(c4e3)
+OFFSETDATA=163c4
+DATA=9700 9900 9b00 9d00 9f00 a100 a300 a500 a700 a900 ab00 ad00 af00 0030 b100 b300 b500 b700 b900 bb00 bd00 bf00 0030 c100 c300 c500 c700 c900 cb00 cd00 cf00 ffff
+JAP=ようこそ,ドカポン王国へ!{NL}今日は,どのモードであそぶのかな?{EL}
+ENG=0{EL}{NL}Welcome to Dokapon Kingdom!{NL}Which game mode do you want to{NL}play today? {EL}
+
+
+
+
+
+##### LOOKING FOR THE CHAR SPRITE LOADING #####
+0     D9400
+Breakpoint : 02CFE8
+Breakpoint : 08B61D
+
+Sprite 0 : D9400
+Sprite A : D8000
+Sprite 日 : D9C00  e000
+Sprite 字 : DE000  f001
+Sprite 話 : DE2E0  ff01
+Sprite 先 : DE400  0002
+
+
+char '0' : a000 -> D9400
+$81/AE3E 0A          ASL A                   A:00A0
+$81/AE3F 18          CLC                     A:0140
+$81/AE44 09 00 20    ORA #$2000              A:0140
+$81/AE47 92 24       STA ($24)  [$7E:7C19]   A:2140
+$81/B3A3 B9 00 00    LDA $0000,y[$7E:7C19]   A:0000
+$81/B3A6 29 FF 03    AND #$03FF              A:2140
+$81/B3A9 05 18       ORA $18    [$00:0018]   A:0140 X:0006
+$81/B3B2 69 00 80    ADC #$8000              A:1400
+$81/B3B5 AA          TAX                     A:9400
+
+
+##### SPLIT KANJIS #####
+ORIGINAL      NEW
+f000          0001 0101
+f800          1001 1101
+0001          2001 2101   魔
+6f01          fe01 ff01   救
+0002          2002 2102
+
+##### CHAR REQUIRED #####
+letters           52
+numbers           10
+special           20
+legacy            14
+                  96
+cities            105   (double chars)
+weapons           97    (dc)
++shields          139
++armors           193
+
+
+##### COLOR LOADING #####
+81/A86C
+
+##### BUG DOUBLE CHAR MENU #####
+offset 40240
+Breakpoint 080240
+
+##### DAY OF THE WEEK #####
+starting value (x6440)
+$80/E449 69 E0 00    ADC #$00E0
+2d02=向
+4102=特
