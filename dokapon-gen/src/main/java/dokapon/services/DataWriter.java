@@ -14,13 +14,24 @@ import java.util.logging.Logger;
 
 public class DataWriter {
 
-    public static byte[] writeCodePatches(List<CodePatch> patchList, byte[] data) {
+    public static byte[] fillDataWithPlaceHolders(byte[] data) {
+        int fullLength = Integer.parseInt("180000", 16)+Integer.parseInt("8000", 16)*10;
+        if (data.length<fullLength) {
+            byte[] dummy = new byte[fullLength];
+            for (int k=0;k<data.length;k++) dummy[k] = data[k];
+            for (int k=Integer.parseInt("180000", 16);k<fullLength;k++) dummy[k] = 0;
+            data = dummy;
+        }
         for (int i=0;i<10;i++) {
             int k = Integer.parseInt("180000", 16)+Integer.parseInt("8000", 16)*i;
             for (int j=0;j<Integer.parseInt("8000", 16);j++) {
                 data[k+j] = (byte)(16 + i);
             }
         }
+        return data;
+    }
+
+    public static byte[] writeCodePatches(List<CodePatch> patchList, byte[] data) {
         for (CodePatch cp:patchList) {
             cp.writePatch(data);
         }

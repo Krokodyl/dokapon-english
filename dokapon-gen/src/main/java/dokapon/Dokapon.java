@@ -31,6 +31,7 @@ public class Dokapon {
         } catch (IOException ex) {
             Logger.getLogger(Dokapon.class.getName()).log(Level.SEVERE, null, ex);
         }
+        data = DataWriter.fillDataWithPlaceHolders(data);
         latinLoader.loadLatin();
         spriteWriter.writeLatinChars(latinLoader.getLatinChars(), data);
 

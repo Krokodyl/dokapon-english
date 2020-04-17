@@ -26,7 +26,7 @@ public class JsonLoader {
 
     private static String loadJson() {
         InputStream is =
-                JsonLoader.class.getClassLoader().getResourceAsStream( file);
+                JsonLoader.class.getClassLoader().getResourceAsStream(file);
         String jsonTxt = null;
         try {
             jsonTxt = IOUtils.toString( is );
