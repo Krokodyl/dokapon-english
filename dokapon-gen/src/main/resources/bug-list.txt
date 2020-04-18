@@ -7,6 +7,7 @@ SPRITES
 MENU
 Increase Info menu width by one. (Stats/Towns/Assets/Towns)
 Align the values in Stats menu
+Align Town menu header with columns
 
 TRANSLATIONS
 Lariat = Australia
