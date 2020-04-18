@@ -632,14 +632,14 @@ VALEUR=890e(0e89)
 OFFSETDATA=4090e
 DATA=0006 0b0a 6400 7100 b500 6a00 6400 bf00 0510 5985 0030 9700 8400 9600 bf00 bf00 bf00 bf00 bf00 bf00 211a 3100 0030 f800 f900 bf00 bf00 bf00 bf00 311a 2100 0030 fa00 fb00 bf00 bf00 bf00 bf00 311a 2300 0030 1400 2b00 3f00 1000 bf00 bf00 bf00 bf00 311a 2500 0030 0001 0a01 bf00 bf00 bf00 bf00 311a 2900 0030 0901 0a01 bf00 bf00 bf00 bf00 311a 5f00 0030 bf00 0030 c000 c400 c300 bf00 bf00 611a 3600 0030 c500 c000 c400 c600 bf00 611a c000 ffff 
 JAP={0006}{0b0a}ステータス {0510}{5985}{NL}レベル      {211a}ぶ{NL}攻撃    {311a}て{NL}防御    {311a}と{NL}すばやさ    {311a}な{NL}魔力    {311a}の{NL}体力    {311a}ゴ{NL} {NL}EXP  {611a}ほ{NL}NEXT {611a}E{EL}
-ENG={0006}{0b0a}Status{0510}{5985}{NL}Level    {211a 3100}{NL}ATK   {311a 2100}{NL}DEF   {311a 2300}{NL}SPD     {311a 2500}{NL}Magic {311a 2900}{NL}Health {311a 5f00}{NL} {NL}EXP  {611a 3600}{NL}NEXT {611a c000}{EL}
+ENG={0006}{0b0a}Status{0510}{5985}{NL}Level    {211a 3100}{NL}ATK     {311a 2100}{NL}DEF     {311a 2300}{NL}SPD     {311a 2500}{NL}Magic   {311a 2900}{NL}Health  {311a 5f00}{NL} {NL}EXP  {611a 3600}{NL}NEXT {611a c000}{EL}
 
 OFFSET=4021b
 VALEUR=89be(be89)
 OFFSETDATA=409be
 DATA=0d06 110a 8100 5800 bf00 bf00 bf00 bf00 8218 c900 0030 6a00 7100 bf00 bf00 bf00 bf00 8218 cb00 0030 9300 9800 4f00 bf00 bf00 bf00 8218 cd00 0030 f800 0001 bf00 bf00 8218 3200 be00 211a 3a00 0030 fa00 0001 bf00 bf00 8218 3400 0030 1f01 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 0220 211a 4e00 0020 0030 8700 6400 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 211a 6300 0030 1801 1901 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 0120 211a 6200 0020 0030 fc00 fe00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 211a 6400 0030 1101 1201 bf00 bf00 8318 bb00 ffff 
 JAP={0d06}{110a}ブキ    {8218}B{NL}タテ    {8218}D{NL}ヨロイ   {8218}F{NL}攻魔  {8218}ぷ×{211a}み{NL}防魔  {8218}べ{NL}人             {CY}{211a}ィ{CW}{NL}ボス             {211a}ジ{NL}死亡           {CR}{211a}シ{CW}{NL}村数           {211a}ス{NL}資産  {8318} {EL}
-ENG={0d06}{110a}Weap  {8218 c900}{NL}Shld  {8218 cb00}{NL}Armor {8218 cd00}{NL}MAtk  {8218 3200}×{211a 3a00}{NL}MDef  {8218 3400}{NL}Pla           {CY}{211a 4e00}{CW}{NL}Boss           {211a 6300}{NL}Death          {CR}{211a 6200}{CW}{NL}Towns          {211a 6400}{NL}Asset {8318} {EL}
+ENG={0d06}{110a}Weap  {8218 c900}{NL}Shld  {8218 cb00}{NL}Armor {8218 cd00}{NL}MAtk  {8218 3200}×{211a 3a00}{NL}MDef  {8218 3400}{NL}Pla            {CY}{211a 4e00}{CW}{NL}Boss           {211a 6300}{NL}Death          {CR}{211a 6200}{CW}{NL}Towns          {211a 6400}{NL}Asset {8318} {EL}
 
 OFFSET=4021e
 VALEUR=88da(da88)
