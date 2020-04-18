@@ -1,48 +1,49 @@
-Tokyo
-Lhasa   
-Shanghai
-Macau   
-Astana  
-Harbin  
-Moscow  
-Kabul   
-Irkutsk 
-Amman   
-Sevilla 
-Rome    
-Paris   
-Vienna  
-Berlin  
-Riga    
-London  
-Tallinn 
-Juneau  
-Seattle 
-New York
-Chicago 
-Houston 
-Portland
-Anaheim 
-Bogota  
-Caracas 
-Rio     
-La Paz  
-Lima    
-Santiago
-Brasilia
-Akureyri
-Nuuk    
-Dublin  
-Oslo    
-Yaounde 
-Cairo   
-Rabat   
-Nairobi 
-Bamako  
-Pretoria
-Sidney  
-Adelaide
-Perth   
-Darwin  
-Cairns  
-Auckland
+トキオ =Tokyo
+キンペ =Lhasa
+ウール =Shanghai
+シンガ =Macau
+モンゴー=Astana
+ハバロフ=Harbin
+スクワモ=Moscow
+ライク =Kabul
+シバーリ=Irkutsk
+サラム =Amman
+ホルトー=Sevilla
+マーロ =Rome
+オフラン=Paris
+アテーネ=Vienna
+ウイン =Berlin
+ゲルマン=Riga
+バリテン=London
+ストック=Tallinn
+ラスカー=Juneau
+シアトー=Seattle
+ヨーク =New York
+ゴシカ =Chicago
+ヒュース=Houston
+ペガス =Portland
+アステカ=Anaheim
+パマナ =Bogota
+バランシ=Caracas
+サンバ =Rio
+コルバト=La Paz
+ナスカ =Lima
+リッチ =Santiago
+パラス =Brasilia
+チュール=Akureyri
+ゴット =Nuuk
+キビック=Dublin
+ビースン=Oslo
+ザイルー=Yaounde
+イジップ=Cairo
+ロッコ =Rabat
+ケーニア=Nairobi
+タッカル=Bamako
+ケープ =Pretoria
+シドーニ=Sidney
+ホルン =Adelaide
+パース =Perth
+ターウイ=Darwin
+フリッツ=Cairns
+リンン =Auckland
+リントン=Lynton

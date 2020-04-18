@@ -83,7 +83,7 @@ public class LatinChar {
                     "\"image\": \""+sprite.getImage()+"\"\n" +
                     "}\n";
         }
-        if (sprite!=null && type==CharType.DOUBLE) {
+        if (sprite!=null && type==CharType.DOUBLE_STRAIGHT) {
             image = "\"sprite\": {\n" +
                     "\"image-top\": \""+sprite.getImageTop()+"\",\n" +
                     "\"image-bot\": \""+sprite.getImageBot()+"\"\n" +

@@ -3,7 +3,8 @@ package dokapon.enums;
 public enum CharType {
 
     SINGLE,
-    DOUBLE,
+    DOUBLE_STRAIGHT,
+    DOUBLE_SLANTED,
     NO_SPRITE
 
 }

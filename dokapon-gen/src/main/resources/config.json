@@ -141,11 +141,11 @@
       "offset": "a772"
     },
     {
-      "code": "E0 00",
+      "code": "E0 01",
       "offset": "ae2e"
     },
     {
-      "code": "E0 00",
+      "code": "E0 01",
       "offset": "644a"
     }
   ],
@@ -987,6 +987,10 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-104.png"
+      },
+      "location": {
+        "offset": "d92e0",
+        "side": "ONE"
       }
     },
     {
@@ -1004,9 +1008,30 @@
       }
     },
     {
-      "value": "{DC-SU}",
+      "value": "{DUAL-TO}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/dual/dual-0.png"
+      }
+    },
+    {
+      "value": "{DUAL-KY}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/dual/dual-1.png"
+      }
+    },
+    {
+      "value": "{DUAL-O }",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/dual/dual-2.png"
+      }
+    },
+    {
+      "value": "{DAY-SU}",
       "code": "e000",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-18.png",
         "image-bot": "images/double-chars/straight/char-20.png"
@@ -1017,9 +1042,9 @@
       }
     },
     {
-      "value": "{DC-MO}",
+      "value": "{DAY-MO}",
       "code": "e100",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-12.png",
         "image-bot": "images/double-chars/straight/char-14.png"
@@ -1030,9 +1055,9 @@
       }
     },
     {
-      "value": "{DC-TU}",
+      "value": "{DAY-TU}",
       "code": "e200",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-19.png",
         "image-bot": "images/double-chars/straight/char-20.png"
@@ -1043,9 +1068,9 @@
       }
     },
     {
-      "value": "{DC-WE}",
+      "value": "{DAY-WE}",
       "code": "e300",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-22.png",
         "image-bot": "images/double-chars/straight/char-04.png"
@@ -1056,9 +1081,9 @@
       }
     },
     {
-      "value": "{DC-TH}",
+      "value": "{DAY-TH}",
       "code": "e400",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-19.png",
         "image-bot": "images/double-chars/straight/char-07.png"
@@ -1069,9 +1094,9 @@
       }
     },
     {
-      "value": "{DC-FR}",
+      "value": "{DAY-FR}",
       "code": "e500",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-05.png",
         "image-bot": "images/double-chars/straight/char-17.png"
@@ -1082,9 +1107,9 @@
       }
     },
     {
-      "value": "{DC-SA}",
+      "value": "{DAY-SA}",
       "code": "e600",
-      "type": "DOUBLE",
+      "type": "DOUBLE_STRAIGHT",
       "sprite": {
         "image-top": "images/double-chars/straight/char-18.png",
         "image-bot": "images/double-chars/straight/char-00.png"

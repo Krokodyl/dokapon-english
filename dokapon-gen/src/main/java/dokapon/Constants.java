@@ -7,6 +7,7 @@ public class Constants {
 
     public static int LENGTH_ARMOR_NAMES = 7;
     public static int LENGTH_WEAPON_NAMES = 7;
+    public static int LENGTH_CIY_NAMES = 4;
 
     public static int OFFSET_FIRST_CHAR_00 = Integer.parseInt("d8000",16);
     public static int OFFSET_FIRST_CHAR_01 = Integer.parseInt("da000",16);

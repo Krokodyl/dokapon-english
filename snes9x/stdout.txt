@@ -2,14 +2,7 @@ Reading config file Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
 Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
 No ROM file header found.
 Map_LoROMMap
-"ÄÞ¶ÎßÝ×ÝÄÞ 321" [bad checksum] LoROM, 16Mbits, Type: ROM+RAM+BAT, Mode: 20, TV: NTSC, S-RAM: 8KB, ROMId: AIXJ Company: E8 CRC32: 4D4E5372
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
+"ÄÞ¶ÎßÝ×ÝÄÞ 321" [bad checksum] LoROM, 16Mbits, Type: ROM+RAM+BAT, Mode: 20, TV: NTSC, S-RAM: 8KB, ROMId: AIXJ Company: E8 CRC32: FBA6ECDC
 Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
 Map_LoROMMap
 Map_LoROMMap
@@ -18,50 +11,6 @@ Map_LoROMMap
 Map_LoROMMap
 Map_LoROMMap
 Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Map_LoROMMap
-Saving	config file	Z:\home\yme\perso\dokapon\snes9x/snes9x.debugger.cfg
 Map_LoROMMap
 Map_LoROMMap
 Map_LoROMMap

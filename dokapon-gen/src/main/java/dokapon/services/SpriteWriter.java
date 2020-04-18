@@ -49,7 +49,7 @@ public class SpriteWriter {
             imageTopA = loadImageTop(sideOne.getSprite().getImage());
             imageBotA = loadImageBot(sideOne.getSprite().getImage());
         }
-        if (sideOne.getType()==CharType.DOUBLE) {
+        if (sideOne.getType()==CharType.DOUBLE_STRAIGHT || sideOne.getType()==CharType.DOUBLE_SLANTED) {
             imageTopA = loadImage(sideOne.getSprite().getImageTop());
             imageBotA = loadImage(sideOne.getSprite().getImageBot());
         }
@@ -57,7 +57,7 @@ public class SpriteWriter {
             imageTopB = loadImageTop(sideTwo.getSprite().getImage());
             imageBotB = loadImageBot(sideTwo.getSprite().getImage());
         }
-        if (sideTwo.getType()==CharType.DOUBLE) {
+        if (sideTwo.getType()==CharType.DOUBLE_STRAIGHT || sideTwo.getType()==CharType.DOUBLE_SLANTED) {
             imageTopB = loadImage(sideTwo.getSprite().getImageTop());
             imageBotB = loadImage(sideTwo.getSprite().getImageBot());
         }
@@ -72,7 +72,7 @@ public class SpriteWriter {
             FontManager.writeImageAtOffset(imageTop, latinChar.getSpriteLocation().getOffset(), latinChar.getSpriteLocation().getSide(), data);
             FontManager.writeImageAtOffset(imageBot, latinChar.getSpriteLocation().getOffset() + Integer.parseInt("100", 16), latinChar.getSpriteLocation().getSide(), data);
         }
-        if (latinChar.getType()==CharType.DOUBLE) {
+        if (latinChar.getType()==CharType.DOUBLE_STRAIGHT || latinChar.getType()==CharType.DOUBLE_SLANTED) {
             BufferedImage imageTop = loadImage(latinChar.getSprite().getImageTop());
             BufferedImage imageBot = loadImage(latinChar.getSprite().getImageBot());
             FontManager.writeImageAtOffset(imageTop, latinChar.getSpriteLocation().getOffset(), latinChar.getSpriteLocation().getSide(), data);
