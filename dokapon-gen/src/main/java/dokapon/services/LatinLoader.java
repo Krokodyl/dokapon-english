@@ -35,6 +35,11 @@ public class LatinLoader {
         for (LatinChar lc:weaponDoubleLatinChars) {
             if (!latinChars.contains(lc)) latinChars.add(lc);
         }
+        String japShield = "JAP=な  し    {NL}{SHIELD}ウッドシールド{NL}{SHIELD}かわのたて  {NL}{SHIELD}バックラー  {NL}{SHIELD}せいどうのたて{NL}{SHIELD}なまりのたて {NL}{SHIELD}どうのたて  {NL}{SHIELD}てつのたて  {NL}{SHIELD}ラージシールド{NL}{SHIELD}はがねのたて {NL}{SHIELD}ナイツシールド{NL}{SHIELD}タワーシールド{NL}{SHIELD}オーラシールド{NL}{SHIELD}せんしのたて {NL}{SHIELD}ぎんのたて  {NL}{SHIELD}ミラーシールド{NL}{SHIELD}アテナのたて {NL}{SHIELD}りゅうのたて {NL}{SHIELD}ダークシールド{NL}{SHIELD}メタルガーダー{NL}{SHIELD}バインダー  {NL}{SHIELD}デモンシールド{NL}{SHIELD}のろいのたて {EL}";
+        List<LatinChar> shieldsDoubleLatinChars = generateLatinCharTypeDouble(japShield, "tables/shields-jap.txt", LENGTH_WEAPON_NAMES, CharType.DOUBLE_STRAIGHT);
+        for (LatinChar lc:shieldsDoubleLatinChars) {
+            if (!latinChars.contains(lc)) latinChars.add(lc);
+        }
         String japCities = "JAP=    {NL}トキオ {NL}キンペ {NL}ウール {NL}シンガ {NL}モンゴー{NL}ハバロフ{NL}スクワモ{NL}ライク {NL}シバーリ{NL}サラム {NL}ホルトー{NL}マーロ {NL}オフラン{NL}アテーネ{NL}ウイン {NL}ゲルマン{NL}バリテン{NL}ストック{NL}ラスカー{NL}シアトー{NL}ヨーク {NL}ゴシカ {NL}ヒュース{NL}ペガス {NL}アステカ{NL}パマナ {NL}バランシ{NL}サンバ {NL}コルバト{NL}ナスカ {NL}リッチ {NL}パラス {NL}チュール{NL}ゴット {NL}キビック{NL}ビースン{NL}ザイルー{NL}イジップ{NL}ロッコ {NL}ケーニア{NL}タッカル{NL}ケープ {NL}シドーニ{NL}ホルン {NL}パース {NL}ターウイ{NL}フリッツ{NL}リントン{EL}";
         List<LatinChar> citiesDoubleLatinChars = generateLatinCharTypeDouble(japCities, "tables/cities-straight.txt", LENGTH_CIY_NAMES, CharType.DOUBLE_STRAIGHT);
         for (LatinChar lc:citiesDoubleLatinChars) {

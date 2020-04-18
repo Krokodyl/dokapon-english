@@ -1,13 +1,9 @@
 BIG DEV
 City names using slanted double chars
-Days of the week
 
 SPRITES
 
 MENU
 
 TRANSLATIONS
-Lariat = Australia
-NA = North America / N.America
-SA = South America / S.America
-Towns / Castle distinction
+Add special char for Cuiaba and Tromso

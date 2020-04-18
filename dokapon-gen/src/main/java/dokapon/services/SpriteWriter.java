@@ -107,6 +107,9 @@ public class SpriteWriter {
     private BufferedImage loadImageTop(String filename) {
         InputStream inputStream = SpriteWriter.class.getClassLoader().getResourceAsStream(filename);
         BufferedImage image = null;
+        if (inputStream==null) {
+            System.out.println();
+        }
         try {
             image = ImageIO.read(inputStream);
         } catch (IOException e) {

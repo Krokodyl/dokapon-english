@@ -1029,12 +1029,11 @@
       }
     },
     {
-      "value": "{DAY-SU}",
+      "value": "{DAY-SUNDAY-S}",
       "code": "e000",
-      "type": "DOUBLE_STRAIGHT",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-18.png",
-        "image-bot": "images/double-chars/straight/char-20.png"
+        "image": "images/single-chars/latin/char-018.png"
       },
       "location": {
         "offset": "d9c00",
@@ -1042,12 +1041,23 @@
       }
     },
     {
-      "value": "{DAY-MO}",
-      "code": "e100",
-      "type": "DOUBLE_STRAIGHT",
+      "value": "{DAY-SUNDAY-U}",
+      "code": "e000",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-12.png",
-        "image-bot": "images/double-chars/straight/char-14.png"
+        "image": "images/single-chars/latin/char-020.png"
+      },
+      "location": {
+        "offset": "d9c00",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{DAY-MONDAY-M}",
+      "code": "e100",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-012.png"
       },
       "location": {
         "offset": "d9c20",
@@ -1055,12 +1065,23 @@
       }
     },
     {
-      "value": "{DAY-TU}",
-      "code": "e200",
-      "type": "DOUBLE_STRAIGHT",
+      "value": "{DAY-MONDAY-O}",
+      "code": "e100",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-19.png",
-        "image-bot": "images/double-chars/straight/char-20.png"
+        "image": "images/single-chars/latin/char-014.png"
+      },
+      "location": {
+        "offset": "d9c20",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{DAY-TUESDAY-T}",
+      "code": "e200",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-019.png"
       },
       "location": {
         "offset": "d9c40",
@@ -1068,16 +1089,39 @@
       }
     },
     {
-      "value": "{DAY-WE}",
-      "code": "e300",
-      "type": "DOUBLE_STRAIGHT",
+      "value": "{DAY-TUESDAY-U}",
+      "code": "e200",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-22.png",
-        "image-bot": "images/double-chars/straight/char-04.png"
+        "image": "images/single-chars/latin/char-020.png"
+      },
+      "location": {
+        "offset": "d9c40",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{DAY-WEDNESDAY-W}",
+      "code": "e300",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-022.png"
       },
       "location": {
         "offset": "d9c60",
         "side": "ONE"
+      }
+    },
+    {
+      "value": "{DAY-WEDNESDAY-E}",
+      "code": "e300",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-004.png"
+      },
+      "location": {
+        "offset": "d9c60",
+        "side": "TWO"
       }
     },
     {
