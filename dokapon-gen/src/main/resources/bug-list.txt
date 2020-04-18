@@ -5,7 +5,6 @@ Days of the week
 SPRITES
 
 MENU
-Align Town menu header with columns
 
 TRANSLATIONS
 Lariat = Australia

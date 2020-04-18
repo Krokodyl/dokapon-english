@@ -216,7 +216,7 @@ VALEUR=999e(9e99)
 OFFSETDATA=4199e
 DATA=0e00 10ff 7400 5600 8800 9b00 bf00 bf00 bf00 6310 5b85 c100 0030 7a00 9b00 5700 bf00 bf00 bf00 bf00 6310 5e85 c100 0030 4d00 9b00 7b00 b500 bf00 bf00 bf00 6310 6185 c100 0030 8900 7500 5100 bf00 bf00 bf00 bf00 6310 6485 c100 0030 5a00 9500 6400 bf00 bf00 bf00 bf00 6310 6785 c100 0030 6000 7b00 9400 bf00 bf00 bf00 bf00 6310 6a85 c100 0030 5300 4d00 b500 bf00 bf00 bf00 bf00 6310 6d85 c100 ffff 
 JAP=こ{10ff}ドカポン   {6310}{5b85}G{NL}ハンガ    {6310}{5e85}G{NL}アンバー   {6310}{6185}G{NL}マナウ    {6310}{6485}G{NL}クリス    {6310}{6785}G{NL}サバラ    {6310}{6a85}G{NL}エアー    {6310}{6d85}G{EL}
-ENG={0e00}{10ff}Dokap. {6310}{5b85}G{NL}Poznan {6310}{5e85}G{NL}Ottawa {6310}{6185}G{NL}Manaus {6310}{6485}G{NL}Derry  {6310}{6785}G{NL}Dakar  {6310}{6a85}G{NL}Uluru  {6310}{6d85}G{EL}
+ENG={0e00}{10ff}Dokap. {6310}{5b85}G{NL}Poznan {6310}{5e85}G{NL}Denver {6310}{6185}G{NL}Cuiaba {6310}{6485}G{NL}Derry  {6310}{6785}G{NL}Dakar  {6310}{6a85}G{NL}Uluru  {6310}{6d85}G{EL}
 
 OFFSET=40158
 VALEUR=9128(2891)
@@ -583,7 +583,7 @@ VALEUR=8bbe(be8b)
 OFFSETDATA=40bbe
 DATA=0000 1e01 fc00 fd00 bf00 ca00 bf00 bf00 ee00 bf00 bf00 bf00 ef00 bf00 bf00 bf00 f000 f100 bf00 bf00 f200 bf00 bf00 f300 ffff 
 JAP={0000}{1e01}村名 L  価   値   収入  合  計{EL}
-ENG={0000}{1e01}Town Lvl Val Rev Tot{EL}
+ENG={0000}{1e01}Town Lvl   Value   Inc   Total{EL}
 
 OFFSET=40203
 VALEUR=8bf0(f08b)
@@ -596,8 +596,8 @@ OFFSET=40208
 VALEUR=91a4(a491)
 OFFSETDATA=411a4
 DATA=0000 1e01 1701 bf00 fd00 bf00 bf00 bf00 ee00 bf00 bf00 bf00 ef00 bf00 bf00 bf00 f000 f100 bf00 bf00 f200 bf00 bf00 f300 ffff 
-JAP={0000}集城 名   価   値   収入  合  計{EL}
-ENG={0000}{1e01}Castle Lvl Val Rev Tot{EL}
+JAP={0000}{1e01}城 名   価   値   収入  合  計{EL}
+ENG={0000}{1e01}Castle     Value   Inc   Total{EL}
 
 OFFSET=4020a
 VALEUR=91d6(d691)

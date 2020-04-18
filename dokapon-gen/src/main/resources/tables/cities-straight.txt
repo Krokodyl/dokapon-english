@@ -12,14 +12,14 @@
 マーロ =Rome
 オフラン=Pa ris
 アテーネ=Vien na
-ウイン =Ber lin
+ウイン =Pra gue
 ゲルマン=Riga
 バリテン=Lon don
 ストック=Tal linn
 ラスカー=Ju neau
 シアトー=Seat tle
 ヨーク =New York
-ゴシカ =Chi cago
+ゴシカ =Dal las
 ヒュース=Hous ton
 ペガス =Port land
 アステカ=Ana heim
@@ -34,7 +34,7 @@
 ゴット =Nuuk
 キビック=Dub lin
 ビースン=Oslo
-ザイルー=Yaou nde
+ザイルー=Lome
 イジップ=Cai ro
 ロッコ =Ra bat
 ケーニア=Nai robi
@@ -43,7 +43,7 @@
 シドーニ=Sid ney
 ホルン =Adel aide
 パース =Per th
-ターウイ=Dar win
+ターウイ=Ali ce
 フリッツ=Cai rns
 リンン =Auck land
 リントン=Lyn ton

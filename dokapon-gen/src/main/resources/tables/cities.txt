@@ -12,14 +12,14 @@
 マーロ =Rome
 オフラン=Paris
 アテーネ=Vienna
-ウイン =Berlin
+ウイン =Prague
 ゲルマン=Riga
 バリテン=London
 ストック=Tallinn
 ラスカー=Juneau
 シアトー=Seattle
 ヨーク =New York
-ゴシカ =Chicago
+ゴシカ =Dallas
 ヒュース=Houston
 ペガス =Portland
 アステカ=Anaheim
@@ -34,7 +34,7 @@
 ゴット =Nuuk
 キビック=Dublin
 ビースン=Oslo
-ザイルー=Yaounde
+ザイルー=Lome
 イジップ=Cairo
 ロッコ =Rabat
 ケーニア=Nairobi
@@ -43,7 +43,7 @@
 シドーニ=Sidney
 ホルン =Adelaide
 パース =Perth
-ターウイ=Darwin
+ターウイ=Alice
 フリッツ=Cairns
 リンン =Auckland
 リントン=Lynton
