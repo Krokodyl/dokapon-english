@@ -25,6 +25,7 @@ public class LatinLoader {
     public void loadLatin() {
         latinChars.addAll(JsonLoader.loadLatin());
 
+
         String japArmor = "JAP=な  し    {NL}{ARMOR}ぬののふく  {NL}{ARMOR}ローブ    {NL}{ARMOR}あさのふく  {NL}{ARMOR}マント    {NL}{ARMOR}パディット  {NL}{ARMOR}レザーアーマー{NL}{ARMOR}キルボアール {NL}{ARMOR}リングメイル {NL}{ARMOR}スケイルメイル{NL}{ARMOR}ライトアーマー{NL}{ARMOR}くさりかたびら{NL}{ARMOR}スプリント  {NL}{ARMOR}ホーバーク  {NL}{ARMOR}ハーフプレート{NL}{ARMOR}プレートメイル{NL}{ARMOR}ナイトアーマー{NL}{ARMOR}バトルスーツ {NL}{ARMOR}オーラアーマー{NL}{ARMOR}マジックローブ{NL}{ARMOR}チキンマント {NL}{ARMOR}エルブンマント{NL}{ARMOR}ライフガード {NL}{ARMOR}リフレクス  {NL}{ARMOR}ダークアーマー{NL}{ARMOR}シルバーメイル{NL}{ARMOR}デモンアーマー{NL}{ARMOR}ケイオスメイル{NL}{ARMOR}{NL}{ARMOR}{NL}{ARMOR}{NL}{ARMOR}{NL}{ARMOR}{NL}{ARMOR}{EL}";
         List<LatinChar> armorDoubleLatinChars = generateLatinCharTypeDouble(japArmor, "tables/armors-jap.txt", LENGTH_ARMOR_NAMES, CharType.DOUBLE_STRAIGHT);
         for (LatinChar lc:armorDoubleLatinChars) {
@@ -36,7 +37,7 @@ public class LatinLoader {
             if (!latinChars.contains(lc)) latinChars.add(lc);
         }
         String japShield = "JAP=な  し    {NL}{SHIELD}ウッドシールド{NL}{SHIELD}かわのたて  {NL}{SHIELD}バックラー  {NL}{SHIELD}せいどうのたて{NL}{SHIELD}なまりのたて {NL}{SHIELD}どうのたて  {NL}{SHIELD}てつのたて  {NL}{SHIELD}ラージシールド{NL}{SHIELD}はがねのたて {NL}{SHIELD}ナイツシールド{NL}{SHIELD}タワーシールド{NL}{SHIELD}オーラシールド{NL}{SHIELD}せんしのたて {NL}{SHIELD}ぎんのたて  {NL}{SHIELD}ミラーシールド{NL}{SHIELD}アテナのたて {NL}{SHIELD}りゅうのたて {NL}{SHIELD}ダークシールド{NL}{SHIELD}メタルガーダー{NL}{SHIELD}バインダー  {NL}{SHIELD}デモンシールド{NL}{SHIELD}のろいのたて {EL}";
-        List<LatinChar> shieldsDoubleLatinChars = generateLatinCharTypeDouble(japShield, "tables/shields-jap.txt", LENGTH_WEAPON_NAMES, CharType.DOUBLE_STRAIGHT);
+        List<LatinChar> shieldsDoubleLatinChars = generateLatinCharTypeDouble(japShield, "tables/shields-jap.txt", LENGTH_SHIELD_NAMES, CharType.DOUBLE_STRAIGHT);
         for (LatinChar lc:shieldsDoubleLatinChars) {
             if (!latinChars.contains(lc)) latinChars.add(lc);
         }
@@ -46,7 +47,15 @@ public class LatinLoader {
             if (!latinChars.contains(lc)) latinChars.add(lc);
         }
 
+        Collections.sort(latinChars, new Comparator<LatinChar>() {
+            @Override
+            public int compare(LatinChar latinChar, LatinChar t1) {
+                return latinChar.getType().compareTo(t1.getType());
+            }
+        });
+
         initializeCodesAndLocations();
+
     }
 
     private void initializeCodesAndLocations() {
@@ -66,6 +75,18 @@ public class LatinLoader {
                 String code = Utils.getCharCodeFromOffset(lc.getSpriteLocation().getOffset(), lc.getSpriteLocation().getSide());
                 lc.setCode(code);
             }
+        }
+        Collections.sort(latinChars, new Comparator<LatinChar>() {
+            @Override
+            public int compare(LatinChar latinChar, LatinChar t1) {
+                if (latinChar.getSpriteLocation() == null || t1.getSpriteLocation()==null) return 0;
+                return Integer.compare(latinChar.getSpriteLocation().getOffset(), t1.getSpriteLocation().getOffset());
+            }
+        });
+        for (LatinChar l:latinChars) {
+            String s = "";
+            if (l.getSpriteLocation()!=null) s = Integer.toHexString(l.getSpriteLocation().getOffset());
+            System.out.println(s + " " + l.getCode()+" "+l.getIgValue()+" ("+l.getValue()+")");
         }
     }
 

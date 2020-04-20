@@ -17,7 +17,7 @@ VALEUR=d19a(9ad1)
 OFFSETDATA=1519a
 DATA=6600 b500 9600 6400 8900 9b00 b600 0f01 1001 2900 0e00 0300 1200 0800 4a00 0500 4c01 0400 1200 3900 1200 4200 0300 0030 bf00 3900 1500 b300 7a01 7b01 2900 f800 f900 0a01 4a00 a100 9f00 a500 8401 1200 3900 1400 0030 bf00 1800 0e00 0600 4400 b300 9401 4501 2900 fa00 fb00 0a01 4a00 6701 0800 0030 6600 b500 9600 6400 8900 9b00 b600 1800 2900 ef00 4a00 a500 8401 1200 1a00 fe00 0700 b300 0030 bf00 0220 f800 f900 0020 3c02 0220 fa00 fb00 0020 2200 0100 1a00 0400 4600 6b00 8c00 b500 6300 2200 1400 0030 bf00 0220 f800 f900 0020 3c02 0220 5600 5100 9b00 6a00 b500 b300 0001 0101 fa00 fb00 0020 2900 2c01 f200 2a00 b300 0030 6600 b500 9600 6400 8900 9b00 b600 1000 4400 2600 6b00 8c00 b500 6300 0700 3000 0400 4600 2300 9901 1e00 2100 8101 1000 0200 ffff 
 JAP=せールスマン┌戦闘のこうしきをお教えしましょう{NL} まず,自分の攻撃力を1.5倍します{NL} そこから,相手の防御力を引き{NL}せールスマン┌その値を5倍した数が,{NL} {CY}攻撃{CW}対{CY}防御{CW}であたえるダメージです{NL} {CY}攻撃{CW}対{CY}カウンター,魔法防御{CW}の場合は,{NL}せールスマン┌さらにダメージがふえると思って下さい{EL}
-ENG=Salesman: {O-QUOTES}In a fight,{NL}remember the following :{NL}{CY}Attack{CW} < {CY}Defend{CW},{NL}{CY}Strike{CW} < {CY}Counter{CW},{NL}{CY}Magic{CW} < {CY}Magic defense{CW}.{C-QUOTES}{EL}
+ENG=Salesman: Let me tell you{NL}about how combat works. First,{NL}multiply your attack power by{NL}1.5. From there, subtract the{NL}defense power of your{NL}opponent. The value obtained{NL}by multiplying that value by 5{NL}is the damage given for{NL}{CY}attack{CW} vs. {CY}defense{CW}{NL}and {CY}attack{CW} vs {CY}counter{CW}.{NL}Damage will increase further{NL}in the case of magic defense.{EL}
 
 OFFSET=14f70
 VALEUR=d2c6(c6d2)
@@ -269,7 +269,7 @@ VALEUR=e3c4(c4e3)
 OFFSETDATA=163c4
 DATA=9700 9900 9b00 9d00 9f00 a100 a300 a500 a700 a900 ab00 ad00 af00 0030 b100 b300 b500 b700 b900 bb00 bd00 bf00 0030 c100 c300 c500 c700 c900 cb00 cd00 cf00 ffff 
 JAP=ようこそ,ドカポン王国へ!{NL}今日は,どのモードであそぶのかな?{EL}
-ENG=0{V-ANGLE}1{H-ANGLE}2345ABCDEF{EL}
+ENG=Welcome to Dokapon Kingdom!{NL}Which game mode do you want to{NL}play today?{EL}
 
 OFFSET=14fea
 VALEUR=e404(04e4)

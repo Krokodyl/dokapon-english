@@ -31,8 +31,9 @@ public class DataWriter {
         return data;
     }
 
-    public static byte[] writeCodePatches(List<CodePatch> patchList, byte[] data) {
+    public static byte[] writeCodePatches(List<CodePatch> patchList, byte[] data, boolean debug) {
         for (CodePatch cp:patchList) {
+            if (cp.isDebug()==debug)
             cp.writePatch(data);
         }
         return data;

@@ -2,9 +2,9 @@
   "config": {
     "rom-input" : "../roms/Dokapon 3-2-1 - Arashi wo Yobu Yujo (J).smc",
     "rom-output" : "../roms/Dokapon 3-2-1 - English.smc",
-    "file.dico.jap" : "tables/table-complete.txt",
-    "file.dico.latin" : "tables/table-latin.txt",
-    "file.dico.noms" : "tables/table-noms.txt"
+    "file.jap" : "tables/table-complete.txt",
+    "file.latin" : "tables/table-latin.txt",
+    "file.names" : "tables/table-noms.txt"
   },
   "tables": [
     {
@@ -125,14 +125,6 @@
       "offset": "1800a0"
     },
     {
-      "code": "a0 a1 a2 a3 a4 bf bf bf bf bf 00 00 a5 a6 a7 a8 a9 bf bf bf bf bf 00 fe 35 37 39 3b 3d 01 03 05 07 09 00 00 3f 41 43 45 47 0b 0d 0f 11 13 00 fd 49 4b 4d 4f 51 15 17 19 1b 1d 00 00 53 55 57 59 5b 1f 21 23 25 27 00 00 5d 5f 61 63 65 29 2b 2d 2f 31 00 00 67 bf bf bf bf 33 bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff 69 6b 6d 6f 71 bf bf bf bf bf 00 00 7d 7f 81 83 85 bf bf bf bf bf 00 fe 87 89 8b 8d 8f bf bf bf bf bf 00 00 91 93 95 99 97 bf bf bf bf bf 00 fd 9b 9d 9f ab ad bf bf bf bf bf 00 00 af b7 c1 c3 c5 bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf",
-      "offset": "43e8b"
-    },
-    {
-      "code": "1f 00 94 4f a0 4b 00 94 51 a0 35 00 94 53 a0 65 00 94 55 a0 3d 00 94 57 a0 57 00 94 59 a0 bf 00",
-      "offset": "19c22"
-    },
-    {
       "code": "22 00 80 30",
       "offset": "a852"
     },
@@ -147,6 +139,43 @@
     {
       "code": "E0 01",
       "offset": "644a"
+    },
+    {
+      "code": "e0 01",
+      "offset": "ae2e",
+      "debug": true
+    },
+    {
+      "code": "ff ff a2 00 ff 00",
+      "offset": "163c4",
+      "debug": true
+    },
+    {
+      "code": "10 07 01 02 61 01 00 30 61 01 ff ff",
+      "offset": "41c38",
+      "debug": true
+    }
+  ],
+  "input-patches": [
+    {
+      "offset": "18a180",
+      "latin": " Sign 0 1 2 3 4            #      5 6 7 8 9            # Clr  a b c d e  A B C D E #      f g h i j  F G H I J # End  k l m n o  K L M N O #      p q r s t  P Q R S T #      u v w x y  U V W X Y #      z          Z         #                           *",
+      "type": "INPUT_LETTERS_SHOWN"
+    },
+    {
+      "offset": "18a37c",
+      "latin": " Alph ! ? : . '            #      / ( ) [ ]            # Clr  + - %                #                           # End                       #                           #                           #                           #                           *",
+      "type": "INPUT_LETTERS_SHOWN"
+    },
+    {
+      "offset": "43e8b",
+      "latin": "0 1 2 3 4 bf bf bf bf bf 00 00 5 6 7 8 9 bf bf bf bf bf 00 fe a b c d e A B C D E 00 00 f g h i j F G H I J 00 fd k l m n o K L M N O 00 00 p q r s t P Q R S T 00 00 u v w x y U V W X Y 00 00 z bf bf bf bf Z bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff ! ? : . ' bf bf bf bf bf 00 00 / ( ) [ ] bf bf bf bf bf 00 fe + - % bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 fd bf bf bf bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf",
+      "type": "INPUT_LETTERS_SAVED"
+    },
+    {
+      "latin": "P 94 4f a0 l 94 51 a0 a 94 53 a0 y 94 55 a0 e 94 57 a0 r 94 59 a0 bf 00",
+      "offset": "19c22",
+      "type": "PLAYER"
     }
   ],
   "latin": [
@@ -194,20 +223,6 @@
       }
     },
     {
-      "value": "#",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-072.png"
-      }
-    },
-    {
-      "value": "$",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-073.png"
-      }
-    },
-    {
       "value": "%",
       "type": "SINGLE",
       "sprite": {
@@ -215,7 +230,7 @@
       }
     },
     {
-      "value": "\u0027",
+      "value": "'",
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-052.png"
@@ -233,13 +248,6 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-064.png"
-      }
-    },
-    {
-      "value": "*",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-053.png"
       }
     },
     {
@@ -399,20 +407,6 @@
       }
     },
     {
-      "value": "\u003c",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-054.png"
-      }
-    },
-    {
-      "value": "\u003e",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-055.png"
-      }
-    },
-    {
       "value": "?",
       "type": "SINGLE",
       "sprite": {
@@ -425,10 +419,8 @@
     },
     {
       "value": "A",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-000.png"
-      }
+      "code": "ed00",
+      "type": "NO_SPRITE"
     },
     {
       "value": "B",
@@ -453,17 +445,13 @@
     },
     {
       "value": "E",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-004.png"
-      }
+      "code": "e700",
+      "type": "NO_SPRITE"
     },
     {
       "value": "F",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-005.png"
-      }
+      "code": "ea00",
+      "type": "NO_SPRITE"
     },
     {
       "value": "G",
@@ -474,10 +462,8 @@
     },
     {
       "value": "H",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-007.png"
-      }
+      "code": "e900",
+      "type": "NO_SPRITE"
     },
     {
       "value": "I",
@@ -509,10 +495,8 @@
     },
     {
       "value": "M",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-012.png"
-      }
+      "code": "e200",
+      "type": "NO_SPRITE"
     },
     {
       "value": "N",
@@ -523,10 +507,8 @@
     },
     {
       "value": "O",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-014.png"
-      }
+      "code": "e300",
+      "type": "NO_SPRITE"
     },
     {
       "value": "P",
@@ -544,31 +526,23 @@
     },
     {
       "value": "R",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-017.png"
-      }
+      "code": "eb00",
+      "type": "NO_SPRITE"
     },
     {
       "value": "S",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-018.png"
-      }
+      "code": "e000",
+      "type": "NO_SPRITE"
     },
     {
       "value": "T",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-019.png"
-      }
+      "code": "e800",
+      "type": "NO_SPRITE"
     },
     {
       "value": "U",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-020.png"
-      }
+      "code": "e100",
+      "type": "NO_SPRITE"
     },
     {
       "value": "V",
@@ -579,10 +553,8 @@
     },
     {
       "value": "W",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-022.png"
-      }
+      "code": "e600",
+      "type": "NO_SPRITE"
     },
     {
       "value": "X",
@@ -617,13 +589,6 @@
       }
     },
     {
-      "value": "\\",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-067.png"
-      }
-    },
-    {
       "value": "]",
       "type": "SINGLE",
       "sprite": {
@@ -632,13 +597,6 @@
       "location": {
         "offset": "d9600",
         "side": "ONE"
-      }
-    },
-    {
-      "value": "_",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-069.png"
       }
     },
     {
@@ -855,14 +813,11 @@
       "value": "{C-QUOTES}",
       "type": "SINGLE",
       "sprite": {
-        "image": "images/single-chars/latin/char-070.png"
-      }
-    },
-    {
-      "value": "{EQUAL}",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-056.png"
+        "image": "images/single-chars/latin/char-108.png"
+      },
+      "location": {
+        "offset": "da8e0",
+        "side": "ONE"
       }
     },
     {
@@ -910,10 +865,8 @@
     },
     {
       "value": "{O-QUOTES}",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-071.png"
-      }
+      "code": "4e01",
+      "type": "NO_SPRITE"
     },
     {
       "value": "{PILL}",
@@ -1005,27 +958,6 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-085.png"
-      }
-    },
-    {
-      "value": "{DUAL-TO}",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/dual/dual-0.png"
-      }
-    },
-    {
-      "value": "{DUAL-KY}",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/dual/dual-1.png"
-      }
-    },
-    {
-      "value": "{DUAL-O }",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/dual/dual-2.png"
       }
     },
     {
@@ -1125,12 +1057,11 @@
       }
     },
     {
-      "value": "{DAY-TH}",
+      "value": "{DAY-THURSDAY-T}",
       "code": "e400",
-      "type": "DOUBLE_STRAIGHT",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-19.png",
-        "image-bot": "images/double-chars/straight/char-07.png"
+        "image": "images/single-chars/latin/char-019.png"
       },
       "location": {
         "offset": "d9c80",
@@ -1138,12 +1069,23 @@
       }
     },
     {
-      "value": "{DAY-FR}",
-      "code": "e500",
-      "type": "DOUBLE_STRAIGHT",
+      "value": "{DAY-THURSDAY-H}",
+      "code": "e400",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-05.png",
-        "image-bot": "images/double-chars/straight/char-17.png"
+        "image": "images/single-chars/latin/char-007.png"
+      },
+      "location": {
+        "offset": "d9c80",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{DAY-FRIDAY-F}",
+      "code": "e500",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-005.png"
       },
       "location": {
         "offset": "d9ca0",
@@ -1151,16 +1093,39 @@
       }
     },
     {
-      "value": "{DAY-SA}",
-      "code": "e600",
-      "type": "DOUBLE_STRAIGHT",
+      "value": "{DAY-FRIDAY-R}",
+      "code": "e500",
+      "type": "SINGLE",
       "sprite": {
-        "image-top": "images/double-chars/straight/char-18.png",
-        "image-bot": "images/double-chars/straight/char-00.png"
+        "image": "images/single-chars/latin/char-017.png"
+      },
+      "location": {
+        "offset": "d9ca0",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{DAY-SATURDAY-S}",
+      "code": "e600",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-018.png"
       },
       "location": {
         "offset": "d9cc0",
         "side": "ONE"
+      }
+    },
+    {
+      "value": "{DAY-SATURDAY-A}",
+      "code": "e600",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-000.png"
+      },
+      "location": {
+        "offset": "d9cc0",
+        "side": "TWO"
       }
     }
   ]

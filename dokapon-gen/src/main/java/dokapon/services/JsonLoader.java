@@ -1,13 +1,10 @@
 package dokapon.services;
 
 
-import dokapon.entities.Config;
+import dokapon.entities.*;
 import dokapon.characters.LatinChar;
 import dokapon.characters.SpriteLocation;
-import dokapon.entities.CodePatch;
 import dokapon.characters.LatinSprite;
-import dokapon.entities.PointerRange;
-import dokapon.entities.PointerTable;
 import dokapon.enums.CharSide;
 import dokapon.enums.CharType;
 import org.json.JSONArray;
@@ -60,9 +57,9 @@ public class JsonLoader {
         JSONObject c = json.getJSONObject("config");
         config.setRomInput(c.getString("rom-input"));
         config.setRomOutput(c.getString("rom-output"));
-        config.setFileDicoJap(c.getString("file.dico.jap"));
-        config.setFileDicoLatin(c.getString("file.dico.latin"));
-        config.setFileDicoNames(c.getString("file.dico.noms"));
+        config.setFileDicoJap(c.getString("file.jap"));
+        config.setFileDicoLatin(c.getString("file.latin"));
+        config.setFileDicoNames(c.getString("file.names"));
 
         return config;
     }
@@ -112,9 +109,30 @@ public class JsonLoader {
             JSONObject next = (JSONObject) iterator.next();
             String code = next.getString("code");
             int offset = Integer.parseInt(next.getString("offset"),16);
-            codePatches.add(new CodePatch(code, offset));
+            CodePatch codePatch = new CodePatch(code, offset);
+            if (next.has("debug")) codePatch.setDebug(next.getBoolean("debug"));
+            codePatches.add(codePatch);
         }
         return codePatches;
+    }
+
+    public static List<InputPatch> loadInputPatches() {
+        List<InputPatch> patches = new ArrayList<>();
+
+        JSONObject json = new JSONObject(loadJson());
+
+        JSONArray array = json.getJSONArray("input-patches");
+        Iterator<Object> iterator = array.iterator();
+        while (iterator.hasNext()) {
+            JSONObject next = (JSONObject) iterator.next();
+            int offset = Integer.parseInt(next.getString("offset"),16);
+            InputPatch patch = new InputPatch(offset);
+            patch.setLatin(next.getString("latin"));
+            patch.setType(InputPatch.InputPatchType.valueOf(next.getString("type")));
+            if (next.has("debug")) patch.setDebug(next.getBoolean("debug"));
+            patches.add(patch);
+        }
+        return patches;
     }
 
     public static List<PointerTable> loadTables() {

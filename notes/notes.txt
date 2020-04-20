@@ -57,6 +57,10 @@ f800          1001 1101
 6f01          fe01 ff01   救
 0002          2002 2102
 
+Original version
+Kanji working in menus : e000 -> 1f01
+
+
 ##### CHAR REQUIRED #####
 letters           52
 numbers           10
@@ -81,3 +85,34 @@ starting value (x6440)
 $80/E449 69 E0 00    ADC #$00E0
 2d02=向
 4102=特
+
+##### LETTERS TO REMOVE #####
+removed : *<>$#=\_
+todo :
+merge O-QUOTES and C-QUOTES
+
+##### INPUT PLAYER NAME #####
+Word "Player"
+19c22
+Player : 2e01 2c01 ed00 3201 e700 eb00
+2e 01 94 4f a0 2c 01 94 51 a0 ed 00 94 53 a0 32 01 94 55 a0 e7 00 94 57 a0 eb 00 94 59 a0 bf 00
+
+
+0 1 2 3 4 bf bf bf bf bf 00 00
+5 6 7 8 9 bf bf bf bf bf 00 fe
+a b c d e A B C D E 00 00
+f g h i j F G H I J 00 fd
+k l m n o K L M N O 00 00
+p q r s t P Q R S T 00 00
+u v w x y U V W X Y 00 00
+z bf bf bf bf Z bf bf bf bf 00 00
+bf bf bf bf bf bf bf bf bf bf 00 ff
+! ? : . ' bf bf bf bf bf 00 00
+/ ( ) [ ] bf bf bf bf bf 00 fe
++ - % bf bf bf bf bf bf bf 00 00
+bf bf bf bf bf bf bf bf bf bf 00 fd
+bf bf bf bf bf bf bf bf bf bf 00 00
+bf bf bf bf bf bf bf bf bf bf 00 00 
+bf bf bf bf bf bf bf bf bf bf 00 ff
+bf bf bf bf bf bf bf bf bf bf 00 ff
+bf bf bf bf bf bf

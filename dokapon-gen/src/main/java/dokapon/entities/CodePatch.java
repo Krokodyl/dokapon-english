@@ -4,6 +4,11 @@ public class CodePatch {
 
     String code;
     int offset;
+    boolean debug = false;
+
+    public CodePatch(int offset) {
+        this.offset = offset;
+    }
 
     public CodePatch(String code, int offset) {
         this.code = code;
@@ -19,5 +24,17 @@ public class CodePatch {
         }
         for (int i=0;i<codeInt.length;i++) data[offset+i]=(byte)codeInt[i];
         return data;
+    }
+
+    public boolean isDebug() {
+        return debug;
+    }
+
+    public void setDebug(boolean debug) {
+        this.debug = debug;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 }

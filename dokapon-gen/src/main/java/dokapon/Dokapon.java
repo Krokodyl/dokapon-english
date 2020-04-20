@@ -1,6 +1,7 @@
 package dokapon;
 
 import dokapon.entities.Config;
+import dokapon.entities.InputPatch;
 import dokapon.entities.PointerTable;
 import dokapon.services.*;
 
@@ -35,7 +36,8 @@ public class Dokapon {
         latinLoader.loadLatin();
         spriteWriter.writeLatinChars(latinLoader.getLatinChars(), data);
 
-        DataWriter.writeCodePatches(JsonLoader.loadCodePatches(), data);
+        DataWriter.writeCodePatches(JsonLoader.loadCodePatches(), data, false);
+        //DataWriter.writeCodePatches(JsonLoader.loadCodePatches(), data, true);
 
         tables = JsonLoader.loadTables();
         for (String s:JsonLoader.loadTranslationFiles()) {
@@ -54,6 +56,12 @@ public class Dokapon {
         for (PointerTable table:tables) {
             DataWriter.writeEnglish(table, data);
         }
+
+        for (InputPatch ip:JsonLoader.loadInputPatches()) {
+            ip.generateCode(latinLoader.getLatinChars());
+            ip.writePatch(data);
+        }
+
         DataWriter.saveData(config.getRomOutput(), data);
     }
 }
