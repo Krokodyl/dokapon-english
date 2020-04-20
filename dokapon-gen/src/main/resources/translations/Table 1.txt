@@ -402,7 +402,7 @@ VALEUR=e948(48e9)
 OFFSETDATA=16948
 DATA=be01 7f01 1000 4700 1a00 4d00 4f00 7100 8b00 4a00 3c01 1002 2a00 3f00 0a00 b300 0030 0500 1701 2600 0e01 1e00 2100 0800 1a00 1f01 2900 f601 1c00 4300 b900 ffff 
 JAP=指定されたアイテムを一番はやく,{NL}お城に持ってきた人の勝ちよ!{EL}
-ENG=Be the first to bring a{EL}specific item back to the{NL}castle.{EL}
+ENG=Be the first to bring a{NL}specific item back to the{NL}castle.{EL}
 
 OFFSET=15014
 VALEUR=e988(88e9)

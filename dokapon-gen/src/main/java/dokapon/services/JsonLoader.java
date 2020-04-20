@@ -1,6 +1,7 @@
 package dokapon.services;
 
 
+import dokapon.characters.JapaneseChar;
 import dokapon.entities.*;
 import dokapon.characters.LatinChar;
 import dokapon.characters.SpriteLocation;
@@ -13,9 +14,12 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+
+import static dokapon.Constants.TRANSLATION_KEY_ENG;
+import static dokapon.Constants.TRANSLATION_KEY_JAP;
 
 public class JsonLoader {
 
@@ -167,6 +171,26 @@ public class JsonLoader {
             tables.add(table);
         }
         return tables;
+    }
+
+    public static List<JapaneseChar> loadJap() {
+        List<JapaneseChar> chars = new ArrayList<>();
+        JSONObject json = new JSONObject(loadJson());
+
+        JSONArray array = json.getJSONArray("japanese");
+        Iterator<Object> iterator = array.iterator();
+        while (iterator.hasNext()) {
+            JSONObject next = (JSONObject) iterator.next();
+            JapaneseChar c = new JapaneseChar();
+            String value = next.getString("value");
+            if (next.has("code")) {
+                c.setCode(next.getString("code"));
+            }
+            String type = next.getString("type");
+            c.setValue(value);
+            chars.add(c);
+        }
+        return chars;
     }
 
 }

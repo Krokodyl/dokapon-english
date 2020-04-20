@@ -1,6 +1,7 @@
 package dokapon.services;
 
 import dokapon.Constants;
+import dokapon.characters.JapaneseChar;
 import dokapon.characters.LatinChar;
 import dokapon.entities.PointerData;
 import dokapon.entities.Translation;
@@ -125,6 +126,24 @@ public class Translator {
         res = res.replace("{", "");
         res = res.replace("}", " ");
         return res.trim();
+    }
+
+    public String getJapanese(String codes, List<JapaneseChar> japaneseChars) {
+        String[] split = codes.split(" ");
+        String res = "";
+        for (String s:split) {
+            boolean found = false;
+            for (JapaneseChar jc:japaneseChars) {
+                if (jc.getCode().equals(s)) {
+                    found = true;
+                    res+=jc.getValue();
+                }
+            }
+            if (!found) {
+                res+="{"+s+"}";
+            }
+        }
+        return res;
     }
 
     private LatinChar getLatinChar(String c) {

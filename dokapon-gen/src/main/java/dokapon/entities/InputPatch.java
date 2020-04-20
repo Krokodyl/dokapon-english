@@ -40,12 +40,13 @@ public class InputPatch extends CodePatch {
                 }
                 else if (c.equals("*")) {
                     code += "ff ff ";
-                } else
-                    for (LatinChar lc:latinChars) {
+                } else {
+                    for (LatinChar lc : latinChars) {
                         if (lc.getValue().equals(c)) {
-                            code += lc.getCode().substring(0,2)+" "+lc.getCode().substring(2,4)+" ";
+                            code += lc.getCode().substring(0, 2) + " " + lc.getCode().substring(2, 4) + " ";
                         }
                     }
+                }
             }
         } else if (type==InputPatchType.INPUT_LETTERS_SAVED){
             code = "";

@@ -7,3 +7,6 @@ MENU
 
 TRANSLATIONS
 Add special char for Cuiaba and Tromso
+
+Table 1 : english done
+Table 2 :

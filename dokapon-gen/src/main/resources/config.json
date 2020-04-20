@@ -158,24 +158,29 @@
   ],
   "input-patches": [
     {
-      "offset": "18a180",
-      "latin": " Sign 0 1 2 3 4            #      5 6 7 8 9            # Clr  a b c d e  A B C D E #      f g h i j  F G H I J # End  k l m n o  K L M N O #      p q r s t  P Q R S T #      u v w x y  U V W X Y #      z          Z         #                           *",
-      "type": "INPUT_LETTERS_SHOWN"
+      "offset": "18a186",
+      "latin2": " Sign A B",
+      "latin": " Sign 0 1 2 3 4            #      5 6 7 8 9            # Clr  a b c d e  A B C D E #      f g h i j  F G H I J # End  k l m n o  K L M N O #      p q r s t  P Q R S T #      u v w x y  U V W X Y #      z          Z         #                          *",
+      "type": "INPUT_LETTERS_SHOWN",
+      "debug": false
     },
     {
-      "offset": "18a37c",
-      "latin": " Alph ! ? : . '            #      / ( ) [ ]            # Clr  + - %                #                           # End                       #                           #                           #                           #                           *",
-      "type": "INPUT_LETTERS_SHOWN"
+      "offset": "18a382",
+      "latin": " Alph ! ? : . '            #      / ( ) [ ]            # Clr  + - %                #                           # End                       #                           #                           #                           #                          *",
+      "type": "INPUT_LETTERS_SHOWN",
+      "debug": false
     },
     {
       "offset": "43e8b",
       "latin": "0 1 2 3 4 bf bf bf bf bf 00 00 5 6 7 8 9 bf bf bf bf bf 00 fe a b c d e A B C D E 00 00 f g h i j F G H I J 00 fd k l m n o K L M N O 00 00 p q r s t P Q R S T 00 00 u v w x y U V W X Y 00 00 z bf bf bf bf Z bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff ! ? : . ' bf bf bf bf bf 00 00 / ( ) [ ] bf bf bf bf bf 00 fe + - % bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 fd bf bf bf bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf",
-      "type": "INPUT_LETTERS_SAVED"
+      "type": "INPUT_LETTERS_SAVED",
+      "debug": false
     },
     {
       "latin": "P 94 4f a0 l 94 51 a0 a 94 53 a0 y 94 55 a0 e 94 57 a0 r 94 59 a0 bf 00",
       "offset": "19c22",
-      "type": "PLAYER"
+      "type": "PLAYER",
+      "debug": false
     }
   ],
   "latin": [
@@ -869,6 +874,11 @@
       "type": "NO_SPRITE"
     },
     {
+      "value": "\"",
+      "code": "4e01",
+      "type": "NO_SPRITE"
+    },
+    {
       "value": "{PILL}",
       "type": "SINGLE",
       "sprite": {
@@ -1127,6 +1137,3163 @@
         "offset": "d9cc0",
         "side": "TWO"
       }
+    }
+  ],
+  "japanese": [
+    {
+      "value": "あ",
+      "code": "0100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "い",
+      "code": "0200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "う",
+      "code": "0300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "え",
+      "code": "0400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "お",
+      "code": "0500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "か",
+      "code": "0600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "が",
+      "code": "0700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "き",
+      "code": "0800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぎ",
+      "code": "0900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "く",
+      "code": "0a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぐ",
+      "code": "0b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "け",
+      "code": "0c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "げ",
+      "code": "0d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "こ",
+      "code": "0e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ご",
+      "code": "0f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "さ",
+      "code": "1000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ざ",
+      "code": "1100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "し",
+      "code": "1200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "じ",
+      "code": "1300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "す",
+      "code": "1400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ず",
+      "code": "1500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "せ",
+      "code": "1600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぜ",
+      "code": "1700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "そ",
+      "code": "1800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぞ",
+      "code": "1900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "た",
+      "code": "1a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "だ",
+      "code": "1b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ち",
+      "code": "1c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぢ",
+      "code": "1d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "っ",
+      "code": "1e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "つ",
+      "code": "1f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "づ",
+      "code": "2000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "て",
+      "code": "2100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "で",
+      "code": "2200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "と",
+      "code": "2300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ど",
+      "code": "2400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "な",
+      "code": "2500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "に",
+      "code": "2600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぬ",
+      "code": "2700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ね",
+      "code": "2800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "の",
+      "code": "2900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "は",
+      "code": "2a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ば",
+      "code": "2b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぱ",
+      "code": "2c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ひ",
+      "code": "2d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "び",
+      "code": "2e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぴ",
+      "code": "2f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ふ",
+      "code": "3000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぶ",
+      "code": "3100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぷ",
+      "code": "3200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "へ",
+      "code": "3300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "べ",
+      "code": "3400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぺ",
+      "code": "3500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ほ",
+      "code": "3600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぼ",
+      "code": "3700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぽ",
+      "code": "3800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ま",
+      "code": "3900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "み",
+      "code": "3a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "む",
+      "code": "3b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "め",
+      "code": "3c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "も",
+      "code": "3d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゃ",
+      "code": "3e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "や",
+      "code": "3f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゅ",
+      "code": "4000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゆ",
+      "code": "4100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ょ",
+      "code": "4200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "よ",
+      "code": "4300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ら",
+      "code": "4400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "り",
+      "code": "4500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "る",
+      "code": "4600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "れ",
+      "code": "4700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ろ",
+      "code": "4800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "わ",
+      "code": "4900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "を",
+      "code": "4a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ん",
+      "code": "4b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ァ",
+      "code": "4c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ア",
+      "code": "4d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ィ",
+      "code": "4e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "イ",
+      "code": "4f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゥ",
+      "code": "5000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ウ",
+      "code": "5100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ェ",
+      "code": "5200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "エ",
+      "code": "5300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ォ",
+      "code": "5400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "オ",
+      "code": "5500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "カ",
+      "code": "5600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ガ",
+      "code": "5700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "キ",
+      "code": "5800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ギ",
+      "code": "5900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ク",
+      "code": "5a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "グ",
+      "code": "5b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ケ",
+      "code": "5c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゲ",
+      "code": "5d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "コ",
+      "code": "5e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゴ",
+      "code": "5f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "サ",
+      "code": "6000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ザ",
+      "code": "6100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "シ",
+      "code": "6200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ジ",
+      "code": "6300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ス",
+      "code": "6400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ズ",
+      "code": "6500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "せ",
+      "code": "6600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ぜ",
+      "code": "6700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ソ",
+      "code": "6800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ゾ",
+      "code": "6900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "タ",
+      "code": "6a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ダ",
+      "code": "6b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "チ",
+      "code": "6c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヂ",
+      "code": "6d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ッ",
+      "code": "6e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ツ",
+      "code": "6f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヅ",
+      "code": "7000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "テ",
+      "code": "7100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "デ",
+      "code": "7200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ト",
+      "code": "7300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ド",
+      "code": "7400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ナ",
+      "code": "7500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ニ",
+      "code": "7600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヌ",
+      "code": "7700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ネ",
+      "code": "7800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ノ",
+      "code": "7900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ハ",
+      "code": "7a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "バ",
+      "code": "7b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "パ",
+      "code": "7c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヒ",
+      "code": "7d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ビ",
+      "code": "7e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ピ",
+      "code": "7f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "フ",
+      "code": "8000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ブ",
+      "code": "8100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "プ",
+      "code": "8200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヘ",
+      "code": "8300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ベ",
+      "code": "8400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ペ",
+      "code": "8500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ホ",
+      "code": "8600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ボ",
+      "code": "8700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ポ",
+      "code": "8800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "マ",
+      "code": "8900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ミ",
+      "code": "8a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ム",
+      "code": "8b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "メ",
+      "code": "8c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "モ",
+      "code": "8d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ャ",
+      "code": "8e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヤ",
+      "code": "8f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ュ",
+      "code": "9000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ユ",
+      "code": "9100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ョ",
+      "code": "9200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヨ",
+      "code": "9300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ラ",
+      "code": "9400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "リ",
+      "code": "9500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ル",
+      "code": "9600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "レ",
+      "code": "9700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ロ",
+      "code": "9800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ワ",
+      "code": "9900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヲ",
+      "code": "9a00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ン",
+      "code": "9b00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ヷ",
+      "code": "9c00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{BUT}",
+      "code": "9d00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "§",
+      "code": "9e00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": ".",
+      "code": "9f00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "0",
+      "code": "a000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "1",
+      "code": "a100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "2",
+      "code": "a200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "3",
+      "code": "a300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "4",
+      "code": "a400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "5",
+      "code": "a500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "6",
+      "code": "a600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "7",
+      "code": "a700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "8",
+      "code": "a800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "9",
+      "code": "a900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": ",",
+      "code": "aa00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "・",
+      "code": "ab00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "-",
+      "code": "ac00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "/",
+      "code": "ad00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "~",
+      "code": "ae00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "[",
+      "code": "af00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "]",
+      "code": "b000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "%",
+      "code": "b100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "→",
+      "code": "b200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": ",",
+      "code": "b300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": ".",
+      "code": "b400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "ー",
+      "code": "b500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "┌",
+      "code": "b600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "┘",
+      "code": "b700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "?",
+      "code": "b800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "!",
+      "code": "b900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "",
+      "code": "ba00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "",
+      "code": "bb00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "",
+      "code": "bc00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "+",
+      "code": "bd00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "×",
+      "code": "be00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "",
+      "code": "bf00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "E",
+      "code": "c000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "G",
+      "code": "c100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "H",
+      "code": "c200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "P",
+      "code": "c300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "X",
+      "code": "c400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "N",
+      "code": "c500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "T",
+      "code": "c600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "Y",
+      "code": "c700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "A",
+      "code": "c800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "B",
+      "code": "c900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "L",
+      "code": "ca00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "D",
+      "code": "cb00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "O",
+      "code": "cc00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "F",
+      "code": "cd00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "V",
+      "code": "ce00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "J",
+      "code": "cf00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "r",
+      "code": "d000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "(",
+      "code": "d100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": ")",
+      "code": "d200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "R",
+      "code": "d300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "C",
+      "code": "d400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "M",
+      "code": "d500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "",
+      "code": "d600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{ITEM}",
+      "code": "d700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{MAGIC}",
+      "code": "d800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{POISON}",
+      "code": "d900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{PILL}",
+      "code": "da00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{WEAP}",
+      "code": "db00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{SHIELD}",
+      "code": "dc00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{ARMOR}",
+      "code": "dd00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{V-ANGLE}",
+      "code": "de00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{H-ANGLE}",
+      "code": "df00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "日",
+      "code": "e000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "月",
+      "code": "e100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "火",
+      "code": "e200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "水",
+      "code": "e300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "木",
+      "code": "e400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "金",
+      "code": "e500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "士",
+      "code": "e600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "曜",
+      "code": "e700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "屋",
+      "code": "e800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "週",
+      "code": "e900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "目",
+      "code": "ea00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "順",
+      "code": "eb00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "位",
+      "code": "ec00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "全",
+      "code": "ed00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "価",
+      "code": "ee00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "値",
+      "code": "ef00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "収",
+      "code": "f000",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "入",
+      "code": "f100",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "合",
+      "code": "f200",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "計",
+      "code": "f300",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "店",
+      "code": "f400",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "移",
+      "code": "f500",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "動",
+      "code": "f600",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "調",
+      "code": "f700",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "攻",
+      "code": "f800",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "撃",
+      "code": "f900",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "防",
+      "code": "fa00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "御",
+      "code": "fb00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "村",
+      "code": "fc00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "名",
+      "code": "fd00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "数",
+      "code": "fe00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "残",
+      "code": "ff00",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "魔",
+      "code": "0001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "法",
+      "code": "0101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "統",
+      "code": "0201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "治",
+      "code": "0301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "他",
+      "code": "0401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "使",
+      "code": "0501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "強",
+      "code": "0601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "武",
+      "code": "0701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "器",
+      "code": "0801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "体",
+      "code": "0901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "力",
+      "code": "0a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "回",
+      "code": "0b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "復",
+      "code": "0c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "所",
+      "code": "0d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "持",
+      "code": "0e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "戦",
+      "code": "0f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "闘",
+      "code": "1001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "資",
+      "code": "1101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "産",
+      "code": "1201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "休",
+      "code": "1301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "大",
+      "code": "1401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "陸",
+      "code": "1501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "小",
+      "code": "1601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "城",
+      "code": "1701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "死",
+      "code": "1801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "亡",
+      "code": "1901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "買",
+      "code": "1a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "売",
+      "code": "1b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "交",
+      "code": "1c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "代",
+      "code": "1d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "集",
+      "code": "1e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "人",
+      "code": "1f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "地",
+      "code": "2001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "形",
+      "code": "2101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "出",
+      "code": "2201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "時",
+      "code": "2301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "起",
+      "code": "2401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "何",
+      "code": "2501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "次",
+      "code": "2601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "必",
+      "code": "2701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "要",
+      "code": "2801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "支",
+      "code": "2901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "配",
+      "code": "2a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "進",
+      "code": "2b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "場",
+      "code": "2c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "中",
+      "code": "2d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "行",
+      "code": "2e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "押",
+      "code": "2f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "道",
+      "code": "3001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "者",
+      "code": "3101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "現",
+      "code": "3201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "在",
+      "code": "3301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "勇",
+      "code": "3401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "気",
+      "code": "3501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "間",
+      "code": "3601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "青",
+      "code": "3701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "宝",
+      "code": "3801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "箱",
+      "code": "3901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "黄",
+      "code": "3a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "赤",
+      "code": "3b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "一",
+      "code": "3c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "発",
+      "code": "3d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "逆",
+      "code": "3e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "転",
+      "code": "3f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "底",
+      "code": "4001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "開",
+      "code": "4101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "付",
+      "code": "4201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "来",
+      "code": "4301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "悪",
+      "code": "4401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "手",
+      "code": "4501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "王",
+      "code": "4601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "様",
+      "code": "4701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "祝",
+      "code": "4801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "術",
+      "code": "4901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "会",
+      "code": "4a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "投",
+      "code": "4b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "教",
+      "code": "4c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "物",
+      "code": "4d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "選",
+      "code": "4e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "落",
+      "code": "4f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "毒",
+      "code": "5001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "受",
+      "code": "5101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "長",
+      "code": "5201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "荷",
+      "code": "5301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "心",
+      "code": "5401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "品",
+      "code": "5501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "納",
+      "code": "5601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "豊",
+      "code": "5701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "今",
+      "code": "5801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "展",
+      "code": "5901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "寄",
+      "code": "5a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "念",
+      "code": "5b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "足",
+      "code": "5c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "用",
+      "code": "5d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "帰",
+      "code": "5e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "失",
+      "code": "5f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "敗",
+      "code": "6001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "主",
+      "code": "6101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "変",
+      "code": "6201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "礼",
+      "code": "6301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "誰",
+      "code": "6401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "員",
+      "code": "6501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "無",
+      "code": "6601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "引",
+      "code": "6701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "取",
+      "code": "6801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "神",
+      "code": "6901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "父",
+      "code": "6a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "新",
+      "code": "6b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "確",
+      "code": "6c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "実",
+      "code": "6d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "決",
+      "code": "6e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "救",
+      "code": "6f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "覚",
+      "code": "7001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "解",
+      "code": "7101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "効",
+      "code": "7201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "果",
+      "code": "7301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "消",
+      "code": "7401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "安",
+      "code": "7501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "置",
+      "code": "7601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "生",
+      "code": "7701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "返",
+      "code": "7801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "罪",
+      "code": "7901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "自",
+      "code": "7a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "分",
+      "code": "7b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "送",
+      "code": "7c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "以",
+      "code": "7d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "上",
+      "code": "7e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "定",
+      "code": "7f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "完",
+      "code": "8001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "下",
+      "code": "8101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "借",
+      "code": "8201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "半",
+      "code": "8301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "倍",
+      "code": "8401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "口",
+      "code": "8501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "溶",
+      "code": "8601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "岩",
+      "code": "8701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "通",
+      "code": "8801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "路",
+      "code": "8901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "南",
+      "code": "8a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "側",
+      "code": "8b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "北",
+      "code": "8c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "迷",
+      "code": "8d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "森",
+      "code": "8e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "海",
+      "code": "8f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "殿",
+      "code": "9001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "飛",
+      "code": "9101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "参",
+      "code": "9201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "加",
+      "code": "9301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "相",
+      "code": "9401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "石",
+      "code": "9501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "身",
+      "code": "9601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "呼",
+      "code": "9701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "不",
+      "code": "9801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "思",
+      "code": "9901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "議",
+      "code": "9a01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "替",
+      "code": "9b01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "同",
+      "code": "9c01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "個",
+      "code": "9d01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "有",
+      "code": "9e01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "利",
+      "code": "9f01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "重",
+      "code": "a001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "情",
+      "code": "a101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "報",
+      "code": "a201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "聞",
+      "code": "a301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "早",
+      "code": "a401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "看",
+      "code": "a501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "経",
+      "code": "a601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "験",
+      "code": "a701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "吸",
+      "code": "a801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "正",
+      "code": "a901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "光",
+      "code": "aa01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "命",
+      "code": "ab01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "声",
+      "code": "ac01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "獄",
+      "code": "ad01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "度",
+      "code": "ae01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "始",
+      "code": "af01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "内",
+      "code": "b001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "賞",
+      "code": "b101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "前",
+      "code": "b201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "去",
+      "code": "b301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "助",
+      "code": "b401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "薬",
+      "code": "b501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "草",
+      "code": "b601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "最",
+      "code": "b701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "像",
+      "code": "b801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "脱",
+      "code": "b901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "種",
+      "code": "ba01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "停",
+      "code": "bb01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "見",
+      "code": "bc01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "歩",
+      "code": "bd01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "指",
+      "code": "be01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "鏡",
+      "code": "bf01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "究",
+      "code": "c001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "極",
+      "code": "c101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "外",
+      "code": "c201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "沼",
+      "code": "c301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "過",
+      "code": "c401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "界",
+      "code": "c501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "国",
+      "code": "c601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "財",
+      "code": "c701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "姫",
+      "code": "c801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "事",
+      "code": "c901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "家",
+      "code": "ca01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "病",
+      "code": "cb01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "弱",
+      "code": "cc01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "版",
+      "code": "cd01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "玉",
+      "code": "ce01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "画",
+      "code": "cf01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "面",
+      "code": "d001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "遠",
+      "code": "d101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "吹",
+      "code": "d201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "伝",
+      "code": "d301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "説",
+      "code": "d401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "好",
+      "code": "d501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "爆",
+      "code": "d601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "冷",
+      "code": "d701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "関",
+      "code": "d801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "係",
+      "code": "d901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "化",
+      "code": "da01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "高",
+      "code": "db01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "直",
+      "code": "dc01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "接",
+      "code": "dd01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "階",
+      "code": "de01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "降",
+      "code": "df01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "登",
+      "code": "e001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "段",
+      "code": "e101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "私",
+      "code": "e201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "知",
+      "code": "e301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "常",
+      "code": "e401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "状",
+      "code": "e501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "態",
+      "code": "e601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "世",
+      "code": "e701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "期",
+      "code": "e801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "終",
+      "code": "e901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "突",
+      "code": "ea01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "然",
+      "code": "eb01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "営",
+      "code": "ec01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "業",
+      "code": "ed01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "門",
+      "code": "ee01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "白",
+      "code": "ef01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "字",
+      "code": "f001",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "良",
+      "code": "f101",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "切",
+      "code": "f201",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "子",
+      "code": "f301",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "犬",
+      "code": "f401",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "飲",
+      "code": "f501",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "勝",
+      "code": "f601",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "待",
+      "code": "f701",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "働",
+      "code": "f801",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "周",
+      "code": "f901",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "減",
+      "code": "fa01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "再",
+      "code": "fb01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "建",
+      "code": "fc01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "連",
+      "code": "fd01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "印",
+      "code": "fe01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "話",
+      "code": "ff01",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "先",
+      "code": "0002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "祖",
+      "code": "0102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "書",
+      "code": "0202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "破",
+      "code": "0302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "探",
+      "code": "0402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "旅",
+      "code": "0502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "続",
+      "code": "0602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "雪",
+      "code": "0702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "原",
+      "code": "0802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "乗",
+      "code": "0902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "少",
+      "code": "0a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "息",
+      "code": "0b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "板",
+      "code": "0c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "彼",
+      "code": "0d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "平",
+      "code": "0e02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "和",
+      "code": "0f02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "番",
+      "code": "1002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "君",
+      "code": "1102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "意",
+      "code": "1202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "共",
+      "code": "1302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "運",
+      "code": "1402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "本",
+      "code": "1502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "当",
+      "code": "1602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "仲",
+      "code": "1702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "忘",
+      "code": "1802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "貯",
+      "code": "1902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "試",
+      "code": "1a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "負",
+      "code": "1b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "敵",
+      "code": "1c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "元",
+      "code": "1d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "後",
+      "code": "1e02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "願",
+      "code": "1f02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "言",
+      "code": "2002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "方",
+      "code": "2102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "機",
+      "code": "2202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "別",
+      "code": "2302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "客",
+      "code": "2402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "満",
+      "code": "2502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "商",
+      "code": "2602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "老",
+      "code": "2702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "恵",
+      "code": "2802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "走",
+      "code": "2902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "感",
+      "code": "2a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "役",
+      "code": "2b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "立",
+      "code": "2c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "向",
+      "code": "2d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "広",
+      "code": "2e02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "作",
+      "code": "2f02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "巻",
+      "code": "3002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "込",
+      "code": "3102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "結",
+      "code": "3202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "楽",
+      "code": "3302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "格",
+      "code": "3402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "料",
+      "code": "3502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "約",
+      "code": "3602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "束",
+      "code": "3702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "額",
+      "code": "3802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "放",
+      "code": "3902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "優",
+      "code": "3a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "近",
+      "code": "3b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "対",
+      "code": "3c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "毎",
+      "code": "3d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "能",
+      "code": "3e02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "略",
+      "code": "3f02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "姉",
+      "code": "4002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "特",
+      "code": "4102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "天",
+      "code": "4202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "空",
+      "code": "4302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "容",
+      "code": "4402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "職",
+      "code": "4502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "成",
+      "code": "4602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "女",
+      "code": "4702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "設",
+      "code": "4802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "限",
+      "code": "4902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "問",
+      "code": "4a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "題",
+      "code": "4b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "活",
+      "code": "4c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "類",
+      "code": "4d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "色",
+      "code": "4e02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "速",
+      "code": "4f02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "質",
+      "code": "5002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "表",
+      "code": "5102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "初",
+      "code": "5202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "標",
+      "code": "5302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "保",
+      "code": "5402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "護",
+      "code": "5502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "協",
+      "code": "5602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "章",
+      "code": "5702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "案",
+      "code": "5802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "因",
+      "code": "5902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "離",
+      "code": "5a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "辺",
+      "code": "5b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "山",
+      "code": "5c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "例",
+      "code": "5d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "古",
+      "code": "5e02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "遺",
+      "code": "5f02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "税",
+      "code": "6002",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "払",
+      "code": "6102",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "各",
+      "code": "6202",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "座",
+      "code": "6302",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "多",
+      "code": "6402",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "守",
+      "code": "6502",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "喜",
+      "code": "6602",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "倒",
+      "code": "6702",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "装",
+      "code": "6802",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "備",
+      "code": "6902",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "渡",
+      "code": "6a02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "盗",
+      "code": "6b02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "均",
+      "code": "6c02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "的",
+      "code": "6d02",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CW}",
+      "code": "0020",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CR}",
+      "code": "0120",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CY}",
+      "code": "0220",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CG}",
+      "code": "0320",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{CB}",
+      "code": "0420",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{BGG}",
+      "code": "0520",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{STM}",
+      "code": "0620",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{BGW}",
+      "code": "0720",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{NL}",
+      "code": "0030",
+      "type": "NO_SPRITE"
+    },
+    {
+      "value": "{EL}",
+      "code": "ffff",
+      "type": "NO_SPRITE"
     }
   ]
 }

@@ -7,10 +7,18 @@ import dokapon.services.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import static dokapon.Constants.TRANSLATION_KEY_ENG;
+import static dokapon.Constants.TRANSLATION_KEY_JAP;
 
 public class Dokapon {
 
@@ -59,8 +67,13 @@ public class Dokapon {
 
         for (InputPatch ip:JsonLoader.loadInputPatches()) {
             ip.generateCode(latinLoader.getLatinChars());
-            ip.writePatch(data);
+            if (!ip.isDebug()) ip.writePatch(data);
         }
+
+        System.out.println(
+                translator.getJapanese(
+                        "af00 9214 ea85 b000 0030 4214 6785 fc00 2a00 b300 8d00 9b00 6400 6a00 b500 2600 2901 2a01 1000 4700 2100 0200 3900 1400 b400 ffff ",
+                        JsonLoader.loadJap()));
 
         DataWriter.saveData(config.getRomOutput(), data);
     }
