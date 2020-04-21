@@ -72,7 +72,7 @@ public class Dokapon {
 
         System.out.println(
                 translator.getJapanese(
-                        "af00 9214 ea85 b000 0030 4214 6785 fc00 2a00 b300 8d00 9b00 6400 6a00 b500 2600 2901 2a01 1000 4700 2100 0200 3900 1400 b400 ffff ",
+                        "af00 ed00 fc00 1e01 e500 0d01 b000 0030 0201 0301 1200 2100 0200 4600 0220 1400 3400 2100 2900 fc00 0020 0600 4400 0030 1e01 e500 1400 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff ",
                         JsonLoader.loadJap()));
 
         DataWriter.saveData(config.getRomOutput(), data);

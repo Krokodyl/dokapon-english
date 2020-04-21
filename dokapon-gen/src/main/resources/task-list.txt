@@ -8,5 +8,11 @@ MENU
 TRANSLATIONS
 Add special char for Cuiaba and Tromso
 
-Table 1 : english done
-Table 2 :
+TRANSLATIONS TO BE CHECKED
+Table 1 : 131 / 131
+Table 2 : 124 / 124
+
+TRANSLATIONS TO DO
+Table 4: : 208 / 511 (Line 1252)
+Table 5 : 9 / 208
+Table 7 : 142 / 418
