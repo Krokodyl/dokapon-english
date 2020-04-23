@@ -2,6 +2,8 @@ package dokapon.entities;
 
 public class Translation {
 
+    private int offset = 0;
+    private String value = "";
     private int offsetData = 0;
     private String translation = "";
     private String menuData = null;
@@ -15,6 +17,22 @@ public class Translation {
 
     public void setOffsetData(int offsetData) {
         this.offsetData = offsetData;
+    }
+
+    public int getOffset() {
+        return offset;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public void setOffset(int offset) {
+        this.offset = offset;
     }
 
     public String getTranslation() {

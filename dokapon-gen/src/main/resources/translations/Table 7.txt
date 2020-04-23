@@ -227,7 +227,7 @@ VALEUR=9c17(179c)
 OFFSETDATA=31c17
 DATA=0220 7300 b500 9700 7500 0200 4900 0020 4a00 0e00 4900 1400 0e00 2300 0700 2200 0800 4600 0001 0101 2900 1f00 4600 2a00 1200 b400 ffff 
 JAP={CY}トーレナいわ{CW}をこわすことができる魔法のつるはし.{EL}
-ENG=A magic pickaxe that can{NL}destroy {CY}rocks{CW}.{EL}
+ENG=A magic pickaxe that can{NL}destroy {CY}boulders{CW}.{EL}
 
 OFFSET=314c7
 VALEUR=9c4d(4d9c)
@@ -283,7 +283,7 @@ VALEUR=9dd1(d19d)
 OFFSETDATA=31dd1
 DATA=1401 1501 b001 2900 2400 0e00 0600 2900 f400 3300 9101 3100 0e00 2300 0700 2200 0800 4600 0030 0001 0101 2900 8100 b500 6f00 b400 ffff 
 JAP=大陸内のどこかの店へ飛ぶことができる{NL}魔法のブーツ.{EL}
-ENG=Winged boots that can fly you{NL}to any store.{EL}
+ENG=Winged boots that can fly you{NL}to any shop.{EL}
 
 OFFSET=314d7
 VALEUR=9e07(079e)
@@ -619,7 +619,7 @@ VALEUR=a8f5(f5a8)
 OFFSETDATA=328f5
 DATA=be01 7f01 1200 1a00 8200 9700 4f00 8f00 b500 b300 3900 1a00 2a00 0220 7300 b500 9700 7500 0200 4900 0020 4a00 0030 d501 0800 2500 8900 6400 3300 f500 f600 1400 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=指定したプレイヤー,または{CY}トーレナいわ{CW}を{NL}好きなマスへ移動することができます.{EL}
-ENG=Moves a player or a rock to{NL}the target space.{EL}
+ENG=Moves a player or a boulder to{NL}the target space.{EL}
 
 OFFSET=32949
 VALEUR=a969(69a9)
@@ -842,7 +842,7 @@ VALEUR=b11d(1db1)
 OFFSETDATA=3311d
 DATA=8200 9500 9500 9b00 b600 0100 4500 0700 2300 0300 0f00 1100 0200 3900 1400 801c 4f00 4701 b400 0030 bf00 9f00 9f00 9f00 0100 4400 b900 b800 0030 bf00 ffff 
 JAP=プリリン┌ありがとうございます{801c}イ様.{NL} ...あら!?{NL} {EL}
-ENG=Penny: "Thank you {801c 4f00}, I like it. Oh...?!"
+ENG=Penny: Thank you {801c 4f00},{NL}I like it. Oh...?!{EL}
 
 OFFSET=32fdf
 VALEUR=b15b(5bb1)

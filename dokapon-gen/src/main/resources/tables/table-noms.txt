@@ -11,7 +11,7 @@
 ヨケるんです  =Detector
 ミエるんです  =Goggles 
 まほうのカギ  =Passkey 
-ジロキチ    =Fury    
+ジロキチ    =Swindler
 くうきのわ   =Scuba   
 あまいしる   =Bribe   
 しらはのや   =Bait    
@@ -37,7 +37,7 @@
 ヨンケル    =SP up   
 シールドリング =MDF Ring
 スピードリング =SP Ring 
-ゴエモン    =Red Fury
+ゴエモン    =Robber
 ミせジャンプ  =S-Boots 
 へんそうせット =Disguise
 バババイン   =X Spins 
@@ -161,7 +161,7 @@
 フニャフニャ  =DF down 
 ノロノロ    =SP down 
 ダウン     =All down
-フグチリン   =Paralyse
+フグチリン   =Freeze
 コブラッチョ  =Poison  
 ドリー     =Curse   
 ブルッチ    =Fear    
@@ -344,7 +344,7 @@
 -4 マホウ  =-4 Magic
 -オールマホウ =-oruhaou
 どく      =Poison  
-マヒ      =Paralyse
+マヒ      =Frozen
 のろい     =Curse   
 すいみん    =Sleep   
 おくびょう   =Fear    

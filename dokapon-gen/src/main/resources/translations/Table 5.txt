@@ -3,270 +3,315 @@ VALEUR=b348(48b3)
 OFFSETDATA=153348
 DATA=af00 8101 4500 2a00 1200 0f00 b000 0030 a100 de01 8101 2900 8900 6e00 8200 2600 b300 df01 4500 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=[下りはしご] {NL} 1階下のマップに,降りることができます. {EL} 
+ENG=[Ladder]{NL}Goes down to floor 1.{EL}
 
 OFFSET=1531aa
 VALEUR=b382(82b3)
 OFFSETDATA=153382
 DATA=af00 e001 4500 2a00 1200 0f00 b000 0030 a100 de01 7e01 2900 8900 6e00 8200 2600 b300 7e01 0700 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=[登りはしご] {NL} 1階上のマップに,上がることができます. {EL} 
+ENG=[Ladder]{NL}1Goes up to floor 1.{EL}
 
 OFFSET=1531ac
 VALEUR=b3bc(bcb3)
 OFFSETDATA=1533bc
 DATA=af00 8101 4500 de01 e101 b000 0030 a100 de01 8101 2900 8900 6e00 8200 2600 b300 df01 4500 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
-JAP=[下り階段] {NL} 1階下のマップに,降りることができます. {EL} 
+JAP=[下り階段] {NL} 1階下のマップに,降りることができます. {EL}
+ENG=[Stairs]{NL}Goes down to floor 1.{EL}
 
 OFFSET=1531ae
 VALEUR=b3f4(f4b3)
 OFFSETDATA=1533f4
-DATA=af00 e001 4500 de01 e101 b000 0030 a100 de01 7e01 2900 8900 6e00 8200 2600 b300 7e01 0700 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
-JAP=[登り階段] {NL} 1階上のマップに,上がることができます. {EL} 
+DATA=af00 e001 4500 de01 e101 b000 0030 a100 de01 7e01 2900 8900 6e00 8200 2600 b300 7e01 0700 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff
+JAP=[登り階段] {NL} 1階上のマップに,上がることができます. {EL}
+ENG=[Stairs]{NL}Goes up to floor 1.{EL}
 
 OFFSET=1531b0
 VALEUR=b42c(2cb4)
 OFFSETDATA=15342c
 DATA=801c 4f00 2a00 0030 0220 3900 3600 0300 2900 5600 5900 0020 4a00 0501 1e00 2100 3801 3901 4a00 4101 0c00 1a00 b400 0030 2d01 2600 2a00 0320 8214 5985 0020 0700 f100 1e00 2100 0200 1a00 b900 ffff 
-JAP=§イは {NL}  {CY} まほうのカギ {CW} を使って宝箱を開けた. {NL} 中には{FGG}§{NAM} {CW} が入っていた! {EL} 
+JAP=§イは {NL}  {CY} まほうのカギ {CW} を使って宝箱を開けた. {NL} 中には{CG}§{NAM} {CW} が入っていた! {EL} 
+ENG={801c 4f00} opened the treasure{NL}chest using {CY}Magic Key{CW}.{NL}Inside was {CG}{8214 5985}{CW}!{EL}
 
 OFFSET=1531b2
 VALEUR=b47a(7ab4)
 OFFSETDATA=15347a
 DATA=801c 4f00 2900 0901 2600 0a01 0700 3a00 2500 0900 1e00 2100 0800 1a00 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 ab00 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 ab00 0030 f800 f900 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 fa00 fb00 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 1400 2b00 3f00 1000 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 0001 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 0901 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 ffff 
-JAP=§イの体に力がみなぎってきた! {NL}                ・ {NL}                ・ {NL} 攻撃力が{FGG}2 {CW} 上がった! {NL} 防御力が{FGG}2 {CW} 上がった! {NL} すばやさが{FGG}2 {CW} 上がった! {NL} 魔力が{FGG}2 {CW} 上がった! {NL} 体力が{FGG}2 {CW} 上がった! {EL} 
+JAP=§イの体に力がみなぎってきた! {NL}                ・ {NL}                ・ {NL} 攻撃力が{CG}2 {CW} 上がった! {NL} 防御力が{CG}2 {CW} 上がった! {NL} すばやさが{CG}2 {CW} 上がった! {NL} 魔力が{CG}2 {CW} 上がった! {NL} 体力が{CG}2 {CW} 上がった! {EL} 
+ENG={801c 4f00} is stronger! {NL}                {BULLET} {NL}                {BULLET} {NL} ATK+{CG}2 {CW}     ! {NL} DEF+{CG}2 {CW}     ! {NL} SPD+{CG}2 {CW}     ! {NL} MAG+{CG}2 {CW}     ! {NL} HTH+{CG}2 {CW}     ! {EL}
 
 OFFSET=1531b4
 VALEUR=b55e(5eb5)
 OFFSETDATA=15355e
 DATA=1401 6201 1b00 b900 b900 b900 0030 ed00 6501 2900 0220 4d00 4f00 7100 8b00 b300 0001 0101 0020 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
 JAP=大変だ!!! {NL} 全員の {CY} アイテム,魔法 {CW} が入れ替わってしまった! {EL} 
+ENG=Damn!!! {NL}All {CY}items and magic{CW} have been{NL}replaced!{EL}
 
 OFFSET=1531b6
 VALEUR=b59e(9eb5)
 OFFSETDATA=15359e
 DATA=1401 6201 1b00 b900 b900 b900 0030 ed00 6501 2900 0220 6802 6902 0020 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
 JAP=大変だ!!! {NL} 全員の {CY} 装備 {CW} が入れ替わってしまった! {EL} 
+ENG=Damn!!! {NL}All {CY}gear{CW} has been{NL}replaced!{EL}
 
 OFFSET=1531b8
 VALEUR=b5d4(d4b5)
 OFFSETDATA=1535d4
 DATA=1401 6201 1b00 b900 b900 b900 0030 ed00 6501 2900 0220 0d01 0e01 e500 0020 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
 JAP=大変だ!!! {NL} 全員の {CY} 所持金 {CW} が入れ替わってしまった! {EL} 
+ENG=Damn!!! {NL}All {CY}money{CW} has been{NL}exchanged!{EL}
 
 OFFSET=1531ba
 VALEUR=b60c(0cb6)
 OFFSETDATA=15360c
 DATA=1401 6201 1b00 b900 b900 b900 0030 9214 5985 2600 b300 fe00 9d01 2900 0220 9900 7500 0020 0700 2201 3201 1200 1a00 b900 ffff 
 JAP=大変だ!!! {NL} §{NAM}に,数個の {CY} ワナ {CW} が出現した! {EL} 
+ENG=Damn!!! {NL}Several traps have appeared{NL}in {9214 5985}!{EL}
 
 OFFSET=1531bc
 VALEUR=b63e(3eb6)
 OFFSETDATA=15363e
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 2900 4300 0300 1400 0700 9f00 9f00 9f00 ffff 
 JAP=ビッグモンスターのようすが... {EL} 
+ENG=It looks like a big monster...{EL}
 
 OFFSET=1531be
 VALEUR=b660(60b6)
 OFFSETDATA=153660
 DATA=1200 0600 1200 b300 2501 3d00 2401 0800 2500 0600 1e00 1a00 b400 ffff 
 JAP=しかし,何も起きなかった. {EL} 
+ENG=But nothing happened.{EL}
 
 OFFSET=1531c0
 VALEUR=b67c(7cb6)
 OFFSETDATA=15367c
 DATA=ed00 2100 2900 8d00 9b00 6400 6a00 b500 2900 b300 c200 c300 2300 6400 7100 b500 6a00 6400 0700 0b01 0c01 1200 1a00 b400 ffff 
 JAP=全てのモンスターの,HPとステータスが回復した. {EL} 
+ENG=HP and status of all monsters{NL}have been restored.{EL}
 
 OFFSET=1531c2
 VALEUR=b6ae(aeb6)
 OFFSETDATA=1536ae
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 2a00 0220 8214 5985 0020 2900 0001 0101 4a00 0501 1e00 1a00 b900 ffff 
 JAP=ビッグモンスターは {CY} §{NAM} {CW} の魔法を使った! {EL} 
+ENG=The big monster used{NL}{CY}{8214 5985}{CW}'s magic!{EL}
 
 OFFSET=1531c4
 VALEUR=b6da(dab6)
 OFFSETDATA=1536da
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 0700 6b02 3a00 4a00 2a00 1a00 4400 0200 1a00 b900 ffff 
 JAP=ビッグモンスターが盗みをはたらいた! {EL} 
+ENG=Big monsters stole!{EL}
 
 OFFSET=1531c6
 VALEUR=b700(00b7)
 OFFSETDATA=153700
 DATA=8014 5985 0600 4400 0320 8314 6985 0020 5f00 b500 9600 7400 ffff 
-JAP={PLA}{NAM}から{FGG}§§ {CW} ゴールド {EL} 
+JAP={PLA}{NAM}から{CG}§§ {CW} ゴールド {EL} 
+ENG={CG}{8314 6985}{CW} gold from {8014 5985}{EL}
 
 OFFSET=1531c8
 VALEUR=b71a(1ab7)
 OFFSETDATA=15371a
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 2a00 0030 f200 f300 0320 8314 6d85 0020 5f00 b500 9600 7400 4501 2600 f100 4700 1a00 b400 0030 3201 3301 2900 0d01 0e01 e500 8314 7185 5f00 b500 9600 7400 b400 ffff 
-JAP=ビッグモンスターは {NL} 合計{FGG}§§ {CW} ゴールド手に入れた. {NL} 現在の所持金§§ゴールド. {EL} 
+JAP=ビッグモンスターは {NL} 合計{CG}{8314 6d85} {CW} ゴールド手に入れた. {NL} 現在の所持金§§ゴールド. {EL}
+ENG=Big monster got a total of{NL}{CG}{8314 6d85}{CW} gold.{NL}They now have {8314 7185} gold.{EL}
 
 OFFSET=1531ca
 VALEUR=b76c(6cb7)
 OFFSETDATA=15376c
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 0700 9801 9901 9a01 2500 1300 4000 3d00 4b00 4a00 2300 2500 0400 1a00 1900 9f00 9f00 9f00 ffff 
 JAP=ビッグモンスターが不思議なじゅもんをとなえたぞ... {EL} 
+ENG=A big monster has successfully{NL}completed a mysterious{NL}spell...{EL}
 
 OFFSET=1531cc
 VALEUR=b7a2(a2b7)
 OFFSETDATA=1537a2
 DATA=7400 5600 8800 9b00 4601 c601 0700 8f00 8a00 2600 1f00 1f00 3900 4700 1a00 b900 ffff 
 JAP=ドカポン王国がヤミにつつまれた! {EL} 
+ENG=The Dokapon Kingdom is in the{NL}dark!{EL}
 
 OFFSET=1531ce
 VALEUR=b7c4(c4b7)
 OFFSETDATA=1537c4
 DATA=0220 5a00 9400 8f00 8a00 0020 2900 2d01 2200 b300 0501 0300 0e00 2300 2a00 2200 0800 3900 1600 4b00 b900 ffff 
 JAP= {CY} クラヤミ {CW} の中で,使うことはできません! {EL} 
+ENG=Cannot be used in the dark!{EL}
 
 OFFSET=1531d0
 VALEUR=b7f0(f0b7)
 OFFSETDATA=1537f0
 DATA=ed00 6501 0700 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 2900 3d00 2300 2600 1e01 f200 1200 1a00 b400 ffff 
 JAP=全員がビッグモンスターのもとに集合した. {EL} 
+ENG=Everyone taken to a big{NL}monster.{EL}
 
 OFFSET=1531d2
 VALEUR=b81a(1ab8)
 OFFSETDATA=15381a
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 0700 f500 f600 4a00 af01 3c00 1a00 b400 ffff 
 JAP=ビッグモンスターが移動を始めた. {EL} 
+ENG=Big monsters have begun to{NL}move.{EL}
 
 OFFSET=1531d4
 VALEUR=b83c(3cb8)
 OFFSETDATA=15383c
 DATA=4214 5985 fc00 2900 9700 8400 9600 0700 0120 a100 0020 2600 2500 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
-JAP=§{NAM}村のレベルが{FGR}1 {CW} になってしまった! {EL} 
+JAP=§{NAM}村のレベルが{CR}1 {CW} になってしまった! {EL} 
+ENG={4214 5985} has reached level {CR}1{CW}!{EL}
 
 OFFSET=1531d6
 VALEUR=b866(66b8)
 OFFSETDATA=153866
 DATA=ed00 2100 2900 fc00 2900 9700 8400 9600 0700 b300 0120 a100 0020 8101 0700 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
-JAP=全ての村のレベルが,{FGR}1 {CW} 下がってしまった! {EL} 
+JAP=全ての村のレベルが,{CR}1 {CW} 下がってしまった! {EL} 
+ENG=All towns levels have{NL}dropped by {CR}1{CW}!{EL}
 
 OFFSET=1531d8
 VALEUR=b894(94b8)
 OFFSETDATA=153894
 DATA=ed00 2100 2900 fc00 2600 8d00 9b00 6400 6a00 b500 0700 2201 3201 1200 1a00 b900 ffff 
 JAP=全ての村にモンスターが出現した! {EL} 
+ENG=Monsters have appeared in all{NL}towns!{EL}
 
 OFFSET=1531da
 VALEUR=b8b6(b6b8)
 OFFSETDATA=1538b6
 DATA=0001 4601 b600 1b00 0200 3100 2100 0e00 1500 1e00 2100 0200 4600 4701 1b00 2500 b400 0030 bf00 0500 b201 2900 5801 0e01 1e00 2100 0200 4600 0220 e500 b300 4d00 4f00 7100 8b00 0030 bf00 0220 0001 0101 b300 fc00 b300 0020 ed00 2100 e201 2600 4300 0e00 1600 2b00 0030 0001 4601 b600 0500 b201 2600 0200 1b00 0200 2500 4600 0220 4401 2900 0a01 0020 0030 bf00 4a00 1000 1500 0c00 4300 0300 b400 0500 b201 2a00 0200 1b00 0200 2500 4600 0030 bf00 0220 4401 2900 0a01 0020 4a00 e301 1e00 2100 0200 4600 0600 b800 ffff 
 JAP=魔王┌だいぶてこずっている様だな. {NL}  お前の今持っている {CY} 金,アイテム {NL}   {CY} 魔法,村, {CW} 全て私によこせば {NL} 魔王┌お前にいだいなる {CY} 悪の力 {CW}  {NL}  をさずけよう.お前はいだいなる {NL}   {CY} 悪の力 {CW} を知っているか? {EL} 
+ENG=Devil: It looks like you're in{NL}trouble. If you give all the{NL}{CY}money, items, magic, towns{CW} you{NL}have now, I will give you {NL}the {CY}Evil Power{CW}. Do you know{NL}the {CY}Evil Power{CW}?{EL}
 
 OFFSET=1531dc
 VALEUR=b982(82b9)
 OFFSETDATA=153982
 DATA=0001 4601 b600 0200 1b00 0200 2500 4600 0220 4401 2900 0a01 0020 2300 2a00 0030 bf00 ed00 2100 2900 7c00 9400 8c00 b500 6a00 2a00 0220 a300 8401 0020 b900 0030 bf00 f500 f600 2a00 e401 2600 0220 7b00 7b00 7b00 4f00 9b00 0020 e501 e601 b900 0030 0001 4601 b600 8d00 9b00 6400 6a00 b500 2900 fc00 2200 0901 0a01 0b01 0c01 0030 bf00 8d00 9b00 6400 6a00 b500 2900 0200 2500 0200 fc00 2200 2a00 0030 bf00 6b01 1a00 2500 4600 8d00 9b00 6400 6a00 b500 4a00 9701 3100 0e00 2300 0700 2200 0800 4600 b900 0030 0001 4601 b600 1a00 1b00 1200 b300 f400 2600 f100 4600 0e00 2300 2a00 2200 0800 2500 0200 b900 0030 bf00 3801 3901 2600 2300 3900 1e00 2100 3d00 0220 4d00 4f00 7100 8b00 0020 2500 2400 4a00 0030 bf00 4501 2600 f100 4700 4600 0e00 2300 2a00 2200 0800 2500 0200 b900 ffff 
 JAP=魔王┌いだいなる {CY} 悪の力 {CW} とは {NL}  全てのパラメータは {CY} 3倍 {CW} ! {NL}  移動は常に {CY} バババイン {CW} 状態! {NL} 魔王┌モンスターの村で体力回復 {NL}  モンスターのいない村では {NL}  新たなるモンスターを呼ぶことができる! {NL} 魔王┌ただし,店に入ることはできない! {NL}  宝箱にとまっても {CY} アイテム {CW} などを {NL}  手に入れることはできない! {EL} 
+ENG=Devil: What is the {NL}{CY}Evil Power{CW}?{NL}All stats {CY}tripled{CW}!{NL}Move is always {CY}X Spins{CW}!{NL}All monsters health restored!{NL}You can call a new monster in{NL}a town without monsters!{NL}However, you cannot enter the{NL}store and you cannot open{NL}{CY}item{CW} treasure chests!{EL}
 
 OFFSET=1531de
 VALEUR=bab6(b6ba)
 OFFSETDATA=153ab6
 DATA=0001 4601 b600 e201 2600 6a00 8900 6200 4f00 4a00 0300 4600 0600 b800 ffff 
 JAP=魔王┌私にタマシイをうるか? {EL} 
+ENG=Devil: Will you give me your{NL}soul?{EL}
 
 OFFSET=1531e0
 VALEUR=bad4(d4ba)
 OFFSETDATA=153ad4
 DATA=0001 4601 b600 8000 6e00 8000 6e00 8000 6e00 8000 6e00 ab00 ab00 ab00 0030 bf00 8f00 8a00 2900 e701 c501 3300 4300 0300 0e00 1800 b900 0030 bf00 ffff 
 JAP=魔王┌フッフッフッフッ・・・ {NL}  ヤミの世界へようこそ! {NL}   {EL} 
+ENG=Devil: Huff, puff{NL}Huff, puff...{NL}Welcome to the darkness!{EL}
 
 OFFSET=1531e2
 VALEUR=bb10(10bb)
 OFFSETDATA=153b10
 DATA=0001 4601 b600 1f01 3601 0700 0e00 0200 1200 0a00 2500 1e00 1a00 4400 0030 bf00 4c01 4a01 0600 1701 2600 2e01 0a00 0700 0200 0200 b400 0030 bf00 3900 b500 1600 0200 1700 0200 0700 4b00 2b00 4600 0700 0200 0200 b400 ffff 
 JAP=魔王┌人間がこいしくなったら {NL}  教会か城に行くがいい. {NL}  まーせいぜいがんばるがいい. {EL} 
+ENG=Devil: When humans become{NL}scary, go to a church or{NL}castle. Overall, do your best.{EL}
 
 OFFSET=1531e4
 VALEUR=bb68(68bb)
 OFFSETDATA=153b68
 DATA=801c 4f00 2a00 7200 7e00 9600 2600 6201 9601 1200 1a00 b900 ffff 
 JAP=§イはデビルに変身した! {EL} 
+ENG={801c 4f00} is now a devil!{EL}
 
 OFFSET=1531e6
 VALEUR=bb82(82bb)
 OFFSETDATA=153b82
 DATA=8014 5985 2900 b300 c200 c300 2300 6400 7100 b500 6a00 6400 0700 0b01 0c01 1200 1a00 b400 ffff 
 JAP={PLA}{NAM}の,HPとステータスが回復した. {EL} 
+ENG={8014 5985}'s HP and stats are{NL}restored.{EL}
 
 OFFSET=1531e8
 VALEUR=bba8(a8bb)
 OFFSETDATA=153ba8
 DATA=0001 4601 b600 0c00 0200 3f00 0a00 e801 3601 2a00 e901 4900 1e00 1a00 b400 0030 bf00 0220 4401 2900 0a01 0020 2a00 7801 1200 2100 3d00 4400 0300 1900 b400 ffff 
 JAP=魔王┌けいやく期間は終わった. {NL}   {CY} 悪の力 {CW} は返してもらうぞ. {EL} 
+ENG=Devil: The time is over.{NL}I will now take back the{NL}Evil Power.{EL}
 
 OFFSET=1531ea
 VALEUR=bbe8(e8bb)
 OFFSETDATA=153be8
 DATA=0001 4601 b600 5d01 3d00 2500 0200 2900 2600 0300 4800 1c00 4200 4800 1400 4600 2500 b900 ffff 
 JAP=魔王┌用もないのにうろちょろするな! {EL} 
+ENG=Devil: Out of my sight,{NL}maggot!{EL}
 
 OFFSET=1531ec
 VALEUR=bc0e(0ebc)
 OFFSETDATA=153c0e
 DATA=ea01 eb01 b300 1600 0200 2500 4600 aa01 0700 801c 4f00 4a00 1f00 1f00 4b00 1b00 b900 ffff 
 JAP=突然,せいなる光が§イをつつんだ! {EL} 
+ENG=Suddenly, a bright light{NL}appears!{EL}
 
 OFFSET=1531ee
 VALEUR=bc32(32bc)
 OFFSETDATA=153c32
 DATA=801c 4f00 2a00 1f01 3601 2600 3d00 2400 1e00 1a00 b400 ffff 
 JAP=§イは人間にもどった. {EL} 
+ENG={801c 4f00} is now human.{EL}
 
 OFFSET=1531f0
 VALEUR=bc4a(4abc)
 OFFSETDATA=153c4a
 DATA=3001 4a00 3000 1000 0200 2200 0200 1a00 0220 7300 b500 9700 7500 0200 4900 0020 0700 7401 0400 1a00 b400 ffff 
-JAP=道をふさいでいた {CY} トーレナいわ {CW} が消えた. {EL} 
+JAP=道をふさいでいた {CY} トーレナいわ {CW} が消えた. {EL}
+ENG=The {CY}boulder{CW} has disappeared.{EL}
 
 OFFSET=1531f2
 VALEUR=bc76(76bc)
 OFFSETDATA=153c76
 DATA=7400 5600 8800 9b00 4601 c601 2600 b300 aa01 0700 3d00 2400 1e00 1a00 b900 ffff 
 JAP=ドカポン王国に,光がもどった! {EL} 
+ENG=Light has returned to the{NL}Dokapon Kingdom!{EL}
 
 OFFSET=1531f4
 VALEUR=bc96(96bc)
 OFFSETDATA=153c96
 DATA=4f00 8400 9b00 7300 2900 9700 8400 9600 2a00 b300 1116 5985 2200 1400 b400 0030 4f00 8400 9b00 7300 4a00 2401 0e00 1200 3900 1400 0600 b800 ffff 
 JAP=イベントのレベルは,§{NAM}です. {NL} イベントを起こしますか? {EL} 
+ENG=The event level is {1116 5985}.{NL}Increase the level?{EL}
 
 OFFSET=1531f6
 VALEUR=bcd0(d0bc)
 OFFSETDATA=153cd0
 DATA=7200 7e00 9600 2a00 0220 8214 5985 0020 2900 0001 0101 4a00 0501 1e00 1a00 b900 ffff 
 JAP=デビルは {CY} §{NAM} {CW} の魔法を使った! {EL} 
+ENG=Devil used the magic {CY}{8214 5985}{CW}!{EL}
 
 OFFSET=1531f8
 VALEUR=bcf2(f2bc)
 OFFSETDATA=153cf2
 DATA=7400 5600 8800 9b00 4601 c601 2d01 2900 f400 0700 7200 7e00 9600 2600 0500 2400 1000 4700 0030 f400 4a00 1200 3c00 2100 1200 3900 1e00 1a00 b400 ffff 
 JAP=ドカポン王国中の店がデビルにおどされ {NL} 店をしめてしまった. {EL} 
+ENG=Shops throughout the Dokapon{NL}Kingdom have been closed by a{NL}devil.{EL}
 
 OFFSET=1531fa
 VALEUR=bd2e(2ebd)
 OFFSETDATA=153d2e
 DATA=7400 5600 8800 9b00 4601 c601 2d01 2900 f400 0700 8801 e401 ec01 ed01 2600 3d00 2400 1e00 1a00 b400 ffff 
 JAP=ドカポン王国中の店が通常営業にもどった. {EL} 
+ENG=Shops throughout the Dokapon{NL}Kingdom have returned to{NL}normal operations.{EL}
 
 OFFSET=1531fc
 VALEUR=bd58(58bd)
 OFFSETDATA=153d58
 DATA=7200 7e00 9600 2a00 0220 8014 5985 0020 0600 4400 0120 8214 6985 0020 4a00 6b02 4b00 1b00 b900 ffff 
-JAP=デビルは {CY} {PLA}{NAM} {CW} から{FGR}§§ {CW} を盗んだ! {EL} 
+JAP=デビルは {CY} {PLA}{NAM} {CW} から{CR}§§ {CW} を盗んだ! {EL}
+ENG=Devil stole {CR}{8214 6985}{CW} from{NL}{CY}{8014 5985}{CW}!{EL}
 
 OFFSET=1531fe
 VALEUR=bd80(80bd)
 OFFSETDATA=153d80
 DATA=ed00 6501 0700 7200 7e00 9600 2900 3d00 2300 2600 1e01 f200 1200 1a00 b400 ffff 
 JAP=全員がデビルのもとに集合した. {EL} 
+ENG=Everyone taken to the Devil.{EL}
 
 OFFSET=153200
 VALEUR=bda0(a0bd)
 OFFSETDATA=153da0
 DATA=7200 7e00 9600 2900 0a01 2600 4300 1e00 2100 0030 ed00 6501 2900 2c01 0d01 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b400 ffff 
 JAP=デビルの力によって {NL} 全員の場所が入れ替わってしまった. {EL} 
+ENG=The Devil has switched{NL}everyone's place.{EL}
 
 OFFSET=153202
 VALEUR=bdd8(d8bd)
@@ -280,67 +325,77 @@ VALEUR=be06(06be)
 OFFSETDATA=153e06
 DATA=af00 0001 4601 2900 1701 b000 0030 0001 4601 2900 1701 3300 2900 f100 4500 8501 2200 1400 b400 ffff 
 JAP=[魔王の城] {NL} 魔王の城への入り口です. {EL} 
+ENG=[Devil's Castle]{NL}This is the entrance to the{NL}Devil's Castle.{EL}
 
 OFFSET=153206
 VALEUR=be2e(2ebe)
 OFFSETDATA=153e2e
 DATA=af00 2001 ad01 ee01 b000 0030 2001 7e01 3300 3d00 2400 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=[地獄門] {NL} 地上へもどることができます. {EL} 
+ENG=[Hell Gate]{NL}Brings you back to the ground.{EL}
 
 OFFSET=153208
 VALEUR=be58(58be)
 OFFSETDATA=153e58
 DATA=af00 ef01 3801 3901 b000 0030 3c01 3d01 3e01 3f01 4a00 2800 4400 0400 4600 b300 2300 2600 0600 0a00 0500 0200 1200 0200 8900 6400 b400 ffff 
 JAP=[白宝箱] {NL} 一発逆転をねらえる,とにかくおいしいマス. {EL} 
+ENG=[White treasure chest]{NL}Contains game changing{NL}rewards.{EL}
 
 OFFSET=15320a
 VALEUR=be90(90be)
 OFFSETDATA=153e90
 DATA=af00 0001 0101 3801 3901 b000 0030 f800 f900 0001 0101 b300 fa00 fb00 0001 0101 0700 3d00 4400 0400 3900 1400 b400 ffff 
 JAP=[魔法宝箱] {NL} 攻撃魔法,防御魔法がもらえます. {EL} 
+ENG=[Magic treasure chest]{NL}Contains Attack Magic and{NL}Defense Magic.{EL}
 
 OFFSET=15320c
 VALEUR=bec0(c0be)
 OFFSETDATA=153ec0
 DATA=af00 e500 3801 3901 b000 0030 0500 e500 0700 3d00 4400 0400 3900 1400 b400 ffff 
 JAP=[金宝箱] {NL} お金がもらえます. {EL} 
+ENG=[Gold treasure chest]{NL}Contains money.{EL}
 
 OFFSET=15320e
 VALEUR=bee0(e0be)
 OFFSETDATA=153ee0
 DATA=af00 8100 5800 3801 3901 b000 0030 8900 6400 2900 fe00 f001 0700 1401 0800 0200 3600 2400 b300 f101 0200 8100 5800 0700 3d00 4400 0400 3900 1400 b400 ffff 
 JAP=[ブキ宝箱] {NL} マスの数字が大きいほど,良いブキがもらえます. {EL} 
+ENG=[Weapon treasure chest]{NL}The higher the number,{NL}the better the weapon.{EL}
 
 OFFSET=153210
 VALEUR=bf1e(1ebf)
 OFFSETDATA=153f1e
 DATA=af00 6a00 7100 3801 3901 b000 0030 8900 6400 2900 fe00 f001 0700 1401 0800 0200 3600 2400 b300 f101 0200 6a00 7100 0700 3d00 4400 0400 3900 1400 b400 ffff 
 JAP=[タテ宝箱] {NL} マスの数字が大きいほど,良いタテがもらえます. {EL} 
-ENG=[Red Chest]{NL}The higher the chest number,{NL}the greater the reward.{EL}
+ENG=[Red Chest]{NL}The higher the number,{NL}the greater the reward.{EL}
 
 OFFSET=153212
 VALEUR=bf5c(5cbf)
 OFFSETDATA=153f5c
 DATA=af00 9300 9800 4f00 3801 3901 b000 0030 8900 6400 2900 fe00 f001 0700 1401 0800 0200 3600 2400 b300 f101 0200 9300 9800 4f00 0700 3d00 4400 0400 3900 1400 b400 ffff 
 JAP=[ヨロイ宝箱] {NL} マスの数字が大きいほど,良いヨロイがもらえます. {EL} 
+ENG=[Armor treasure chest]{NL}The higher the number,{NL}the better the armor.{EL}
 
 OFFSET=153214
 VALEUR=bf9e(9ebf)
 OFFSETDATA=153f9e
 DATA=af00 5d00 b500 7300 5800 b500 7c00 b500 b000 0030 3201 3301 2900 2e01 f600 2a00 4b00 0200 2a00 0030 9214 5985 3900 2200 2200 1400 b400 ffff 
 JAP=[ゲートキーパー] {NL} 現在の行動はんいは {NL} §{NAM}までです. {EL} 
+ENG=[Gatekeeper]{NL}Currently controlled by {9214 5985}.{EL}
 
 OFFSET=153216
 VALEUR=bfd6(d6bf)
 OFFSETDATA=153fd6
 DATA=4601 4701 b600 3401 3101 1200 4200 0a00 4b00 b900 bf00 1401 6201 2500 4b00 1b00 2b00 b900 0030 bf00 3b00 1400 3c00 2900 8200 9500 9500 9b00 0700 1401 f201 2600 1200 2100 0200 1a00 f301 f401 2900 8900 7600 b500 0700 0030 bf00 2501 3101 0600 2600 5001 4a00 f501 3900 1000 4700 1a00 4400 1200 0a00 0030 4601 4701 b600 7d00 9b00 1801 2900 e501 e601 2500 4b00 1b00 2b00 b900 0030 bf00 1c00 0400 3100 0a00 4800 7b00 b500 6000 9b00 2900 0d01 3300 2e01 1e00 2100 0030 bf00 b501 4a00 3d00 4400 1e00 2100 0a00 4600 1b00 2b00 9f00 9f00 9f00 0030 4601 4701 b600 4d00 6300 7500 1401 1501 2900 2400 0e00 0600 2600 0200 4600 2a00 1500 1b00 2b00 b900 0030 bf00 1a00 2900 3b00 1b00 2b00 b900 bf00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌勇者しょくん! 大変なんだば! {NL}  むすめのプリリンが大切にしていた子犬のマニーが {NL}  何者かに毒を飲まされたらしく {NL} 王様┌ヒン死の状態なんだば! {NL}  ちえぶくろバーサンの所へ行って {NL}  薬をもらってくるだば... {NL} 王様┌アジナ大陸のどこかにいるはずだば! {NL}  たのむだば! 勇者しょくん! {EL} 
+ENG=King: Brave hero! Bad news! It{NL}seems that Cash, a puppy that{NL}Princess Penny adopted, was{NL}poisoned! We heard someone in{NL}Asia has some medicine...{NL}Hurry up and find it!{EL}
 
 OFFSET=153218
 VALEUR=c0f6(f6c0)
 OFFSETDATA=1540f6
 DATA=4601 4701 b600 3401 3101 1200 4200 0a00 4b00 b900 0030 bf00 0500 1701 2600 0e00 4b00 2500 3d00 2900 0700 2300 2400 0200 1a00 4b00 1b00 2b00 b900 0030 bf00 0030 0220 7301 1a00 1200 e501 0020 b600 e201 2a00 0001 c501 2900 8200 9500 9b00 6400 b300 9500 6e00 6c00 b500 cf00 d000 0030 bf00 8100 6a00 2900 1c00 4200 0800 4b00 2b00 0e00 2a00 0200 1a00 1b00 0200 1a00 b900 bf00 7801 1200 2100 3600 1200 0c00 4700 2b00 0030 bf00 e201 2300 0f01 1e00 2100 f601 1f00 0e00 2300 1b00 b900 bf00 8000 4e00 b500 9600 7400 2200 f701 1e00 2100 0200 4600 b900 0030 4601 4701 b600 3401 3101 1200 4200 0a00 4b00 b900 bf00 8200 9500 9500 9b00 2900 1401 f201 2500 0030 bf00 8100 6a00 2900 1c00 4200 0800 4b00 2b00 0e00 4a00 6801 4500 7801 1200 2100 0a00 4700 1b00 2b00 b900 ffff 
 JAP=王様┌勇者しょくん! {NL}  お城にこんなものがとどいたんだば! {NL}   {NL}  {CY} 果たし状 {CW} ┌私は魔界のプリンス,リッチーJr {NL}  ブタのちょきんばこはいただいた! 返してほしければ {NL}  私と戟って勝つことだ! フィールドで待っている! {NL} 王様┌勇者しょくん! プリリンの大切な {NL}  ブタのちょきんばこを取り返してくれだば! {EL} 
+ENG=King: Brave hero! I found this{NL}{CY}duel letter{CW} in the castle!{NL}Rico Jr. stole Princess{NL}Penny's piggy bank and will{NL}only give it back to whomever{NL}beats him in a fight!{NL}Go find him and beat him!{EL}
 
 OFFSET=15321a
 VALEUR=c224(24c2)
@@ -364,7 +419,7 @@ OFFSET=153220
 VALEUR=c444(44c4)
 OFFSETDATA=154444
 DATA=4601 4701 b600 3401 3101 1200 4200 0a00 4b00 b300 ff01 4a00 a301 0200 2100 3600 1200 0200 1b00 2b00 9f00 9f00 9f00 0030 bf00 6d01 2a00 7f00 9400 8a00 6e00 7400 2200 4601 ca01 2900 3801 3901 0700 bc01 1f00 0600 1e00 1a00 4b00 1b00 2b00 0030 bf00 1200 0600 1200 b900 bf00 2d01 9601 2a00 2500 4b00 2300 b900 0030 4601 4701 b600 0002 0102 0700 ff00 1200 1a00 7b00 5a00 1401 2500 0030 bf00 0120 8201 e500 2900 8201 5d01 0202 0020 1b00 1e00 1a00 4b00 1b00 2b00 b400 0030 bf00 0e00 4700 0700 3a00 4b00 2500 2600 e301 4700 4900 1a00 1e00 1a00 4400 4900 1200 2a00 0302 1201 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 3d00 b300 8201 5d01 0202 2300 0200 0300 2900 2a00 9501 cd01 2500 4b00 1b00 2b00 b900 0030 bf00 1800 0300 1b00 2b00 b900 bf00 0220 d601 3d01 5f00 9800 b500 0020 2500 4400 9501 cd01 4a00 0e00 4900 1600 4600 2a00 1500 1b00 2b00 b900 0030 bf00 3401 3101 1200 4200 0a00 4b00 b900 bf00 d601 3d01 5f00 9800 b500 4a00 0402 1200 1b00 1200 b300 0030 4601 4701 b600 7f00 9400 8a00 6e00 7400 2600 0100 4600 b300 9501 cd01 4a00 0e00 4900 1200 2100 0a00 4700 1b00 2b00 b900 ffff 
-JAP=王様┌勇者しょくん,話を聞いてほしいだば... {NL}  実はピラミッドで王家の宝箱が見つかったんだば {NL}  しかし! 中身はなんと! {NL} 王様┌先祖が残したバク大な {NL}  {FGR}惜金の惜用書 {CW} だったんだば. {NL}  これがみんなに知れわたったらわしは破産だば! {NL} 王様┌しかも,惜用書というのは石版なんだば! {NL}  そうだば!  {CY} 爆発ゴロー {CW} なら石版をこわせるはずだば! {NL}  勇者しょくん! 爆発ゴローを探しだし, {NL} 王様┌ピラミッドにある,石版をこわしてくれだば! {EL} 
+JAP=王様┌勇者しょくん,話を聞いてほしいだば... {NL}  実はピラミッドで王家の宝箱が見つかったんだば {NL}  しかし! 中身はなんと! {NL} 王様┌先祖が残したバク大な {NL}  {CR}惜金の惜用書 {CW} だったんだば. {NL}  これがみんなに知れわたったらわしは破産だば! {NL} 王様┌しかも,惜用書というのは石版なんだば! {NL}  そうだば!  {CY} 爆発ゴロー {CW} なら石版をこわせるはずだば! {NL}  勇者しょくん! 爆発ゴローを探しだし, {NL} 王様┌ピラミッドにある,石版をこわしてくれだば! {EL} 
 
 OFFSET=153222
 VALEUR=c5f2(f2c5)
@@ -461,6 +516,7 @@ VALEUR=d1ee(eed1)
 OFFSETDATA=1551ee
 DATA=af00 1c00 0400 3100 0a00 4800 7b00 b500 6000 9b00 b000 0030 ed00 2100 2900 5001 4a00 0301 1600 4600 b501 4a00 0e01 1e00 2100 0200 4600 b400 ffff 
 JAP=[ちえぶくろバーサン] {NL} 全ての毒を治せる薬を持っている. {EL} 
+ENG=[Wise Grandma]{NL}I have the medicine to cure{NL}all poisons.{EL}
 
 OFFSET=153242
 VALEUR=d228(28d2)
@@ -508,13 +564,13 @@ OFFSET=153250
 VALEUR=d42c(2cd4)
 OFFSETDATA=15542c
 DATA=8014 5985 2a00 b300 0120 8214 6985 0020 4a00 5f01 1e00 1a00 b400 ffff 
-JAP={PLA}{NAM}は,{FGR}§§ {CW} を失った. {EL} 
+JAP={PLA}{NAM}は,{CR}§§ {CW} を失った. {EL} 
 
 OFFSET=153252
 VALEUR=d448(48d4)
 OFFSETDATA=155448
 DATA=8014 5985 2a00 b300 0120 4214 6985 fc00 0020 4a00 5f01 1e00 1a00 b400 ffff 
-JAP={PLA}{NAM}は,{FGR}§§村 {CW} を失った. {EL} 
+JAP={PLA}{NAM}は,{CR}§§村 {CW} を失った. {EL} 
 
 OFFSET=153254
 VALEUR=d466(66d4)
@@ -526,7 +582,7 @@ OFFSET=153256
 VALEUR=d4c0(c0d4)
 OFFSETDATA=1554c0
 DATA=801c 4f00 2a00 0320 6214 5985 1701 0020 4a00 4501 2600 f100 4700 1a00 b400 ffff 
-JAP=§イは{FGG}§{NAM}城 {CW} を手に入れた. {EL} 
+JAP=§イは{CG}§{NAM}城 {CW} を手に入れた. {EL} 
 
 OFFSET=153258
 VALEUR=d4e0(e0d4)
@@ -550,7 +606,7 @@ OFFSET=15325e
 VALEUR=d5be(bed5)
 OFFSETDATA=1555be
 DATA=4601 4701 b600 4300 0a00 4301 2100 0a00 4700 1a00 1b00 2b00 801c 4f00 b400 0030 bf00 0220 1112 5985 0020 1002 ea00 2600 4301 2100 0a00 4700 1a00 1102 2600 2a00 0f00 3600 0300 2e00 2300 1200 2100 0030 bf00 0320 1112 5a85 0020 8800 4f00 9b00 7300 2900 8700 b500 7500 6400 8800 4f00 9b00 7300 4a00 0100 0d00 4600 1b00 2b00 b400 ffff 
-JAP=王様┌よく来てくれただば§イ. {NL}   {CY} §{NAM} {CW} 番目に来てくれた君にはごほうびとして {NL}  {FGG}§§ {CW} ポイントのボーナスポイントをあげるだば. {EL} 
+JAP=王様┌よく来てくれただば§イ. {NL}   {CY} §{NAM} {CW} 番目に来てくれた君にはごほうびとして {NL}  {CG}§§ {CW} ポイントのボーナスポイントをあげるだば. {EL} 
 
 OFFSET=153260
 VALEUR=d642(42d6)
@@ -604,7 +660,7 @@ OFFSET=153270
 VALEUR=d956(56d9)
 OFFSETDATA=155956
 DATA=4601 4701 b600 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 4a00 6702 1200 1a00 0f00 3600 0300 2e00 2600 0030 bf00 0320 8314 5985 0020 5f00 b500 9600 7400 0100 1a00 0400 4600 1b00 2b00 b400 0030 bf00 ffff 
-JAP=王様┌ビッグモンスターを倒したごほうびに {NL}  {FGG}§{NAM} {CW} ゴールドあたえるだば. {NL}   {EL} 
+JAP=王様┌ビッグモンスターを倒したごほうびに {NL}  {CG}§{NAM} {CW} ゴールドあたえるだば. {NL}   {EL} 
 
 OFFSET=153272
 VALEUR=d9a6(a6d9)
@@ -622,7 +678,7 @@ OFFSET=153276
 VALEUR=da50(50da)
 OFFSETDATA=155a50
 DATA=4601 4701 b600 1800 0300 1800 0300 b300 1802 4700 4600 2300 0e00 1b00 1e00 1a00 4300 0030 bf00 0320 8214 5985 0020 4a00 0e01 1e00 2100 0200 0a00 1b00 2b00 0030 bf00 0e00 3900 1e00 1a00 2301 2600 0501 0300 0700 4300 0200 1b00 2b00 b400 ffff 
-JAP=王様┌そうそう,忘れるとこだったよ {NL}  {FGG}§{NAM} {CW} を持っていくだば {NL}  こまった時に使うがよいだば. {EL} 
+JAP=王様┌そうそう,忘れるとこだったよ {NL}  {CG}§{NAM} {CW} を持っていくだば {NL}  こまった時に使うがよいだば. {EL} 
 
 OFFSET=153278
 VALEUR=dab0(b0da)
@@ -634,25 +690,25 @@ OFFSET=15327a
 VALEUR=db24(24db)
 OFFSETDATA=155b24
 DATA=4601 4701 b600 2500 4b00 2300 b300 8014 5985 0700 0500 4801 0200 2600 0030 bf00 0320 8214 6985 0020 4a00 0a00 4700 4600 1800 0300 1b00 2b00 b400 ffff 
-JAP=王様┌なんと,{PLA}{NAM}がお祝いに {NL}  {FGG}§§ {CW} をくれるそうだば. {EL} 
+JAP=王様┌なんと,{PLA}{NAM}がお祝いに {NL}  {CG}§§ {CW} をくれるそうだば. {EL} 
 
 OFFSET=15327c
 VALEUR=db60(60db)
 OFFSETDATA=155b60
 DATA=4601 4701 b600 1a00 1e00 b900 bf00 1a00 1e00 b900 bf00 1a00 1e00 b900 bf00 1401 6201 1b00 2b00 b900 0030 bf00 0800 4200 0300 3000 2900 0120 1b00 0200 0600 4b00 2b00 1f00 0020 0700 2401 0e00 1e00 2100 1200 3900 1e00 1a00 1b00 2b00 b900 0030 bf00 0500 0600 0d00 2200 fc00 2600 1902 3900 1e00 2100 0200 1a00 0500 e500 0700 0030 4601 4701 b600 6601 0a00 2500 1e00 2100 1200 3900 1e00 1a00 1b00 2b00 b400 ffff 
-JAP=王様┌たっ! たっ! たっ! 大変だば! {NL}  きょうふの{FGR}だいかんばつ {CW} が起こってしまっただば! {NL}  おかげで村に貯まっていたお金が {NL} 王様┌無くなってしまっただば. {EL} 
+JAP=王様┌たっ! たっ! たっ! 大変だば! {NL}  きょうふの{CR}だいかんばつ {CW} が起こってしまっただば! {NL}  おかげで村に貯まっていたお金が {NL} 王様┌無くなってしまっただば. {EL} 
 
 OFFSET=15327e
 VALEUR=dc02(02dc)
 OFFSETDATA=155c02
 DATA=4601 4701 b600 1a00 1e00 b900 bf00 1a00 1e00 b900 bf00 1a00 1e00 b900 bf00 1401 6201 1b00 2b00 b900 0030 bf00 0120 2a00 3f00 4500 2900 cb01 3501 0020 2200 7400 5600 8800 9b00 2d01 0700 1401 7c00 7600 6e00 5a00 1b00 2b00 b900 0030 bf00 fc00 4a00 0201 0301 1200 2100 0200 4600 3101 2a00 0030 4601 4701 b600 fc00 1f01 2900 1a00 3c00 2600 5a01 4201 4a00 1400 4600 2900 1b00 2b00 ffff 
-JAP=王様┌たっ! たっ! たっ! 大変だば! {NL}  {FGR}はやりの病気 {CW} でドカポン中が大パニックだば! {NL}  村を統治している者は {NL} 王様┌村人のために寄付をするのだば {EL} 
+JAP=王様┌たっ! たっ! たっ! 大変だば! {NL}  {CR}はやりの病気 {CW} でドカポン中が大パニックだば! {NL}  村を統治している者は {NL} 王様┌村人のために寄付をするのだば {EL} 
 
 OFFSET=153280
 VALEUR=dc9a(9adc)
 OFFSETDATA=155c9a
 DATA=8014 5985 2a00 0030 0120 8314 6985 0020 5f00 b500 9600 7400 5a01 4201 1200 1a00 b400 0030 3201 3301 2900 0d01 0e01 e500 8314 6d85 5f00 b500 9600 7400 b400 ffff 
-JAP={PLA}{NAM}は {NL} {FGR}§§ {CW} ゴールド寄付した. {NL} 現在の所持金§§ゴールド. {EL} 
+JAP={PLA}{NAM}は {NL} {CR}§§ {CW} ゴールド寄付した. {NL} 現在の所持金§§ゴールド. {EL} 
 
 OFFSET=153282
 VALEUR=dcda(dadc)
@@ -676,7 +732,7 @@ OFFSET=153288
 VALEUR=de7c(7cde)
 OFFSETDATA=155e7c
 DATA=5900 b500 5700 b500 cf00 d000 b600 3600 0300 b300 6c00 5200 9b00 9500 b500 0700 6001 4700 4600 2300 2a00 9f00 9f00 9f00 0030 bf00 1800 4700 b300 3f00 0a00 1800 0a00 2900 b101 e500 0320 8314 5985 0020 5f00 b500 9600 7400 1b00 b900 0030 bf00 2601 0b01 2a00 1b02 0c00 4b00 1900 b900 ffff 
-JAP=ギーガーJr┌ほう,チェンリーが敗れるとは... {NL}  それ,やくそくの賞金{FGG}§{NAM} {CW} ゴールドだ! {NL}  次回は負けんぞ! {EL} 
+JAP=ギーガーJr┌ほう,チェンリーが敗れるとは... {NL}  それ,やくそくの賞金{CG}§{NAM} {CW} ゴールドだ! {NL}  次回は負けんぞ! {EL} 
 
 OFFSET=15328a
 VALEUR=deee(eede)
@@ -869,7 +925,7 @@ OFFSET=1532c6
 VALEUR=e856(56e8)
 OFFSETDATA=156856
 DATA=5500 6500 5600 b500 b600 e201 2a00 0200 1b00 0200 2500 4600 0001 0101 0501 0200 5500 6500 5600 b500 b400 0030 bf00 2500 0600 2500 0600 2a02 5401 2500 3f00 1f00 1300 3e00 2500 0030 bf00 3600 0300 2e00 2600 0320 8214 5985 0020 4a00 0100 0d00 4300 0300 b400 ffff 
-JAP=オズカー┌私はいだいなる魔法使いオズカー. {NL}  なかなか感心なやつじゃな {NL}  ほうびに{FGG}§{NAM} {CW} をあげよう. {EL} 
+JAP=オズカー┌私はいだいなる魔法使いオズカー. {NL}  なかなか感心なやつじゃな {NL}  ほうびに{CG}§{NAM} {CW} をあげよう. {EL} 
 
 OFFSET=1532c8
 VALEUR=e8be(bee8)
@@ -899,7 +955,7 @@ OFFSET=1532d0
 VALEUR=e9e6(e6e9)
 OFFSETDATA=1569e6
 DATA=4601 4701 b600 3401 3101 0700 0f00 0300 2300 0300 2600 f100 4600 2300 2a00 2500 2600 0f00 2300 1b00 2b00 b900 0030 bf00 3a00 1600 1200 3c00 2300 1200 2100 b300 0120 8014 5985 0020 4a00 0030 bf00 6702 1200 1a00 3d00 2900 2600 2a00 b300 9900 6200 0700 b101 e500 2300 1200 2100 0030 4601 4701 b600 0320 8314 6985 0020 5f00 b500 9600 7400 2201 1400 1b00 2b00 0030 bf00 b101 e500 0700 3600 1200 0200 3101 2a00 b300 1a00 1b00 1c00 2600 0030 bf00 0120 8014 5985 0020 2900 0d01 3300 2d02 0600 0300 0700 4300 0200 1b00 2b00 b400 ffff 
-JAP=王様┌勇者がごうとうに入るとはなにごとだば! {NL}  みせしめとして,{FGR}{PLA}{NAM} {CW} を {NL}  倒したものには,ワシが賞金として {NL} 王様┌{FGG}§§ {CW} ゴールド出すだば {NL}  賞金がほしい者は,ただちに {NL}  {FGR}{PLA}{NAM} {CW} の所へ向かうがよいだば. {EL} 
+JAP=王様┌勇者がごうとうに入るとはなにごとだば! {NL}  みせしめとして,{CR}{PLA}{NAM} {CW} を {NL}  倒したものには,ワシが賞金として {NL} 王様┌{CG}§§ {CW} ゴールド出すだば {NL}  賞金がほしい者は,ただちに {NL}  {CR}{PLA}{NAM} {CW} の所へ向かうがよいだば. {EL} 
 
 OFFSET=1532d2
 VALEUR=eab8(b8ea)
@@ -1091,19 +1147,19 @@ OFFSET=153310
 VALEUR=f584(84f5)
 OFFSETDATA=157584
 DATA=5700 6e00 6f00 b600 0500 3900 1c00 2400 b500 1000 4b00 b300 3f00 1e00 2300 2200 0800 1a00 1700 b900 0030 bf00 0e00 0200 1f00 0700 0320 8214 5985 0020 1b00 b900 0030 bf00 0600 4900 0200 0700 1e00 2100 3f00 1e00 2100 0a00 4700 4300 2500 b900 ffff 
-JAP=ガッツ┌おまちどーさん,やっとできたぜ! {NL}  こいつが{FGG}§{NAM} {CW} だ! {NL}  かわいがってやってくれよな! {EL} 
+JAP=ガッツ┌おまちどーさん,やっとできたぜ! {NL}  こいつが{CG}§{NAM} {CW} だ! {NL}  かわいがってやってくれよな! {EL} 
 
 OFFSET=153312
 VALEUR=f5e6(e6f5)
 OFFSETDATA=1575e6
 DATA=9400 6e00 6f00 b600 0500 3900 1c00 2400 b500 1000 4b00 b300 3f00 1e00 2300 2200 0800 1a00 1700 b900 0030 bf00 0e00 0200 1f00 0700 0320 8214 5985 0020 1b00 b900 0030 bf00 0600 4900 0200 0700 1e00 2100 3f00 1e00 2100 0a00 4700 4300 2500 b900 ffff 
-JAP=ラッツ┌おまちどーさん,やっとできたぜ! {NL}  こいつが{FGG}§{NAM} {CW} だ! {NL}  かわいがってやってくれよな! {EL} 
+JAP=ラッツ┌おまちどーさん,やっとできたぜ! {NL}  こいつが{CG}§{NAM} {CW} だ! {NL}  かわいがってやってくれよな! {EL} 
 
 OFFSET=153314
 VALEUR=f648(48f6)
 OFFSETDATA=157648
 DATA=9900 6e00 6f00 b600 0500 3900 1c00 2400 b500 1000 4b00 b300 3f00 1e00 2300 2200 0800 1a00 1700 b900 0030 bf00 0e00 0200 1f00 0700 0320 8214 5985 0020 1b00 b900 0030 bf00 0600 4900 0200 0700 1e00 2100 3f00 1e00 2100 0a00 4700 4300 2500 b900 ffff 
-JAP=ワッツ┌おまちどーさん,やっとできたぜ! {NL}  こいつが{FGG}§{NAM} {CW} だ! {NL}  かわいがってやってくれよな! {EL} 
+JAP=ワッツ┌おまちどーさん,やっとできたぜ! {NL}  こいつが{CG}§{NAM} {CW} だ! {NL}  かわいがってやってくれよな! {EL} 
 
 OFFSET=153316
 VALEUR=f6aa(aaf6)
@@ -1169,13 +1225,13 @@ OFFSET=15332a
 VALEUR=f9fe(fef9)
 OFFSETDATA=1579fe
 DATA=fc00 5201 b600 4900 1100 4900 1100 0220 0e00 4900 4700 4d01 0020 4a00 2300 2400 0c00 2100 0a00 1b00 1000 1e00 2100 0030 bf00 0100 4500 0700 2300 0300 0f00 1100 0200 3900 1200 1a00 b400 0500 4700 0200 2600 b300 0200 1f00 3d00 2900 8401 2900 0030 bf00 0320 8314 6985 0020 5f00 b500 9600 7400 1000 1200 0100 0d00 3900 1200 4200 0300 b400 ffff 
-JAP=村長┌わざわざ {CY} こわれ物 {CW} をとどけてくださって {NL}  ありがとうございました.おれいに,いつもの倍の {NL}  {FGG}§§ {CW} ゴールドさしあげましょう. {EL} 
+JAP=村長┌わざわざ {CY} こわれ物 {CW} をとどけてくださって {NL}  ありがとうございました.おれいに,いつもの倍の {NL}  {CG}§§ {CW} ゴールドさしあげましょう. {EL} 
 
 OFFSET=15332c
 VALEUR=fa86(86fa)
 OFFSETDATA=157a86
 DATA=2602 1f01 b600 5100 8000 8000 6e00 b900 bf00 1800 0e00 4a00 2e01 0a00 3401 3101 1000 4b00 9f00 9f00 9f00 0030 bf00 0200 0200 2900 0700 f100 1e00 2100 4600 4b00 1b00 0c00 2400 bc01 2100 0200 0600 2500 0200 b800 0030 bf00 0e00 4700 4300 b300 0e00 4700 b900 bf00 0320 8214 5985 0020 9f00 9f00 9f00 0030 2602 1f01 b600 5801 2500 4400 0220 8314 5b85 0020 5f00 b500 9600 7400 b900 0030 bf00 0500 2402 1000 4b00 1b00 0600 4400 0e00 2900 ee00 3402 b900 0030 bf00 3d00 1c00 4800 4b00 1a01 1e00 2100 0a00 4700 4600 4900 4300 2800 b800 ffff 
-JAP=商人┌ウフフッ! そこを行く勇者さん... {NL}  いいのが入ってるんだけど見ていかない? {NL}  これよ,これ! {FGG}§{NAM} {CW} ... {NL} 商人┌今なら {CY} §§ {CW} ゴールド! {NL}  お客さんだからこの価格! {NL}  もちろん買ってくれるわよね? {EL} 
+JAP=商人┌ウフフッ! そこを行く勇者さん... {NL}  いいのが入ってるんだけど見ていかない? {NL}  これよ,これ! {CG}§{NAM} {CW} ... {NL} 商人┌今なら {CY} §§ {CW} ゴールド! {NL}  お客さんだからこの価格! {NL}  もちろん買ってくれるわよね? {EL} 
 
 OFFSET=15332e
 VALEUR=fb5a(5afb)
@@ -1223,7 +1279,7 @@ OFFSET=15333c
 VALEUR=fd62(62fd)
 OFFSETDATA=157d62
 DATA=1e01 e500 1f01 b600 2400 0300 1b00 0200 b900 bf00 3d00 0300 0600 1e00 1a00 1b00 4800 b800 0030 bf00 2300 4100 0300 4900 0c00 2200 4501 fe00 3502 2300 1200 2100 0220 1116 5d85 a000 b100 0020 0030 bf00 0120 8314 5985 0020 5f00 b500 9600 7400 0200 1a00 1b00 0200 2100 0a00 1700 b400 ffff 
-JAP=集金人┌どうだい! もうかっただろ? {NL}  とゆうわけで手数料として {CY} §§0% {CW}  {NL}  {FGR}§{NAM} {CW} ゴールドいただいてくぜ. {EL} 
+JAP=集金人┌どうだい! もうかっただろ? {NL}  とゆうわけで手数料として {CY} §§0% {CW}  {NL}  {CR}§{NAM} {CW} ゴールドいただいてくぜ. {EL} 
 
 OFFSET=15333e
 VALEUR=fdd4(d4fd)

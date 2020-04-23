@@ -55,6 +55,7 @@ public class Dokapon {
                 e.printStackTrace();
             }
         }
+        translator.checkTranslations(data);
         for (PointerTable table:tables) {
             DataReader.readTable(table, data);
         }

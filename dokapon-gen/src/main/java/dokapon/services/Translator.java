@@ -14,6 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import static dokapon.Constants.LENGTH_DIALOG_LINE;
+
 public class Translator {
 
     private List<Translation> translations = new ArrayList<>();
@@ -37,8 +39,14 @@ public class Translator {
                     if (split[0].equals(Constants.TRANSLATION_KEY_OFFSETDATA)) {
                         t.setOffsetData(Integer.parseInt(split[1], 16));
                     }
+                    if (split[0].equals(Constants.TRANSLATION_KEY_OFFSET)) {
+                        t.setOffset(Integer.parseInt(split[1], 16));
+                    }
                     if (split[0].equals(Constants.TRANSLATION_KEY_MENUDATA)) {
                         t.setMenuData(split[1]);
+                    }
+                    if (split[0].equals(Constants.TRANSLATION_KEY_VALUE)) {
+                        t.setValue(split[1]);
                     }
                     if (split[0].equals(Constants.TRANSLATION_KEY_ENG)) {
                         t.setTranslation(split[1]);
@@ -86,6 +94,7 @@ public class Translator {
         boolean skip = false;
         String skipped = "";
         boolean openQuote = true;
+        checkLineLength(eng.split("\\{NL\\}"));
         for (char c : eng.toCharArray()) {
             if (c == '{') {
                 skip = true;
@@ -128,6 +137,25 @@ public class Translator {
         return res.trim();
     }
 
+    private void checkLineLength(String[] lines) {
+        for (String eng:lines) {
+            String res = "";
+            boolean skip = false;
+            for (char c : eng.toCharArray()) {
+                if (c == '{') {
+                    skip = true;
+                } else if (c == '}') {
+                    skip = false;
+                } else {
+                    if (!skip) res += c;
+                }
+            }
+            if (res.length()>LENGTH_DIALOG_LINE) {
+                System.out.println("LINE TOO LONG "+res+" ("+res.length()+")");
+            }
+        }
+    }
+
     public String getJapanese(String codes, List<JapaneseChar> japaneseChars) {
         String[] split = codes.split(" ");
         String res = "";
@@ -164,4 +192,18 @@ public class Translator {
         return false;
     }
 
+    public void checkTranslations(byte[] data) {
+        int count = 0;
+        for (Translation t:translations) {
+            int a = (data[t.getOffset()] & 0xFF);
+            int b = (data[t.getOffset()+1] & 0xFF);
+            String val = Integer.toHexString(a)+Integer.toHexString(b);
+            if (!t.getValue().contains(val))
+            {
+                count++;
+                System.out.println(Integer.toHexString(t.getOffset())+" "+t.getValue()+" "+val);
+            }
+        }
+        System.out.println(count);
+    }
 }
