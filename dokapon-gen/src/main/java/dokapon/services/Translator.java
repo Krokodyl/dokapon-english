@@ -152,8 +152,26 @@ public class Translator {
             }
             if (res.length()>LENGTH_DIALOG_LINE) {
                 System.out.println("LINE TOO LONG "+res+" ("+res.length()+")");
+                System.out.println(insertLineBreak(res));
             }
         }
+    }
+
+    private String insertLineBreak(String line) {
+        String[] split = line.split(" ");
+        String res = "";
+        String segment = "";
+        for (String s:split) {
+            if ((segment+" "+s).length()>LENGTH_DIALOG_LINE) {
+                segment+="{NL}";
+                res += segment;
+                segment = s;
+            } else {
+                segment += " "+s;
+            }
+        }
+        res+=segment;
+        return res.trim()+"{EL}";
     }
 
     public String getJapanese(String codes, List<JapaneseChar> japaneseChars) {

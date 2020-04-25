@@ -143,7 +143,7 @@ VALEUR=86e2(e286)
 OFFSETDATA=1506e2
 DATA=7200 7e00 9600 2600 2500 1e00 2100 0200 4400 4700 4600 2900 2a00 b300 0100 2300 0220 4116 b245 0020 e000 2200 1400 b400 ffff 
 JAP=デビルになっていられるのは,あと{CY}{4116}{b245}{CW}日です.{EL}
-ENG=Remaining Devil days : {CY}{4116}{b245}{CW}.{EL}
+ENG=Remaining Devil days: {CY}{4116}{b245}{CW}.{EL}
 
 OFFSET=15002a
 VALEUR=8714(1487)
@@ -605,7 +605,7 @@ VALEUR=9460(6094)
 OFFSETDATA=151460
 DATA=0220 8214 5985 0020 2a00 b300 0501 0300 0e00 2300 2a00 2200 0800 3900 1600 4b00 b900 ffff 
 JAP={CY}{8214}{5985}{CW}は,使うことはできません!{EL}
-ENG={CY}{8214}{5985}{CW} can't use it!{EL}
+ENG=You can't use {CY}{8214}{5985}{CW}!{EL}
 
 OFFSET=1500ae
 VALEUR=9484(8494)
@@ -1073,7 +1073,7 @@ VALEUR=a072(72a0)
 OFFSETDATA=152072
 DATA=7400 5600 8800 9b00 1701 0600 7a01 7b01 2900 fc00 2600 1200 0600 0030 6300 8e00 9b00 8200 1400 4600 0e00 2300 2a00 2200 0800 3900 1600 4b00 b900 ffff 
 JAP=ドカポン城か自分の村にしか{NL}ジャンプすることはできません!{EL}
-ENG=You can only jump to Dokapon{NL}Castle or your village!{EL}
+ENG=You can only warp to Dokapon{NL}Castle or your village!{EL}
 
 OFFSET=150134
 VALEUR=a0ae(aea0)
@@ -1178,14 +1178,14 @@ VALEUR=a2ba(baa2)
 OFFSETDATA=1522ba
 DATA=7400 5600 8800 9b00 1701 3300 6300 8e00 9b00 8200 1200 3900 1400 0600 b800 ffff 
 JAP=ドカポン城へジャンプしますか?{EL}
-ENG=Do you want to jump to{NL}Dokapon Castle?{EL}
+ENG=Do you want to warp to{NL}Dokapon Castle?{EL}
 
 OFFSET=150152
 VALEUR=a2da(daa2)
 OFFSETDATA=1522da
 DATA=4214 5985 fc00 3300 6300 8e00 9b00 8200 1200 3900 1400 0600 b800 ffff 
 JAP={4214}{5985}村へジャンプしますか?{EL}
-ENG=Do you want to jump to {4214}{5985}?{EL}
+ENG=Do you want to warp to {4214}{5985}?{EL}
 
 OFFSET=150154
 VALEUR=a2f6(f6a2)
@@ -1395,7 +1395,7 @@ VALEUR=a7cc(cca7)
 OFFSETDATA=1527cc
 DATA=af00 f100 4500 8501 b000 0030 7b00 8100 9600 2900 2300 0300 2200 1400 b400 ffff 
 JAP=[入り口]{NL}バブルのとうです.{EL}
-ENG=[Entrance]{NL}To the Bubble Tower.{EL}
+ENG=[Entrance]{NL}To the Rabble Tower.{EL}
 
 OFFSET=150190
 VALEUR=a7ec(eca7)
@@ -1612,7 +1612,7 @@ VALEUR=acce(ceac)
 OFFSETDATA=152cce
 DATA=2400 2900 fc00 2600 6300 8e00 9b00 8200 1200 3900 1400 0600 b800 0030 5600 b500 6800 9600 2200 4e01 4b00 2200 0a00 1b00 1000 0200 b400 ffff 
 JAP=どの村にジャンプしますか?{NL}カーソルで選んでください.{EL}
-ENG=Which village do you want to{NL}jump to?{NL}Select with the cursor.{EL}
+ENG=Which village do you want to{NL}warp to?{NL}Select with the cursor.{EL}
 
 OFFSET=1501ce
 VALEUR=ad06(06ad)

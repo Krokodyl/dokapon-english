@@ -3,14 +3,14 @@ VALEUR=d0aa(aad0)
 OFFSETDATA=150aa
 DATA=6600 b500 9600 6400 8900 9b00 b600 0500 3900 0600 1600 8d00 b500 7400 2200 2a00 0030 bf00 0220 c400 8700 6a00 9b00 0020 4a00 2f01 1600 2b00 1800 2900 8900 6400 4a00 0030 bf00 f700 3400 4600 0e00 2300 0700 2200 0800 4600 2a00 1500 2200 1400 ffff 
 JAP=せールスマン┌おまかせモードでは{NL} {CY}Xボタン{CW}を押せばそのマスを{NL} 調べることができるはずです{EL}
-ENG=Salesman: {O-QUOTES}In Examine mode,{NL}you can see details of a{NL}square by pressing {CY}button X{CW}{C-QUOTES}{EL}
+ENG=Salesman: In Look mode,{NL}you can see details of a{NL}square by pressing {CY}button X{CW}{EL}
 
 OFFSET=14f60
 VALEUR=d10c(0cd1)
 OFFSETDATA=1510c
 DATA=6600 b500 9600 6400 8900 9b00 b600 fc00 2900 1101 1201 ee00 ef00 2a00 0030 bf00 0600 2500 4500 db01 0a00 2500 1e00 2100 0200 3900 1400 0030 bf00 0030 6600 b500 9600 6400 8900 9b00 b600 2500 4600 3400 0a00 1a00 0a00 1000 4b00 2900 fc00 4a00 7101 3902 1400 4700 2b00 b300 0030 bf00 1800 4700 1b00 0c00 3a02 f601 2600 3b02 2000 0c00 3900 1400 4300 b900 ffff 
 JAP=せールスマン┌村の資産価値は{NL} かなり高くなっています{NL} {NL}せールスマン┌なるべくたくさんの村を解放すれば,{NL} それだけ優勝に近づけますよ!{EL}
-ENG=Salesman: {O-QUOTES}Towns are really{NL}valuable. The more you own,{NL}the closer to victory.{C-QUOTES}{EL}
+ENG=Salesman: Towns are really{NL}valuable. The more you own,{NL}the closer to victory.{EL}
 
 OFFSET=14f6e
 VALEUR=d19a(9ad1)
@@ -24,203 +24,203 @@ VALEUR=d2c6(c6d2)
 OFFSETDATA=152c6
 DATA=1e01 e500 1f01 b600 7200 7e00 9600 2600 2500 1e00 1a00 2300 0800 b300 4d00 4f00 7100 8b00 b300 0030 bf00 0001 0101 0700 0501 0400 2500 0200 0600 4900 4500 2600 4f00 8400 9b00 7300 0700 0030 bf00 2401 0e00 1600 4600 4300 0300 2600 2500 4600 4b00 1b00 1700 0030 1e01 e500 1f01 b600 4f00 8400 9b00 7300 2a00 3d02 6a00 b500 9b00 0501 0400 4600 0700 b300 0030 bf00 1200 2b00 4400 0a00 0501 4900 2500 0200 2200 b300 1a00 3c00 2100 0500 0c00 2b00 9700 8400 9600 0700 0100 0700 1e00 2100 0030 bf00 0601 0a01 2500 4f00 8400 9b00 7300 4a00 2401 0e00 1600 4600 4300 0300 2600 2500 4600 4b00 1b00 ffff 
 JAP=集金人┌デビルになったとき,アイテム,{NL} 魔法が使えないかわりにイベントが{NL} 起こせるようになるんだぜ{NL}集金人┌イベントは毎ターン使えるが,{NL} しばらく使わないで,ためておけばレベルがあがって{NL} 強力なイベントを起こせるようになるんだ{EL}
-ENG=Taxman: {O-QUOTES}When you become the{NL}Devil, you can trigger special{NL}events every turn. The longer{NL}you wait, the more powerful{NL}they can be.{C-QUOTES}{EL}
+ENG=Tax Collector: When you{NL}become the Devil, you can{NL}trigger special events every{NL}turn. The longer you wait, the{NL}more powerful they can be.{EL}
 
 OFFSET=14f72
 VALEUR=d3b2(b2d3)
 OFFSETDATA=153b2
 DATA=1e01 e500 1f01 b600 7200 7e00 9600 2600 2500 1e00 2100 3d00 4c01 4a01 3300 2e01 0c00 2b00 0030 bf00 3d00 2400 4700 4600 4b00 1b00 b900 0030 bf00 7200 7e00 9600 2600 2500 1e00 2100 1000 4b00 1100 4b00 b300 0100 2b00 4700 3900 4900 1e00 1a00 4400 0030 1e01 e500 1f01 b600 4c01 4a01 2600 2e01 1e00 2100 1400 0b00 2600 3d00 2400 4500 b300 0030 bf00 8d00 9b00 6400 6a00 b500 4a00 9701 2e00 2201 1200 1a00 fc00 4a00 7101 3902 1200 3900 0a00 4700 2b00 0030 bf00 3e01 3f01 2500 4b00 0600 1400 0b00 2600 2200 0800 4600 1700 b900 ffff 
 JAP=集金人┌デビルになっても教会へ行けば{NL} もどれるんだ!{NL} デビルになってさんざん,あばれまわったら{NL}集金人┌教会に行ってすぐにもどり,{NL} モンスターを呼び出した村を解放しまくれば{NL} 逆転なんかすぐにできるぜ!{EL}
-ENG=Taxman: {O-QUOTES}If you become the{NL}Darkling, go to church. It is{NL}bad but it can be reversed.{C-QUOTES}{EL}
+ENG=Tax Collector: If you become{NL}the Devil, go to church. It is{NL}bad but it can be reversed.{EL}
 
 OFFSET=14f76
 VALEUR=d484(84d4)
 OFFSETDATA=15484
 DATA=1e01 e500 1f01 b600 7200 7e00 9600 2600 2500 1e00 1a00 4400 0030 bf00 0401 2900 8200 9700 4f00 8f00 b500 4a00 2800 4400 0300 2900 3d00 4501 1b00 2500 b900 0030 bf00 0f01 1001 4a00 1200 0600 0c00 4700 2b00 b300 3900 1500 1b02 0c00 4600 0e00 2300 2a00 2500 0200 0030 1e01 e500 1f01 b600 f601 1e00 1a00 4400 0701 0801 4a00 0300 2b00 0300 4b00 1b00 b300 0030 bf00 1800 2900 8200 9700 4f00 8f00 b500 2a00 b300 1200 2b00 4400 0a00 fb01 2401 9801 3e02 2600 2500 4600 2a00 1500 1b00 0030 bf00 2200 3d00 b300 7200 7e00 9600 2900 5e00 9900 6000 2a00 0e00 4b00 2500 3d00 4b00 1300 3e00 2800 0400 1700 b900 ffff 
 JAP=集金人┌デビルになったら{NL} 他のプレイヤーをねらうのも手だな!{NL} 戦闘をしかければ,まず負けることはない{NL}集金人┌勝ったら武器をうばうんだ,{NL} そのプレイヤーは,しばらく再起不能になるはずだ{NL} でも,デビルのコワサはこんなもんじゃねえぜ!{EL}
-ENG=Taxman: {O-QUOTES}When you become the{NL}Devil, it's time to attack{NL}other players. If you hit{NL}first, you never lose. Then{NL}you can take their weapon,{NL}they'll never catch up!{C-QUOTES}{EL}
+ENG=Tax Collector: When you{NL}become the Devil, it's time to{NL}attack other players. If you{NL}hit first, you never lose.{NL}Then you can take their{NL}weapon, they'll never catch{NL}up!{EL}
 
 OFFSET=14f7a
 VALEUR=d574(74d5)
 OFFSETDATA=15574
 DATA=1e01 e500 1f01 b600 7200 7e00 9600 2900 f500 f600 0a01 2a00 6b00 7100 1300 3e00 2800 0400 0030 bf00 3d02 6a00 b500 9b00 b300 0220 7b00 7b00 7b00 4f00 9b00 0020 e501 e601 1b00 b900 ffff 
 JAP=集金人┌デビルの移動力はダテじゃねえ{NL} 毎ターン,{CY}バババイン{CW}状態だ!{EL}
-ENG=Taxman: {O-QUOTES}Every turn, the{NL}Darkling has multiple spinners{NL}to move.{C-QUOTES}{EL}
+ENG=Tax Collector: Every turn,{NL}the Devil has multiple{NL}spinners to move.{EL}
 
 OFFSET=14f7e
 VALEUR=d5be(bed5)
 OFFSETDATA=155be
 DATA=1e01 e500 1f01 b600 7e00 6e00 5a00 8d00 9b00 6400 6a00 b500 2900 4f00 8400 9b00 7300 4a00 4c01 0400 2100 3f00 4600 4300 b900 0030 bf00 af00 ed00 8d00 9b00 6400 6a00 b500 2900 c200 c300 0b01 0c01 b000 0030 bf00 af00 8000 4e00 b500 9600 7400 0001 0101 4a00 ed00 8200 9700 4f00 8f00 b500 2600 0600 0c00 4600 b000 0030 bf00 af00 8900 6e00 8200 2900 2400 0e00 0600 2600 7300 b500 9700 7500 8701 4a00 2201 3201 1000 1600 4600 b000 0030 bf00 af00 7400 5600 8800 9b00 4601 c601 2d01 4a00 0a00 4400 3f00 3a00 2600 1400 4600 b000 0030 bf00 af00 ed00 6501 1e01 f200 b000 0030 1e01 e500 1f01 b600 3600 0600 2600 3d00 0100 1e00 1a00 0c00 2400 b300 1802 4700 1c00 3900 1e00 1a00 4300 b900 ffff 
 JAP=集金人┌ビックモンスターのイベントを教えてやるよ!{NL} [全モンスターのHP回復]{NL} [フィールド魔法を全プレイヤーにかける]{NL} [マップのどこかにトーレナ岩を出現させる]{NL} [ドカポン王国中をくらやみにする]{NL} [全員集合]{NL}集金人┌ほかにもあったけど,忘れちまったよ!{EL}
-ENG=Taxman: {O-QUOTES}Here are the special{NL}powers of the bosses:{NL}-Recover HP of all monsters{NL}-Field Magic on all players{NL}-Spawn a rock on the map{NL}-Darkness on the kingdom{NL}-Gather everyone{NL}There's more but I forgot.{C-QUOTES}{EL}
+ENG=Tax Collector: I will tell you{NL}about the Big Monster event:{NL}-Recover HP of all monsters{NL}-Field Magic on all players{NL}-Spawn a rock on the map{NL}-Darkness on the kingdom{NL}-Gather everyone{NL}There's more but I forgot.{EL}
 
 OFFSET=14f82
 VALEUR=d6ce(ced6)
 OFFSETDATA=156ce
 DATA=1e01 e500 1f01 b600 5801 0b01 2a00 8d00 9b00 6400 6a00 b500 2600 3d00 9700 8400 9600 0700 1f00 0200 1a00 4b00 1b00 b900 0030 bf00 9c01 1300 9700 8400 9600 2500 4400 3900 1500 b300 3c01 f900 2200 6702 1600 4600 1b00 4800 0300 0030 bf00 7a01 7b01 4300 4500 9700 8400 9600 0700 db01 0200 8d00 9b00 6400 6a00 b500 2500 4400 9f00 9f00 9f00 0030 1e01 e500 1f01 b600 7c00 9400 8c00 b500 6a00 4a00 4300 0a00 bc01 2100 0f01 0300 4b00 1b00 2500 b900 ffff 
 JAP=集金人┌今回はモンスターにもレベルがついたんだ!{NL} 同じレベルならまず,一撃で倒せるだろう{NL} 自分よりレベルが高いモンスターなら...{NL}集金人┌パラメータをよく見て戦うんだな!{EL}
-ENG=Taxman: {O-QUOTES}At equal level, you{NL}can one-shot monsters. For{NL}stronger monsters, take a good{NL}look at the stats.{C-QUOTES}{EL}
+ENG=Tax Collector: At equal{NL}level, you can one-shot{NL}monsters. For stronger{NL}monsters, take a good look at{NL}the stats.{EL}
 
 OFFSET=14f84
 VALEUR=d780(80d7)
 OFFSETDATA=15780
 DATA=8a00 6e00 6c00 b500 b600 0220 fa00 fb00 0001 0101 0020 2a00 2701 1500 4501 2600 f100 4700 1a00 2102 0700 0200 0200 2200 0030 bf00 0220 fa00 fb00 0001 0101 0020 0700 2500 0c00 4500 3e00 b300 0030 bf00 9401 4501 2900 f800 f900 0001 0101 2600 3c02 1200 2100 6601 0a01 3f00 0600 4400 2500 ffff 
 JAP=ミッチー┌{CY}防御魔法{CW}は必ず手に入れた方がいいで{NL} {CY}防御魔法{CW}がなけりゃ,{NL} 相手の攻撃魔法に対して無力やからな{EL}
-ENG=Michie:{C-QUOTES}Magic guard is good{NL}against the opponent's{NL}attack magic.{C-QUOTES}{EL
+ENG=Mitch: You should definitely{NL}get {CY}defense magic{CW}.If you don't{NL}have {CY}defense magic{CW}, you're{NL}helpless against your{NL}opponent's attack magic.{EL}
 
 OFFSET=14f8a
 VALEUR=d7f4(f4d7)
 OFFSETDATA=157f4
 DATA=8a00 6e00 6c00 b500 b600 1601 1701 4a00 4501 2600 f100 4700 1a00 4400 1800 2900 1401 1501 b001 2900 fc00 4a00 0030 bf00 2500 4600 3400 0a00 1a00 0a00 1000 4b00 7101 3902 1400 4600 4b00 3f00 ffff 
 JAP=ミッチー┌小城を手に入れたらその大陸内の村を{NL} なるべくたくさん解放するんや{EL}
-ENG=Michie: {O-QUOTES}When you own a castle{NL}you increase the revenue by{NL}freeing towns on the same{NL}continent.{C-QUOTES}{EL}
+ENG=Mitch: Once you own a castle,{NL}you should free as many towns{NL}on that continent as much as{NL}possible.{EL}
 
 OFFSET=14f8e
 VALEUR=d842(42d8)
 OFFSETDATA=15842
 DATA=8a00 6e00 6c00 b500 b600 7e00 6e00 5a00 8d00 9b00 6400 6a00 b500 2600 3d00 0001 0101 0700 0600 0c00 4400 4700 4600 4b00 3f00 0030 bf00 0f01 3f02 1200 1b00 0200 1300 3e00 9e01 9f01 2600 2500 4700 4600 2a00 1500 3f00 2200 ffff 
 JAP=ミッチー┌ビックモンスターにも魔法がかけられるんや{NL} 戦略しだいじゃ有利になれるはずやで{EL}
-ENG=Michie: {O-QUOTES}Magic also affects{NL}bosses. Use it to your{NL}advantage.{C-QUOTES}{EL}
+ENG=Mitch: Big monsters can also{NL}be targeted with magic. Use it{NL}to your advantage.{EL}
 
 OFFSET=14f90
 VALEUR=d89c(9cd8)
 OFFSETDATA=1589c
 DATA=8a00 6e00 6c00 b500 b600 1401 0800 2500 ac01 1300 3e00 2002 0400 4b00 0700 0030 bf00 5801 0b01 2a00 b300 0500 f400 4a00 0500 1800 0300 0e00 2300 3d00 2200 0800 4600 1e00 1c00 4000 0300 ff01 3f00 2200 ffff 
 JAP=ミッチー┌大きな声じゃ言えんが{NL} 今回は,お店をおそうこともできるっちゅう話やで{EL}
-ENG=Michie: {O-QUOTES}You know it is{NL}possible to attack the shops.{C-QUOTES}{EL}
+ENG=Mitch: I can't talk too loud.{NL}Know that you can rob the{NL}shops.{EL}
 
 OFFSET=14f92
 VALEUR=d8ee(eed8)
 OFFSETDATA=158ee
 DATA=0500 4002 1000 4b00 b600 5001 2600 4300 1e00 2100 1801 2700 0e00 2300 2a00 0100 4500 3900 1600 4b00 0700 0030 bf00 6c01 6d01 2600 c200 c300 2a00 0c00 1500 4400 4700 2100 0200 1e00 2100 1200 3900 0200 3900 1400 4300 ffff 
 JAP=お姉さん┌毒によって死ぬことはありませんが{NL} 確実にHPはけずられていってしまいますよ{EL}
-ENG=Old sister: {O-QUOTES}You can't die{NL}from poison but{NL}it surely drains your HP.{C-QUOTES}{EL}
+ENG=Old sister: You can't die{NL}from poison but{NL}it surely drains your HP.{EL}
 
 OFFSET=14fa4
 VALEUR=d946(46d9)
 OFFSETDATA=15946
 DATA=0500 4002 1000 4b00 b600 f400 2600 f100 4600 2300 0800 2a00 3501 4a00 1f00 0c00 2100 0a00 1b00 1000 0200 0030 bf00 0420 e600 0020 e700 e000 2a00 4102 1b01 e000 2200 0220 ed00 3802 a200 a500 b100 0020 cc00 cd00 cd00 0030 bf00 2200 3d00 0120 e000 0020 e700 e000 2a00 7f01 1301 e000 2500 4b00 2200 1400 ffff 
 JAP=お姉さん┌店に入るときは気をつけてください{NL} {FGB}士{CW}曜日は特売日で{CY}全額25%{CW}OFF{NL} でも{FGR}日{CW}曜日は定休日なんです{EL}
-ENG=Older sister: {O-QUOTES}On a sale day,{NL}you get 25% off at the shop.{NL}On Sundays, it's closed.{C-QUOTES}{EL}
+ENG=Older sister: On a sale day,{NL}you get 25% off at the shop.{NL}On Sundays, it's closed.{EL}
 
 OFFSET=14fa8
 VALEUR=d9c0(c0d9)
 OFFSETDATA=159c0
 DATA=0500 4002 1000 4b00 b600 7400 5600 8800 9b00 4601 c601 2600 2a00 0030 bf00 4202 4302 1701 2600 3900 1f00 4900 4600 d301 d401 0700 0100 4500 3900 1400 0030 bf00 1800 2900 3b00 0600 1200 b300 4202 4302 4a00 0100 0700 3c00 4600 1f01 ba00 2a00 0030 0500 4002 1000 4b00 b600 7e00 7e00 9600 8900 5100 9b00 7100 9b00 4a00 ea00 be01 1200 1a00 1800 0300 2200 1400 ffff 
 JAP=お姉さん┌ドカポン王国には{NL} 天空城にまつわる伝説があります{NL} そのむかし,天空をあがめる人 は{NL}お姉さん┌ビビルマウンテンを目指したそうです{EL}
-ENG=Older sister: {O-QUOTES}There is a{NL}legend about a {CY}Sky Castle{CW}.{NL}Long ago, people worshipped{NL}the sky on top of the{NL}{CY}Freaky Mountain{CW}.{C-QUOTES}{EL}
+ENG=Older sister: There is a{NL}legend about a {CY}Sky Castle{CW}.{NL}Long ago, people worshipped{NL}the sky on top of the{NL}{CY}Freaky Mountain{CW}.{EL}
 
 OFFSET=14faa
 VALEUR=da50(50da)
 OFFSETDATA=15a50
 DATA=0500 4002 1000 4b00 b600 fc00 2200 2a00 c200 c300 2900 0b01 0c01 1200 0600 2200 0800 3900 1600 4b00 0030 bf00 0220 5001 0020 3f00 b300 0220 2900 4800 0200 0020 2a00 4c01 4a01 0600 7400 5600 8800 9b00 1701 2200 0030 bf00 0301 1200 2100 3d00 4400 1e00 2100 0a00 1b00 1000 0200 ffff 
 JAP=お姉さん┌村ではHPの回復しかできません{NL} {CY}毒{CW}や,{CY}のろい{CW}は教会かドカポン城で{NL} 治してもらってください{EL}
-ENG=Older sister:{C-QUOTES}In a village,{NL}you can only recover HP.{NL}To cure {CY}poison{CW} or {CY}curse{CW} go{NL}to church or castle.{C-QUOTES}{EL}
+ENG=Older sister:In a village,{NL}you can only recover HP.{NL}To cure {CY}poison{CW} or {CY}curse{CW} go{NL}to church or castle.{EL}
 
 OFFSET=14fac
 VALEUR=dac0(c0da)
 OFFSETDATA=15ac0
 DATA=5700 6e00 6f00 b600 3b01 3801 3901 2900 2d01 9601 2a00 b300 0002 2900 1401 1501 3600 2400 0030 bf00 0200 0200 3d00 2900 0700 f100 1e00 2100 0200 4600 4b00 1b00 1700 b900 0030 bf00 1800 2900 3100 4b00 9500 6400 5a00 3d00 7200 5600 4f00 0c00 2400 2500 b900 ffff 
 JAP=ガッツ┌赤宝箱の中身は,先の大陸ほど{NL} いいものが入っているんだぜ!{NL} そのぶんリスクもデカイけどな!{EL}
-ENG=Guts:{C-QUOTES}Red treasure boxes{NL}contain very good things but{NL}it can be risky.{C-QUOTES}{EL}
+ENG=Guts:Red treasure boxes{NL}contain very good things but{NL}it can be risky.{EL}
 
 OFFSET=14fae
 VALEUR=db28(28db)
 OFFSETDATA=15b28
 DATA=5700 6e00 6f00 b600 d301 d401 2600 0100 4600 0220 7400 5600 8800 9b00 9500 9b00 5b00 0020 0030 bf00 3c01 ae01 2200 0200 0200 0600 4400 0500 ea00 2600 0600 0600 1e00 2100 3a00 2100 0400 2500 ffff 
 JAP=ガッツ┌伝説にある{CY}ドカポンリング{CW}{NL} 一度でいいからお目にかかってみてえな{EL}
-ENG=Guts:{C-QUOTES}I want to find the{NL}{CY}Dokapon Ring{CW} and become{NL}a legend.{C-QUOTES}{EL}
+ENG=Guts:I want to find the{NL}{CY}Dokapon Ring{CW} and become{NL}a legend.{EL}
 
 OFFSET=14fb2
 VALEUR=db76(76db)
 OFFSETDATA=15b76
 DATA=5700 6e00 6f00 b600 2400 0300 0a00 1f00 2500 2400 2900 2302 8900 6e00 8200 2600 2a00 0030 bf00 0220 3900 3600 0300 2900 5600 5900 0020 2200 1200 0600 4101 0600 2500 0200 3801 3901 0700 0100 4600 4400 1200 0200 ffff 
 JAP=ガッツ┌どうくつなどの別マップには{NL} {CY}まほうのカギ{CW}でしか開かない宝箱があるらしい{EL}
-ENG=Guts:{C-QUOTES}In some dungeons, there{NL}are treasure boxes that only{NL}open with a {CY}Magic Key{CW}.{C-QUOTES}{EL}
+ENG=Guts:In some dungeons, there{NL}are treasure boxes that only{NL}open with a {CY}Magic Key{CW}.{EL}
 
 OFFSET=14fb4
 VALEUR=dbcc(ccdb)
 OFFSETDATA=15bcc
 DATA=9400 6e00 6f00 b600 0701 0801 2900 2d01 2600 2a00 2900 4800 4900 4700 1a00 4d01 3d00 0100 4600 4400 1200 0200 0030 bf00 1800 0300 0200 1e00 1a00 3d00 2900 2a00 b300 f400 1300 3e00 1a01 0200 6801 1e00 2100 3d00 4400 0400 2800 0400 0030 bf00 4c01 4a01 2600 2200 3d00 2e01 1e00 2100 b300 2900 4800 0200 4a00 2300 0200 2100 3d00 4400 4900 2500 0c00 4500 3e00 2500 ffff 
 JAP=ラッツ┌武器の中にはのろわれた物もあるらしい{NL} そういったものは,店じゃ買い取ってもらえねえ{NL} 教会にでも行って,のろいをといてもらわなけりゃな{EL}
-ENG=Lutz:{C-QUOTES}Some weapons are cursed.{NL}Go to a church to remove it.{C-QUOTES}{EL}
+ENG=Lutz:Some weapons are cursed.{NL}Go to a church to remove it.{EL}
 
 OFFSET=14fb8
 VALEUR=dc5e(5edc)
 OFFSETDATA=15c5e
 DATA=9400 6e00 6f00 b600 0701 0801 2900 2500 0600 2600 2a00 9401 4501 4a00 2800 3b00 4400 1600 1a00 4500 0030 bf00 5001 4a00 0100 1a00 0400 1a00 4500 1400 4600 4d01 3d00 0100 4600 4400 1200 0200 1700 b900 ffff 
 JAP=ラッツ┌武器のなかには相手をねむらせたり{NL} 毒をあたえたりする物もあるらしいぜ!{EL}
-ENG=Lutz:{C-QUOTES}Some weapons can put{NL}{CY}Poison{CW} or {CY}Sleepy{CW}{NL}on your opponent.{C-QUOTES}{EL}
+ENG=Lutz:Some weapons can put{NL}{CY}Poison{CW} or {CY}Sleepy{CW}{NL}on your opponent.{EL}
 
 OFFSET=14fbc
 VALEUR=dcb0(b0dc)
 OFFSETDATA=15cb0
 DATA=9900 6e00 6f00 b600 8f01 4001 6901 9001 2600 2a00 0030 bf00 7c00 9900 b500 9500 9b00 5b00 0700 0100 4600 1e00 2100 ff01 1b00 1700 ffff 
 JAP=ワッツ┌海底神殿には{NL} パワーリングがあるって話だぜ{EL}
-ENG=Watts:{C-QUOTES}They say there is a{NL}powerful ring in the{NL}{CY}Sea Temple{CW}.{C-QUOTES}
+ENG=Watts:They say there is a{NL}powerful ring in the{NL}{CY}Sea Temple{CW}.
 
 OFFSET=14fc0
 VALEUR=dce6(e6dc)
 OFFSETDATA=15ce6
 DATA=9900 6e00 6f00 b600 7e00 7e00 9600 8900 5100 9b00 7100 9b00 2600 2a00 0030 bf00 6400 7f00 b500 7400 9500 9b00 5b00 0700 0100 4600 1e00 2100 0300 4900 1000 1b00 b900 ffff 
 JAP=ワッツ┌ビビルマウンテンには{NL} スピードリングがあるってうわさだ!{EL}
-ENG=Watts:{C-QUOTES}They say there is a{NL}speed ring in the{NL}{CY}Freaky Mountains{CW}.{C-QUOTES}{EL}
+ENG=Watts:They say there is a{NL}speed ring in the{NL}{CY}Freaky Mountains{CW}.{EL}
 
 OFFSET=14fc2
 VALEUR=dd2a(2add)
 OFFSETDATA=15d2a
 DATA=9900 6e00 6f00 b600 4d00 5600 8000 9500 1401 1501 2900 1000 2b00 0a00 2900 2d01 2600 0030 bf00 7f00 9400 8a00 6e00 7400 0700 0100 4600 4b00 1b00 b900 0030 bf00 1800 2900 2d01 2600 2a00 6200 b500 9600 7400 9500 9b00 5b00 1e00 2100 4100 2e00 4900 0700 0100 4600 4400 1200 0200 1900 ffff 
 JAP=ワッツ┌アカフリ大陸のさばくの中に{NL} ピラミッドがあるんだ!{NL} その中にはシールドリングってゆびわがあるらしいぞ{EL}
-ENG=Watts:{C-QUOTES}In Africa, there are{NL}pyramids in the desert.{NL}There is a shield ring.{C-QUOTES}{EL}
+ENG=Watts:In Africa, there are{NL}pyramids in the desert.{NL}There is a shield ring.{EL}
 
 OFFSET=14fc4
 VALEUR=dd9c(9cdd)
 OFFSETDATA=15d9c
 DATA=2702 1f01 b600 7c00 9900 b500 b300 6400 7f00 b500 7400 b300 6200 b500 9600 7400 2900 a300 1f00 2900 9500 9b00 5b00 0030 bf00 0e00 4700 4400 0700 0100 4700 2b00 b300 0e00 4900 0200 3d00 2900 2500 1200 1300 3e00 2500 ffff 
 JAP=老人┌パワー,スピード,シールドの3つのリング{NL} これらがあれば,こわいものなしじゃな{EL}
-ENG=Old man:{C-QUOTES}Power ring,{NL}speed ring, shield rings.{NL}If you have these,{NL}nothing will scare you.{C-QUOTES}{EL}
+ENG=Beggar:Power ring,{NL}speed ring, shield rings.{NL}If you have these,{NL}nothing will scare you.{EL}
 
 OFFSET=14fc6
 VALEUR=ddf4(f4dd)
 OFFSETDATA=15df4
 DATA=2702 1f01 b600 2400 0300 0a00 1f00 2500 2400 2900 2302 8900 6e00 8200 2200 2a00 0030 bf00 8000 4e00 b500 9600 7400 0001 0101 2a00 0501 0400 4b00 4300 0030 bf00 3501 4a00 1f00 0c00 4600 4b00 1300 3e00 2500 ffff 
 JAP=老人┌どうくつなどの別マップでは{NL} フィールド魔法は使えんよ{NL} 気をつけるんじゃな{EL}
-ENG=Old man: {O-QUOTES}In some dungeons,{NL}field magic do not work.{NL}Be careful.{C-QUOTES}{EL}
+ENG=Beggar: In some dungeons,{NL}field magic do not work.{NL}Be careful.{EL}
 
 OFFSET=14fcc
 VALEUR=de48(48de)
 OFFSETDATA=15e48
 DATA=2702 1f01 b600 3c01 1002 0601 0200 0001 0101 2a00 0220 7c00 8500 6e00 7300 0020 1300 3e00 4300 0030 bf00 0100 3f00 1f00 1e00 2100 b300 1800 0200 1f00 2900 3c01 1002 0a00 4600 1200 3b00 2300 9901 0300 0e00 2300 4a00 0030 bf00 1400 4600 4b00 1300 3e00 0030 2702 1f01 b600 1a00 2300 0400 2b00 b300 7a00 6b00 5600 2600 1200 2100 1200 3900 0300 2300 0600 2500 9f00 9f00 9f00 0030 bf00 2d00 1e00 2d00 1e00 2d00 1e00 9f00 9f00 9f00 ffff 
 JAP=老人┌一番強い魔法は{CY}パペット{CW}じゃよ{NL} あやつって,そいつの一番くるしむと思うことを{NL} するんじゃ{NL}老人┌たとえば,ハダカにしてしまうとかな...{NL} ひっひっひっ...{EL}
-ENG=Old man: {O-QUOTES}The strongest magic{NL}of all is {CY}Puppet{CW}. It is very{NL}powerful. For example, that's{NL}how one can end up naked. {NL}Hihihi.{C-QUOTES}{EL}
+ENG=Beggar: The strongest magic{NL}of all is {CY}Puppet{CW}. It is very{NL}powerful. For example, that's{NL}how one can end up naked. {NL}Hihihi.{EL}
 
 OFFSET=14fce
 VALEUR=def4(f4de)
 OFFSETDATA=15ef4
 DATA=2702 1f01 b600 9900 7500 2600 2a00 3501 4a00 1f00 0c00 4600 4b00 1300 3e00 b900 0030 bf00 7300 6e00 8200 2900 3101 3600 2400 9900 7500 2900 b001 4402 0700 5800 5c00 9b00 2500 3d00 2900 2600 2500 4600 4b00 1300 3e00 0030 bf00 3d00 1200 3d00 b300 0100 4b00 1a00 0700 7300 6e00 8200 2600 2500 1e00 1a00 4400 b300 0030 2702 1f01 b600 0401 1f01 0700 1200 0600 0c00 1a00 9900 7500 2900 ec00 7601 0b00 4400 0200 0030 bf00 7001 0400 2100 0500 0a00 4b00 1300 3e00 2500 ffff 
 JAP=老人┌ワナには気をつけるんじゃ!{NL} トップの者ほどワナの内容がキケンなものになるんじゃ{NL} もしも,あんたがトップになったら,{NL}老人┌他人がしかけたワナの位置ぐらい{NL} 覚えておくんじゃな{EL}
-ENG=Old man: {O-QUOTES}Be wary of traps.{NL}For if you fall into one,{NL}you become vulnerable.{NL}Remember where traps are.{C-QUOTES}{EL}
+ENG=Beggar: Be wary of traps.{NL}For if you fall into one,{NL}you become vulnerable.{NL}Remember where traps are.{EL}
 
 OFFSET=14fd2
 VALEUR=dfae(aedf)
 OFFSETDATA=15fae
 DATA=2702 1f01 b600 0220 0e00 0700 2800 3b00 1200 0020 2a00 1b01 4600 2300 db01 0a00 1b01 4700 4600 0700 0030 bf00 8201 e500 4a00 1200 2100 0200 4600 2300 0800 2600 0501 5d01 1400 4600 2300 0030 bf00 8201 e500 0700 a000 2600 2500 4600 4b00 1300 3e00 b900 0030 2702 1f01 b600 1200 0600 1200 b300 5f01 6001 1400 4600 2300 0030 bf00 8201 e500 3900 2200 a200 8401 2600 2500 1e00 2100 1200 3900 0300 4b00 1300 3e00 ffff 
 JAP=老人┌{CY}こがねむし{CW}は売ると高く売れるが{NL} 惜金をしているときに使用すると{NL} 惜金が0になるんじゃ!{NL}老人┌しかし,失敗すると{NL} 惜金まで2倍になってしまうんじゃ{EL}
-ENG=Old man: {O-QUOTES}{CY}Gold Bug{CW} can double {NL}your gold. But if it fails,{NL}you lose it all.{C-QUOTES}{EL}
+ENG=Beggar: {CY}Gold Bug{CW} can double {NL}your gold. But if it fails,{NL}you lose it all.{EL}
 
 OFFSET=14fd6
 VALEUR=e052(52e0)
 OFFSETDATA=16052
 DATA=2702 1f01 b600 7400 5600 8800 9b00 4601 c601 2600 2a00 b300 1000 3900 1100 3900 2500 3801 3901 0700 0100 4600 0700 0030 bf00 1800 2900 2d01 2200 3d00 b701 db01 2900 4d01 0700 ef01 3801 3901 1300 3e00 b900 0030 bf00 ef01 3801 3901 2a00 b300 3b01 3801 3901 2300 1c00 0700 0200 7900 b500 9500 6400 5a00 b900 0030 2702 1f01 b600 1200 0600 3d00 b300 2d01 9601 2a00 0800 1c00 4200 0300 2500 8d00 7900 2b00 0600 4500 2500 4b00 1300 3e00 b900 0030 bf00 1200 0600 1200 b300 2400 0e00 2600 ef01 3801 3901 0700 0100 4600 0600 9f00 9f00 9f00 7500 6900 2500 4b00 1300 3e00 ffff 
 JAP=老人┌ドカポン王国には,さまざまな宝箱があるが{NL} その中でも最高の物が白宝箱じゃ!{NL} 白宝箱は,赤宝箱とちがいノーリスク!{NL}老人┌しかも,中身はきちょうなモノばかりなんじゃ!{NL} しかし,どこに白宝箱があるか...ナゾなんじゃ{EL}
-ENG=Old man: {O-QUOTES}There are many{NL}different chests. But the best{NL}ones are white.{NL}They're like red chests with{NL}no risk.{NL}Their location is a mystery.{C-QUOTES}{EL}
+ENG=Beggar: There are many{NL}different chests. But the best{NL}ones are white.{NL}They're like red chests with{NL}no risk.{NL}Their location is a mystery.{EL}
 
 OFFSET=14fda
 VALEUR=e134(34e1)
 OFFSETDATA=16134
 DATA=2702 1f01 b600 0220 7e00 7e00 7b00 7e00 7200 8100 b500 0020 2900 7201 7301 4a00 4c01 0400 2100 3f00 4800 0300 0030 bf00 af00 0501 5d01 1200 1a00 1401 1501 b001 2600 fe00 9d01 2900 0220 9900 7500 0020 4a00 7601 0a00 b000 0030 bf00 af00 ed00 2100 2900 8200 9700 4f00 8f00 b500 2900 0220 0e01 1c00 4d01 0020 0700 f100 4700 9b01 4900 4600 b000 0030 bf00 af00 ed00 2100 2900 8200 9700 4f00 8f00 b500 2900 0220 6802 6902 0020 0700 f100 4700 9b01 4900 4600 b000 0030 bf00 af00 ed00 2100 2900 8200 9700 4f00 8f00 b500 2900 0220 0d01 0e01 e500 0020 0700 f100 4700 9b01 4900 4600 b000 0030 bf00 af00 0501 5d01 1200 1a00 8200 9700 4f00 8f00 b500 2900 7c00 9400 8c00 b500 6a00 0700 ed00 2100 a200 4d00 6e00 8200 1400 4600 b000 0030 2702 1f01 b600 2500 0600 2500 0600 0500 3d00 1200 4800 0200 0001 0101 1300 3e00 4800 9f00 9f00 9f00 ffff 
 JAP=老人┌{CY}ビビバビデブー{CW}の効果を教えてやろう{NL} [使用した大陸内に数個の{CY}ワナ{CW}を置く]{NL} [全てのプレイヤーの{CY}持ち物{CW}が入れ替わる]{NL} [全てのプレイヤーの{CY}装備{CW}が入れ替わる]{NL} [全てのプレイヤーの{CY}所持金{CW}が入れ替わる]{NL} [使用したプレイヤーのパラメータが全て2アップする]{NL}老人┌なかなかおもしろい魔法じゃろ...{EL}
-ENG=Old man: {O-QUOTES}The effect of Mix-up{NL}is one of the following :{NL}-Put many {CY}traps{CW} on the map{NL}-Mix all players' {CY}items{CW}.{NL}-Mix all players' {CY}equipment{CW}.{NL}-Mix all players' {CY}gold{CW}.{NL}-Change all players' {CY}stats{CW}.{NL}It's quite a funny magic.{EL}
+ENG=Beggar: The effect of Mix-up{NL}is one of the following :{NL}-Put many {CY}traps{CW} on the map{NL}-Mix all players' {CY}items{CW}.{NL}-Mix all players' {CY}equipment{CW}.{NL}-Mix all players' {CY}gold{CW}.{NL}-Change all players' {CY}stats{CW}.{NL}It's quite a funny magic.{EL}
 
 OFFSET=14fdc
 VALEUR=e27e(7ee2)
@@ -591,7 +591,7 @@ VALEUR=f12e(2ef1)
 OFFSETDATA=1712e
 DATA=7400 5600 8800 9b00 4601 c601 2900 4f00 8400 9b00 7300 2600 0220 3100 1300 4000 1f00 0600 0200 0020 0700 0100 4500 3900 1400 b400 0030 0e00 4700 2600 e001 2c01 1400 4600 b300 3100 2300 0300 0600 2900 fd00 2a00 b800 ffff 
 JAP=ドカポン王国のイベントに{CY}ぶじゅつかい{CW}があります.{NL}これに登場する,ぶとうかの名は?{EL}
-ENG=There is a martial arts expert{NL}in Dokapon Kingdom.{NL}What's his name ?{EL}
+ENG=There is a martial arts expert{NL}in Dokapon Kingdom.{NL}What's his name?{EL}
 
 OFFSET=1504a
 VALEUR=f186(86f1)
@@ -612,14 +612,14 @@ VALEUR=f1d6(d6f1)
 OFFSETDATA=171d6
 DATA=b701 1e02 2900 6b00 9b00 6300 9200 9b00 0220 7b00 8100 9600 2900 2300 0300 0020 0030 0200 1e00 1a00 0200 b300 2501 de01 fc01 2100 b800 ffff 
 JAP=最後のダンジョン{CY}バブルのとう{CW}{NL}いったい,何階建て?{EL}
-ENG=In which mode is the dungeon{NL}{CY}Bubble Tower{CW}?{EL}
+ENG=In which mode is the dungeon{NL}{CY}Rabble Tower{CW}?{EL}
 
 OFFSET=15050
 VALEUR=f20e(0ef2)
 OFFSETDATA=1720e
 DATA=7400 5600 8800 9b00 4601 c601 2600 e001 2c01 1400 4600 6100 5e00 8d00 9b00 6400 6a00 b500 2200 0030 3c01 1002 9700 8400 9600 0700 db01 0200 2900 2a00 2400 4700 b800 ffff 
 JAP=ドカポン王国に登場するザコモンスターで{NL}一番レベルが高いのはどれ?{EL}
-ENG=What is the highest-level{NL}monster?{EL}
+ENG=What is the highest-level{NL} small monster?{EL}
 
 OFFSET=15052
 VALEUR=f252(52f2)
@@ -745,42 +745,42 @@ VALEUR=f674(74f6)
 OFFSETDATA=17674
 DATA=4601 4701 b600 4300 0a00 4301 2100 0a00 4700 1a00 1b00 2b00 b300 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌よく来てくれただば,勇者しょくん!{EL}
-ENG=King: {O-QUOTES}Welcome, brave{NL} heroes!{C-QUOTES}{EL}
+ENG=King: Welcome, brave{NL} heroes!{EL}
 
 OFFSET=1507a
 VALEUR=f69e(9ef6)
 OFFSETDATA=1769e
 DATA=4601 4701 b600 1800 4b00 1b00 2b00 b300 3401 3101 2900 2201 3d01 1b00 2b00 b900 0030 bf00 3a00 2500 2900 3d00 2900 b300 ee01 4a00 4101 0c00 4600 1b00 2b00 b900 ffff 
 JAP=王様┌そんだば,勇者の出発だば!{NL} みなのもの,門を開けるだば!{EL}
-ENG=King: {O-QUOTES}You are all packed and{NL}ready to go.{NL}Open the gate!{C-QUOTES}{EL}
+ENG=King: You are all packed and{NL}ready to go.{NL}Open the gate!{EL}
 
 OFFSET=1507c
 VALEUR=f6e0(e0f6)
 OFFSETDATA=176e0
 DATA=4601 4701 b600 1800 4b00 1b00 2b00 b300 0220 7900 b500 8900 9600 9700 b500 6400 0020 2900 af01 3900 4500 1b00 2b00 b900 0030 bf00 0220 4114 5985 0020 e900 7d01 b001 2600 b300 3c01 1002 1a00 0a00 1000 4b00 2900 0500 e500 4a00 0030 bf00 0600 1600 0200 1b00 3101 2900 f601 1c00 1b00 2b00 b900 ffff 
 JAP=王様┌そんだば,{CY}ノーマルレース{CW}の始まりだば!{NL} {CY}§{NAM}{CW}週以内に,一番たくさんのお金を{NL} かせいだ者の勝ちだば!{EL}
-ENG=King: {O-QUOTES}It is the beginning of{NL}the {CY}Normal Race{CW}. At the end of{NL}{4114 5985} weeks, the richest wins!{C-QUOTES}{EL}
+ENG=King: It is the beginning of{NL}the {CY}Normal Race{CW}. At the end of{NL}{4114 5985} weeks, the richest wins!{EL}
 
 OFFSET=1507e
 VALEUR=f756(56f7)
 OFFSETDATA=17756
 DATA=4601 4701 b600 1800 4b00 1b00 2b00 b300 0220 3b00 4400 9700 b500 6400 0020 2900 af01 3900 4500 1b00 2b00 b900 0030 bf00 0220 4214 5985 0020 fc00 4a00 3c01 1002 a401 0a00 7101 3902 1200 1a00 3101 2900 0030 bf00 f601 1c00 1b00 2b00 b900 ffff 
 JAP=王様┌そんだば,{CY}むらレース{CW}の始まりだば!{NL} {CY}§{NAM}{CW}村を一番早く解放した者の{NL} 勝ちだば!{EL}
-ENG=King: {O-QUOTES}It is the beginning of{NL}the {CY}Town Race{CW}.{NL}The first player to own{NL}the town {4214 5985} wins!{C-QUOTES}{EL}
+ENG=King: It is the beginning of{NL}the {CY}Town Race{CW}.{NL}The first player to own{NL}the town {4214 5985} wins!{EL}
 
 OFFSET=15080
 VALEUR=f7b6(b6f7)
 OFFSETDATA=177b6
 DATA=4601 4701 b600 1800 4b00 1b00 2b00 b300 0220 5800 9600 9700 b500 6400 0020 2900 af01 3900 4500 1b00 2b00 b900 0030 bf00 0401 2900 3401 3101 4a00 0220 2114 5985 0020 1f01 6702 1200 1a00 3101 2900 f601 1c00 1b00 2b00 b900 0030 bf00 ffff 
 JAP=王様┌そんだば,{CY}キルレース{CW}の始まりだば!{NL} 他の勇者を{CY}§{NAM}{CW}人倒した者の勝ちだば!{NL} {EL}
-ENG=King: {O-QUOTES}It is the beginning of{NL}the {CY}Kill Race{CW}.{NL}The first player to reach{NL}{2114 5985} kills wins!{C-QUOTES}{EL}
+ENG=King: It is the beginning of{NL}the {CY}Kill Race{CW}.{NL}The first player to reach{NL}{2114 5985} kills wins!{EL}
 
 OFFSET=15082
 VALEUR=f814(14f8)
 OFFSETDATA=17814
 DATA=4601 4701 b600 1800 4b00 1b00 2b00 b300 0220 0600 0200 3d00 2900 9700 b500 6400 0020 2900 af01 3900 4500 1b00 2b00 b900 0030 bf00 0220 8214 5985 0020 4a00 3c01 1002 a401 0a00 0500 1701 2600 0e01 1e00 2100 0800 1a00 3101 2900 0030 bf00 f601 1c00 1b00 2b00 b900 ffff 
 JAP=王様┌そんだば,{CY}かいものレース{CW}の始まりだば!{NL} {CY}§{NAM}{CW}を一番早くお城に持ってきた者の{NL} 勝ちだば!{EL}
-ENG=King: {O-QUOTES}It is the beginning of{NL}the {CY}Shopping Race{CW}.{NL}The first player to bring me {NL}{8214 5985} wins!{C-QUOTES}{EL}
+ENG=King: It is the beginning of{NL}the {CY}Shopping Race{CW}.{NL}The first player to bring me {NL}{8214 5985} wins!{EL}
 
 OFFSET=15084
 VALEUR=f87e(7ef8)
@@ -801,56 +801,56 @@ VALEUR=f8f0(f0f8)
 OFFSETDATA=178f0
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 0500 6a01 1000 3900 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 0500 1701 2900 3900 4900 4500 2600 8d00 9b00 6400 6a00 b500 1a00 1c00 0700 b900 0030 bf00 ffff 
 JAP= プリリン ┌お父さま!{NL}       お城のまわりにモンスターたちが!{NL} {EL}
-ENG=Penny: {O-QUOTES}Father! Monsters are{NL}around the castle!{C-QUOTES}{EL}
+ENG=Penny: Father! Monsters are{NL}around the castle!{EL}
 
 OFFSET=1508a
 VALEUR=f93e(3ef9)
 OFFSETDATA=1793e
 DATA=bf00 4601 4701 bf00 b600 4900 0600 1e00 2100 4600 1b00 2b00 9f00 9f00 9f00 0030 bf00 0030 bf00 ffff 
 JAP= 王様 ┌わかってるだば...{NL} {NL} {EL}
-ENG=King: {O-QUOTES}We found the heroes.{C-QUOTES}{EL}
+ENG=King: We found the heroes.{EL}
 
 OFFSET=1508c
 VALEUR=f966(66f9)
 OFFSETDATA=17966
 DATA=bf00 4601 4701 bf00 b600 8200 9500 9500 9b00 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 3300 1800 0a00 4500 4a00 1b00 1400 2900 1b00 2b00 b900 0030 bf00 ffff 
 JAP= 王様 ┌プリリン!{NL}       へそくりをだすのだば!{NL} {EL}
-ENG=King: {O-QUOTES}Penny! I give them a{NL}lot of gold!{C-QUOTES}{EL}
+ENG=King: Penny! I give them a{NL}lot of gold!{EL}
 
 OFFSET=1508e
 VALEUR=f9a6(a6f9)
 OFFSETDATA=179a6
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 5700 b900 5700 b500 9b00 b900 b900 b900 0030 bf00 0030 bf00 ffff 
 JAP= プリリン ┌ガ!ガーン!!!{NL} {NL} {EL}
-ENG=Penny: {O-QUOTES}Oh my !!!{C-QUOTES}{EL}
+ENG=Penny: Oh my !!!{EL}
 
 OFFSET=15090
 VALEUR=f9ce(cef9)
 OFFSETDATA=179ce
 DATA=bf00 4601 4701 bf00 b600 0500 e500 4a00 1e01 3c00 4600 2900 1b00 2b00 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 1800 1200 2100 b300 fb01 2e00 3401 3101 4a00 9f00 9f00 9f00 0030 bf00 ffff 
 JAP= 王様 ┌お金を集めるのだば!{NL}       そして,再び勇者を...{NL} {EL}
-ENG=King: {O-QUOTES}Collect money and{NL}become our hero.{C-QUOTES}{EL}
+ENG=King: Collect money and{NL}become our hero.{EL}
 
 OFFSET=15092
 VALEUR=fa1a(1afa)
 OFFSETDATA=17a1a
 DATA=bf00 4601 4701 bf00 b600 1701 2900 3900 4900 4500 2900 8d00 9b00 6400 6a00 b500 4a00 0300 1c00 6702 1200 b300 0030 bf00 bf00 bf00 bf00 3c01 1002 6402 0a00 2900 0500 e500 4a00 1e01 3c00 1a00 3401 3101 2600 2a00 0030 bf00 bf00 bf00 bf00 bf00 4900 0700 3b00 1400 3c00 8200 9500 9500 9b00 4a00 9300 8c00 2600 9f00 9f00 9f00 ffff 
 JAP= 王様 ┌城のまわりのモンスターをうち倒し,{NL}    一番多くのお金を集めた勇者には{NL}     わがむすめプリリンをヨメに...{EL}
-ENG=King: {O-QUOTES}Beat the monsters{NL}outside the castle. The{NL}richest of you will marry{NL}my daughter Penny.{C-QUOTES}{EL}
+ENG=King: Beat the monsters{NL}outside the castle. The{NL}richest of you will marry{NL}my daughter Penny.{EL}
 
 OFFSET=15094
 VALEUR=fa9c(9cfa)
 OFFSETDATA=17a9c
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 0500 6a01 1000 3900 9f00 9f00 9f00 3900 1a00 2200 1400 2900 b800 0030 bf00 0030 bf00 ffff 
 JAP= プリリン ┌お父さま...またですの?{NL} {NL} {EL}
-ENG=Penny: {O-QUOTES}Dad, are you insane?{C-QUOTES}
+ENG=Penny: Dad, are you insane?
 
 OFFSET=15096
 VALEUR=face(cefa)
 OFFSETDATA=17ace
 DATA=bf00 4601 4701 bf00 b600 0e00 b300 5801 ae01 2a00 1502 1602 1b00 2b00 b900 0030 bf00 bf00 bf00 1000 4400 2600 1b00 2b00 b300 2601 e801 4601 ec00 3d00 3602 3702 1400 4600 1b00 2b00 b900 0030 bf00 ffff 
 JAP= 王様 ┌こ,今度は本当だば!{NL}   さらにだば,次期王位も約束するだば!{NL} {EL}
-ENG=King: {O-QUOTES}No, believe me.{NL}Soon enough, I'll give you my{NL}throne!{C-QUOTES}{EL}
+ENG=King: No, believe me.{NL}Soon enough, I'll give you my{NL}throne!{EL}
 
 OFFSET=15098
 VALEUR=fb1e(1efb)
@@ -892,21 +892,21 @@ VALEUR=fcb8(b8fc)
 OFFSETDATA=17cb8
 DATA=bf00 4601 4701 bf00 b600 4300 0200 2500 b300 8200 9500 9500 9b00 9f00 9f00 9f00 0030 bf00 0030 bf00 ffff 
 JAP= 王様 ┌よいな,プリリン...{NL} {NL} {EL}
-ENG=King: {O-QUOTES}Be nice, Penny...{C-QUOTES}{EL}
+ENG=King: Be nice, Penny...{EL}
 
 OFFSET=150a4
 VALEUR=fce2(e2fc)
 OFFSETDATA=17ce2
 DATA=bf00 4601 4701 bf00 b600 1200 b300 1200 4b00 1300 2100 3600 1200 0200 1b00 2b00 b500 b900 b900 b900 0030 bf00 0030 bf00 ffff 
 JAP= 王様 ┌し,しんじてほしいだばー!!!{NL} {NL} {EL}
-ENG=King: {O-QUOTES}I have faith in you!!!{EL}
+ENG=King: I have faith in you!!!{EL}
 
 OFFSET=150a6
 VALEUR=fd14(14fd)
 OFFSETDATA=17d14
 DATA=4601 4701 b600 7400 5600 8800 9b00 4601 c601 3300 4300 0300 0e00 1800 1b00 2b00 b900 0030 bf00 3700 0300 0c00 4b00 2600 2201 4600 b201 2600 b300 3900 1500 6802 6902 4a00 2300 2300 2900 0400 4600 2900 1b00 2b00 b900 0030 bf00 1800 1200 2100 b300 2500 4600 3400 0a00 a401 0a00 0500 1701 2600 4301 2100 3600 1200 0200 1b00 2b00 b900 0030 4601 4701 b600 e801 3601 2a00 a200 e900 3601 1b00 2b00 b900 0030 bf00 a401 0a00 0500 1701 2600 1f00 0200 1a00 eb00 2600 b300 8700 b500 7500 6400 8800 4f00 9b00 7300 4a00 0030 bf00 1a00 0a00 1000 4b00 0100 0d00 1c00 3e00 0300 1b00 2b00 b900 0030 4601 4701 b600 1800 4b00 1b00 2b00 b300 3700 0300 0c00 4b00 2900 af01 3900 4500 1b00 2b00 b900 ffff 
 JAP=王様┌ドカポン王国へようこそだば!{NL} ぼうけんに出る前に,まず装備をととのえるのだば!{NL} そして,なるべく早くお城に来てほしいだば!{NL}王様┌期間は2週間だば!{NL} 早くお城についた順に,ボーナスポイントを{NL} たくさんあげちゃうだば!{NL}王様┌そんだば,ぼうけんの始まりだば!{EL}
-ENG=King: {O-QUOTES}Welcome to Dokapon{NL}Kingdom, adventurers! We are{NL}preparing your equipment.{NL}Come back in two weeks.{NL}Well, you can go now.{C-QUOTES}{EL}
+ENG=King: Welcome to Dokapon{NL}Kingdom, adventurers! We are{NL}preparing your equipment.{NL}Come back in two weeks.{NL}Well, you can go now.{EL}
 
 OFFSET=150a8
 VALEUR=fe24(24fe)

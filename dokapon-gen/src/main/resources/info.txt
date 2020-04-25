@@ -1,3 +1,60 @@
+Characters
+おんせん=Onsen
+せールスマン=Salesman
+なぞのろうじん=Mysterious old man (老人)
+おつかい=Messenger/Errand boy/girl
+ジャンケン=Roche (ジャンキー)
+ガッツ=Gutz weapon Blacksmith
+ラッツ=Ratz shield blacksmith
+ワッツ=Watz armor blacksmith
+しょうにん=Merchant (商人)
+しゅうきんにん=Tax collector (集金人)
+あやしいおとこ=
+ブラックJJ=Black J.J
+そうびチェンジ
+お姉さん=Young Lady
+ミッチー=Mitch
+老人=Old Man (Beggar)
+王様=King
+プリリン=Penny
+村長=Village head (Mayor)
+村人=Villager
+城主=Castle owner
+店員=Clerk
+神父=Priest
+魔王=Devil
+バーサン=Baasan
+リッチーJr=Rico Jr.
+ギーガーJr=Green Jr.
+ブラックJ.J=Black J.J
+ゴロー=Demolition Man
+オズカー=Oscar
+ジャンキー=Roche
+商人=Merchant
+リスキー=Risque
+天の声=Heavenly voice
+
+リスキー    Risque the Bandit
+A thief wearing a blue outfit.
+He will offer to try to steal something from one of the other players, but you have to pay upfront.
+If you pay him, you choose who you want to steal from, and if you want him to take Items, Money, or Equipment.
+    If you choose "money," he succeeds about half the time and he will steal half of a player's money.
+    If you choose "items," he succeeds about half the time, and will steal a random item or field magic from a player.
+    If you choose "equipment," he has a very small chance of succeeding. He will steal a random weapon, shield, battle magic, or accessory from a player.
+
+
+ジャンキー   Roche
+A boy in an animal costume who challenges you to a game of Roshambo (rock, paper, scissors).
+If you lose, he will take a quarter of your money.
+If you win he will give you all the money he has collected from players in the past, or nothing.
+
+ガッツ     Gutz the Blacksmith
+A young man with a hammer.
+He offers to try to make you something, but you have to pay upfront.
+He may fail, but when he does succeed, the item will probably be better than what you have.
+However, there is a slight chance that he will give you equipment of lesser value than yours.
+
+
 マニー = Cash
 
 Cash is Princess Penny's dog in Dokapon Kingdom.
@@ -15,3 +72,25 @@ In Normal Mode, he is a random event at the very beginning.
 He also is the source of Angel Wings, which can allow you to get to the top level of the Daunting Mountain.
 Rico Jr.'s stats are the average of all the non-darkling Adventurers in the game, and adventurers are more likely to encounter him when there's a Darkling around or in Daunting Mountain.
 
+ザコ          Zako (small fish)
+" Zako" is a general term for poop fish , especially small fish, which has a low commercial value .
+A person who is not a big person is called like this.
+For use in characters such as manga , anime, and games , see Mob Character .
+
+ギーガーJr      Giger Jr.
+Green Jr. is an NPC in Dokapon Kingdom.
+He is "the richest man in the world."
+He wears a purple shirt with purple and white striped pants, a black belt with a gold encrusted G, a gold and emerald necklace, has green eyes, rosy cheeks, and purple hair.
+He is always accompanied by 2 flexing bodyguards on whom he stands on.
+He is the owner of the Casino, the employer of Comacho, and the host of the Green Jr. Games.
+
+
+ミッチー        Mitch Digger
+A brown mole who tries to improve towns by drilling wells for them.
+He'll ask for a reasonable sum of money, but he often fails.
+When he drills, he will give a set of numbers between 2 and 6 (the more valuable the town, the fewer numbers you will receive) and run the spinner.
+If he does succeed, the value of the town (or occasionally, all your towns in a continent) will be doubled.
+
+ぜニ      Zeni
+a round coin with a square hole in the middle
+(by extension) money

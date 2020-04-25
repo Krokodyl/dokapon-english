@@ -19,6 +19,12 @@ public class Utils {
         return s;
     }
 
+    public static String concat(String[] array) {
+        String res = "";
+        for (String s:array) res+=s+" ";
+        return res.trim();
+    }
+
     public static String getCharCodeFromOffset(int offset, CharSide side) {
         String suffix = "00";
         int left,right;

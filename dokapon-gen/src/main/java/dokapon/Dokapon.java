@@ -2,6 +2,7 @@ package dokapon;
 
 import dokapon.entities.Config;
 import dokapon.entities.InputPatch;
+import dokapon.entities.PointerData;
 import dokapon.entities.PointerTable;
 import dokapon.services.*;
 
@@ -10,10 +11,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Properties;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -71,9 +69,45 @@ public class Dokapon {
             if (!ip.isDebug()) ip.writePatch(data);
         }
 
+        for (PointerTable table:tables) {
+            if (table.getId()==5) {
+                List<PointerData> dataJap = table.getDataJap();
+                for (PointerData pd:dataJap) {
+                    String printableString = DataWriter.getPrintableString(pd, translator, JsonLoader.loadJap());
+                    //System.out.println(printableString);
+                }
+            }
+        }
+
+        // PRINT DIALOG JAPANESE NAMES
+        List<String> names = new ArrayList<>();
+        List<String> lines = new ArrayList<>();
+        for (PointerTable table:tables) {
+            //if (table.getId()==5) {
+            List<PointerData> dataJap = table.getDataJap();
+            for (PointerData pd:dataJap) {
+                if (Utils.concat(pd.getData()).contains("b600")) {
+                    String japanese = translator.getJapanese(Utils.concat(pd.getData()), JsonLoader.loadJap());
+                    //String printableString = DataWriter.getPrintableString(pd, translator, JsonLoader.loadJap());
+                    //System.out.println(printableString);
+                    String name = japanese.substring(0, japanese.indexOf("┌"));
+                    if (!names.contains(name)) {
+                        names.add(name);
+                        lines.add(japanese);
+                    }
+                }
+                //System.out.println(printableString);
+            }
+            //}
+        }
+        //for (String s:lines) System.out.println(s);
+
+        for (String s:new String[]{
+                "d601 3d01 2600 4300 1e00 2100 6b00 8c00 b500 6300 4a00 0100 1a00 0400 3900 1400 0030 8c00 9600 7300 2900 0601 0a01 cd01 b900 ffff "
+        })
         System.out.println(
                 translator.getJapanese(
-                        "af00 ed00 fc00 1e01 e500 0d01 b000 0030 0201 0301 1200 2100 0200 4600 0220 1400 3400 2100 2900 fc00 0020 0600 4400 0030 1e01 e500 1400 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff ",
+                        s,
                         JsonLoader.loadJap()));
 
         DataWriter.saveData(config.getRomOutput(), data);

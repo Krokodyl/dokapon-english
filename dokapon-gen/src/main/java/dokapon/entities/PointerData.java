@@ -1,5 +1,8 @@
 package dokapon.entities;
 
+import dokapon.Constants;
+import dokapon.services.Utils;
+
 public class PointerData {
 
     private int value;

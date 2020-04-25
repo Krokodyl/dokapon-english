@@ -1,6 +1,8 @@
 package dokapon.services;
 
 
+import dokapon.Constants;
+import dokapon.characters.JapaneseChar;
 import dokapon.entities.CodePatch;
 import dokapon.entities.PointerData;
 import dokapon.entities.PointerTable;
@@ -65,6 +67,34 @@ public class DataWriter {
             }
         }
         return data;
+    }
+
+    public static String getPrintableString(PointerData pointer, Translator translator, List<JapaneseChar> japaneseChars){
+        String s = "";
+        s +=    Constants.TRANSLATION_KEY_OFFSET
+                +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                +Integer.toHexString(pointer.getOffset())
+                +"\n";
+        String value = Utils.padLeft(Integer.toHexString(pointer.getValue()),'0',4);
+        s +=    Constants.TRANSLATION_KEY_VALUE
+                +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                + value+"("+value.substring(2,4)+value.substring(0,2)+")"
+                +"\n";
+        s +=    Constants.TRANSLATION_KEY_OFFSETDATA
+                +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                +Integer.toHexString(pointer.getOffsetData())
+                +"\n";
+        s +=    Constants.TRANSLATION_KEY_DATA
+                +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                +(Utils.concat(pointer.getData()))
+                +"\n";
+        s +=    Constants.TRANSLATION_KEY_JAP
+                +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                +translator.getJapanese(
+                Utils.concat(pointer.getData()),
+                JsonLoader.loadJap())
+                +"\n";
+        return s;
     }
 
     public static void saveData(String romOutput, byte[] data) {
