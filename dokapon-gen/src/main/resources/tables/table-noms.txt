@@ -47,7 +47,7 @@
 ばんのうやく  =Panacea 
 ながぐつ    =Waders  
 エせフレンド  =Mattock 
-つうこうてがた =Item7   
+つうこうてがた =Permit
 ドカポンオーブ =Item8   
 ちょきんばこ  =Piggy
 おうけのゆびわ =Signet  
