@@ -16,5 +16,7 @@ Table 2 : 124 / 124
 TRANSLATIONS TO DO
 Table 4: :  255 / 255
 Table 5 :   208  / 208
-Table 7 :   230 / 418           1542
+Table 7 :   300 / 418           1732
+
+61%
 

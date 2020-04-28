@@ -10,7 +10,7 @@ Characters
 しょうにん=Merchant (商人)
 しゅうきんにん=Tax collector (集金人)
 あやしいおとこ=
-ブラックJJ=Black J.J
+ブラックJJ=Black J.J (Doctor Exiles)
 そうびチェンジ
 お姉さん=Young Lady
 ミッチー=Mitch
@@ -26,7 +26,7 @@ Characters
 バーサン=Baasan
 リッチーJr=Rico Jr.
 ギーガーJr=Green Jr.
-ブラックJ.J=Black J.J
+ブラックJ.J=Black J.J (Doctor Exiles)
 ゴロー=Demolition Man
 オズカー=Oscar
 ジャンキー=Roche

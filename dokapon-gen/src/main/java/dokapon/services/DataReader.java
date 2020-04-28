@@ -4,12 +4,14 @@ import dokapon.entities.PointerData;
 import dokapon.entities.PointerRange;
 import dokapon.entities.PointerTable;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
 
 import static dokapon.Constants.END_OF_LINE_CHARACTER_HEXA;
+import static dokapon.Constants.LENGTH_DIALOG_LINE;
 
 public class DataReader {
 
@@ -113,4 +115,55 @@ public class DataReader {
         }
         return res.toArray(new String[0]);
     }
+
+    public static void generateCredits() throws IOException {
+        List<String> nicknames = Arrays.asList(
+                new String[]{
+                        "everyone",
+                        "Porsche",
+                        "Tired",
+                        "Horse",
+                        "Opti",
+                        "Dual-Use",
+                        "Newly-wed",
+                        "Messenger",
+                        "Host",
+                        "Brave"
+                }
+        );
+        String finalLine = "";
+            BufferedReader br = new BufferedReader(
+                    new InputStreamReader(
+                            Objects.requireNonNull(Translator.class.getClassLoader().getResourceAsStream("tables/credits.txt")), StandardCharsets.UTF_8));
+            String line = br.readLine();
+            while (line != null) {
+                String res = "";
+                boolean skip = false;
+                for (char c : line.toCharArray()) {
+                    if (c == '{') {
+                        skip = true;
+                    } else if (c == '}') {
+                        skip = false;
+                    } else {
+                        if (!skip) res += c;
+                    }
+                }
+                res = res.trim();
+                if (res.length() < LENGTH_DIALOG_LINE) {
+                    int i = LENGTH_DIALOG_LINE - res.length();
+                    int left = i/2;
+                    int right = i - left;
+                    res = Utils.padLeft(res, ' ', res.length()+left);
+                    res = Utils.padRight(res,' ',res.length()+right);
+                }
+                for (String name:nicknames) {
+                    res = res.replace(name,"{CG}"+name+"{CW}");
+                }
+                finalLine += res+"{NL}";
+                //System.out.println(res+"{NL}");
+                line = br.readLine();
+            }
+        System.out.println(finalLine+"{EL}");
+        }
+
 }

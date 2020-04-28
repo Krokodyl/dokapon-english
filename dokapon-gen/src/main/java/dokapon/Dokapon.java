@@ -79,6 +79,12 @@ public class Dokapon {
             }
         }
 
+        /*try {
+            DataReader.generateCredits();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+
         // PRINT DIALOG JAPANESE NAMES
         List<String> names = new ArrayList<>();
         List<String> lines = new ArrayList<>();
@@ -103,7 +109,7 @@ public class Dokapon {
         //for (String s:lines) System.out.println(s);
 
         for (String s:new String[]{
-                "d601 3d01 2600 4300 1e00 2100 6b00 8c00 b500 6300 4a00 0100 1a00 0400 3900 1400 0030 8c00 9600 7300 2900 0601 0a01 cd01 b900 ffff "
+                ""
         })
         System.out.println(
                 translator.getJapanese(
