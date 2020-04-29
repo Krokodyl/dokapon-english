@@ -9,7 +9,7 @@
 だっしゅつこう =DungWarp
 ワナ      =Trap    
 ヨケるんです  =Detector
-ミエるんです  =Goggles 
+ミエるんです  =Spyglass
 まほうのカギ  =Passkey 
 ジロキチ    =Swindler
 くうきのわ   =Scuba   
@@ -298,7 +298,7 @@
 ぬすむ     =MOSK2   
 ラスト     =MOSK3   
 チャーム    =MOSK4   
-おたけび    =Howl    
+おたけび    =War Cry
 みなごろし   =MOSK5   
 くびはね    =PowaPoke
 せきか     =MOSK6   
