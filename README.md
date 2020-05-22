@@ -1,10 +1,12 @@
 # Dokapon Gen
 
-This project is a Java program that generates a translation file (.bps) for the Super Nintendo video game **Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜)
+This project is a Java program that generates a translation file (.bps) for the Super Nintendo video game:
+**Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜)
 
 # The patch file
 
-The patch file is available : https://github.com/Krokodyl/dokapon-english/blob/master/roms/Dokapon%203-2-1%20-%20Arashi%20wo%20Yobu%20Yujo%20(J).smc
+The latest patch file is available : [Dokapon 3-2-1 English.bps](https://github.com/Krokodyl/dokapon-english/blob/master/roms/Dokapon%203-2-1%20-%20English.bps)
+
 
 ## Requirements
 
@@ -22,12 +24,17 @@ ROM CRC32: FC353400
 
 1. Edit src/main/resources/config.json
 ```json
-"rom-input" : "../roms/Dokapon 3-2-1 - Arashi wo Yobu Yujo (J).smc",
-"rom-output" : "../roms/Dokapon 3-2-1 - English.smc",
-"bps-patch-output": "../roms/Dokapon 3-2-1 - English.bps"
+"config": {
+    "rom-input" : "../roms/Dokapon 3-2-1 - Arashi wo Yobu Yujo (J).smc",
+    "rom-output" : "../roms/Dokapon 3-2-1 - English.smc",
+    "bps-patch-output": "../roms/Dokapon 3-2-1 - English.bps",
+    "file.jap" : "tables/table-complete.txt",
+    "file.latin" : "tables/table-latin.txt",
+    "file.names" : "tables/table-names.txt"
+  }
 ```
 
-2. Copy the ROM in the folder you defined in "rom-input"
+2. Copy the ROM in the folder you defined in "rom-input" (by default ../roms)
 
 3. Compile
 ```console
@@ -47,3 +54,6 @@ Process complete
 ```
 
 # Translations
+
+# Screenshots
+![image 000](/screenshots/japanese/000.png)![image 000](/screenshots/english/000.png)
