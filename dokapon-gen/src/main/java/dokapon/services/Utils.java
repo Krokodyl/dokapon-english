@@ -62,17 +62,4 @@ public class Utils {
         }
     }
 
-    public static void main(String[] args) {
-        int off = OFFSET_FIRST_CHAR_00;
-        int line = 0;
-        while (off < OFFSET_END_CHAR_02) {
-            if (off>=OFFSET_FIRST_CHAR_02) {
-                System.out.println(Integer.toHexString(off)+" "+getCharCodeFromOffset(off, CharSide.ONE));
-            }
-              else  System.out.println(Integer.toHexString(off)+" "+getCharCodeFromOffset(off, CharSide.ONE)+" "+getCharCodeFromOffset(off, CharSide.TWO));
-            off += 32;
-            line++;
-            if (line%8==0) off += 256;
-        }
-    }
 }

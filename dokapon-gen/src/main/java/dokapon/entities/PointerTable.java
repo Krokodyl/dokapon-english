@@ -13,6 +13,8 @@ public class PointerTable {
     private int newDataShift;
     boolean counter = false;
     boolean menu = false;
+    boolean evenLength = false;
+    private Overflow overflow;
 
     public PointerTable(int id) {
         this.id = id;
@@ -70,6 +72,14 @@ public class PointerTable {
         this.menu = menu;
     }
 
+    public boolean isEvenLength() {
+        return evenLength;
+    }
+
+    public void setEvenLength(boolean evenLength) {
+        this.evenLength = evenLength;
+    }
+
     public List<PointerRange> getRanges() {
         return ranges;
     }
@@ -80,5 +90,17 @@ public class PointerTable {
 
     public List<PointerData> getDataEng() {
         return dataEng;
+    }
+
+    public void setOverflow(Overflow overflow) {
+        this.overflow = overflow;
+    }
+
+    public Overflow getOverflow() {
+        return overflow;
+    }
+
+    public boolean hasOverflow() {
+        return overflow!=null;
     }
 }

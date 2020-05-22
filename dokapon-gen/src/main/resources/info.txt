@@ -12,7 +12,7 @@ Characters
 あやしいおとこ=
 ブラックJJ=Black J.J (Doctor Exiles)
 そうびチェンジ
-お姉さん=Young Lady
+お姉さん=Young Girl
 ミッチー=Mitch
 老人=Old Man (Beggar)
 王様=King
@@ -94,3 +94,7 @@ If he does succeed, the value of the town (or occasionally, all your towns in a 
 ぜニ      Zeni
 a round coin with a square hole in the middle
 (by extension) money
+
+
+Vocabulary
+けいけん=Experience

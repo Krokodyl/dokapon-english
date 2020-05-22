@@ -1,13 +1,18 @@
 BIG DEV
-City names using slanted double chars
+(Tried, doesn't look as good) City names using slanted double chars
 
 SPRITES
 
 MENU
 Bug on the ranking table
+Bug on the Kill Race starting level
+Bug on the rename screen (after a kill)
+Bug on sell gear (Steal x10) the x is shown as DC-OW
+Change the AI difficulty menu to show full words
 
 TRANSLATIONS
-Add special char for Cuiaba and Tromso
+(Bad idea regarding limited space) Add special char for Cuiaba and Tromso
+"Who will play together" sounds weird.
 
 TRANSLATIONS TO BE CHECKED
 Table 1 : 131 / 131
@@ -16,7 +21,9 @@ Table 2 : 124 / 124
 TRANSLATIONS TO DO
 Table 4: :  255 / 255
 Table 5 :   208  / 208
-Table 7 :   380 / 418           1732
+Table 7 :   415 / 418           1732
 
-61%
 
+ITEMS
+Item1
+Item2

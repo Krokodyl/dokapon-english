@@ -94,7 +94,7 @@ VALEUR=b6ae(aeb6)
 OFFSETDATA=1536ae
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 2a00 0220 8214 5985 0020 2900 0001 0101 4a00 0501 1e00 1a00 b900 ffff 
 JAP=ビッグモンスターは {CY} §{NAM} {CW} の魔法を使った! {EL} 
-ENG=The big monster used{NL}{CY}{8214 5985}{CW}'s magic!{EL}
+ENG=The big monster used{NL}{CY}{8214 5985}{CW}!{EL}
 
 OFFSET=1531c4
 VALEUR=b6da(dab6)
@@ -143,7 +143,7 @@ VALEUR=b7f0(f0b7)
 OFFSETDATA=1537f0
 DATA=ed00 6501 0700 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 2900 3d00 2300 2600 1e01 f200 1200 1a00 b400 ffff 
 JAP=全員がビッグモンスターのもとに集合した. {EL} 
-ENG=Everyone taken to a big{NL}monster.{EL}
+ENG=Everyone is taken to a big{NL}monster.{EL}
 
 OFFSET=1531d2
 VALEUR=b81a(1ab8)
@@ -1081,21 +1081,21 @@ VALEUR=ec22(22ec)
 OFFSETDATA=156c22
 DATA=0500 4002 1000 4b00 b600 0502 2900 0500 2102 b300 3d00 1200 4300 4800 1200 0c00 4700 2b00 0030 bf00 0e00 2900 5301 4d01 4a00 0220 4214 5985 fc00 0020 3900 2200 0030 bf00 2300 2400 0c00 2100 3d00 4400 0400 3900 1600 4b00 0600 b800 ffff
 JAP=お姉さん┌旅のお方,もしよろしければ{NL}この荷物を{CY}{4214}{5985}村{CW}まで{NL}とどけてもらえませんか?{EL}
-ENG=Young Lady: Traveller, if you{NL}don't mind, can you bring this{NL}package to {CY}{4214}{5985}{CW}?{EL}
+ENG=Young Girl: Traveller, if you{NL}don't mind, can you bring this{NL}package to {CY}{4214}{5985}{CW}?{EL}
 
 OFFSET=1532de
 VALEUR=ec80(80ec)
 OFFSETDATA=156c80
 DATA=0500 4002 1000 4b00 b600 0100 4500 0700 2300 0300 0f00 1100 0200 3900 1400 b400 0030 bf00 0e00 4700 2a00 0220 0e00 4900 4700 3d00 2900 0020 2200 1400 0600 4400 b300 0a00 4700 0b00 4700 3d00 0030 bf00 3d00 3c00 c901 2600 3002 0800 3102 3900 4700 2500 0200 4300 0300 2600 0500 1f02 0200 1200 3900 1400 b400 ffff
 JAP=お姉さん┌ありがとうございます.{NL}これは{CY}こわれもの{CW}ですから,くれぐれも{NL}もめ事に巻き込まれないようにお願いします.{EL}
-ENG=Young Lady: Thank you. This{NL}is fragile, so please do not{NL}get into a fight.{EL}
+ENG=Young Girl: Thank you. This{NL}is fragile, so please do not{NL}get into a fight.{EL}
 
 OFFSET=1532e0
 VALEUR=ecfc(fcec)
 OFFSETDATA=156cfc
 DATA=0500 4002 1000 4b00 b600 1800 0300 2200 1400 0600 b400 ff00 5b01 2200 1400 b400 ffff
 JAP=お姉さん┌そうですか.残念です.{EL}
-ENG=Young Lady: Really? That's{NL}disappointing.{EL}
+ENG=Young Girl: Really? That's{NL}disappointing.{EL}
 
 OFFSET=1532e2
 VALEUR=ed1e(1eed)
@@ -1347,7 +1347,7 @@ VALEUR=f9ba(baf9)
 OFFSETDATA=1579ba
 DATA=0500 4002 1000 4b00 b600 0100 4500 0700 2300 0300 0f00 1100 0200 3900 1400 b400 0030 bf00 1800 4700 2200 2a00 4300 4800 1200 0a00 0500 1f02 0200 1200 3900 1400 b400 ffff
 JAP=お姉さん┌ありがとうございます.{NL}それではよろしくお願いします.{EL}
-ENG=Young Lady: Thank you. Well{NL}then, I'm looking forward to{NL}working with you.{EL}
+ENG=Young Girl: Thank you. Well{NL}then, I'm looking forward to{NL}working with you.{EL}
 
 OFFSET=15332a
 VALEUR=f9fe(fef9)

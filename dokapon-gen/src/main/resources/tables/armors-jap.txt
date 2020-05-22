@@ -1,7 +1,7 @@
 な\u0020\u0020し    =None
-ぬののふく  =Basic Clothes
+ぬののふく  =Shirt
 ローブ    =Robe
-あさのふく  =Linen Clothes
+あさのふく  =Jacket
 マント    =Cloak
 パディット  =Padded Armor
 レザーアーマー=Leather Armor

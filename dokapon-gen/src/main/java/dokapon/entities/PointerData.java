@@ -1,8 +1,5 @@
 package dokapon.entities;
 
-import dokapon.Constants;
-import dokapon.services.Utils;
-
 public class PointerData {
 
     private int value;
@@ -14,6 +11,7 @@ public class PointerData {
     private int offsetOldMenuData;
 
     public void setValue(int value) {
+        if (this.value>0) System.out.println(this.value+"  ->  "+value);
         this.value = value;
     }
 

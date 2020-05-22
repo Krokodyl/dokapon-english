@@ -13,18 +13,21 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Pattern;
+
+import static dokapon.Dokapon.EXTRA_DATA_BANK_REQUIRED;
 
 public class DataWriter {
 
     public static byte[] fillDataWithPlaceHolders(byte[] data) {
-        int fullLength = Integer.parseInt("180000", 16)+Integer.parseInt("8000", 16)*10;
+        int fullLength = Integer.parseInt("180000", 16)+Integer.parseInt("8000", 16)*EXTRA_DATA_BANK_REQUIRED;
         if (data.length<fullLength) {
             byte[] dummy = new byte[fullLength];
             for (int k=0;k<data.length;k++) dummy[k] = data[k];
             for (int k=Integer.parseInt("180000", 16);k<fullLength;k++) dummy[k] = 0;
             data = dummy;
         }
-        for (int i=0;i<10;i++) {
+        for (int i=0;i<EXTRA_DATA_BANK_REQUIRED;i++) {
             int k = Integer.parseInt("180000", 16)+Integer.parseInt("8000", 16)*i;
             for (int j=0;j<Integer.parseInt("8000", 16);j++) {
                 data[k+j] = (byte)(16 + i);
@@ -69,7 +72,21 @@ public class DataWriter {
         return data;
     }
 
-    public static String getPrintableString(PointerData pointer, Translator translator, List<JapaneseChar> japaneseChars){
+    public static String[] extractMenuData(PointerData pointer, String english) {
+        String[] data = pointer.getData();
+        String[] menuData = new String[2];
+        menuData[0] = data[0];
+        menuData[1] = data[1];
+        pointer.setMenuData(menuData);
+        String[] newData = new String[data.length-2];
+        for (int k=2;k<data.length;k++) {
+            newData[k-2] = data[k];
+        }
+        pointer.setData(newData);
+        return menuData;
+    }
+
+    public static String getPrintableString(PointerData pointer, Translator translator, List<JapaneseChar> japaneseChars, String english){
         String s = "";
         s +=    Constants.TRANSLATION_KEY_OFFSET
                 +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
@@ -84,15 +101,29 @@ public class DataWriter {
                 +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
                 +Integer.toHexString(pointer.getOffsetData())
                 +"\n";
+        if (pointer.getMenuData()!=null && pointer.getMenuData().length>0) {
+            s +=    Constants.TRANSLATION_KEY_MENUDATA
+                    +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                    +Utils.concat(pointer.getMenuData())
+                    +"\n";
+        }
         s +=    Constants.TRANSLATION_KEY_DATA
                 +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
                 +(Utils.concat(pointer.getData()))
                 +"\n";
+        String japanese = translator.getJapanese(
+                Utils.concat(pointer.getData()),
+                JsonLoader.loadJap());
+        Pattern pattern = Pattern.compile("([0-9a-f]{4})}\\{([0-9a-f]{4})");
+        japanese = pattern.matcher(japanese).replaceAll("$1 $2");
+        english = pattern.matcher(english).replaceAll("$1 $2");
         s +=    Constants.TRANSLATION_KEY_JAP
                 +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
-                +translator.getJapanese(
-                Utils.concat(pointer.getData()),
-                JsonLoader.loadJap())
+                +japanese
+                +"\n";
+        s +=    Constants.TRANSLATION_KEY_ENG
+                +Constants.TRANSLATION_KEY_VALUE_SEPARATOR
+                +english
                 +"\n";
         return s;
     }
@@ -115,4 +146,17 @@ public class DataWriter {
             }
         }
     }
+
+    public static String removeMenuData(String english, String[] menuData) {
+        String nospace = "{"+menuData[0]+"}"+"{"+menuData[1]+"}";
+        String space = "{"+menuData[0]+" "+menuData[1]+"}";
+        if (english.startsWith(nospace)) {
+            return english.replace(nospace,"");
+        }
+        else if (english.startsWith(space)) {
+            return english.replace(space,"");
+        }
+        return english;
+    }
+
 }

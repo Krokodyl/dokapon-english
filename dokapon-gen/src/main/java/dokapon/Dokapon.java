@@ -1,5 +1,6 @@
 package dokapon;
 
+import dokapon.bps.Patcher;
 import dokapon.entities.Config;
 import dokapon.entities.InputPatch;
 import dokapon.entities.PointerData;
@@ -8,15 +9,11 @@ import dokapon.services.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import static dokapon.Constants.TRANSLATION_KEY_ENG;
-import static dokapon.Constants.TRANSLATION_KEY_JAP;
 
 public class Dokapon {
 
@@ -26,6 +23,8 @@ public class Dokapon {
     static SpriteWriter spriteWriter;
     static List<PointerTable> tables;
     static Config config;
+
+    public static int EXTRA_DATA_BANK_REQUIRED = 7;
 
     public static void main(String[] args) {
         latinLoader = new LatinLoader();
@@ -43,7 +42,6 @@ public class Dokapon {
         spriteWriter.writeLatinChars(latinLoader.getLatinChars(), data);
 
         DataWriter.writeCodePatches(JsonLoader.loadCodePatches(), data, false);
-        //DataWriter.writeCodePatches(JsonLoader.loadCodePatches(), data, true);
 
         tables = JsonLoader.loadTables();
         for (String s:JsonLoader.loadTranslationFiles()) {
@@ -53,13 +51,31 @@ public class Dokapon {
                 e.printStackTrace();
             }
         }
+        translator.setSpecialCharMap(JsonLoader.loadSpecialChars());
         translator.checkTranslations(data);
         for (PointerTable table:tables) {
             DataReader.readTable(table, data);
         }
         for (PointerTable table:tables) {
-            DataReader.generateEnglish(translator, table, data);
+            if (table.getId()==7) {
+                //DataReader.collectSpecialChars(translator, table, data);
+            }
+            if(table.getId()==2) {
+                DataReader.collectSpecialChars(translator, table, data);
+            }
         }
+        for (PointerTable table:tables) {
+            /*if (table.getId()==7) {
+                DataReader.generateEnglishPointer(translator, table, data);
+            }
+            else */
+            DataReader.generateEnglish(translator, table, data);
+            if (table.getId()==2) {
+                //DataReader.collectSpecialChars(translator, table, data);
+                DataReader.checkMenuData(table);
+            }
+        }
+        //translator.showSpecialChars();
         for (PointerTable table:tables) {
             DataWriter.writeEnglish(table, data);
         }
@@ -70,13 +86,36 @@ public class Dokapon {
         }
 
         for (PointerTable table:tables) {
-            if (table.getId()==5) {
-                List<PointerData> dataJap = table.getDataJap();
+            List<PointerData> dataJap = table.getDataJap();
+            /*if (table.getId()==2) {
                 for (PointerData pd:dataJap) {
-                    String printableString = DataWriter.getPrintableString(pd, translator, JsonLoader.loadJap());
+                    String english = translator.getEnglish(pd);
+                    String[] menuData = DataWriter.extractMenuData(pd, english);
+                    english = DataWriter.removeMenuData(english, menuData);
+                    String printableString = DataWriter.getPrintableString(pd, translator, JsonLoader.loadJap(), english);
+                    System.out.println(printableString);
+                }
+            }*/
+            /*if (table.getId()==7) {
+                int totalDataLength = 0;
+                for (PointerData pd:dataJap) {
+                    String english = translator.getEnglish(pd);
+                    translator.checkInGameLength(english);
+                    //totalDataLength += translator.checkDataLength(english);
+                    String printableString = DataWriter.getPrintableString(pd, translator, JsonLoader.loadJap(), english);
                     //System.out.println(printableString);
                 }
-            }
+                List<Integer> values = new ArrayList<>();
+                for (PointerData p:table.getDataEng()) {
+                    int value = p.getValue();
+                    String[] data = p.getData();
+                    if (!values.contains(value)) {
+                        values.add(value);
+                        totalDataLength += data.length;
+                    }
+                }
+                System.out.println(totalDataLength*2);
+            }*/
         }
 
         /*try {
@@ -108,14 +147,15 @@ public class Dokapon {
         }
         //for (String s:lines) System.out.println(s);
 
-        for (String s:new String[]{
-                ""
+        /*for (String s:new String[]{
+                "fc00 fd00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 4210 7585 0030 bf00 0030 0201 0301 bf00 bf00 bf00 bf00 8010 8085 0030 bf00 0030 9700 8400 9600 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 1110 9085 0030 ee00 ef00 bf00 bf00 7310 7785 0030 f000 f100 bf00 bf00 bf00 bf00 bf00 4310 7b85 c100 0030 f200 f300 bf00 bf00 bf00 6310 7d85 c100 0030 c500 c000 c400 c600 bf00 bf00 bf00 bf00 5310 9185 c100 ffff"
         })
         System.out.println(
                 translator.getJapanese(
                         s,
-                        JsonLoader.loadJap()));
+                        JsonLoader.loadJap()));*/
 
         DataWriter.saveData(config.getRomOutput(), data);
+        Patcher.generatePatch(new File(config.getRomInput()), new File(config.getRomOutput()), new File(config.getBpsPatchOutput()), "https://github.com/Krokodyl/dokapon-english");
     }
 }

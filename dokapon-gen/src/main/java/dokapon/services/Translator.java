@@ -3,16 +3,17 @@ package dokapon.services;
 import dokapon.Constants;
 import dokapon.characters.JapaneseChar;
 import dokapon.characters.LatinChar;
+import dokapon.characters.SpecialChar;
 import dokapon.entities.PointerData;
+import dokapon.entities.PointerTable;
 import dokapon.entities.Translation;
+import org.apache.commons.lang.StringUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 import static dokapon.Constants.LENGTH_DIALOG_LINE;
 
@@ -20,10 +21,16 @@ public class Translator {
 
     private List<Translation> translations = new ArrayList<>();
 
+    private Map<String, SpecialChar> specialCharMap = new HashMap<>();
+
     private LatinLoader latinLoader;
 
     public Translator(LatinLoader latinLoader) {
         this.latinLoader = latinLoader;
+    }
+
+    public void setSpecialCharMap(Map<String, SpecialChar> specialCharMap) {
+        this.specialCharMap = specialCharMap;
     }
 
     public void loadTranslationFile(String name) throws IOException {
@@ -43,7 +50,7 @@ public class Translator {
                         t.setOffset(Integer.parseInt(split[1], 16));
                     }
                     if (split[0].equals(Constants.TRANSLATION_KEY_MENUDATA)) {
-                        t.setMenuData(split[1]);
+                        if (split.length>1) t.setMenuData(split[1]);
                     }
                     if (split[0].equals(Constants.TRANSLATION_KEY_VALUE)) {
                         t.setValue(split[1]);
@@ -56,21 +63,40 @@ public class Translator {
                 if (t.getTranslation() != null && !t.getTranslation().trim().isEmpty()) {
                     translations.add(t);
                 }
+                else {
+                    System.out.println("MISSING TRANSLATIONS : "+Integer.toHexString(t.getOffset()));
+                }
                 t = new Translation();
             }
             line = br.readLine();
         }
     }
 
-    public String[] getTranslation(PointerData p) {
+    public String[] getTranslation(PointerData p, boolean evenLength) {
         for (Translation t : translations) {
-            if (t.getOffsetData() == p.getOffsetData() && t.getTranslation() != null && !t.getTranslation().isEmpty()) {
+            String translation = t.getTranslation();
+            if (t.getOffsetData() == p.getOffsetData() && translation != null && !translation.isEmpty()) {
+                int dataLength = checkDataLength(translation);
+                if (evenLength && dataLength%2!=0) {
+                    translation+="{EL}";
+                }
                 String menuData = t.getMenuData();
-                String eng = getCodesFromEnglish(t.getTranslation());
+                String eng = getCodesFromEnglish(translation);
                 if (menuData != null && !menuData.isEmpty()) {
                     eng = menuData + " " + eng;
                 }
                 return eng.split(" ");
+            }
+        }
+        return null;
+    }
+
+    public String getEnglish(PointerData p) {
+        for (Translation t : translations) {
+            if (t.getOffsetData() == p.getOffsetData() && t.getTranslation() != null && !t.getTranslation().isEmpty()) {
+                String menuData = t.getMenuData();
+                String eng = t.getTranslation();
+                return eng;
             }
         }
         return null;
@@ -157,6 +183,32 @@ public class Translator {
         }
     }
 
+    public List<String> collectSpecialChars(String eng) {
+        List<String> res = new ArrayList<>();
+        boolean skip = false;
+        String spe = "";
+        for (char c : eng.toCharArray()) {
+            if (c == '{') {
+                skip = true;
+                spe += c;
+            } else if (c == '}') {
+                skip = false;
+                spe += c;
+                if (!specialCharMap.containsKey(spe) && !res.contains(spe)) res.add(spe);
+                spe = "";
+            } else {
+                if (skip) spe += c;
+            }
+        }
+        return res;
+    }
+
+    public void showSpecialChars() {
+        /*System.out.println("SPECIAL");
+        Collections.sort(specials);
+        for (String s:specials) System.out.println(s);*/
+    }
+
     private String insertLineBreak(String line) {
         String[] split = line.split(" ");
         String res = "";
@@ -224,4 +276,42 @@ public class Translator {
         }
         System.out.println(count);
     }
+
+    public String[] getTranslationPointer(PointerData p, PointerTable table) {
+        String eng = getCodesFromEnglish(
+                Utils.padLeft(Integer.toHexString(p.getValue()),'0',4)
+                        +" "
+                        +(Integer.toHexString(p.getOffsetData()))
+                        +"{EL}");
+        return eng.split(" ");
+
+    }
+
+    public void checkInGameLength(String english) {
+        String[] lines = english.split("\\{NL\\}");
+        for (String line:lines) {
+            int length = 0;
+            for (Map.Entry<String, SpecialChar> specialCharEntry : specialCharMap.entrySet()) {
+                int matches = StringUtils.countMatches(line, specialCharEntry.getKey());
+                length+=specialCharEntry.getValue().getInGameLength()*matches;
+                line = line.replace(specialCharEntry.getKey(),"");
+            }
+            length+=line.length();
+            if (length> LENGTH_DIALOG_LINE)
+                System.out.println("LINE TOO LONG "+line+" ("+length+")");
+        }
+    }
+
+    public int checkDataLength(String english) {
+        String line = english;
+        int length = 0;
+        for (Map.Entry<String, SpecialChar> specialCharEntry : specialCharMap.entrySet()) {
+            int matches = StringUtils.countMatches(line, specialCharEntry.getKey());
+            length+=specialCharEntry.getValue().getDataLength()*matches;
+            line = line.replace(specialCharEntry.getKey(),"");
+        }
+        length+=line.length();
+        return length;
+    }
+
 }

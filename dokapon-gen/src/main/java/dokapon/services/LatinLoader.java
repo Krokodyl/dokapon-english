@@ -83,6 +83,7 @@ public class LatinLoader {
                 return Integer.compare(latinChar.getSpriteLocation().getOffset(), t1.getSpriteLocation().getOffset());
             }
         });
+
         for (LatinChar l:latinChars) {
             String s = "";
             if (l.getSpriteLocation()!=null) s = Integer.toHexString(l.getSpriteLocation().getOffset());

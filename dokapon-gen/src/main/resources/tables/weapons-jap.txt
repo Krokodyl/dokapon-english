@@ -2,7 +2,7 @@
 ナイフ    =Knife
 ダガー    =Dagger
 グラディウス =Gladius
-ハンドアクス =Hand axe
+ハンドアクス =Axe
 レイピア   =Rapier
 スピア    =Spear
 せスタス   =Cestus
@@ -10,11 +10,11 @@
 フレイル   =Flail
 サーベル   =Saber
 トライデント =Trident
-バトルフィスト=Battle Fist
+バトルフィスト=Claw
 シミター   =Pulwar
 ロングソード =Long Sword
 バトルアクス =Battle Axe
-ロングスピア =Long Spear
+ロングスピア =Ranseur
 せルフボウ  =Fire bow
 クロスボウ  =Cross bow
 ウォーハンマー=Hammer

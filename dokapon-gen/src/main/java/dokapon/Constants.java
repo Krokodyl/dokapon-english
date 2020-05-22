@@ -11,6 +11,9 @@ public class Constants {
     public static int LENGTH_CIY_NAMES = 4;
     public static int LENGTH_DIALOG_LINE = 30;
 
+    public static int MENU_RIGHT_EDGE = 30;
+    public static int MENU_BOTTOM_EDGE = 25;
+
     public static int OFFSET_FIRST_CHAR_00 = Integer.parseInt("d8000",16);
     public static int OFFSET_FIRST_CHAR_01 = Integer.parseInt("da000",16);
     public static int OFFSET_FIRST_CHAR_02 = Integer.parseInt("dc000",16);

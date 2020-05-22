@@ -2,6 +2,7 @@
   "config": {
     "rom-input" : "../roms/Dokapon 3-2-1 - Arashi wo Yobu Yujo (J).smc",
     "rom-output" : "../roms/Dokapon 3-2-1 - English.smc",
+    "bps-patch-output": "../roms/Dokapon 3-2-1 - English.bps",
     "file.jap" : "tables/table-complete.txt",
     "file.latin" : "tables/table-latin.txt",
     "file.names" : "tables/table-noms.txt"
@@ -54,7 +55,7 @@
           "shift": 1343488
         }
       ],
-      "new-data-start": 1703938,
+      "new-data-start": 1703936,
       "new-data-shift": 1671168
     },
     {
@@ -104,7 +105,13 @@
         }
       ],
       "new-data-start": 1736704,
-      "new-data-shift": 1703936
+      "new-data-shift": 1703936,
+      "even-length": true,
+      "overflow": {
+        "limit": 1765376,
+        "data-start": 1769474,
+        "data-shift": 1736704
+      }
     }
   ],
   "translations-files": [
@@ -117,19 +124,19 @@
   ],
   "code-patches": [
     {
-      "code": "e2 20 a5 22 c9 82 d0 09 a9 30 85 22 c2 20 a7 20 6b c9 aa d0 73 a5 20 c9 00 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 20 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 40 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 60 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 80 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 a0 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 c0 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 e0 d0 09 a9 33 85 22 c2 20 a7 20 6b a9 34 85 22 c2 20 a7 20 6b c9 86 d0 04 a9 35 85 22 c2 20 a7 20 6b",
+      "code": "e2 20 a5 22 c9 82 d0 09 a9 30 85 22 c2 20 a7 20 6b c9 aa d0 73 a5 20 c9 00 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 20 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 40 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 60 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 80 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 a0 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 c0 d0 09 a9 33 85 22 c2 20 a7 20 6b c9 e0 d0 09 a9 33 85 22 c2 20 a7 20 6b a9 34 85 22 c2 20 a7 20 6b c9 86 d0 15 a5 20 29 02 c9 00 d0 09 a9 35 85 22 c2 20 a7 20 6b a9 36 85 22 c2 20 a7 20 6b",
       "offset": "180000"
     },
     {
-      "code": "e2 20 a5 22 c9 88 d0 04 a9 31 85 22 c9 86 d0 04 a9 35 85 22 c2 20 a7 20 6b",
-      "offset": "1800a0"
+      "code": "e2 20 a5 22 c9 88 d0 04 a9 31 85 22 c9 86 d0 15 a5 20 29 02 c9 00 d0 09 a9 35 85 22 c2 20 a7 20 6b a9 36 85 22 c2 20 a7 20 6b",
+      "offset": "1800d0"
     },
     {
       "code": "22 00 80 30",
       "offset": "a852"
     },
     {
-      "code": "22 A0 80 30",
+      "code": "22 D0 80 30",
       "offset": "a772"
     },
     {
@@ -158,17 +165,16 @@
   ],
   "input-patches": [
     {
-      "offset": "18a186",
-      "latin2": " Sign A B",
+      "offset": "18a17e",
       "latin": " Sign 0 1 2 3 4            #      5 6 7 8 9            # Clr  a b c d e  A B C D E #      f g h i j  F G H I J # End  k l m n o  K L M N O #      p q r s t  P Q R S T #      u v w x y  U V W X Y #      z          Z         #                          *",
       "type": "INPUT_LETTERS_SHOWN",
-      "debug": false
+      "debug": true
     },
     {
-      "offset": "18a382",
+      "offset": "18a37a",
       "latin": " Alph ! ? : . '            #      / ( ) [ ]            # Clr  + - %                #                           # End                       #                           #                           #                           #                          *",
       "type": "INPUT_LETTERS_SHOWN",
-      "debug": false
+      "debug": true
     },
     {
       "offset": "43e8b",
@@ -208,6 +214,22 @@
       "value": "{CB}",
       "code": "0420",
       "type": "NO_SPRITE"
+    },
+    {
+      "value": "{0000}",
+      "type": "NO_SPRITE",
+      "location": {
+        "offset": "d8000",
+        "side": "ONE"
+      }
+    },
+    {
+      "value": "{0100}",
+      "type": "NO_SPRITE",
+      "location": {
+        "offset": "d8000",
+        "side": "TWO"
+      }
     },
     {
       "value": " ",
@@ -855,6 +877,10 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-089.png"
+      },
+      "location": {
+        "offset": "d96a0",
+        "side": "TWO"
       }
     },
     {
@@ -869,6 +895,28 @@
       }
     },
     {
+      "value": "{POISON}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-097.png"
+      },
+      "location": {
+        "offset": "d9a80",
+        "side": "TWO"
+      }
+    },
+    {
+      "value": "{PILL}",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-098.png"
+      },
+      "location": {
+        "offset": "d9aa0",
+        "side": "ONE"
+      }
+    },
+    {
       "value": "{O-QUOTES}",
       "code": "4e01",
       "type": "NO_SPRITE"
@@ -877,20 +925,6 @@
       "value": "\"",
       "code": "4e01",
       "type": "NO_SPRITE"
-    },
-    {
-      "value": "{PILL}",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-098.png"
-      }
-    },
-    {
-      "value": "{POISON}",
-      "type": "SINGLE",
-      "sprite": {
-        "image": "images/single-chars/latin/char-097.png"
-      }
     },
     {
       "value": "{R-CIRCLE}",
@@ -904,6 +938,10 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-090.png"
+      },
+      "location": {
+        "offset": "d96c0",
+        "side": "ONE"
       }
     },
     {
@@ -2091,7 +2129,7 @@
       "type": "NO_SPRITE"
     },
     {
-      "value": "",
+      "value": " ",
       "code": "bf00",
       "type": "NO_SPRITE"
     },
@@ -4294,6 +4332,208 @@
       "value": "{EL}",
       "code": "ffff",
       "type": "NO_SPRITE"
+    }
+  ],
+  "specials": [
+    {
+      "code": "{CG}",
+      "in-game-length": 0,
+      "data-length": 1
+    },
+    {
+      "code": "{CR}",
+      "in-game-length": 0,
+      "data-length": 1
+    },
+    {
+      "code": "{CY}",
+      "in-game-length": 0,
+      "data-length": 1
+    },
+    {
+      "code": "{CW}",
+      "in-game-length": 0,
+      "data-length": 1
+    },
+    {
+      "code": "{NL}",
+      "in-game-length": 0,
+      "data-length": 1
+    },
+    {
+      "code": "{EL}",
+      "in-game-length": 0,
+      "data-length": 1
+    },
+    {
+      "code": "{2114 6403}",
+      "in-game-length": 2,
+      "data-length": 2
+    },
+    {
+      "code": "{2116 6403}",
+      "in-game-length": 2,
+      "data-length": 2
+    },
+    {
+      "code": "{4116 6985}",
+      "in-game-length": 3,
+      "data-length": 2
+    },
+    {
+      "code": "{4116 b245}",
+      "in-game-length": 3,
+      "data-length": 2
+    },
+    {
+      "code": "{4214 5985}",
+      "in-game-length": 4,
+      "data-length": 2,
+      "desc": "town name"
+    },
+    {
+      "code": "{4214 5b85}",
+      "in-game-length": 4,
+      "data-length": 2,
+      "desc": "town name"
+    },
+    {
+      "code": "{4214 6403}",
+      "in-game-length": 4,
+      "data-length": 2,
+      "desc": "town name"
+    },
+    {
+      "code": "{6214 5985}",
+      "in-game-length": 6,
+      "data-length": 2,
+      "desc": "castle name"
+    },
+    {
+      "code": "{8014 5985}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "player name"
+    },
+    {
+      "code": "{8014 5f85}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "player name"
+    },
+    {
+      "code": "{801c 4f00}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "player name"
+    },
+    {
+      "code": "{801c 5985}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "player name"
+    },
+    {
+      "code": "{8116 5f85}",
+      "in-game-length": 7,
+      "data-length": 2,
+      "desc": "castle value"
+    },
+    {
+      "code": "{8116 6985}",
+      "in-game-length": 6,
+      "data-length": 2,
+      "desc": "gold value"
+    },
+    {
+      "code": "{8214 5785}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "item name"
+    },
+    {
+      "code": "{8214 5985}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "magic name"
+    },
+    {
+      "code": "{8214 6403}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "item name"
+    },
+    {
+      "code": "{8214 6985}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "item name?"
+    },
+    {
+      "code": "{8214 ea03}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "magic name?"
+    },
+    {
+      "code": "{821c c900}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "gear?"
+    },
+    {
+      "code": "{821c cb00}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "gear?"
+    },
+    {
+      "code": "{821c cd00}",
+      "in-game-length": 8,
+      "data-length": 2,
+      "desc": "gear?"
+    },
+    {
+      "code": "{8314 5985}",
+      "in-game-length": 6,
+      "data-length": 2,
+      "desc": "item value"
+    },
+    {
+      "code": "{8314 5b85}",
+      "in-game-length": 7,
+      "data-length": 2,
+      "desc": "doctor cost"
+    },
+    {
+      "code": "{8314 6985}",
+      "in-game-length": 6,
+      "data-length": 2,
+      "desc": "gold value"
+    },
+    {
+      "code": "{8314 6d85}",
+      "in-game-length": 6,
+      "data-length": 2,
+      "desc": "gold value"
+    },
+    {
+      "code": "{8314 a803}",
+      "in-game-length": 7,
+      "data-length": 2,
+      "desc": "risque cost"
+    },
+    {
+      "code": "{8316 6985}",
+      "in-game-length": 6,
+      "data-length": 2,
+      "desc": "gold prize"
+    },
+    {
+      "code": "{9214 5d85}",
+      "in-game-length": 9,
+      "data-length": 2,
+      "desc": "continent name"
     }
   ]
 }

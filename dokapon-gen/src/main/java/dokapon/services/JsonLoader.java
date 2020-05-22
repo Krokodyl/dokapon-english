@@ -1,11 +1,8 @@
 package dokapon.services;
 
 
-import dokapon.characters.JapaneseChar;
+import dokapon.characters.*;
 import dokapon.entities.*;
-import dokapon.characters.LatinChar;
-import dokapon.characters.SpriteLocation;
-import dokapon.characters.LatinSprite;
 import dokapon.enums.CharSide;
 import dokapon.enums.CharType;
 import org.json.JSONArray;
@@ -43,9 +40,8 @@ public class JsonLoader {
         JSONObject json = new JSONObject(loadJson());
 
         JSONArray c = json.getJSONArray("translations-files");
-        Iterator<Object> iterator = c.iterator();
-        while (iterator.hasNext()) {
-            String next = (String) iterator.next();
+        for (Object o : c) {
+            String next = (String) o;
             files.add(next);
         }
 
@@ -61,11 +57,32 @@ public class JsonLoader {
         JSONObject c = json.getJSONObject("config");
         config.setRomInput(c.getString("rom-input"));
         config.setRomOutput(c.getString("rom-output"));
+        config.setBpsPatchOutput(c.getString("bps-patch-output"));
         config.setFileDicoJap(c.getString("file.jap"));
         config.setFileDicoLatin(c.getString("file.latin"));
         config.setFileDicoNames(c.getString("file.names"));
 
         return config;
+    }
+
+    public static Map<String, SpecialChar> loadSpecialChars() {
+        Map<String, SpecialChar> specialCharMap = new HashMap<>();
+
+        JSONObject json = new JSONObject(loadJson());
+
+        JSONArray array = json.getJSONArray("specials");
+
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
+            String code = next.getString("code");
+            int inGameLength = next.getInt("in-game-length");
+            int dataLength = next.getInt("data-length");
+            SpecialChar c = new SpecialChar(code);
+            c.setInGameLength(inGameLength);
+            c.setDataLength(dataLength);
+            specialCharMap.put(c.getCode(), c);
+        }
+        return specialCharMap;
     }
 
     public static List<LatinChar> loadLatin() {
@@ -74,9 +91,8 @@ public class JsonLoader {
         JSONObject json = new JSONObject(loadJson());
 
         JSONArray array = json.getJSONArray("latin");
-        Iterator<Object> iterator = array.iterator();
-        while (iterator.hasNext()) {
-            JSONObject next = (JSONObject) iterator.next();
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
             LatinChar c = new LatinChar();
             String value = next.getString("value");
             if (next.has("code")) {
@@ -90,12 +106,12 @@ public class JsonLoader {
                 if (sprite.has("image")) {
                     c.setSprite(new LatinSprite(sprite.getString("image")));
                 } else {
-                    c.setSprite(new LatinSprite(sprite.getString("image-top"),sprite.getString("image-bot")));
+                    c.setSprite(new LatinSprite(sprite.getString("image-top"), sprite.getString("image-bot")));
                 }
             }
             if (next.has("location")) {
                 JSONObject location = next.getJSONObject("location");
-                c.setSpriteLocation(new SpriteLocation(Integer.parseInt(location.getString("offset"),16), CharSide.valueOf(location.getString("side"))));
+                c.setSpriteLocation(new SpriteLocation(Integer.parseInt(location.getString("offset"), 16), CharSide.valueOf(location.getString("side"))));
             }
             latinChars.add(c);
         }
@@ -108,11 +124,10 @@ public class JsonLoader {
         JSONObject json = new JSONObject(loadJson());
 
         JSONArray array = json.getJSONArray("code-patches");
-        Iterator<Object> iterator = array.iterator();
-        while (iterator.hasNext()) {
-            JSONObject next = (JSONObject) iterator.next();
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
             String code = next.getString("code");
-            int offset = Integer.parseInt(next.getString("offset"),16);
+            int offset = Integer.parseInt(next.getString("offset"), 16);
             CodePatch codePatch = new CodePatch(code, offset);
             if (next.has("debug")) codePatch.setDebug(next.getBoolean("debug"));
             codePatches.add(codePatch);
@@ -126,10 +141,9 @@ public class JsonLoader {
         JSONObject json = new JSONObject(loadJson());
 
         JSONArray array = json.getJSONArray("input-patches");
-        Iterator<Object> iterator = array.iterator();
-        while (iterator.hasNext()) {
-            JSONObject next = (JSONObject) iterator.next();
-            int offset = Integer.parseInt(next.getString("offset"),16);
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
+            int offset = Integer.parseInt(next.getString("offset"), 16);
             InputPatch patch = new InputPatch(offset);
             patch.setLatin(next.getString("latin"));
             patch.setType(InputPatch.InputPatchType.valueOf(next.getString("type")));
@@ -145,17 +159,15 @@ public class JsonLoader {
         JSONObject json = new JSONObject(loadJson());
 
         JSONArray array = json.getJSONArray("tables");
-        Iterator<Object> iterator = array.iterator();
-        while (iterator.hasNext()) {
-            JSONObject next = (JSONObject) iterator.next();
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
             int id = next.getInt("id");
             PointerTable table = new PointerTable(id);
             table.setNewDataStart(next.getInt("new-data-start"));
             table.setNewDataShift(next.getInt("new-data-shift"));
             JSONArray pointersArray = next.getJSONArray("pointers");
-            Iterator<Object> it = pointersArray.iterator();
-            while (it.hasNext()) {
-                JSONObject pointerObject = (JSONObject) it.next();
+            for (Object value : pointersArray) {
+                JSONObject pointerObject = (JSONObject) value;
                 PointerRange range = new PointerRange(
                         pointerObject.getInt("start"),
                         pointerObject.getInt("end"),
@@ -168,6 +180,17 @@ public class JsonLoader {
             if (next.has("counter")) {
                 table.setCounter(next.getBoolean("counter"));
             }
+            if (next.has("even-length")) {
+                table.setEvenLength(next.getBoolean("even-length"));
+            }
+            if (next.has("overflow")) {
+                JSONObject overflow = next.getJSONObject("overflow");
+                Overflow ow = new Overflow();
+                ow.setLimit(overflow.getInt("limit"));
+                ow.setDataStart(overflow.getInt("data-start"));
+                ow.setDataShift(overflow.getInt("data-shift"));
+                table.setOverflow(ow);
+            }
             tables.add(table);
         }
         return tables;
@@ -178,15 +201,13 @@ public class JsonLoader {
         JSONObject json = new JSONObject(loadJson());
 
         JSONArray array = json.getJSONArray("japanese");
-        Iterator<Object> iterator = array.iterator();
-        while (iterator.hasNext()) {
-            JSONObject next = (JSONObject) iterator.next();
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
             JapaneseChar c = new JapaneseChar();
             String value = next.getString("value");
             if (next.has("code")) {
                 c.setCode(next.getString("code"));
             }
-            String type = next.getString("type");
             c.setValue(value);
             chars.add(c);
         }

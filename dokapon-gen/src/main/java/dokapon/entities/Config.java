@@ -4,6 +4,7 @@ public class Config {
 
     String romInput;
     String romOutput;
+    String bpsPatchOutput;
     String fileDicoJap;
     String fileDicoLatin;
     String fileDicoNames;
@@ -22,6 +23,14 @@ public class Config {
 
     public void setRomOutput(String romOutput) {
         this.romOutput = romOutput;
+    }
+
+    public String getBpsPatchOutput() {
+        return bpsPatchOutput;
+    }
+
+    public void setBpsPatchOutput(String bpsPatchOutput) {
+        this.bpsPatchOutput = bpsPatchOutput;
     }
 
     public String getFileDicoJap() {

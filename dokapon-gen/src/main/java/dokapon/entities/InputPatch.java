@@ -72,6 +72,7 @@ public class InputPatch extends CodePatch {
             }
         }
         code = code.trim();
+        System.out.println(code);
     }
 
     public enum InputPatchType {

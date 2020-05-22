@@ -94,28 +94,28 @@ VALEUR=d8ee(eed8)
 OFFSETDATA=158ee
 DATA=0500 4002 1000 4b00 b600 5001 2600 4300 1e00 2100 1801 2700 0e00 2300 2a00 0100 4500 3900 1600 4b00 0700 0030 bf00 6c01 6d01 2600 c200 c300 2a00 0c00 1500 4400 4700 2100 0200 1e00 2100 1200 3900 0200 3900 1400 4300 ffff 
 JAP=お姉さん┌毒によって死ぬことはありませんが{NL} 確実にHPはけずられていってしまいますよ{EL}
-ENG=Old sister: You can't die{NL}from poison but{NL}it surely drains your HP.{EL}
+ENG=Young girl: You can't die{NL}from poison but{NL}it surely drains your HP.{EL}
 
 OFFSET=14fa4
 VALEUR=d946(46d9)
 OFFSETDATA=15946
 DATA=0500 4002 1000 4b00 b600 f400 2600 f100 4600 2300 0800 2a00 3501 4a00 1f00 0c00 2100 0a00 1b00 1000 0200 0030 bf00 0420 e600 0020 e700 e000 2a00 4102 1b01 e000 2200 0220 ed00 3802 a200 a500 b100 0020 cc00 cd00 cd00 0030 bf00 2200 3d00 0120 e000 0020 e700 e000 2a00 7f01 1301 e000 2500 4b00 2200 1400 ffff 
 JAP=お姉さん┌店に入るときは気をつけてください{NL} {FGB}士{CW}曜日は特売日で{CY}全額25%{CW}OFF{NL} でも{FGR}日{CW}曜日は定休日なんです{EL}
-ENG=Older sister: On a sale day,{NL}you get 25% off at the shop.{NL}On Sundays, it's closed.{EL}
+ENG=Young girl: On a sale day,{NL}you get 25% off at the shop.{NL}On Sundays, it's closed.{EL}
 
 OFFSET=14fa8
 VALEUR=d9c0(c0d9)
 OFFSETDATA=159c0
 DATA=0500 4002 1000 4b00 b600 7400 5600 8800 9b00 4601 c601 2600 2a00 0030 bf00 4202 4302 1701 2600 3900 1f00 4900 4600 d301 d401 0700 0100 4500 3900 1400 0030 bf00 1800 2900 3b00 0600 1200 b300 4202 4302 4a00 0100 0700 3c00 4600 1f01 ba00 2a00 0030 0500 4002 1000 4b00 b600 7e00 7e00 9600 8900 5100 9b00 7100 9b00 4a00 ea00 be01 1200 1a00 1800 0300 2200 1400 ffff 
 JAP=お姉さん┌ドカポン王国には{NL} 天空城にまつわる伝説があります{NL} そのむかし,天空をあがめる人 は{NL}お姉さん┌ビビルマウンテンを目指したそうです{EL}
-ENG=Older sister: There is a{NL}legend about a {CY}Sky Castle{CW}.{NL}Long ago, people worshipped{NL}the sky on top of the{NL}{CY}Freaky Mountain{CW}.{EL}
+ENG=Young girl: There is a{NL}legend about a {CY}Sky Castle{CW}.{NL}Long ago, people worshipped{NL}the sky on top of the{NL}{CY}Freaky Mountain{CW}.{EL}
 
 OFFSET=14faa
 VALEUR=da50(50da)
 OFFSETDATA=15a50
 DATA=0500 4002 1000 4b00 b600 fc00 2200 2a00 c200 c300 2900 0b01 0c01 1200 0600 2200 0800 3900 1600 4b00 0030 bf00 0220 5001 0020 3f00 b300 0220 2900 4800 0200 0020 2a00 4c01 4a01 0600 7400 5600 8800 9b00 1701 2200 0030 bf00 0301 1200 2100 3d00 4400 1e00 2100 0a00 1b00 1000 0200 ffff 
 JAP=お姉さん┌村ではHPの回復しかできません{NL} {CY}毒{CW}や,{CY}のろい{CW}は教会かドカポン城で{NL} 治してもらってください{EL}
-ENG=Older sister:In a village,{NL}you can only recover HP.{NL}To cure {CY}poison{CW} or {CY}curse{CW} go{NL}to church or castle.{EL}
+ENG=Young girl:In a village,{NL}you can only recover HP.{NL}To cure {CY}poison{CW} or {CY}curse{CW} go{NL}to church or castle.{EL}
 
 OFFSET=14fac
 VALEUR=dac0(c0da)
