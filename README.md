@@ -58,7 +58,7 @@ Process complete
 # Screenshots
 Japanese | English
 ------------ | -------------
-![image 000](/screenshots/japanese/000.png)! | [image 000](/screenshots/english/000.png)
+![image 000](/screenshots/english/000.png)! | [image 000](/screenshots/japanese/000.png)
 ![image 000](/screenshots/japanese/001.png)! | [image 001](/screenshots/english/001.png)
 ![image 000](/screenshots/japanese/002.png)! | [image 002](/screenshots/english/002.png)
 ![image 000](/screenshots/japanese/003.png)! | [image 003](/screenshots/english/003.png)
