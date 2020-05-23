@@ -27,6 +27,8 @@ ROM CRC32: FC353400
 
 ### Compile & Execute
 
+0. git clone [dokapon-gen](https://github.com/Krokodyl/dokapon-english/tree/master/dokapon-gen)
+
 1. Edit src/main/resources/config.json with the location of the ROM
 ```json
 "config": {
@@ -143,7 +145,6 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 
 ## Know bugs / Improvements
 
-- [ ] The main menu guy has no background
 - [ ] Bug on the ranking table
 - [ ] Bug on the Kill Race starting level
 - [ ] Menu after a player kill is not wide enough
@@ -152,6 +153,36 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 - [ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
 - [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
 - [ ] In the menus, differentiate Towns and Castles
+- [ ] The main menu guy has no background (could be an emulator issue)
+- [ ] Bad translation: "Who will play together"
+- [ ] Typo: "Knifes"
+
+## Missing translations
+
+ITEMS
+Item8
+Item10
+Item12
+
+FIELD MAGIC
+FMAG1
+FMAG2
+FMAG3
+FMAG5   
+
+MONSTER MAGIC
+MOSK1
+MOSK2
+MOSK5
+MOSK6
+MOSK8
+MOSK11
+
+NEGATIVE EFFECTS
+-oruhaou
+MOSK1
+
+Some quest related names (last part of Table 6) have to match with same names in other translations.
 
 ## Screenshots
 Japanese | English
