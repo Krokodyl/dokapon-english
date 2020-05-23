@@ -9,7 +9,7 @@ A remake for the Wii and PS2 was released in 2008.
 
 ## The English patch file
 
-The latest patch file is available : [Dokapon 3-2-1 English.bps](https://github.com/Krokodyl/dokapon-english/blob/master/roms/Dokapon%203-2-1%20-%20English.bps)
+The latest patch file is available : [Dokapon 3-2-1 English.bps](/roms/Dokapon%203-2-1%20-%20English.bps)
 
 It applies to the following ROM :\
 File: Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan)\
@@ -67,27 +67,90 @@ The town names, unlike in the Wii version, are actual city names.
 But because the city names in Japanese fit on 4 characters, I added two-letter characters in order to be able to write 8-letter city names.
 The city names that were longer than 8 letters are replaced with shorter names from other actual cities of the same area.
 
-The two-letter characters are also used for some of the equipment names but for due to the way the characters are encoded in the game, there's only so many that can be used.
+The two-letter characters are also used for some of the equipment names but due to the way the characters are encoded in the game, there's only so many that can be used.
 
 Japanese | English
 ------------ | -------------
 ![image 012](/screenshots/japanese/012.png) | ![image 000](/screenshots/english/012.png)
 |![image 000](/screenshots/english/900.png)
 
-### How to improve the translations
+### How to help improve the translations
 
 The translations are split into 6 files (matching the 6 data banks of the rom).
 For practical reasons, there's no table 3.
 
-File | Content
+File | Translations | Comment
 ------------ | -------------
-[Table 1](/src/main/resources/translations/Table%201.txt) | 131 lines
-[Table 2](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%202.txt) | 139 lines<br/>Contains menus
-[Table 4](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%204.txt) | 256 lines
-[Table 5](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%205.txt) | 208 lines
-[Table 6](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%206.txt) | 20 lines<br/>Contains all the names (items, magic, towns, monsters etc.)
-[Table 7](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%207.txt) | 418 lines
+[Table 1](/dokapon-gen/src/main/resources/translations/Table%201.txt) | 131 |
+[Table 2](/dokapon-gen/src/main/resources/translations/Table%202.txt) | 139 | Contains menus
+[Table 4](/dokapon-gen/src/main/resources/translations/Table%204.txt) | 256 |
+[Table 5](/dokapon-gen/src/main/resources/translations/Table%205.txt) | 208 |
+[Table 6](/dokapon-gen/src/main/resources/translations/Table%206.txt) | 20 | Contains all the names (items, magic, towns, monsters etc.)
+[Table 7](/dokapon-gen/src/main/resources/translations/Table%207.txt) | 418 |
 
+#### Example of a translation entry
+```text
+OFFSET=15066
+VALUE=f590(90f5)
+OFFSETDATA=17590
+DATA=8000 4c00 4f00 9600 0700 0200 1e00 2c00 0200 2200 1400 b900 0030 2400 1c00 4400 4a00 7401 1400 0600 4e01 4b00 2200 8101 1000 0200 b400 ffff
+JAP=ファイルがいっぱいです!{NL}どちらを消すか選んで下さい.{EL}
+ENG=No empty save file!{NL}Please choose one to erase.{EL}
+```
+
+#### Special characters
+- The characters between **{}** are not printed in game, unless they match a special code.
+- A translation must always end with **{EL}** (EL for End of Line)
+- A translation must be segmented by line breaks with **{NL}** (NL for New Line).
+- A segment cannot be longer than **30** printed characters.
+
+Special code | In game
+{NL} | Line break
+{EL} | End of line
+{CW} | Set text color to white (default)
+{CR} | Set text color to red
+{CY} | Set text color to yellow
+{CG} | Set text color to green
+{CB} | Set text color to blue
+{SHIELD} | Shield icon
+{WEAP} | Weapon icon
+{ARMOR} | Weapon icon
+{BUT} | Button icon
+
+#### Variables
+Many translations contains variables (player name, gold amount, health points etc) which are usually represented by two codes (e.g. **{8014 5985}** is current player name)
+These are 2-character long in the data but can go from 2 (monster level) to 9 (gold amount) printed characters.
+These codes are listed (not all) under "special" in config.json and used to calculate the length of a given translation to make sure they don't go over 30 printed characters.
+This list is not exhaustive.
+It can be shown when calling DataReader.collectSpecialChars from the main class.
+
+#### Menus
+
+Table 2 contains menus. Each entry has an extra field **MENUDATA**
+```text
+MENUDATA=1107 0d05
+ENG=Resume{NL}Scenario mode{NL}Normal mode{NL}Battle Royale{NL}Quizz{EL}
+```
+
+MENUDATA represents the coordinates (x,y) and the dimensions (width,height) of the menu.
+1107 0d05 means the menu is at 16,7 with width 13 and height 5
+The top left coordinates 0,0.
+The width unit is a character width. (Screen width is 30)
+The height unit is half a character height. (Screen height is 25)
+
+I wrote a function DataReader.checkMenuData to check if a menu is out of bound but it needs testing.
+
+## Know bugs / Improvements
+
+[ ] The main menu guy has no background
+[ ] Bug on the ranking table
+[ ] Bug on the Kill Race starting level
+[ ] Menu after a player kill is not wide enough
+[ ] Bug on menu after a player escapes another player
+[ ] Bug on the rename screen (after a player kill)
+[ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
+[ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
+[ ] In the menus, differentiate Towns and Castles
 
 ## Screenshots
 Japanese | English
