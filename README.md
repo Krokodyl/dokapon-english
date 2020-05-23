@@ -1,9 +1,13 @@
 # Dokapon Gen
 
-This project is a Java program that generates a translation file (.bps) for the Super Nintendo video game:
-**Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜)
+This project is a Java program that generates a translation file (.bps) for the Super Famicom video game\
+**Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
 
-# The English patch file
+This game is the second Dokapon game for the Super Famicom as well as the second overall. Like it predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land. They can also get into fights with random monsters which raises their levels, though being defeated will cause them to lose a turn.
+
+A remake for the Wii and PS2 was released in 2008.
+
+## The English patch file
 
 The latest patch file is available : [Dokapon 3-2-1 English.bps](https://github.com/Krokodyl/dokapon-english/blob/master/roms/Dokapon%203-2-1%20-%20English.bps)
 
@@ -13,16 +17,15 @@ No-Intro: Super Nintendo Entertainment System (v. 20180813-062835)\
 ROM SHA-1: 9343CA8D3161DEA847E0369A4A91CD7F8DC2D3AE\
 ROM CRC32: FC353400
 
-## Requirements
+## How to generate the patch yourself
 
+### Requirements
 * git
 * Java 7 or above
 * Maven
 * The original japanese ROM of the game (not provided here)
 
-
-
-## Compile & Execute
+### Compile & Execute
 
 1. Edit src/main/resources/config.json
 ```json
@@ -55,9 +58,11 @@ Saving bps-patch-output...
 Process complete
 ```
 
-# Translations
+## Translations
 
-# Screenshots
+
+
+## Screenshots
 Japanese | English
 ------------ | -------------
 ![image 000](/screenshots/japanese/000.png) | ![image 000](/screenshots/english/000.png)
