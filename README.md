@@ -7,11 +7,11 @@ This project is a Java program that generates a translation file (.bps) for the 
 
 The latest patch file is available : [Dokapon 3-2-1 English.bps](https://github.com/Krokodyl/dokapon-english/blob/master/roms/Dokapon%203-2-1%20-%20English.bps)
 
-It applies to the following ROM :
+It applies to the following ROM :\
 File: Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan)\
 No-Intro: Super Nintendo Entertainment System (v. 20180813-062835)\
 ROM SHA-1: 9343CA8D3161DEA847E0369A4A91CD7F8DC2D3AE\
-ROM CRC32: FC353400\
+ROM CRC32: FC353400
 
 ## Requirements
 
