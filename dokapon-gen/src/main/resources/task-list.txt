@@ -1,29 +1,41 @@
-BIG DEV
-(Tried, doesn't look as good) City names using slanted double chars
+## Know bugs / Improvements
 
-SPRITES
+- [ ] Yes/No questions are sometimes hidden under the Yes/No menu
+- [ ] Bug on the ranking table
+- [ ] Bug on the Kill Race starting level
+- [ ] Menu after a player kill is not wide enough
+- [ ] Bug on menu after a player escapes another player
+- [ ] Bug on the rename screen (after a player kill)
+- [ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
+- [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
+- [ ] In the menus, differentiate Towns and Castles
+- [ ] The main menu guy has no background (could be an emulator issue)
+- [ ] Bad translation: "Who will play together"
+- [ ] Typo: "Knifes"
 
-MENU
-Bug on the ranking table
-Bug on the Kill Race starting level
-Bug on the rename screen (after a kill)
-Bug on sell gear (Steal x10) the x is shown as DC-OW
-Change the AI difficulty menu to show full words
-
-TRANSLATIONS
-(Bad idea regarding limited space) Add special char for Cuiaba and Tromso
-"Who will play together" sounds weird.
-
-TRANSLATIONS TO BE CHECKED
-Table 1 : 131 / 131
-Table 2 : 124 / 124
-
-TRANSLATIONS TO DO
-Table 4: :  255 / 255
-Table 5 :   208  / 208
-Table 7 :   415 / 418           1732
-
+## Missing translations
 
 ITEMS
-Item1
-Item2
+Item8
+Item10
+Item12
+
+FIELD MAGIC
+FMAG1
+FMAG2
+FMAG3
+FMAG5
+
+MONSTER MAGIC
+MOSK1
+MOSK2
+MOSK5
+MOSK6
+MOSK8
+MOSK11
+
+NEGATIVE EFFECTS
+-oruhaou
+MOSK1
+
+Some quest related names (last part of Table 6) have to match with same names in other translations.
