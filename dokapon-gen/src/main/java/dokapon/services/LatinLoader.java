@@ -1,5 +1,6 @@
 package dokapon.services;
 
+import dokapon.Dokapon;
 import dokapon.characters.LatinChar;
 import dokapon.characters.LatinSprite;
 import dokapon.characters.SpriteLocation;
@@ -87,7 +88,7 @@ public class LatinLoader {
         for (LatinChar l:latinChars) {
             String s = "";
             if (l.getSpriteLocation()!=null) s = Integer.toHexString(l.getSpriteLocation().getOffset());
-            System.out.println(s + " " + l.getCode()+" "+l.getIgValue()+" ("+l.getValue()+")");
+            if (Dokapon.DEBUG) System.out.println(s + " " + l.getCode()+" "+l.getIgValue()+" ("+l.getValue()+")");
         }
     }
 
@@ -118,7 +119,7 @@ public class LatinLoader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(japanese);
+        if (Dokapon.DEBUG) System.out.println(japanese);
         japanese = japanese.replace(TRANSLATION_KEY_JAP,TRANSLATION_KEY_ENG);
         for (Map.Entry<Object, Object> entry : properties.entrySet()) {
             String key = entry.getKey().toString();
@@ -136,7 +137,7 @@ public class LatinLoader {
                 res.addAll(generateDoubleChars(val, maxLength, type));
             }
         }
-        System.out.println(japanese);
+        if (Dokapon.DEBUG) System.out.println(japanese);
         return res;
     }
 

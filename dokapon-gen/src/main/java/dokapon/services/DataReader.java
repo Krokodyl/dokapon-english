@@ -1,6 +1,7 @@
 package dokapon.services;
 
 import dokapon.Constants;
+import dokapon.Dokapon;
 import dokapon.entities.PointerData;
 import dokapon.entities.PointerRange;
 import dokapon.entities.PointerTable;
@@ -249,7 +250,7 @@ public class DataReader {
             }
         }
         Collections.sort(specialChars);
-        for (String s : specialChars) System.out.println(s);
+        for (String s : specialChars) if (Dokapon.DEBUG) System.out.println(s);
     }
 
     /**
@@ -263,10 +264,10 @@ public class DataReader {
             int width = Integer.parseInt(menuData[1].substring(0, 2), 16);
             int height = Integer.parseInt(menuData[1].substring(2, 4), 16);
             if (x + width > Constants.MENU_RIGHT_EDGE) {
-                System.err.println("MENU OFFSCREEN RIGHT EDGE : " + Integer.toHexString(p.getOffset()) + "(" + (width + x) + ")");
+                if (Dokapon.DEBUG) System.err.println("MENU OFFSCREEN RIGHT EDGE : " + Integer.toHexString(p.getOffset()) + "(" + (width + x) + ")");
             }
             if (2 * y + height > Constants.MENU_BOTTOM_EDGE && height < 255) {
-                System.err.println("MENU OFFSCREEN BOTTOM EDGE : " + Integer.toHexString(p.getOffset()) + "(" + (2 * y + height) + ")");
+                if (Dokapon.DEBUG) System.err.println("MENU OFFSCREEN BOTTOM EDGE : " + Integer.toHexString(p.getOffset()) + "(" + (2 * y + height) + ")");
             }
         }
     }

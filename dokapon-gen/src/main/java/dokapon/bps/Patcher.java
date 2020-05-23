@@ -45,9 +45,7 @@ public class Patcher {
         byte[] outputData = new byte[(int) header.getModifiedFileSize()];
         int offset = 0;
         for (Action a:data.getActionList()) {
-            System.out.println("offset before="+offset);
             offset = a.applyAction(patchData, sourceData, offset, outputData);
-            System.out.println("offset after="+offset);
         }
         Utils.saveData(outputFile, outputData);
     }

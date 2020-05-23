@@ -274,7 +274,6 @@ public class Translator {
                 System.out.println(Integer.toHexString(t.getOffset())+" "+t.getValue()+" "+val);
             }
         }
-        System.out.println(count);
     }
 
     public String[] getTranslationPointer(PointerData p, PointerTable table) {

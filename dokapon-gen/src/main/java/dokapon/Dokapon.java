@@ -25,12 +25,18 @@ public class Dokapon {
     static Config config;
 
     public static int EXTRA_DATA_BANK_REQUIRED = 7;
+    public static boolean DEBUG = false;
 
     public static void main(String[] args) {
         latinLoader = new LatinLoader();
         spriteWriter = new SpriteWriter();
         translator = new Translator(latinLoader);
         config = JsonLoader.loadConfig();
+
+        System.out.println("Loading config");
+        System.out.println("rom-input="+config.getRomInput());
+        System.out.println("rom-output="+config.getRomOutput());
+        System.out.println("bps-patch-output="+config.getBpsPatchOutput());
 
         try {
             data = Files.readAllBytes(new File(config.getRomInput()).toPath());
@@ -155,7 +161,10 @@ public class Dokapon {
                         s,
                         JsonLoader.loadJap()));*/
 
+        System.out.println("Saving rom-output...");
         DataWriter.saveData(config.getRomOutput(), data);
+        System.out.println("Saving bps-patch-output...");
         Patcher.generatePatch(new File(config.getRomInput()), new File(config.getRomOutput()), new File(config.getBpsPatchOutput()), "https://github.com/Krokodyl/dokapon-english");
+        System.out.println("Process complete");
     }
 }

@@ -27,6 +27,6 @@ public class Constants {
     public static String TRANSLATION_KEY_DATA = "DATA";
     public static String TRANSLATION_KEY_OFFSET = "OFFSET";
     public static String TRANSLATION_KEY_MENUDATA = "MENUDATA";
-    public static String TRANSLATION_KEY_VALUE = "VALEUR";
+    public static String TRANSLATION_KEY_VALUE = "VALUE";
 
 }
