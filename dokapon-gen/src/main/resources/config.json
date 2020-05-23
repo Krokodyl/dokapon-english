@@ -5,7 +5,7 @@
     "bps-patch-output": "../roms/Dokapon 3-2-1 - English.bps",
     "file.jap" : "tables/table-complete.txt",
     "file.latin" : "tables/table-latin.txt",
-    "file.names" : "tables/table-noms.txt"
+    "file.names" : "tables/table-names.txt"
   },
   "tables": [
     {
@@ -300,6 +300,10 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-062.png"
+      },
+      "location": {
+        "offset": "d94c0",
+        "side": "ONE"
       }
     },
     {
