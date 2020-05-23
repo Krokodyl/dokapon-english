@@ -72,7 +72,7 @@ The two-letter characters are also used for some of the equipment names but for 
 Japanese | English
 ------------ | -------------
 ![image 012](/screenshots/japanese/012.png) | ![image 000](/screenshots/english/012.png)
-![image 000](/screenshots/english/900.png)
+|![image 000](/screenshots/english/900.png)
 
 ### How to improve the translations
 
@@ -81,12 +81,12 @@ For practical reasons, there's no table 3.
 
 File | Content
 ------------ | -------------
-[Table 1](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 1.txt) | 131 lines
-[Table 2](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 2.txt) | 139 lines<br/>Contains menus
-[Table 4](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 4.txt) | 256 lines
-[Table 5](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 5.txt) | 208 lines
-[Table 6](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 6.txt) | 20 lines<br/>Contains all the names (items, magic, towns, monsters etc.)
-[Table 7](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 7.txt) | 418 lines
+[Table 1](/src/main/resources/translations/Table%201.txt) | 131 lines
+[Table 2](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%202.txt) | 139 lines<br/>Contains menus
+[Table 4](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%204.txt) | 256 lines
+[Table 5](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%205.txt) | 208 lines
+[Table 6](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%206.txt) | 20 lines<br/>Contains all the names (items, magic, towns, monsters etc.)
+[Table 7](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table%207.txt) | 418 lines
 
 
 ## Screenshots
