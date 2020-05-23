@@ -1,1 +1,6 @@
 /dokapon-gen/target/
+/roms/*.smc
+/archives
+/rom-hacking.net
+/dokapon-gen/.idea
+dokapon-gen/Dokapon.iml

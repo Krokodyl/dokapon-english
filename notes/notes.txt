@@ -1,7 +1,23 @@
+First game (Released on Dec 10 1993)
+決戦!ドカポン王国IV 〜伝説の勇者たち〜
+Kessen! Dokapon Oukoku IV: Densetsu no Yuusha Tachi
+Decisive battle! Dokapon Kingdom IV ~ Legendary Heroes ~
+
+The IV refers to the possibility of having 4 players.
+
+
+Second game : Dokapon 3-2-1: Arashi o Yobu Yuujou
+
+##### TABLES #####
+1
+
+
 ##### BREAKPOINTS #####
 Welcome text : 02CFE8
 First menu : 088259
 Menu Week/Day : 0881F5
+Subroutine 1 : 308000
+Subroutine 2 : 3080D0
 
 ##### BANK ADDRESS CONVERSION #####
 Adresse pointeur : 14fe8
@@ -99,3 +115,92 @@ Player : 2e01 2c01 ed00 3201 e700 eb00
 
 
 0 1 2 3 4 bf bf bf bf bf 00 00 5 6 7 8 9 bf bf bf bf bf 00 fe a b c d e A B C D E 00 00 f g h i j F G H I J 00 fd k l m n o K L M N O 00 00 p q r s t P Q R S T 00 00 u v w x y U V W X Y 00 00 z bf bf bf bf Z bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff ! ? : . ' bf bf bf bf bf 00 00 / ( ) [ ] bf bf bf bf bf 00 fe + - % bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 fd bf bf bf bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 00 bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf bf bf bf bf 00 ff bf bf bf bf bf bf
+
+ Alph
+
+bf00 e600 2400 2800 2000
+
+PAGE LETTER
+saved values jap offset : 43e8b
+shown values jap offset : 41fe6 (menu inc. 41fe2)
+
+##### BUG LEVEL UP CASTLE #####
+
+e3c4 -> 9cd0
+ed07 -> 10ed6
+308004
+3080A4
+01A856
+
+36a6b   D8 9B     (D8 9B 86)
+1a9bd8
+
+1A8000  00 80   0000
+1A8002  02 80   0010
+1A8004          0100
+1A8006          0110
+1A8008          1000
+1A800A          1010
+1A800C          1100
+1A800E          1110
+
+$30/8000 E2 20       SEP #$20                A:22B0 X:0000 Y:8537 P:envMxdIzc
+$30/8002 A5 22       LDA $22    [$00:0022]   A:22B0 X:0000 Y:8537 P:envMxdIzc
+$30/8004 C9 82       CMP #$82                A:2231 X:0000 Y:8537 P:envMxdIzc
+$30/8006 D0 09       BNE $09    [$8011]      A:2231 X:0000 Y:8537 P:eNvMxdIzc
+$30/8008 A9 30       LDA #$30                A:0082 X:0006 Y:8537 P:envMxdIZC
+$30/800A 85 22       STA $22    [$00:0022]   A:0030 X:0006 Y:8537 P:envMxdIzC
+$30/800C C2 20       REP #$20                A:0030 X:0006 Y:8537 P:envMxdIzC
+$30/800E A7 20       LDA [$20]  [$30:9A9E]   A:0030 X:0006 Y:8537 P:envmxdIzC
+$30/8010 6B          RTL                     A:0150 X:0006 Y:8537 P:envmxdIzC
+$30/8011 C9 AA       CMP #$AA                A:2231 X:0000 Y:8537 P:eNvMxdIzc
+$30/8013 D0 73       BNE $73    [$8088]      A:2231 X:0000 Y:8537 P:eNvMxdIzc
+$30/8088 C9 86       CMP #$86                A:2231 X:0000 Y:8537 P:eNvMxdIzc
+$30/808A D0 04       BNE $04    [$8090]      A:2231 X:0000 Y:8537 P:eNvMxdIzc
+$30/8090 C2 20       REP #$20                A:2231 X:0000 Y:8537 P:eNvMxdIzc
+$30/8092 A7 20       LDA [$20]  [$31:9FAA]   A:2231 X:0000 Y:8537 P:eNvmxdIzc
+$30/8094 6B          RTL                     A:FFFF X:0000 Y:8537 P:eNvmxdIzc
+
+18008C  30808C
+1800B0  3080B0
+
+OLD
+c9 86 d0 04 a9 35 85 22 c2 20 a7 20 6b
+NEW
+c9 86 d0 15 a5 20 29 02 c9 00 d0 09 a9 35 85 22 c2 20 a7 20 6b a9 36 85 22 c2 20 a7 20 6b
+
+c9 86 d0 15 (=skipped instructions)
+  A5 20
+  29 02
+  c9 00 d0 09
+        a9 35
+        85 22
+        c2 20 a7 20 6b
+  a9 36
+  85 22
+c2 20 a7 20 6b
+
+##### BANKS #####
+0x180000	fill 1010		30  (82)  Table 1 (x180100)
+0x188000	fill 1111		31  (82)  Table 2
+0x190000	fill 1212		32  --
+0x198000	fill 1313		33  ()  Table 4
+0x1a0000	fill 1414		34  ()  Table 5 (x1a0002)
+0x1a8000	fill 1515		35  (86)  Table 7
+0x1b0000  fill 1616   35  (86)  Table 7 overflow
+
+1736704
+1780516
+
+##### BUG ITEM / MAGIC USE MENU #####
+4d00 RM
+4f00  R
+7100 HA
+8b00 SA
+
+af004d004f0071008b00b000
+
+
+####################################
+Dokapon
+castle
