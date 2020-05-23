@@ -105,6 +105,7 @@ ENG=No empty save file!{NL}Please choose one to erase.{EL}
 - A segment cannot be longer than **30** printed characters.
 
 Special code | In game
+------------ | -------------
 {NL} | Line break
 {EL} | End of line
 {CW} | Set text color to white (default)
@@ -142,15 +143,15 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 
 ## Know bugs / Improvements
 
-[ ] The main menu guy has no background
-[ ] Bug on the ranking table
-[ ] Bug on the Kill Race starting level
-[ ] Menu after a player kill is not wide enough
-[ ] Bug on menu after a player escapes another player
-[ ] Bug on the rename screen (after a player kill)
-[ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
-[ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
-[ ] In the menus, differentiate Towns and Castles
+- [ ] The main menu guy has no background
+- [ ] Bug on the ranking table
+- [ ] Bug on the Kill Race starting level
+- [ ] Menu after a player kill is not wide enough
+- [ ] Bug on menu after a player escapes another player
+- [ ] Bug on the rename screen (after a player kill)
+- [ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
+- [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
+- [ ] In the menus, differentiate Towns and Castles
 
 ## Screenshots
 Japanese | English
@@ -162,6 +163,5 @@ Japanese | English
 ![image 000](/screenshots/japanese/004.png) | ![image 004](/screenshots/english/004.png)
 ![image 000](/screenshots/japanese/005.png) | ![image 005](/screenshots/english/005.png)
 ![image 000](/screenshots/japanese/006.png) | ![image 006](/screenshots/english/006.png)
-
 ![image 000](/screenshots/japanese/010.png) | ![image 010](/screenshots/english/010.png)
 ![image 000](/screenshots/japanese/011.png) | ![image 011](/screenshots/english/011.png)
