@@ -27,7 +27,7 @@ ROM CRC32: FC353400
 
 ### Compile & Execute
 
-1. Edit src/main/resources/config.json
+1. Edit src/main/resources/config.json with the location of the ROM
 ```json
 "config": {
     "rom-input" : "../roms/Dokapon 3-2-1 - Arashi wo Yobu Yujo (J).smc",
@@ -60,6 +60,33 @@ Process complete
 
 ## Translations
 
+Many translations are inspired by the Wii remake from 2008.
+Such as the character names, the items and magic names, the chapter titles, etc.
+
+The town names, unlike in the Wii version, are actual city names.
+But because the city names in Japanese fit on 4 characters, I added two-letter characters in order to be able to write 8-letter city names.
+The city names that were longer than 8 letters are replaced with shorter names from other actual cities of the same area.
+
+The two-letter characters are also used for some of the equipment names but for due to the way the characters are encoded in the game, there's only so many that can be used.
+
+Japanese | English
+------------ | -------------
+![image 012](/screenshots/japanese/012.png) | ![image 000](/screenshots/english/012.png)
+![image 000](/screenshots/english/900.png)
+
+### How to improve the translations
+
+The translations are split into 6 files (matching the 6 data banks of the rom).
+For practical reasons, there's no table 3.
+
+File | Content
+------------ | -------------
+[Table 1](/dokapon-gen/src/main/resources/translations/Table 1.txt) | 131 lines
+[Table 2](/dokapon-gen/src/main/resources/translations/Table 2.txt) | 139 lines\ Contains menus
+[Table 4](/dokapon-gen/src/main/resources/translations/Table 4.txt) | 256 lines
+[Table 5](/dokapon-gen/src/main/resources/translations/Table 5.txt) | 208 lines
+[Table 6](/dokapon-gen/src/main/resources/translations/Table 6.txt) | 20 lines\ Contains all the names (items, magic, towns, monsters etc.)
+[Table 7](/dokapon-gen/src/main/resources/translations/Table 7.txt) | 418 lines
 
 
 ## Screenshots
@@ -72,8 +99,6 @@ Japanese | English
 ![image 000](/screenshots/japanese/004.png) | ![image 004](/screenshots/english/004.png)
 ![image 000](/screenshots/japanese/005.png) | ![image 005](/screenshots/english/005.png)
 ![image 000](/screenshots/japanese/006.png) | ![image 006](/screenshots/english/006.png)
-![image 000](/screenshots/japanese/007.png) | ![image 007](/screenshots/english/007.png)
-![image 000](/screenshots/japanese/008.png) | ![image 008](/screenshots/english/008.png)
-![image 000](/screenshots/japanese/009.png) | ![image 009](/screenshots/english/009.png)
+
 ![image 000](/screenshots/japanese/010.png) | ![image 010](/screenshots/english/010.png)
 ![image 000](/screenshots/japanese/011.png) | ![image 011](/screenshots/english/011.png)
