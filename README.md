@@ -4,8 +4,8 @@ This project is a Java program that generates a translation file (.bps) for the 
 **Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
 If you only care about the translation patch, see below.
 
-**This is a work in progress**
-**Feel free to fork it, share it, improve it.**
+**This is a work in progress**\
+**Feel free to fork it, share it, improve it.**\
 **You're welcome to report any bugs or issues**
 
 Dokapon 3-2-1 is the second Dokapon game for the Super Famicom as well as the second overall. Like it predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land. They can also get into fights with random monsters which raises their levels, though being defeated will cause them to lose a turn.
