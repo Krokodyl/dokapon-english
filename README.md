@@ -2,8 +2,13 @@
 
 This project is a Java program that generates a translation file (.bps) for the Super Famicom video game\
 **Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
+If you only care about the translation patch, see below.
 
-This game is the second Dokapon game for the Super Famicom as well as the second overall. Like it predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land. They can also get into fights with random monsters which raises their levels, though being defeated will cause them to lose a turn.
+**This is a work in progress**
+**Feel free to fork it, share it, improve it.**
+**You're welcome to report any bugs or issues**
+
+Dokapon 3-2-1 is the second Dokapon game for the Super Famicom as well as the second overall. Like it predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land. They can also get into fights with random monsters which raises their levels, though being defeated will cause them to lose a turn.
 
 A remake for the Wii and PS2 was released in 2008.
 
@@ -105,6 +110,7 @@ ENG=No empty save file!{NL}Please choose one to erase.{EL}
 - A translation must always end with **{EL}** (EL for End of Line)
 - A translation must be segmented by line breaks with **{NL}** (NL for New Line).
 - A segment cannot be longer than **30** printed characters.
+- Table 6 doesn't use {EL} because the **names have a fixed size** (8 for the items, 8 for the armor/weapons/shields including the icon, 6 for the castles, 9 for the continents, etc.)
 
 Special code | In game
 ------------ | -------------
@@ -145,6 +151,7 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 
 ## Know bugs / Improvements
 
+- [ ] Yes/No questions are sometimes hidden under the Yes/No menu
 - [ ] Bug on the ranking table
 - [ ] Bug on the Kill Race starting level
 - [ ] Menu after a player kill is not wide enough
@@ -196,3 +203,9 @@ Japanese | English
 ![image 000](/screenshots/japanese/006.png) | ![image 006](/screenshots/english/006.png)
 ![image 000](/screenshots/japanese/010.png) | ![image 010](/screenshots/english/010.png)
 ![image 000](/screenshots/japanese/011.png) | ![image 011](/screenshots/english/011.png)
+
+## BPS Patcher
+
+I could not find an open-source Java BPS patch generator so I made one.
+It's under /dokapon-gen/src/main/java/dokapon/bps
+It's still experimental and is not very well optimized but it seems to work.
