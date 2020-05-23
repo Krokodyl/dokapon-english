@@ -80,7 +80,7 @@ The translations are split into 6 files (matching the 6 data banks of the rom).
 For practical reasons, there's no table 3.
 
 File | Translations | Comment
------------- | -------------
+------------ | ------------- | -------------
 [Table 1](/dokapon-gen/src/main/resources/translations/Table%201.txt) | 131 |
 [Table 2](/dokapon-gen/src/main/resources/translations/Table%202.txt) | 139 | Contains menus
 [Table 4](/dokapon-gen/src/main/resources/translations/Table%204.txt) | 256 |
