@@ -2,13 +2,12 @@
 
 This project is a Java program that generates a translation file (.bps) for the Super Famicom video game\
 **Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
-If you only care about the translation patch, see below.
 
 **This is a work in progress**\
 **Feel free to fork it, share it, improve it.**\
 **You're welcome to report any bugs or issues**
 
-Dokapon 3-2-1 is the second Dokapon game for the Super Famicom as well as the second overall. Like it predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land. They can also get into fights with random monsters which raises their levels, though being defeated will cause them to lose a turn.
+Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land. They can also get into fights with random monsters to gain experience points and increase their stats, though being defeated will cause them to lose a turn.
 
 A remake for the Wii and PS2 was released in 2008.
 
@@ -166,18 +165,18 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 
 ## Missing translations
 
-ITEMS
+ITEMS\
 Item8
 Item10
 Item12
 
-FIELD MAGIC
+FIELD MAGIC\
 FMAG1
 FMAG2
 FMAG3
 FMAG5   
 
-MONSTER MAGIC
+MONSTER MAGIC\
 MOSK1
 MOSK2
 MOSK5
@@ -185,7 +184,7 @@ MOSK6
 MOSK8
 MOSK11
 
-NEGATIVE EFFECTS
+NEGATIVE EFFECTS\
 -oruhaou
 MOSK1
 
@@ -206,6 +205,6 @@ Japanese | English
 
 ## BPS Patcher
 
-I could not find an open-source Java BPS patch generator so I made one.
-It's under /dokapon-gen/src/main/java/dokapon/bps
+I could not find an open-source Java BPS patch generator so I made one. \
+It's under /dokapon-gen/src/main/java/dokapon/bps \
 It's still experimental and is not very well optimized but it seems to work.
