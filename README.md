@@ -81,12 +81,12 @@ For practical reasons, there's no table 3.
 
 File | Content
 ------------ | -------------
-[Table 1](/dokapon-gen/src/main/resources/translations/Table 1.txt) | 131 lines
-[Table 2](/dokapon-gen/src/main/resources/translations/Table 2.txt) | 139 lines\ Contains menus
-[Table 4](/dokapon-gen/src/main/resources/translations/Table 4.txt) | 256 lines
-[Table 5](/dokapon-gen/src/main/resources/translations/Table 5.txt) | 208 lines
-[Table 6](/dokapon-gen/src/main/resources/translations/Table 6.txt) | 20 lines\ Contains all the names (items, magic, towns, monsters etc.)
-[Table 7](/dokapon-gen/src/main/resources/translations/Table 7.txt) | 418 lines
+[Table 1](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 1.txt) | 131 lines
+[Table 2](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 2.txt) | 139 lines<br/>Contains menus
+[Table 4](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 4.txt) | 256 lines
+[Table 5](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 5.txt) | 208 lines
+[Table 6](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 6.txt) | 20 lines<br/>Contains all the names (items, magic, towns, monsters etc.)
+[Table 7](https://github.com/Krokodyl/dokapon-english/blob/master/dokapon-gen/src/main/resources/translations/Table 7.txt) | 418 lines
 
 
 ## Screenshots
