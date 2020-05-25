@@ -19,6 +19,7 @@
 package threads;
 
 import java.io.*;
+import ui.TMUI;
 
 /**
 *
@@ -32,6 +33,7 @@ public class FileLoaderThread extends ProgressThread {
     BufferedInputStream bis=null;
     private int bytesLeft;
     private byte[] contents;
+    private TMUI ui;
 
     public FileLoaderThread(File file) throws OutOfMemoryError, FileNotFoundException {
         super();
@@ -76,8 +78,13 @@ public class FileLoaderThread extends ProgressThread {
         try {
             bis.close();
         } catch (Exception e) { }
+        if (ui!=null) {
+            ui.setContent(getContents());
+        }
         // done loading data
     }
+
+
 
     public byte[] getContents() {
         return contents;
@@ -87,4 +94,11 @@ public class FileLoaderThread extends ProgressThread {
         contents = null;
     }
 
+    public void setUI(TMUI ui) {
+        this.ui = ui;
+    }
+
+    public TMUI getUI() {
+        return ui;
+    }
 }

@@ -92,6 +92,21 @@ public class TMGoToDialog extends TMModalDialog {
         ofsPane.setBorder(new TitledBorder(new EtchedBorder(), xlate("Offset")));
         ofsField = new JTextField();
         ofsPane.add(ofsField);
+        ofsField.addKeyListener(new KeyListener() {
+            public void keyTyped(KeyEvent keyEvent) {
+
+            }
+
+            public void keyPressed(KeyEvent keyEvent) {
+                if (KeyEvent.VK_ENTER == keyEvent.getKeyCode()) {
+                    okButton.doClick();
+                }
+            }
+
+            public void keyReleased(KeyEvent keyEvent) {
+
+            }
+        });
 
         JPanel radixPane = new JPanel();
         radixPane.setBorder(new TitledBorder(new EtchedBorder(), xlate("Radix")));

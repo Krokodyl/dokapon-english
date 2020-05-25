@@ -37,7 +37,7 @@ import java.awt.event.*;
 public abstract class TMModalDialog extends JDialog {
 
     private int result;
-    private JButton okButton;
+    protected JButton okButton;
     private JButton cancelButton;
     private Xlator xl;
     private JPanel dialogPane;
@@ -99,6 +99,8 @@ public abstract class TMModalDialog extends JDialog {
         this.dialogPane = getDialogPane();
         contentPane.add(this.dialogPane, BorderLayout.CENTER);
         pack();
+        setLocationRelativeTo(owner);
+
 
     }
 
@@ -110,13 +112,15 @@ public abstract class TMModalDialog extends JDialog {
 
     public int showDialog() {
         // center the dialog
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        /*Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int insetx = (screenSize.width - getWidth()) / 2;
         int insety = (screenSize.height - getHeight()) / 2;
         setBounds(insetx, insety,
                   getWidth(), getHeight());
-
+        */
         result = JOptionPane.CANCEL_OPTION;
+        pack();
+        setLocationRelativeTo(getOwner());
         setVisible(true);
         return result;
     }
