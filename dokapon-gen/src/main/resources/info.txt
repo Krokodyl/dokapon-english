@@ -98,3 +98,21 @@ a round coin with a square hole in the middle
 
 Vocabulary
 けいけん=Experience
+
+Introduction text 1:
+「友情は
+コボルトよりも弦く
+トーレナ岩よりも消えやすい」
+
+ドカポン3世着
+[| ビビルマウンテンの昔皆」より
+
+Codes for : コボルトよりも弦く
+5e00 8700 9600 7300
+5e 00 87 00 96 00 73 00
+
+Introduction text 2:
+あれから... 1 年の月日が流れ
+
+Introduction text 3:
+平和の語れた ドカボン王国に
