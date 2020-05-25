@@ -2,11 +2,11 @@ First game (Released on Dec 10 1993)
 決戦!ドカポン王国IV 〜伝説の勇者たち〜
 Kessen! Dokapon Oukoku IV: Densetsu no Yuusha Tachi
 Decisive battle! Dokapon Kingdom IV ~ Legendary Heroes ~
-
 The IV refers to the possibility of having 4 players.
 
-
+ドカポン3・2・1 〜嵐を呼ぶ友情〜
 Second game : Dokapon 3-2-1: Arashi o Yobu Yuujou
+
 
 ##### TABLES #####
 1
@@ -14,7 +14,7 @@ Second game : Dokapon 3-2-1: Arashi o Yobu Yuujou
 
 ##### BREAKPOINTS #####
 Welcome text : 02CFE8
-First menu : 088259
+First menu : 088259 (40259)
 Menu Week/Day : 0881F5
 Subroutine 1 : 308000
 Subroutine 2 : 3080D0
@@ -23,6 +23,9 @@ Subroutine 2 : 3080D0
 Adresse pointeur : 14fe8
 Breakpoint : 02CFE8
 DEBUG; $81/AF15 B7 20       LDA [$20],y[$82:CFE8]   A:008C X:0006 Y:008C P:envmxdIzc
+
+x82CFE8/x800000 = x2CFE8
+(2-1)*8000+CFE8 = x14FE8
 
 81/A86A   01A86A
 88/B61D
@@ -204,3 +207,100 @@ af004d004f0071008b00b000
 ####################################
 Dokapon
 castle
+
+##### SPRITE LOCATION #####
+
+ASMIK logo
+
+Sprite location : x117580
+
+---- LDA ----
+$87/DFB4 BF 20 E0 87 LDA $87E020,x[$87:E022] A:FF00 X:0002 Y:0000 P:envMXdIZc
+# x6*x8000 + e020 = 3e020
+
+MAP PALETTE
+A1 EA DD
+
+x10eadb     FF
+x10eadd     7F 7A 4A
+x10eadf     EC 31 99 36 99 36 99 36 34 2E B0 19 0C 0D 0E 12 8C
+[...]
+x10ebba
+
+16*16 bytes
+== 8 8*8 tiles in editor
+
+background color : #607860
+
+x10EADF
+00 00 = #000000
+ff ff = #F8F8F8
+
+$80/E907
+$80/BFA2
+$80/E944
+
+WARRIOR SPRITE
+Pointer loading : $83/9AB0 BF D3 9A 83 LDA $839AD3,x[$83:9AD3] A:0000 X:0000 Y:BE71 P:envmxdIZc
+# x83 / x8 = x10.6    x83 - (x10*x8) = x3     (x2)*x8000+x9ad3
+Pointer offset : x19AD3 ()
+Pointer value : A6 C7 9D
+Sprite offset : xEC7A6
+
+character warrior sprite EC7A6, pointer x19AD3 (A6 C7)
+character test sprite EE3A6
+the sprite is split into 12 8x8 squares
+A6 C7 9D    warrior
+A6 E3 9D    knight
+C4 8F 9A    thief
+A6 AB 9D    mage
+A6 8F 9D    fighter
+
+1 2 3
+4 5 6
+7 8 9
+a b c
+
+1 EC7A6       x19AD3 (A6 C7)
+2 EC7C6
+7 EC7E6
+8 EC806
+9 EC826
+
+3 = 1 flip H
+
+4 EC9A6
+5 EC9C6
+a EC9E6
+b ECA06
+c ECA26
+
+6 = 4 flip H
+
+EC7A0 / breakpoint : 9D7A0
+EC7A6 / 8000 = 1D.8F4C
+1C * 8000 = E0000
+C7A6 (A6 C7)
+
+C7A6
+315691  x4D12B
+747912  xB6988
+1303098 x13E23A
+1422775 x15B5B7
+
+$83/9AB0 == 105136 (x19AB0)
+
+$83/9AB0 BF D3 9A 83 LDA $839AD3,x[$83:9AD3] A:0000 X:0000 Y:BE71 P:envmxdIZc
+$83/9AB4 85 20       STA $20    [$00:0020]   A:C7A6 X:0000 Y:BE71 P:eNvmxdIzc
+x839AD3-x800000 = x39AD3
+(3-1)*8000+9AD3 = x19AD3 (A6 C7)
+
+$00/1E80 8B          PHB                     A:003F X:C7A6 Y:F004 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:C9A6 Y:F204 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:C9A6 Y:F204 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:C7A6 Y:F044 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:C9A6 Y:F244 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:CBA6 Y:F084 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:CDA6 Y:F284 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:CBA6 Y:F0C4 P:envMxdIzc
+$00/1E80 8B          PHB                     A:003F X:CDA6 Y:F2C4 P:envMxdIzc
