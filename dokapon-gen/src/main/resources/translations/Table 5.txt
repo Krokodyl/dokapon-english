@@ -1039,7 +1039,7 @@ VALUE=e9e6(e6e9)
 OFFSETDATA=1569e6
 DATA=4601 4701 b600 3401 3101 0700 0f00 0300 2300 0300 2600 f100 4600 2300 2a00 2500 2600 0f00 2300 1b00 2b00 b900 0030 bf00 3a00 1600 1200 3c00 2300 1200 2100 b300 0120 8014 5985 0020 4a00 0030 bf00 6702 1200 1a00 3d00 2900 2600 2a00 b300 9900 6200 0700 b101 e500 2300 1200 2100 0030 4601 4701 b600 0320 8314 6985 0020 5f00 b500 9600 7400 2201 1400 1b00 2b00 0030 bf00 b101 e500 0700 3600 1200 0200 3101 2a00 b300 1a00 1b00 1c00 2600 0030 bf00 0120 8014 5985 0020 2900 0d01 3300 2d02 0600 0300 0700 4300 0200 1b00 2b00 b400 ffff
 JAP=王様┌勇者がごうとうに入るとはなにごとだば!{NL}みせしめとして,{CR}{8014}{5985}{CW}を{NL}倒したものには,ワシが賞金として{NL}王様┌{CG}{8314}{6985}{CW}ゴールド出すだば{NL}賞金がほしい者は,ただちに{NL}{CR}{8014}{5985}{CW}の所へ向かうがよいだば.{EL}
-ENG=King: What hero would go into{NL}crime!{NL}Anyone who defeats {CR}{8014}{5985}{CW}{NL}will be rewarded with a prize.{NL}If you want to get {CG}{8314}{6985}{CW} gold{NL}, you should immediately head{NL}towards {CR}{8014}{5985}{CW}.{EL}
+ENG=King: What hero would go into{NL}crime!{NL}Anyone who defeats {CR}{8014}{5985}{CW}{NL}will be rewarded with a prize.{NL}If you want {CG}{8314}{6985}{CW} gold{NL}, you should immediately head{NL}towards {CR}{8014}{5985}{CW}.{EL}
 
 OFFSET=1532d2
 VALUE=eab8(b8ea)

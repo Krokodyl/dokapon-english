@@ -717,7 +717,7 @@ VALUE=abaf(afab)
 OFFSETDATA=32baf
 DATA=9401 4501 2900 8100 5800 b300 6a00 7100 b300 9300 9800 4f00 2900 0200 1500 4700 0600 4a00 0e00 4900 1200 3900 1400 0030 0220 8d00 9b00 6400 6a00 b500 2600 2a00 7201 0800 3900 1600 4b00 0020 ffff 
 JAP=相手のブキ,タテ,ヨロイのいずれかをこわします{NL}{CY}モンスターには効きません{CW}{EL}
-ENG=Breaks your opponent's{NL}equipment.{NL}Has no effect on monsters.
+ENG=Breaks your opponent's{NL}equipment.{NL}Has no effect on monsters.{EL}
 
 OFFSET=32967
 VALUE=abfd(fdab)
