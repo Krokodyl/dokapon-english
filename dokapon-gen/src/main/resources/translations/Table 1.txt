@@ -374,7 +374,7 @@ VALUE=e7b6(b6e7)
 OFFSETDATA=167b6
 DATA=6200 b500 8000 2a00 0600 4900 0200 0200 9900 9b00 1c00 3e00 4b00 2500 2900 0030 1800 2900 0220 1400 2b00 3f00 1000 0020 2a00 b300 1b00 4700 2600 3d00 6701 0c00 4a00 6801 4400 2500 0200 4900 0030 2400 4b00 2500 9900 7500 2200 3d00 6400 4f00 6400 4f00 4300 0c00 1c00 3e00 0300 2900 b900 ffff 
 JAP=シーフはかわいいワンちゃんなの{NL}その{CY}すばやさ{CW}は,だれにも引けを取らないわ{NL}どんなワナでもスイスイよけちゃうの!{EL}
-ENG=Thief.{NL}Very quick.{NL}Can steal items or magic.{NL}Good with daggers and knifes.{EL}
+ENG=Thief.{NL}Very quick.{NL}Can steal items or magic.{NL}Good with daggers and knives.{EL}
 
 OFFSET=1500a
 VALUE=e82a(2ae8)
