@@ -668,7 +668,7 @@ VALUE=f504(04f5)
 OFFSETDATA=17504
 DATA=1b00 4700 2300 0200 1e00 1200 4200 2600 0100 1800 3100 2900 0600 2500 b800 0030 5e00 9b00 7f00 9000 b500 6a00 2900 2c01 f200 2a00 1f00 4300 1000 4a00 0400 4400 4b00 2200 2800 ffff 
 JAP=だれといっしょにあそぶのかな?{NL}コンピュータの場合はつよさをえらんでね{EL}
-ENG=Who will play together?{NL}Choose the computer{NL}difficulty.{EL}
+ENG=Select the AI players{NL}and choose the difficulty.{EL}
 
 OFFSET=15060
 VALUE=f54c(4cf5)
