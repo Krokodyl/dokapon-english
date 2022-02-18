@@ -1,22 +1,22 @@
 ###Table of content
-####1. Introduction
-####2.The English patch file
-####&nbsp;&nbsp;&nbsp;&nbsp;Translations
-####&nbsp;&nbsp;&nbsp;&nbsp;Special characters
-####&nbsp;&nbsp;&nbsp;&nbsp;Variables
-####&nbsp;&nbsp;&nbsp;&nbsp;Menus
-####3. Know bugs / Improvements
-####&nbsp;&nbsp;&nbsp;&nbsp;Fixes
-####&nbsp;&nbsp;&nbsp;&nbsp;Missing translations
-####&nbsp;&nbsp;&nbsp;&nbsp;Screenshots
-####&nbsp;&nbsp;&nbsp;&nbsp;BPS Patcher
-####4. Tips and Hints
-####&nbsp;&nbsp;&nbsp;&nbsp;Scenario mode
-####&nbsp;&nbsp;&nbsp;&nbsp;Locations
-####&nbsp;&nbsp;&nbsp;&nbsp;Special chests
-####&nbsp;&nbsp;&nbsp;&nbsp;Dokapon Ring
-####&nbsp;&nbsp;&nbsp;&nbsp;Sky Palace
-####&nbsp;&nbsp;&nbsp;&nbsp;Quizz
+1. Introduction<br/>
+2. The English patch file<br/>
+Translations<br/>
+Special characters<br/>
+Variables<br/>
+Menus
+3. Know bugs / Improvements<br/>
+Fixes<br/>
+Missing translations<br/>
+Screenshots<br/>
+BPS Patcher
+4. Tips and Hints<br/>
+Scenario mode<br/>
+Locations<br/>
+Special chests<br/>
+Dokapon Ring<br/>
+Sky Palace<br/>
+Quizz
 
 # Dokapon Gen
 
