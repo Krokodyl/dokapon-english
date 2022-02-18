@@ -1,7 +1,7 @@
 {
   "config": {
-    "rom-input" : "../roms/Dokapon 3-2-1 - Arashi wo Yobu Yujo (J).smc",
-    "rom-output" : "../roms/Dokapon 3-2-1 - English.smc",
+    "rom-input" : "../roms/Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan).sfc",
+    "rom-output" : "../roms/Dokapon 3-2-1 - English.sfc",
     "bps-patch-output": "../roms/Dokapon 3-2-1 - English.bps",
     "file.jap" : "tables/table-complete.txt",
     "file.latin" : "tables/table-latin.txt",

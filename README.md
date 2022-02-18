@@ -172,7 +172,6 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 
 - [ ] Yes/No questions are sometimes hidden under the Yes/No menu
 - [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
-- [ ] The main menu guy has no background (could be an emulator issue)
 - [ ] When using Look on a square with 2 or more characters, only shows 1st char.
 
 ## Fixes
