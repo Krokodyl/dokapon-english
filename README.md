@@ -218,7 +218,9 @@ It's under /dokapon-gen/src/main/java/dokapon/bps \
 It's still experimental and is not very well optimized but it seems to work.
 
 ## Tips and Hints
-###Scenario mode
+
+### Scenario mode
+
 The scenario mode starts in a training area. There, you have two weeks to collect basic equipments from chest. There are no monsters in this area.
 
 The first players to reach the castle will get bonus points to put in their stats.
@@ -246,7 +248,7 @@ Rabble Tower | Australia
 Sky Palace | Freaky Mountain<br/>(requires Wings)
 Hell<br/>Devil's Castle | Last chapter in scenario mode
 
-###Special chests
+### Special chests
 
 Location | Content | Description
 ------------ | ------------- | -------------
@@ -281,18 +283,18 @@ Rabble Tower 3F (left)			|Dokapon Orb | [Item] Sells for 490 000 gold in a shop 
 Rabble Tower 3F (middle left)	|Wings | [Item] Used to access the Sky Palace
 Rabble Tower 3F (middle right)	|Puppet| [Field Magic] Takes control of the target player for one turn.
 
-###Dokapon Ring
+### Dokapon Ring
 
 Taking the three rings (Onyx Ring, Ruby Ring and Jade Ring) to the castle will merge them into one ring (Dokapon Ring).
 AFAIK, the Dokapon Ring only has the combine effects of the three rings but it only uses one inventory slot. 
 
-###Sky Palace
+### Sky Palace
 
 Beating Rico Jr. (random spawn in some dungeons, or fixed spawn in scenario mode) will give you the item [Wings].
 Going to the top of the Freaky Mountain (in South America), with the Wings will take you to the Sky Palace.
 The Sky Palace is a place with many blue, yellow and white chests and one special chest.
 
-###Quizz
+### Quizz
 
 The quizz is a series of 8 random questions. According to your results, you are given a recommendation of the AI to play against (weak, normal or hard).
 The last question (times played) is always the same and seems to have no purpose.
