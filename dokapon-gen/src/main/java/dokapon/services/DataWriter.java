@@ -37,6 +37,7 @@ public class DataWriter {
     }
 
     public static byte[] writeCodePatches(List<CodePatch> patchList, byte[] data, boolean debug) {
+        System.out.println("Write Patches (debug="+debug+")");
         for (CodePatch cp:patchList) {
             if (cp.isDebug()==debug)
             cp.writePatch(data);
@@ -45,6 +46,7 @@ public class DataWriter {
     }
 
     public static byte[] writeEnglish(PointerTable table, byte[] data) {
+        System.out.println("Write English for table "+table.getId());
         for (PointerData p : table.getDataEng()) {
             int offset = p.getOffset();
             data[offset] = (byte) (p.getValue() % 256);

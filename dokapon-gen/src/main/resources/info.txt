@@ -116,3 +116,115 @@ Introduction text 2:
 
 Introduction text 3:
 平和の語れた ドカボン王国に
+
+On the score screen, the top left says the game mode (e.g. シナリオモード for screnario), the top right the week (3週目 for 3rd week)
+
+Checked monster skills:
+- Wight (12)
+- Gremlins
+- Gnome
+- Moblin (10)
+- Sylph (15)
+- Slime (16)
+    NAME        HP  AT  DF  SP  MA  Attacks     Defense     Screen
+1   Rogue       26  3   2   6   2   Steal       -----       Y
+3   Wisp        35  5   2   6   12  Zapper      Mirror      Y
+4   Scorpion    18  5   12  4   3   Poison      -----       Y
+5   KingKobo    46  7   7   5   5   Overload    M-DEF       Y
+5   Goblin      38  8   7   3   5   Overload    -----       Y
+6   Lizard      52  10  9   4   5   -----       -----       Y
+6   Matango     77  11  2   1   8   Poison      -----       Y
+7   Assassin    92  14  12  12  8   Pow1Poke    -----       Y
+8   Halfling    96  15  13  18  8   Rob         -----       Y
+8   Witch       91  16  14  8   16  Scorch      SealMG      Y
+10  Moblin      102 19  16  8   8   Overload    M-DEF       Y
+14  Gnome       127 30  28  12  12  Steal       M-DEF+      Y
+14  Berserk     188 38  16  16  6   Overload    -----       Y
+14  Dryad       96  27  24  10  18  Sleep       Shock
+15  Werecat     142 33  29  28  12  War Cry     -----
+15  Sylph       146 28  26  22  18  Tornado     Charm
+16  Slime       118 28  35  1   12  Poison      -----       Y
+17  Mycopath    169 35  26  13  16  Sleep       M-DEF
+17  Dwarf       163 40  36  9   13  Overload    Cure        Y
+18  Gargoyle    122 41  46  16  17  Scorch      -----       Y
+19  Worm        159 38  34  16  12  Squeeze     -----       Y
+20  TresHawk    146 40  36  128 16  Rob         -----       Y
+20  Hellhoun    157 44  42  26  18  Breath      Cure        Y
+21  Ogre        277 48  22  8   8   Overload    -----       Y
+21  Gazer       163 46  44  17  26  Zapper      Mirror      Y
+23  Incubus     211 49  47  18  28  Drain       Shock       Y
+23  Blob        147 46  50  8   28  Rust        Mirror      Y
+24  Giant       322 58  25  8   10  Overload    -----       Y
+24  Wraith      158 50  50  16  32  Drain       Mirror      Y
+25  Ghoul       223 53  38  12  16  Poison      -----       Y
+27  Spirit      138 46  62  18  33  Drain       Shock       Y
+
+Roshambo / Jankenpon
+- チョキ = Scissors (Choki)
+グー = Rock (Goo)
+パー = Paper (Par)
+
+
+マホキカン      M-DEF
+マホタス        M-DEF+
+マホタスラ      M-DEF++
+マホタスダラ    M-DEF+++
+
+SPECIAL CHESTS
+Spring Cave (top left)			|Portal
+Spring Cave (top right)			|Convoke
+Spring Cave (bottom right)		|Gold Bug
+Casino Cave (bottom left)		|*Spinner
+Casino Cave (top right)			|Revival
+Casino Cave (center)			|Tonic
+Lava Cave 2F (top side)			|Spyglass
+Lava Cave 2F (bottom side)		|Mix-up
+Lava Cave 3F (right) 			|Elven Mantle
+Lava Cave 3F (top left) 		|Fire Sword	(136)
+Lava Cave 3F (bottom left) 		|Athena Shield (103)
+Lost Wood (near shop)			|Gold Bug
+Lost Wood (near stump)			|Invasion
+Freaky Mountain 2F (right)		|JadeRing
+Freaky Mountain 2F (left)		|Flash
+Sky Palace						|Divine Fist (179)
+Sea Temple 2B					|Ruby Ring
+Ruins 2F						|Onyx Ring
+Underground	(top left)				|Bribe
+Underground	(bottom left)			|Puppet
+Underground (left of item shop)		|Bait
+Underground (right of item shop)	|Mirror
+Rabble Tower 1F (right)			|Frost
+Rabble Tower 1F (left)			|Mix-up
+Rabble Tower 2F (left)			|Onyx Ring
+Rabble Tower 2F (right)			|Ruby Ring
+Rabble Tower 2F (middle)		|Jade Ring
+Rabble Tower 3F (left)			|Dokapon Orb
+Rabble Tower 3F (middle left)	|Wings
+Rabble Tower 3F (middle right)	|Puppet
+
+
+
+
+
+WEAPON
+Thunder Axe		140
+Soul Eater		175		Deals damage to the possesor
+Dancing Blade	151		Restrain the possible attacks
+
+ARMOR
+Dark Armor		131
+
+SHIELD
+Athena Shield	103
+
+Taking the 3 rings (Onyx Ring, Ruby Ring and Jade Ring) to the castle will merge them into one ring (Dokapon Ring).
+Onyx Ring	126	101		+25
+Ruby Ring	223	179		+44
+Jade Ring	65	52		+13
+
+
+223		179
+126		101
+65		52
+51		51
+65		65

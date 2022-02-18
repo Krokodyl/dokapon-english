@@ -1,5 +1,8 @@
 package dokapon.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Translation {
 
     private int offset = 0;
@@ -34,6 +37,8 @@ public class Translation {
     public void setOffset(int offset) {
         this.offset = offset;
     }
+
+    public static List<String> test = new ArrayList<>();
 
     public String getTranslation() {
         return translation;

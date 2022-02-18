@@ -13,29 +13,16 @@
 - [ ] Bad translation: "Who will play together"
 - [ ] Typo: "Knifes"
 
-## Missing translations
-
-ITEMS
-Item8
-Item10
-Item12
-
-FIELD MAGIC
-FMAG1
-FMAG2
-FMAG3
-FMAG5
-
-MONSTER MAGIC
-MOSK1
-MOSK2
-MOSK5
-MOSK6
-MOSK8
-MOSK11
-
-NEGATIVE EFFECTS
--oruhaou
-MOSK1
-
 Some quest related names (last part of Table 6) have to match with same names in other translations.
+
+
+Yes/No questions are sometimes hidden under the Yes/No menu
+- Do you want to continue t/he /game?
+
+
+パワーリング (lit. Power Ring = Ruby Ring)
+Increases your {CY}attack{CW}.{EL}
+シールドリング (lit. Shield Ring = Onyx Ring)
+Increases your {CY}defense{CW}.{EL}
+スピードリング (lit. Speed Ring = Jade Ring)
+Increases your {CY}speed{CW}.{EL}

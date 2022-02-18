@@ -56,6 +56,7 @@ public class DataReader {
     }
 
     public static PointerTable generateEnglish(Translator translator, PointerTable table, byte[] data) {
+        System.out.println("Generate English for table "+table.getId());
         Map<Integer, Integer> mapValues = new HashMap<Integer, Integer>();
         Map<String, Integer> mapLegnths = new HashMap<String, Integer>();
         mapLegnths.put("ODD", 0);
@@ -74,6 +75,17 @@ public class DataReader {
             PointerData newP = new PointerData();
             newP.setOldPointer(p);
             String[] translation = translator.getTranslation(p, table.isEvenLength());
+            if (table.getId()==6) {
+                String english = translator.getEnglish(p);
+                //System.out.println(english.length()+" "+english);
+                if (p.getData().length != translation.length) {
+                    System.out.println("pb:"+p.getData().length +"-"+ translation.length);
+                }
+                String[] split = english.replace("\\{EL\\}","").split("\\{NL\\}");
+                //for (String s:split) System.out.println(s.length()+" "+s);
+
+
+            }
             if (translation != null && translation.length % 2 == 0) mapLegnths.put("EVEN", mapLegnths.get("EVEN") + 1);
             else {
                 mapLegnths.put("ODD", mapLegnths.get("ODD") + 1);

@@ -157,28 +157,28 @@ VALUE=dcb0(b0dc)
 OFFSETDATA=15cb0
 DATA=9900 6e00 6f00 b600 8f01 4001 6901 9001 2600 2a00 0030 bf00 7c00 9900 b500 9500 9b00 5b00 0700 0100 4600 1e00 2100 ff01 1b00 1700 ffff 
 JAP=ワッツ┌海底神殿には{NL} パワーリングがあるって話だぜ{EL}
-ENG=Watts:They say there is a{NL}powerful ring in the{NL}{CY}Sea Temple{CW}.{EL}
+ENG=Watts:They say there is a{NL}Ruby Ring in the{NL}{CY}Sea Temple{CW}.{EL}
 
 OFFSET=14fc0
 VALUE=dce6(e6dc)
 OFFSETDATA=15ce6
 DATA=9900 6e00 6f00 b600 7e00 7e00 9600 8900 5100 9b00 7100 9b00 2600 2a00 0030 bf00 6400 7f00 b500 7400 9500 9b00 5b00 0700 0100 4600 1e00 2100 0300 4900 1000 1b00 b900 ffff 
 JAP=ワッツ┌ビビルマウンテンには{NL} スピードリングがあるってうわさだ!{EL}
-ENG=Watts:They say there is a{NL}speed ring in the{NL}{CY}Freaky Mountains{CW}.{EL}
+ENG=Watts:They say there is a{NL}Jade Ring in the{NL}{CY}Freaky Mountains{CW}.{EL}
 
 OFFSET=14fc2
 VALUE=dd2a(2add)
 OFFSETDATA=15d2a
 DATA=9900 6e00 6f00 b600 4d00 5600 8000 9500 1401 1501 2900 1000 2b00 0a00 2900 2d01 2600 0030 bf00 7f00 9400 8a00 6e00 7400 0700 0100 4600 4b00 1b00 b900 0030 bf00 1800 2900 2d01 2600 2a00 6200 b500 9600 7400 9500 9b00 5b00 1e00 2100 4100 2e00 4900 0700 0100 4600 4400 1200 0200 1900 ffff 
 JAP=ワッツ┌アカフリ大陸のさばくの中に{NL} ピラミッドがあるんだ!{NL} その中にはシールドリングってゆびわがあるらしいぞ{EL}
-ENG=Watts:In Africa, there are{NL}pyramids in the desert.{NL}There is a shield ring.{EL}
+ENG=Watts:In Africa, there are{NL}pyramids in the desert.{NL}There is an Onyx Ring.{EL}
 
 OFFSET=14fc4
 VALUE=dd9c(9cdd)
 OFFSETDATA=15d9c
 DATA=2702 1f01 b600 7c00 9900 b500 b300 6400 7f00 b500 7400 b300 6200 b500 9600 7400 2900 a300 1f00 2900 9500 9b00 5b00 0030 bf00 0e00 4700 4400 0700 0100 4700 2b00 b300 0e00 4900 0200 3d00 2900 2500 1200 1300 3e00 2500 ffff 
 JAP=老人┌パワー,スピード,シールドの3つのリング{NL} これらがあれば,こわいものなしじゃな{EL}
-ENG=Beggar:Power ring,{NL}speed ring, shield rings.{NL}If you have these,{NL}nothing will scare you.{EL}
+ENG=Beggar:Ruby Ring,{NL}Jade Ring, Onyx Ring.{NL}If you have these,{NL}nothing will scare you.{EL}
 
 OFFSET=14fc6
 VALUE=ddf4(f4dd)
@@ -227,7 +227,7 @@ VALUE=e27e(7ee2)
 OFFSETDATA=1627e
 DATA=4300 0300 0e00 1800 0200 4400 1e00 1200 3e00 0200 3900 1200 1a00 b900 0030 0600 0c00 e500 2600 4300 1e00 2100 1000 3900 1100 3900 2500 0701 0801 b300 4d00 4f00 7100 8b00 0700 1602 1a00 4600 0030 6400 9800 6e00 7300 4a00 0f00 5d01 1202 1200 2100 0100 4500 3900 1400 0030 1000 0100 b300 1900 4b00 3100 4b00 2600 3302 1200 4b00 2200 0200 1e00 2100 8101 1000 0200 b900 ffff 
 JAP=ようこそいらっしゃいました!{NL}かけ金によってさまざまな武器,アイテムが当たる{NL}スロットをご用意してあります{NL}さあ,ぞんぶんに楽しんでいって下さい!{EL}
-ENG=Welcome!{NL}We sell the best weapons.{NL}Please, have a look.{EL}
+ENG=Welcome!{NL}The higher the bet, the higher{NL}the reward.{NL}Have fun!{EL}
 
 OFFSET=14fde
 VALUE=e312(12e3)
@@ -255,7 +255,7 @@ VALUE=e36a(6ae3)
 OFFSETDATA=1636a
 DATA=0500 3c00 2200 2300 0300 0f00 1100 0200 3900 1400 b900 0030 b101 5501 2900 0220 8214 5985 0020 2200 1400 ffff 
 JAP=おめでとうございます!{NL}賞品の{CY}§{NAM}{CW}です{EL}
-ENG=Congratulations! {NL}{CY}{8214 5985}{CW} gets a prize.{EL}
+ENG=Congratulations! {NL}Your prize is {CY}{8214 5985}{CW}.{EL}
 
 OFFSET=14fe6
 VALUE=e396(96e3)
@@ -416,7 +416,7 @@ VALUE=e9f4(f4e9)
 OFFSETDATA=169f4
 DATA=f700 3400 4600 8d00 b500 7400 2d01 2200 0030 ca00 b300 d300 8700 6a00 9b00 2900 4c02 5d01 0101 2a00 0030 2601 2900 0300 1c00 2400 4700 2200 1200 4200 0300 b800 ffff 
 JAP=調べるモード中で{NL}L,Rボタンの活用法は{NL}次のうちどれでしょう?{EL}
-ENG=In check mode, what does the{NL}button L and R do ?{EL}
+ENG=In {CY}Look{CW} mode, what do the{NL}buttons L and R do?{EL}
 
 OFFSET=15018
 VALUE=ea36(36ea)
@@ -437,14 +437,14 @@ VALUE=eade(deea)
 OFFSETDATA=16ade
 DATA=8000 4e00 b500 9600 7400 0001 0101 4a00 a100 0b01 1b00 0c00 fa00 0d00 4600 4d00 4f00 7100 8b00 0700 0030 0100 4500 3900 1400 b400 1800 4700 2a00 2601 2900 0300 1c00 2400 4700 2200 1200 4200 0300 b800 ffff 
 JAP=フィールド魔法を1回だけ防げるアイテムが{NL}あります.それは次のうちどれでしょう?{EL}
-ENG=Which items protects once from{NL}a Field Magic?{EL}
+ENG=Which item protects once from{NL}a Field Magic?{EL}
 
 OFFSET=1501e
 VALUE=eb30(30eb)
 OFFSETDATA=16b30
 DATA=2300 1e00 2100 3d00 0500 0200 1200 0200 4d00 4f00 7100 8b00 0220 7c00 9900 b500 9500 9b00 5b00 0020 0030 1000 2100 b300 0e00 2900 4d00 4f00 7100 8b00 2a00 2400 0e00 2600 0100 1e00 1a00 2200 1200 4200 0300 b800 ffff 
 JAP=とってもおいしいアイテム{CY}パワーリング{CW}{NL}さて,このアイテムはどこにあったでしょう?{EL}
-ENG=Where do you find this item :{NL}{CY}Power Ring{CW}?{EL}
+ENG=Where do you find this item :{NL}{CY}Ruby Ring{CW}?{EL}
 
 OFFSET=15020
 VALUE=eb86(86eb)
@@ -458,7 +458,7 @@ VALUE=ebe0(e0eb)
 OFFSETDATA=16be0
 DATA=7400 5600 8800 9b00 4601 c601 2600 2a00 b300 6101 2600 a300 ba01 4d02 2900 3801 3901 0700 0030 0100 4500 3900 1400 b400 1800 2900 0300 1c00 b300 0701 0801 0700 f100 1e00 2100 0200 4600 3801 3901 2a00 0030 2501 4e02 b800 ffff 
 JAP=ドカポン王国には,主に3種類の宝箱が{NL}あります.そのうち,武器が入っている宝箱は{NL}何色?{EL}
-ENG=What color is the treasure box{NL}that contains weapons?{EL}
+ENG=What color is the weapon{NL}treasure chest?{EL}
 
 OFFSET=15024
 VALUE=ec3a(3aec)
@@ -486,7 +486,7 @@ VALUE=ed3a(3aed)
 OFFSETDATA=16d3a
 DATA=5800 9200 6300 8e00 5a00 0901 5002 2600 2a00 b300 2400 4b00 2500 7201 7301 0700 0100 4600 2200 1200 4200 0300 b800 ffff 
 JAP=キョジャク体質には,どんな効果があるでしょう?{EL}
-ENG=What is the effect of the Weak{NL}status?{EL}
+ENG=What is the effect of the {CR}Weak{CW}{NL}status?{EL}
 
 OFFSET=1502c
 VALUE=ed6a(6aed)
@@ -500,28 +500,28 @@ VALUE=ed92(92ed)
 OFFSETDATA=16d92
 DATA=0701 0801 e800 2600 1b01 1e00 2100 0200 4600 0701 0801 2900 2d01 2200 b300 0030 a100 1002 db01 0200 3d00 2900 2a00 2500 4b00 2200 1200 4200 0300 b800 ffff 
 JAP=武器屋に売っている武器の中で,{NL}1番高いものはなんでしょう?{EL}
-ENG=Which of these weapons from{NL}the shop is listed first?{EL}
+ENG=Which of these weapons is the{NL}most expensive?{EL}
 
 OFFSET=15030
 VALUE=edd0(d0ed)
 OFFSETDATA=16dd0
 DATA=8000 4e00 b500 9600 7400 0001 0101 0220 5f00 9800 6000 9b00 6b00 b500 0020 2900 0030 f800 f900 0a01 2a00 0200 0a00 1f00 b800 ffff 
 JAP=フィールド魔法{CY}ゴロサンダー{CW}の{NL}攻撃力はいくつ?{EL}
-ENG=How much damage does {CY}Light2{CW}?{EL}
+ENG=What are the base damage of{NL}{CY}Thunder+{CW}?{EL}
 
 OFFSET=15032
 VALUE=ee04(04ee)
 OFFSETDATA=16e04
 DATA=5001 2900 c301 2001 2600 f100 1e00 2100 3d00 b300 0030 5001 4a00 0300 0c00 2500 0a00 2500 4600 4d00 4f00 7100 8b00 2a00 0030 0200 1e00 1a00 0200 2500 4b00 2200 1200 4200 0300 b800 ffff 
 JAP=毒の沼地に入っても,{NL}毒をうけなくなるアイテムは{NL}いったいなんでしょう?{EL}
-ENG=What item cancels a{NL}poison trap?{EL}
+ENG=What item allows the wearer{NL}to pass through the toxic{NL}swamp safely?{EL}
 
 OFFSET=15034
 VALUE=ee4e(4eee)
 OFFSETDATA=16e4e
 DATA=2900 4800 0200 d100 7a01 7b01 2600 f800 f900 1200 2100 1200 3900 0300 d200 2900 0600 0600 1e00 1a00 0701 0801 2a00 0030 2601 2900 0300 1c00 b300 0200 1e00 1a00 0200 2400 4700 2200 1200 4200 0300 b800 ffff 
 JAP=のろい(自分に攻撃してしまう)のかかった武器は{NL}次のうち,いったいどれでしょう?{EL}
-ENG=Which cursed weapon can attack{NL}on its own?{EL}
+ENG=Which cursed weapon can attack{NL}its owner?{EL}
 
 OFFSET=15036
 VALUE=eea0(a0ee)
@@ -542,14 +542,14 @@ VALUE=ef56(56ef)
 OFFSETDATA=16f56
 DATA=fa00 fb00 0001 0101 0220 8900 8600 6a00 6400 9400 0020 0030 0b01 0c01 1400 4600 b300 0001 0101 0b01 fe00 2a00 0200 1e00 1a00 0200 0200 0a00 1f00 2200 1200 4200 0300 b800 ffff 
 JAP=防御魔法{CY}マホタスラ{CW}{NL}回復する,魔法回数はいったいいくつでしょう?{EL}
-ENG=How much HP does the magic{NL}Guard3 recover?{EL}
+ENG=What is the magic defense{NL}bonus of {CY}Deflect{CW}?{EL}
 
 OFFSET=1503c
 VALUE=ef9c(9cef)
 OFFSETDATA=16f9c
 DATA=9900 b500 8200 8900 6400 0220 9700 7e00 7300 2900 0200 1500 3a00 0020 0030 0200 1e00 1a00 0200 b300 2400 0e00 2600 0100 4600 2200 1200 4200 0300 b800 ffff 
 JAP=ワープマス{CY}レビトのいずみ{CW}{NL}いったい,どこにあるでしょう?{EL}
-ENG=There is a place called Izumi.{NL}What is it?{EL}
+ENG=There is a {CY}Warp Space{CW}{NL}fountain. Where is it?{EL}
 
 OFFSET=1503e
 VALUE=efda(daef)
@@ -577,7 +577,7 @@ VALUE=f0a8(a8f0)
 OFFSETDATA=170a8
 DATA=b701 8101 ec00 2900 3101 0700 0501 0300 2300 b300 3900 3600 0300 1300 4b00 2900 8900 6400 3300 2e01 0c00 4600 0030 0220 0c00 0200 3f00 0a00 1200 4200 0020 0030 0500 f400 2600 1b01 4600 2300 b300 0200 0a00 4400 2600 2500 4600 2200 1200 4200 0300 b800 ffff 
 JAP=最下位の者が使うと,まほうじんのマスへ行ける{NL}{CY}けいやくしょ{CW}{NL}お店に売ると,いくらになるでしょう?{EL}
-ENG=How much is the {CY}Contract{CW}{NL}worth ?{EL}
+ENG=A {CY}Contract{CW} is used for a deal{NL}with the Devil. For how much{NL}can you sell it to a shop?{EL}
 
 OFFSET=15046
 VALUE=f10e(0ef1)
@@ -591,14 +591,14 @@ VALUE=f12e(2ef1)
 OFFSETDATA=1712e
 DATA=7400 5600 8800 9b00 4601 c601 2900 4f00 8400 9b00 7300 2600 0220 3100 1300 4000 1f00 0600 0200 0020 0700 0100 4500 3900 1400 b400 0030 0e00 4700 2600 e001 2c01 1400 4600 b300 3100 2300 0300 0600 2900 fd00 2a00 b800 ffff 
 JAP=ドカポン王国のイベントに{CY}ぶじゅつかい{CW}があります.{NL}これに登場する,ぶとうかの名は?{EL}
-ENG=There is a martial arts expert{NL}in Dokapon Kingdom.{NL}What's his name?{EL}
+ENG=There is a martial arts expert{NL}in Dokapon Kingdom.{NL}What's their name?{EL}
 
 OFFSET=1504a
 VALUE=f186(86f1)
 OFFSETDATA=17186
 DATA=7400 5600 8800 9b00 4601 c601 2200 3c01 1002 ee00 ef00 2900 db01 0200 fc00 2a00 b800 ffff 
 JAP=ドカポン王国で一番価値の高い村は?{EL}
-ENG=What town has the highest{NL}value?{EL}
+ENG=Which town has the highest{NL}value?{EL}
 
 OFFSET=1504c
 VALUE=f1aa(aaf1)
@@ -612,21 +612,21 @@ VALUE=f1d6(d6f1)
 OFFSETDATA=171d6
 DATA=b701 1e02 2900 6b00 9b00 6300 9200 9b00 0220 7b00 8100 9600 2900 2300 0300 0020 0030 0200 1e00 1a00 0200 b300 2501 de01 fc01 2100 b800 ffff 
 JAP=最後のダンジョン{CY}バブルのとう{CW}{NL}いったい,何階建て?{EL}
-ENG=In which mode is the dungeon{NL}{CY}Rabble Tower{CW}?{EL}
+ENG=How many floors has the{NL}dungeon {CY}Rabble Tower{CW}?{EL}
 
 OFFSET=15050
 VALUE=f20e(0ef2)
 OFFSETDATA=1720e
 DATA=7400 5600 8800 9b00 4601 c601 2600 e001 2c01 1400 4600 6100 5e00 8d00 9b00 6400 6a00 b500 2200 0030 3c01 1002 9700 8400 9600 0700 db01 0200 2900 2a00 2400 4700 b800 ffff 
 JAP=ドカポン王国に登場するザコモンスターで{NL}一番レベルが高いのはどれ?{EL}
-ENG=What is the highest-level{NL} small monster?{EL}
+ENG=Which small monster has the{NL}highest level?{EL}
 
 OFFSET=15052
 VALUE=f252(52f2)
 OFFSETDATA=17252
 DATA=0220 7200 7e00 9600 8900 9b00 0020 2600 2500 1e00 1a00 2300 0800 b300 5f01 0300 3d00 2900 2a00 0030 b600 e500 b700 b300 b600 4d00 4f00 7100 8b00 b700 b300 b600 0001 0101 b700 0100 2300 a100 1f00 2a00 2500 2600 b800 ffff 
 JAP={CY}デビルマン{CW}になったとき,失うものは{NL}┌金┘,┌アイテム┘,┌魔法┘あと1つはなに?{EL}
-ENG=What else can the {CY}Devil{CW} take{NL}from you: gold, items, magic?{EL}
+ENG=In order to become the {CY}Devil{CW},{NL}you must give away all your{NL}gold, items, magic and what?{EL}
 
 OFFSET=15054
 VALUE=f2aa(aaf2)
@@ -668,7 +668,7 @@ VALUE=f504(04f5)
 OFFSETDATA=17504
 DATA=1b00 4700 2300 0200 1e00 1200 4200 2600 0100 1800 3100 2900 0600 2500 b800 0030 5e00 9b00 7f00 9000 b500 6a00 2900 2c01 f200 2a00 1f00 4300 1000 4a00 0400 4400 4b00 2200 2800 ffff 
 JAP=だれといっしょにあそぶのかな?{NL}コンピュータの場合はつよさをえらんでね{EL}
-ENG=Select the AI players{NL}and choose the difficulty.{EL}
+ENG=Press left or right to select{NL}the AI players and choose{NL}the difficulty.{EL}
 
 OFFSET=15060
 VALUE=f54c(4cf5)
@@ -843,7 +843,7 @@ VALUE=fa9c(9cfa)
 OFFSETDATA=17a9c
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 0500 6a01 1000 3900 9f00 9f00 9f00 3900 1a00 2200 1400 2900 b800 0030 bf00 0030 bf00 ffff 
 JAP= プリリン ┌お父さま...またですの?{NL} {NL} {EL}
-ENG=Penny: Dad, are you insane?
+ENG=Penny: Dad, are you insane?{EL}
 
 OFFSET=15096
 VALUE=face(cefa)
@@ -914,3 +914,4 @@ OFFSETDATA=17e24
 DATA=0220 7900 b500 8900 9600 8d00 b500 7400 0020 2200 0200 0200 0600 1200 4400 b800 ffff 
 JAP={CY}ノーマルモード{CW}でいいかしら?{EL}
 ENG={CY}Normal mode{CW}. Are you sure?{EL}
+

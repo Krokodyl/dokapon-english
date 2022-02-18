@@ -3,28 +3,28 @@ VALUE=b348(48b3)
 OFFSETDATA=153348
 DATA=af00 8101 4500 2a00 1200 0f00 b000 0030 a100 de01 8101 2900 8900 6e00 8200 2600 b300 df01 4500 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=[下りはしご] {NL} 1階下のマップに,降りることができます. {EL} 
-ENG=[Ladder]{NL}Goes down to floor 1.{EL}
+ENG=[Ladder]{NL}Goes down to the next floor.{EL}
 
 OFFSET=1531aa
 VALUE=b382(82b3)
 OFFSETDATA=153382
 DATA=af00 e001 4500 2a00 1200 0f00 b000 0030 a100 de01 7e01 2900 8900 6e00 8200 2600 b300 7e01 0700 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=[登りはしご] {NL} 1階上のマップに,上がることができます. {EL} 
-ENG=[Ladder]{NL}1Goes up to floor 1.{EL}
+ENG=[Ladder]{NL}Goes up to the previous floor.{EL}
 
 OFFSET=1531ac
 VALUE=b3bc(bcb3)
 OFFSETDATA=1533bc
 DATA=af00 8101 4500 de01 e101 b000 0030 a100 de01 8101 2900 8900 6e00 8200 2600 b300 df01 4500 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff 
 JAP=[下り階段] {NL} 1階下のマップに,降りることができます. {EL}
-ENG=[Stairs]{NL}Goes down to floor 1.{EL}
+ENG=[Stairs]{NL}Goes down to the next floor.{EL}
 
 OFFSET=1531ae
 VALUE=b3f4(f4b3)
 OFFSETDATA=1533f4
 DATA=af00 e001 4500 de01 e101 b000 0030 a100 de01 7e01 2900 8900 6e00 8200 2600 b300 7e01 0700 4600 0e00 2300 0700 2200 0800 3900 1400 b400 ffff
 JAP=[登り階段] {NL} 1階上のマップに,上がることができます. {EL}
-ENG=[Stairs]{NL}Goes up to floor 1.{EL}
+ENG=[Stairs]{NL}Goes up to the previous floor.{EL}
 
 OFFSET=1531b0
 VALUE=b42c(2cb4)
@@ -38,35 +38,35 @@ VALUE=b47a(7ab4)
 OFFSETDATA=15347a
 DATA=801c 4f00 2900 0901 2600 0a01 0700 3a00 2500 0900 1e00 2100 0800 1a00 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 ab00 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 bf00 ab00 0030 f800 f900 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 fa00 fb00 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 1400 2b00 3f00 1000 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 0001 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 0030 0901 0a01 0700 0320 a200 0020 7e01 0700 1e00 1a00 b900 ffff 
 JAP={801c 4f00}の体に力がみなぎってきた! {NL}                ・ {NL}                ・ {NL} 攻撃力が{CG}2 {CW} 上がった! {NL} 防御力が{CG}2 {CW} 上がった! {NL} すばやさが{CG}2 {CW} 上がった! {NL} 魔力が{CG}2 {CW} 上がった! {NL} 体力が{CG}2 {CW} 上がった! {EL} 
-ENG={801c 4f00} is stronger! {NL}                {BULLET} {NL}                {BULLET} {NL} ATK+{CG}2 {CW}     ! {NL} DEF+{CG}2 {CW}     ! {NL} SPD+{CG}2 {CW}     ! {NL} MAG+{CG}2 {CW}     ! {NL} HTH+{CG}2 {CW}     ! {EL}
+ENG={801c 4f00} is stronger! {NL}                {BULLET} {NL}                {BULLET} {NL} Attack  {CG}+2{CW}!{NL} Defense {CG}+2{CW}!{NL} Speed   {CG}+2{CW}!{NL} Magic   {CG}+2{CW}!{NL} Health  {CG}+2{CW}!{EL}
 
 OFFSET=1531b4
 VALUE=b55e(5eb5)
 OFFSETDATA=15355e
 DATA=1401 6201 1b00 b900 b900 b900 0030 ed00 6501 2900 0220 4d00 4f00 7100 8b00 b300 0001 0101 0020 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
 JAP=大変だ!!! {NL} 全員の {CY} アイテム,魔法 {CW} が入れ替わってしまった! {EL} 
-ENG=Damn!!! {NL}All {CY}items and magic{CW} have been{NL}replaced!{EL}
+ENG=Darn!!!{NL}Everyone's {CY}items{CW} and {CY}magic{CW}{NL}have been swapped!{EL}
 
 OFFSET=1531b6
 VALUE=b59e(9eb5)
 OFFSETDATA=15359e
 DATA=1401 6201 1b00 b900 b900 b900 0030 ed00 6501 2900 0220 6802 6902 0020 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
 JAP=大変だ!!! {NL} 全員の {CY} 装備 {CW} が入れ替わってしまった! {EL} 
-ENG=Damn!!! {NL}All {CY}gear{CW} has been{NL}replaced!{EL}
+ENG=Darn!!!{NL}Everyone's {CY}gear{CW} have been{NL}swapped!{EL}
 
 OFFSET=1531b8
 VALUE=b5d4(d4b5)
 OFFSETDATA=1535d4
 DATA=1401 6201 1b00 b900 b900 b900 0030 ed00 6501 2900 0220 0d01 0e01 e500 0020 0700 f100 4700 9b01 4900 1e00 2100 1200 3900 1e00 1a00 b900 ffff 
 JAP=大変だ!!! {NL} 全員の {CY} 所持金 {CW} が入れ替わってしまった! {EL} 
-ENG=Damn!!! {NL}All {CY}money{CW} has been{NL}exchanged!{EL}
+ENG=Darn!!!{NL}Everyone's {CY}gold{CW} has been{NL}swapped!{EL}
 
 OFFSET=1531ba
 VALUE=b60c(0cb6)
 OFFSETDATA=15360c
 DATA=1401 6201 1b00 b900 b900 b900 0030 9214 5985 2600 b300 fe00 9d01 2900 0220 9900 7500 0020 0700 2201 3201 1200 1a00 b900 ffff 
 JAP=大変だ!!! {NL} §{NAM}に,数個の {CY} ワナ {CW} が出現した! {EL} 
-ENG=Damn!!! {NL}Several traps have appeared{NL}in {9214 5985}!{EL}
+ENG=Darn!!!{NL}Several traps have appeared{NL}in {9214 5985}!{EL}
 
 OFFSET=1531bc
 VALUE=b63e(3eb6)
@@ -367,7 +367,7 @@ VALUE=bf1e(1ebf)
 OFFSETDATA=153f1e
 DATA=af00 6a00 7100 3801 3901 b000 0030 8900 6400 2900 fe00 f001 0700 1401 0800 0200 3600 2400 b300 f101 0200 6a00 7100 0700 3d00 4400 0400 3900 1400 b400 ffff 
 JAP=[タテ宝箱] {NL} マスの数字が大きいほど,良いタテがもらえます. {EL} 
-ENG=[Red Chest]{NL}The higher the number,{NL}the greater the reward.{EL}
+ENG=[Shield treasure chest]{NL}The higher the number,{NL}the greater the reward.{EL}
 
 OFFSET=153212
 VALUE=bf5c(5cbf)
@@ -381,7 +381,7 @@ VALUE=bf9e(9ebf)
 OFFSETDATA=153f9e
 DATA=af00 5d00 b500 7300 5800 b500 7c00 b500 b000 0030 3201 3301 2900 2e01 f600 2a00 4b00 0200 2a00 0030 9214 5985 3900 2200 2200 1400 b400 ffff 
 JAP=[ゲートキーパー] {NL} 現在の行動はんいは {NL} §{NAM}までです. {EL} 
-ENG=[Gatekeeper]{NL}Currently controlled by {9214 5985}.{EL}
+ENG=[Gatekeeper]{NL}Blocks entries until{NL}{9214 5985} is free.{EL}
 
 OFFSET=153216
 VALUE=bfd6(d6bf)
@@ -437,7 +437,7 @@ VALUE=c65a(5ac6)
 OFFSETDATA=15465a
 DATA=4601 4701 b600 0e00 4700 0600 4400 3d00 b300 3501 4a00 1f00 0c00 2100 0502 4a00 0602 0c00 4600 1b00 2b00 b400 ffff 
 JAP=王様┌これからも,気をつけて旅を続けるだば. {EL} 
-ENG=King: If you go, travel with{NL}care...{EL}
+ENG=King: Take care!{EL}
 
 OFFSET=153226
 VALUE=c688(88c6)
@@ -451,56 +451,56 @@ VALUE=c742(42c7)
 OFFSETDATA=154742
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 4d00 6300 7500 1401 1501 2900 1000 2b00 0a00 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは{CY}{8214}{6403}{CW}だば!{NL}{8214}{6403}は{CY}アジナ大陸のさばく{CW}に{NL}よく出現するそうだば!{NL}王様┌しかし,ヤツらはすがたを見せないから{NL}マスに停まって,戦闘をするまで分からないだば!{NL}とにかく,たのむだば勇者しょくん!{EL}
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the desert in{NL}{CY}Asia{CW}. However, they don't show{NL}themselves, so you won't know{NL}until you fight them! Have fun{NL}hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}desert in {CY}Asia{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=15322a
 VALUE=c828(28c8)
 OFFSETDATA=154828
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 9300 b500 9800 b500 1401 1501 2900 8e01 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは{CY}{8214}{6403}{CW}だば!{NL}{8214}{6403}は{CY}ヨーロー大陸の森{CW}に{NL}よく出現するそうだば!{NL}王様┌しかし,ヤツらはすがたを見せないから{NL}マスに停まって,戦闘をするまで分からないだば!{NL}とにかく,たのむだば勇者しょくん!{EL}
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the forest in{NL}{CY}Europe{CW}. However, they don't{NL}show themselves, so you won't{NL}know until you fight them!{NL}Have fun hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}forest in {CY}Europe{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=15322c
 VALUE=c90c(0cc9)
 OFFSETDATA=15490c
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 5600 6300 7900 2400 0300 0a00 1f00 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは{CY}{8214}{6403}{CW}だば!{NL}{8214}{6403}は{CY}カジノどうくつ{CW}に{NL}よく出現するそうだば!{NL}王様┌しかし,ヤツらはすがたを見せないから{NL}マスに停まって,戦闘をするまで分からないだば!{NL}とにかく,たのむだば勇者しょくん!{EL}
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the {CY}Casino{CW} cave.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them! Have fun{NL}hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}{CY}Casino Cave{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=15322e
 VALUE=c9ee(eec9)
 OFFSETDATA=1549ee
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 7900 b500 6400 5600 8c00 4d00 9500 1401 1501 2900 8e01 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは{CY}{8214}{6403}{CW}だば!{NL}{8214}{6403}は{CY}ノースカメアリ大陸の森{CW}に{NL}よく出現するそうだば!{NL}王様┌しかし,ヤツらはすがたを見せないから{NL}マスに停まって,戦闘をするまで分からないだば!{NL}とにかく,たのむだば勇者しょくん!{EL}
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the forest in{NL}{CY}North America{CW}. However, they{NL}don't show themselves, so you{NL}won't know until you fight{NL}them! Have fun hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}forest in {CY}North America{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=153230
 VALUE=cad8(d8ca)
 OFFSETDATA=154ad8
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 6000 5100 6400 5600 8c00 4d00 9500 1401 1501 2900 8f01 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは {CY} §§ {CW} だば! {NL}  §§は {CY} サウスカメアリ大陸の海 {CW} に {NL}  よく出現するそうだば! {NL} 王様┌しかし,ヤツらはすがたを見せないから {NL}  マスに停まって,戟闘をするまで分からないだば! {NL}  とにかく,たのむだば勇者しょくん! {EL} 
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the ocean in {CY}South{NL}America{CW}. However, they don't{NL}show themselves, so you won't{NL}know until you fight them!{NL}Have fun hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}ocean in {CY}South America{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=153232
 VALUE=cbc2(c2cb)
 OFFSETDATA=154bc2
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 5b00 9500 5b00 9500 b500 9b00 1401 1501 2900 0702 0802 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは {CY} §§ {CW} だば! {NL}  §§は {CY} グリグリーン大陸の雪原 {CW} に {NL}  よく出現するそうだば! {NL} 王様┌しかし,ヤツらはすがたを見せないから {NL}  マスに停まって,戟闘をするまで分からないだば! {NL}  とにかく,たのむだば勇者しょくん! {EL} 
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the snow in{NL}{CY}Greenland{CW}. However, they don't{NL}show themselves, so you won't{NL}know until you fight them!{NL}Have fun hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}snow in {CY}Greenland{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=153234
 VALUE=ccac(accc)
 OFFSETDATA=154cac
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 8601 8701 2400 0300 0a00 1f00 2900 a100 de01 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは {CY} §§ {CW} だば! {NL}  §§は {CY} 溶岩どうくつの1階 {CW} に {NL}  よく出現するそうだば! {NL} 王様┌しかし,ヤツらはすがたを見せないから {NL}  マスに停まって,戟闘をするまで分からないだば! {NL}  とにかく,たのむだば勇者しょくん! {EL} 
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears on the 1st floor of{NL}the {CY}Lave Cave{CW}. However, they{NL}don't show themselves, so you{NL}won't know until you fight{NL}them! Have fun hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear on the{NL}1st floor of the {CY}Lava Cave{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=153236
 VALUE=cd92(92cd)
 OFFSETDATA=154d92
 DATA=4601 4701 b600 6b02 4b00 2200 0200 1e00 1a00 2900 2a00 0220 8214 6403 0020 1b00 2b00 b900 0030 bf00 8214 6403 2a00 0220 3900 4300 0200 2900 3d00 4500 0020 2600 0030 bf00 4300 0a00 2201 3201 1400 4600 1800 0300 1b00 2b00 b900 0030 4601 4701 b600 1200 0600 1200 b300 8f00 6f00 4400 2a00 1400 0700 1a00 4a00 bc01 1600 2500 0200 0600 4400 0030 bf00 8900 6400 2600 bb01 3900 1e00 2100 b300 0f01 1001 4a00 1400 4600 3900 2200 7b01 0600 4400 2500 0200 1b00 2b00 b900 0030 bf00 2300 2600 0600 0a00 b300 1a00 2900 3b00 1b00 2b00 3401 3101 1200 4200 0a00 4b00 b900 ffff 
 JAP=王様┌盗んでいったのは {CY} §§ {CW} だば! {NL}  §§は {CY} まよいのもり {CW} に {NL}  よく出現するそうだば! {NL} 王様┌しかし,ヤツらはすがたを見せないから {NL}  マスに停まって,戟闘をするまで分からないだば! {NL}  とにかく,たのむだば勇者しょくん! {EL} 
-ENG=King: It was {CY}{8214}{6403}{CW} who{NL}stole it! {8214}{6403} frequently{NL}appears in the {CY}Lost Wood{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them! Have fun{NL}hero!{EL}
+ENG=The Royal Ring was stolen{NL}by a {CY}{8214}{6403}{CW}!{NL}They frequently appear in the{NL}{CY}Lost Wood{CW}.{NL}However, they don't show{NL}themselves, so you won't know{NL}until you fight them!{NL}Have fun hero!{EL}
 
 OFFSET=153238
 VALUE=ce72(72ce)
@@ -570,7 +570,7 @@ VALUE=d368(68d3)
 OFFSETDATA=155368
 DATA=7b00 b500 6000 9b00 b600 4601 4701 0600 4400 ff01 2a00 a301 0200 2100 0500 4600 b400 0030 bf00 0e00 4700 4a00 a401 0a00 0500 1701 2600 0e01 1e00 2100 0200 1e00 2100 0100 0d00 4600 2900 1300 3e00 b400 ffff 
 JAP=バーサン┌王様から話は聞いておる. {NL}  これを早くお城に持っていってあげるのじゃ. {EL} 
-ENG=Antidote - Asked by the King.{NL}Take it back to the castle.{EL}
+ENG=Grandma: Here's the antidote{NL}asked by the King.{NL}Take it back to the castle.{EL}
 
 OFFSET=15324c
 VALUE=d3ba(bad3)
@@ -605,7 +605,7 @@ VALUE=d466(66d4)
 OFFSETDATA=155466
 DATA=4601 4701 b600 0500 0500 b300 4300 0a00 3f00 1e00 2100 0a00 4700 1a00 1b00 2b00 801c 4f00 4300 b400 0030 bf00 5800 8a00 2600 2a00 0f00 3600 0300 2e00 2600 0220 6214 5985 1701 0020 4a00 0100 1a00 0400 4600 1b00 2b00 b400 ffff 
 JAP=王様┌おお,よくやってくれただば{801c 4f00}よ.{NL}キミにはごほうびに{CY}{6214}{5985}城{CW}をあたえるだば.{EL}
-ENG=King: If you do well {801c 4f00}.{NL}I'll give you {CY}{6214}{5985} Castle{CW}{NL}as a reward.{EL}
+ENG=King: You did well {801c 4f00}.{NL}I give you {CY}{6214}{5985} Castle{CW}{NL}as a reward.{EL}
 
 OFFSET=153256
 VALUE=d4c0(c0d4)
@@ -773,7 +773,7 @@ VALUE=dd48(48dd)
 OFFSETDATA=155d48
 DATA=5900 b500 5700 b500 cf00 d000 b600 1502 e000 1e01 3900 1e00 2100 3d00 4400 1e00 1a00 2900 2a00 0030 bf00 e201 2900 1a00 0200 0a00 1f00 4a00 3900 0900 4400 4900 1400 1a00 3c00 2900 0220 0701 4901 4a01 0020 2600 0030 bf00 2201 2c01 1200 2100 3d00 4400 0300 1a00 3c00 1b00 b400 0030 5900 b500 5700 b500 cf00 d000 b600 4100 0300 1200 4200 0300 3101 2600 2a00 b101 e500 4a00 2201 1800 0300 b900 0030 bf00 1a00 1b00 1200 b300 e201 2900 4300 0300 1300 4b00 3700 0300 0220 6c00 5200 9b00 9500 b500 0020 4a00 0030 bf00 6702 1600 4700 2b00 2900 ff01 1b00 0700 2500 b400 ffff
 JAP=ギーガーJr┌本日集まってもらったのは{NL}私のたいくつをまぎらわすための{CY}武術会{CW}に{NL}出場してもらうためだ.{NL}ギーガーJr┌ゆうしょう者には賞金を出そう!{NL}ただし,私のようじんぼう{CY}チェンリー{CW}を{NL}倒せればの話だがな.{EL}
-ENG=Green Jr.: Today's gathering{NL}is a martial arts tournament{NL}for my pleasure. You'll get a{NL}reward if you can beat{NL}Chen-Li.{EL}
+ENG=Green Jr.: Today's gathering{NL}is a martial arts tournament{NL}for my pleasure. You'll get a{NL}reward if you can beat{NL}Chen Li.{EL}
 
 OFFSET=153286
 VALUE=de2a(2ade)
@@ -787,14 +787,14 @@ VALUE=de7c(7cde)
 OFFSETDATA=155e7c
 DATA=5900 b500 5700 b500 cf00 d000 b600 3600 0300 b300 6c00 5200 9b00 9500 b500 0700 6001 4700 4600 2300 2a00 9f00 9f00 9f00 0030 bf00 1800 4700 b300 3f00 0a00 1800 0a00 2900 b101 e500 0320 8314 5985 0020 5f00 b500 9600 7400 1b00 b900 0030 bf00 2601 0b01 2a00 1b02 0c00 4b00 1900 b900 ffff
 JAP=ギーガーJr┌ほう,チェンリーが敗れるとは...{NL}それ,やくそくの賞金{CG}{8314}{5985}{CW}ゴールドだ!{NL}次回は負けんぞ!{EL}
-ENG=Green Jr.: Well, it means that{NL}Chen-Li is defeated...{NL}Here's the prize of {CG}{8314}{5985}{CW} gold!{NL}Next time I will win!{EL}
+ENG=Green Jr.: Well, it means that{NL}Chen Li is defeated. The prize{NL}is {CG}{8314}{5985}{CW} gold!{NL}Next time I will win!{EL}
 
 OFFSET=15328a
 VALUE=deee(eede)
 OFFSETDATA=155eee
 DATA=5900 b500 5700 b500 cf00 d000 b600 8000 5400 b300 8000 5400 b300 8000 5400 9f00 9f00 9f00 1000 1400 0700 6c00 5200 9b00 9500 b500 0030 bf00 3d00 2a00 3f00 b300 4900 0700 6c00 5200 9b00 9500 b500 2600 1c02 6601 1200 2300 0200 1e00 1a00 2300 0e00 4800 0600 9f00 9f00 9f00 0030 bf00 2601 0b01 2a00 1600 0200 1700 0200 0700 4b00 2b00 4600 4b00 1b00 2500 b300 8000 5400 b300 8000 5400 b300 8000 5400 9f00 9f00 9f00 ffff
 JAP=ギーガーJr┌フォ,フォ,フォ...さすがチェンリー{NL}もはや,わがチェンリーに敵無しといったところか...{NL}次回はせいぜいがんばるんだな,フォ,フォ,フォ...{EL}
-ENG=Green Jr.: As expected, it{NL}seems that Chen-Li has no{NL}equal. I'll do my best next{NL}time.{EL}
+ENG=Green Jr.: As expected, it{NL}seems that Chen Li has no{NL}equal. I'll do my best next{NL}time.{EL}
 
 OFFSET=15328c
 VALUE=df94(94df)
@@ -808,7 +808,7 @@ VALUE=dfb6(b6df)
 OFFSETDATA=155fb6
 DATA=8100 9400 6e00 5a00 cf00 9f00 cf00 b600 4b00 4b00 b900 b800 0030 bf00 0030 bf00 ffff
 JAP=ブラックJ.J┌んん!?{NL}{NL}{EL}
-ENG=Black J.J: Hmm!?{NL}{NL}{EL}
+ENG=Doctor: Uh oh!?{NL}{NL}{EL}
 
 OFFSET=153290
 VALUE=dfd8(d8df)
@@ -1039,7 +1039,7 @@ VALUE=e9e6(e6e9)
 OFFSETDATA=1569e6
 DATA=4601 4701 b600 3401 3101 0700 0f00 0300 2300 0300 2600 f100 4600 2300 2a00 2500 2600 0f00 2300 1b00 2b00 b900 0030 bf00 3a00 1600 1200 3c00 2300 1200 2100 b300 0120 8014 5985 0020 4a00 0030 bf00 6702 1200 1a00 3d00 2900 2600 2a00 b300 9900 6200 0700 b101 e500 2300 1200 2100 0030 4601 4701 b600 0320 8314 6985 0020 5f00 b500 9600 7400 2201 1400 1b00 2b00 0030 bf00 b101 e500 0700 3600 1200 0200 3101 2a00 b300 1a00 1b00 1c00 2600 0030 bf00 0120 8014 5985 0020 2900 0d01 3300 2d02 0600 0300 0700 4300 0200 1b00 2b00 b400 ffff
 JAP=王様┌勇者がごうとうに入るとはなにごとだば!{NL}みせしめとして,{CR}{8014}{5985}{CW}を{NL}倒したものには,ワシが賞金として{NL}王様┌{CG}{8314}{6985}{CW}ゴールド出すだば{NL}賞金がほしい者は,ただちに{NL}{CR}{8014}{5985}{CW}の所へ向かうがよいだば.{EL}
-ENG=King: What hero would go into{NL}crime!{NL}Anyone who defeats {CR}{8014}{5985}{CW}{NL}will be rewarded with a prize.{NL}If you want {CG}{8314}{6985}{CW} gold{NL}, you should immediately head{NL}towards {CR}{8014}{5985}{CW}.{EL}
+ENG=King: What hero would go into{NL}crime!{NL}Anyone who defeats {CR}{8014}{5985}{CW}{NL}will be rewarded with a prize.{NL}If you want {CG}{8314}{6985}{CW} gold,{NL}you should immediately head{NL}towards {CR}{8014}{5985}{CW}.{EL}
 
 OFFSET=1532d2
 VALUE=eab8(b8ea)
@@ -1081,7 +1081,7 @@ VALUE=ec22(22ec)
 OFFSETDATA=156c22
 DATA=0500 4002 1000 4b00 b600 0502 2900 0500 2102 b300 3d00 1200 4300 4800 1200 0c00 4700 2b00 0030 bf00 0e00 2900 5301 4d01 4a00 0220 4214 5985 fc00 0020 3900 2200 0030 bf00 2300 2400 0c00 2100 3d00 4400 0400 3900 1600 4b00 0600 b800 ffff
 JAP=お姉さん┌旅のお方,もしよろしければ{NL}この荷物を{CY}{4214}{5985}村{CW}まで{NL}とどけてもらえませんか?{EL}
-ENG=Young Girl: Traveller, if you{NL}don't mind, can you bring this{NL}package to {CY}{4214}{5985}{CW}?{EL}
+ENG=Young Girl: Can you bring{NL}this package to {CY}{4214}{5985}{CW}?{EL}
 
 OFFSET=1532de
 VALUE=ec80(80ec)
@@ -1109,7 +1109,7 @@ VALUE=edbc(bced)
 OFFSETDATA=156dbc
 DATA=bf00 1000 b500 bf00 5d01 1202 2a00 4300 0a00 2100 b400 bf00 0200 0a00 4900 4300 0030 bf00 6300 8e00 9b00 5c00 9b00 b900 ffff
 JAP= さー用意はよくて.いくわよ{NL}ジャンケン!{EL}
-ENG= I'm ready, I'm going {NL} rock-paper-scissors!{EL}
+ENG=I'm ready. Let's play in 3..{NL}2.. 1..{EL}
 
 OFFSET=1532e6
 VALUE=edee(eeed)
@@ -1144,7 +1144,7 @@ VALUE=ef6a(6aef)
 OFFSETDATA=156f6a
 DATA=6300 8e00 9b00 5800 b500 b600 8800 9b00 b900 ffff
 JAP=ジャンキー┌ポン!{EL}
-ENG=Roche: Junk!{EL}
+ENG=Roche: Go!{EL}
 
 OFFSET=1532f0
 VALUE=ef7e(7eef)

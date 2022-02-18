@@ -17,7 +17,7 @@
           "shift": 32768
         }
       ],
-      "new-data-start": 1573120,
+      "new-data-start": 1573376,
       "new-data-shift": 1540096
     },
     {
@@ -132,12 +132,20 @@
       "offset": "1800d0"
     },
     {
+      "code": "85 1c c2 20 c9 38 0c d0 16 e2 20 af 49 03 00 c2 20 c9 03 0c d0 06 a9 09 09 e2 20 6b a9 38 0c e2 20 a7 20 6b a7 20 6b",
+      "offset": "180100"
+    },
+    {
       "code": "22 00 80 30",
       "offset": "a852"
     },
     {
       "code": "22 D0 80 30",
       "offset": "a772"
+    },
+    {
+      "code": "22 00 81 30",
+      "offset": "a7a7"
     },
     {
       "code": "E0 01",
@@ -161,6 +169,18 @@
       "code": "10 07 01 02 61 01 00 30 61 01 ff ff",
       "offset": "41c38",
       "debug": true
+    },
+    {
+      "code": "08 ab",
+      "offset": "103c7"
+    },
+    {
+      "code": "00 aa",
+      "offset": "10399"
+    },
+    {
+      "code": "E6 00 1E 00 1A 00 29 00 28 00 27 00 BF 00 BF 00 BF 00 BF 00 82 10 73 85 00 30 E0 00 21 00 22 00 1E 00 25 00 1D 00 BF 00 BF 00 BF 00 BF 00 82 10 75 85 00 30 ED 00 2B 00 26 00 28 00 2B 00 BF 00 BF 00 BF 00 BF 00 BF 00 82 10 77 85 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 AF 00 0F 00 2D 00 1E 00 26 00 2C 00 B0 00 BF 00 BF 00 BF 00 AF 00 E2 00 1A 00 20 00 22 00 1C 00 B0 00 BF 00 00 30 82 10 79 85 BF 00 BF 00 82 10 89 85 00 30 82 10 7B 85 BF 00 BF 00 82 10 8B 85 00 30 82 10 7D 85 BF 00 BF 00 82 10 8D 85 00 30 82 10 7F 85 BF 00 BF 00 82 10 8F 85 00 30 82 10 81 85 BF 00 BF 00 82 10 91 85 00 30 82 10 83 85 BF 00 BF 00 82 10 93 85 00 30 82 10 85 85 BF 00 BF 00 82 10 95 85 00 30 82 10 87 85 BF 00 BF 00 82 10 97 85 FF FF",
+      "offset": "18aa00"
     }
   ],
   "input-patches": [
@@ -988,10 +1008,10 @@
       }
     },
     {
-      "value": "§",
+      "value": "*",
       "type": "SINGLE",
       "sprite": {
-        "image": "images/single-chars/latin/char-104.png"
+        "image": "images/single-chars/latin/char-053.png"
       },
       "location": {
         "offset": "d92e0",

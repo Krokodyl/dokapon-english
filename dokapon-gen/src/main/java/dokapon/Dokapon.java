@@ -1,10 +1,7 @@
 package dokapon;
 
 import dokapon.bps.Patcher;
-import dokapon.entities.Config;
-import dokapon.entities.InputPatch;
-import dokapon.entities.PointerData;
-import dokapon.entities.PointerTable;
+import dokapon.entities.*;
 import dokapon.services.*;
 
 import java.io.File;
@@ -26,7 +23,7 @@ public class Dokapon {
 
     public static int EXTRA_DATA_BANK_REQUIRED = 7;
     public static boolean DEBUG = false;
-
+    //f200 f300 b300 f400
     public static void main(String[] args) {
         latinLoader = new LatinLoader();
         spriteWriter = new SpriteWriter();
@@ -63,11 +60,22 @@ public class Dokapon {
             DataReader.readTable(table, data);
         }
         for (PointerTable table:tables) {
+            DataReader.generateEnglish(translator, table, data);
+        }
+        /*System.out.println(Translation.test.size());
+        for (String s: Translation.test) {
+            System.out.println("test:"+s);
+        }*/
+        for (PointerTable table:tables) {
+            DataWriter.writeEnglish(table, data);
+        }
+
+        for (PointerTable table:tables) {
             if (table.getId()==7) {
                 //DataReader.collectSpecialChars(translator, table, data);
             }
             if(table.getId()==2) {
-                DataReader.collectSpecialChars(translator, table, data);
+                //DataReader.collectSpecialChars(translator, table, data);
             }
         }
         for (PointerTable table:tables) {
@@ -75,16 +83,12 @@ public class Dokapon {
                 DataReader.generateEnglishPointer(translator, table, data);
             }
             else */
-            DataReader.generateEnglish(translator, table, data);
             if (table.getId()==2) {
-                //DataReader.collectSpecialChars(translator, table, data);
-                DataReader.checkMenuData(table);
+                //DataReader.checkMenuData(table);
             }
         }
         //translator.showSpecialChars();
-        for (PointerTable table:tables) {
-            DataWriter.writeEnglish(table, data);
-        }
+
 
         for (InputPatch ip:JsonLoader.loadInputPatches()) {
             ip.generateCode(latinLoader.getLatinChars());

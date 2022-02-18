@@ -15,6 +15,7 @@ import java.util.List;
 public class SpriteWriter {
 
     public void writeLatinChars(List<LatinChar> latinChars, byte[] data) {
+        System.out.println("Write Latin characters");
         List<LatinChar> localLatinChars = new ArrayList<>(latinChars);
         while (!localLatinChars.isEmpty()) {
             LatinChar latinChar = localLatinChars.get(0);

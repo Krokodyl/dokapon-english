@@ -1,3 +1,23 @@
+###Table of content
+####1. Introduction
+####2.The English patch file
+####&nbsp;&nbsp;&nbsp;&nbsp;Translations
+####&nbsp;&nbsp;&nbsp;&nbsp;Special characters
+####&nbsp;&nbsp;&nbsp;&nbsp;Variables
+####&nbsp;&nbsp;&nbsp;&nbsp;Menus
+####3. Know bugs / Improvements
+####&nbsp;&nbsp;&nbsp;&nbsp;Fixes
+####&nbsp;&nbsp;&nbsp;&nbsp;Missing translations
+####&nbsp;&nbsp;&nbsp;&nbsp;Screenshots
+####&nbsp;&nbsp;&nbsp;&nbsp;BPS Patcher
+####4. Tips and Hints
+####&nbsp;&nbsp;&nbsp;&nbsp;Scenario mode
+####&nbsp;&nbsp;&nbsp;&nbsp;Locations
+####&nbsp;&nbsp;&nbsp;&nbsp;Special chests
+####&nbsp;&nbsp;&nbsp;&nbsp;Dokapon Ring
+####&nbsp;&nbsp;&nbsp;&nbsp;Sky Palace
+####&nbsp;&nbsp;&nbsp;&nbsp;Quizz
+
 # Dokapon Gen
 
 This project is a Java program that generates a translation file (.bps) for the Super Famicom video game\
@@ -151,44 +171,33 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 ## Know bugs / Improvements
 
 - [ ] Yes/No questions are sometimes hidden under the Yes/No menu
-- [ ] Bug on the ranking table
-- [ ] Bug on the Kill Race starting level
-- [ ] Menu after a player kill is not wide enough
-- [ ] Bug on menu after a player escapes another player
-- [ ] Bug on the rename screen (after a player kill)
-- [ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
 - [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
-- [ ] In the menus, differentiate Towns and Castles
 - [ ] The main menu guy has no background (could be an emulator issue)
-- [ ] Bad translation: "Who will play together"
-- [ ] Typo: "Knifes"
+- [ ] When using Look on a square with 2 or more characters, only shows 1st char.
+
+## Fixes
+v1.2 (February 2022)
+- [X] Fixed the ranking table for 3 and 4 players
+- [X] In the menus, differentiate Towns and Castles
+- [X] Fixed menu size when talking with Risque
+- [X] Bug on menu after a player escapes another player
+- [X] Text too long when using a revival after a loss
+- [X] Text correction in the casino.
+- [X] Translation for MOSK8: Sap (Gremlin skill that reduces the target's magic count)
+- [X] Translation for MOSK2: Steal (Gnome skill that takes 25% of the target's gold)
+- [X] Translation for Item8: Doka.Orb
+- [X] Translation for MOSK11: Twister (かまいたち Kamaitachi, a wind yokai)
+
+v1.1 (April 2021)
+- [X] Bad translation: "Who will play together"
+- [X] Typo: "Knifes"
+- [X] Bug on the Kill Race starting level
+- [X] Menu after a player kill is not wide enough
+- [X] Bug on the rename screen (after a player kill)
 
 ## Missing translations
 
-ITEMS\
-Item8
-Item10
-Item12
-
-FIELD MAGIC\
-FMAG1
-FMAG2
-FMAG3
-FMAG5   
-
-MONSTER MAGIC\
-MOSK1
-MOSK2
-MOSK5
-MOSK6
-MOSK8
-MOSK11
-
-NEGATIVE EFFECTS\
--oruhaou
-MOSK1
-
-Some quest related names (last part of Table 6) have to match with same names in other translations.
+The whole game is translated.
 
 ## Screenshots
 Japanese | English
@@ -208,3 +217,117 @@ Japanese | English
 I could not find an open-source Java BPS patch generator so I made one. \
 It's under /dokapon-gen/src/main/java/dokapon/bps \
 It's still experimental and is not very well optimized but it seems to work.
+
+## Tips and Hints
+###Scenario mode
+The scenario mode starts in a training area. There, you have two weeks to collect basic equipments from chest. There are no monsters in this area.
+
+The first players to reach the castle will get bonus points to put in their stats.
+
+Once every player is done with the training area, the story starts. It's divided into chapters.
+
+Each chapter follows the same structure. Walk around fighting monsters, freeing towns, leveling up, gearing up in order to kill bosses (Represented by a green dragon on the map).
+After a certain number of bosses is killed, the special quest for the chapter will be triggered. Completing the quest will unlock the next continent and the next chapter.
+
+At the end of the last chapter, the player with the highest worth (town value + gold) is the winner.
+
+### Locations
+
+Special location | Access
+------------ | -------------
+Spring Cave | Asia
+Casino Cave | Europe
+Lava Cave | North America
+Lost Forest | North America<br/>South America
+Freaky Mountain | South America
+Sea Temple | South America
+Ruins | Africa
+Underground Passage | Africa<br/>Australia
+Rabble Tower | Australia
+Sky Palace | Freaky Mountain<br/>(requires Wings)
+Hell<br/>Devil's Castle | Last chapter in scenario mode
+
+###Special chests
+
+Location | Content | Description
+------------ | ------------- | -------------
+Spring Cave (top left)			|Portal|[Item] Teleports you to Dokapon Castle or a town you own
+Spring Cave (top right)			|Convoke|[Field Magic] Brings all the players on this map to your space.
+Spring Cave (bottom right)		|Gold Bug|[Item] A bug that can double your gold or take it all. Sells for a good value.
+Casino Cave (bottom left)		|*Spinner|[Item] Gives 1 to 5 spinners to move. (Random each day) Lasts a week.
+Casino Cave (top right)			|Revival|[Item] Automatically revives you with half of your max HP when you die.
+Casino Cave (center)			|Tonic|[Item] Doubles your attack, defense and speed for a week. Sells for half of your current gold.
+Lava Cave 2F (top side)			|Spyglass| [Item] Reveals the cards before a battle. Single use.
+Lava Cave 2F (bottom side)		|Mix-up|[Field Magic] See effect below
+Lava Cave 3F (right) 			|Elven Mantle | [Armor]
+Lava Cave 3F (top left) 		|Fire Sword	| [Weapon] with 136 attack
+Lava Cave 3F (bottom left) 		|Athena Shield | [Shield] with 103 defense
+Lost Wood (near shop)			|Gold Bug|[Item] A bug that can double your gold or take it }all. Sells for a good value.
+Lost Wood (near stump)			|Invasion|[Field Magic] Summons monsters in all the towns of the continent.
+Freaky Mountain 2F (right)		|Jade Ring | [Item] Ring that gives +25% speed
+Freaky Mountain 2F (left)		|Fireball|[Field Magic] Deals damage to every player and boss on the same map.
+Sky Palace						|Divine Fist | [Weapon] with 179 attack
+Sea Temple 2B					|Ruby Ring | [Item] Ring that gives +25% attack
+Ruins 2F						|Onyx Ring | [Item] Ring that gives +25% defense
+Underground	(top left)				|Bribe|[Item] Allows you to take over the town of another player.
+Underground	(bottom left)			|Puppet| See effect below
+Underground (left of item shop)		|Bait| [Item] Spawns a boss in the target town. The current boss is removed.
+Underground (right of item shop)	|Mirror| [Item] Protects from any field magic once.
+Rabble Tower 1F (right)			|Frost|[Field Magic] Deals ice damage to everyone on the target space.
+Rabble Tower 1F (left)			|Mix-up|[Field Magic] Random effect among those:<br/>- Gives +2 to all stats<br/>- Spawns traps all over the continent<br/>- Swaps everyone's gear randomly<br/>- Swaps everyone's items and magic randomly<br/>- Swaps everyone's gold randomly
+Rabble Tower 2F (left)			|Onyx Ring | [Item] Ring that gives +25% defense
+Rabble Tower 2F (right)			|Ruby Ring | [Item] Ring that gives +25% attack
+Rabble Tower 2F (middle)		|Jade Ring | [Item] Ring that gives +25% speed
+Rabble Tower 3F (left)			|Dokapon Orb | [Item] Sells for 490 000 gold in a shop or for 90 000 to the king
+Rabble Tower 3F (middle left)	|Wings | [Item] Used to access the Sky Palace
+Rabble Tower 3F (middle right)	|Puppet| [Field Magic] Takes control of the target player for one turn.
+
+###Dokapon Ring
+
+Taking the three rings (Onyx Ring, Ruby Ring and Jade Ring) to the castle will merge them into one ring (Dokapon Ring).
+AFAIK, the Dokapon Ring only has the combine effects of the three rings but it only uses one inventory slot. 
+
+###Sky Palace
+
+Beating Rico Jr. (random spawn in some dungeons, or fixed spawn in scenario mode) will give you the item [Wings].
+Going to the top of the Freaky Mountain (in South America), with the Wings will take you to the Sky Palace.
+The Sky Palace is a place with many blue, yellow and white chests and one special chest.
+
+###Quizz
+
+The quizz is a series of 8 random questions. According to your results, you are given a recommendation of the AI to play against (weak, normal or hard).
+The last question (times played) is always the same and seems to have no purpose.
+
+Question | Answer
+------------ | -------------
+In Look mode, what do the buttons L and R do? | Move fast
+Which of the following Field Magic deals damage to everyone on a targeted square? | Thunder+
+Which button do you use to examine a square? | X Button
+Which item protects once from a Field Magic? | Mirror
+Where do you find this item :Ruby Ring? | Sea Temple
+There is a place in Dokapon Kingdom where powerful weapons lie. Where is it? | Lava Cave
+What color is the weapon treasure chest? | Red
+What is the coin-shaped square on the map? | Tax Office
+What does the shop with a red roof sell ? | Weapons
+What button allows to scroll faster when in examine mode? | Y button
+What is the effect of the Weak status? | Move 1
+What is the name of the Devil's weapon? | Union Sword
+Which of these weapons is the most expensive? | Halberd
+What are the base damage of Thunder+? | 30
+What item allows the wearer to pass through the toxic swamp safely? | Boots
+Which cursed weapon can attack its owner? | Draco Blade
+What is the selling price of an item compared to the purchasing price? | 50%
+Which battle skill can sometimes one-shot an enemy, regardless of the HP? | Slash
+What is the magic defense bonus of Deflect? | +3
+There is a Warp Space fountain. Where is it? | Spring Cave
+What is the name of the princess of Dokapon Kingdom? | Poring
+Which starting job is missing: Fighter, Warrior, Knight, Thief? | Mage
+How much is the Dokapon Orb, the ultimate treasure, worth? | 490000
+A Contract is used for a deal with the Devil. For how much can you sell it to a shop? | 1
+Which item is the most expensive? | 3-Spinner
+There is a martial arts expert in Dokapon Kingdom. What's their name? | Chen Li
+Which town has the highest value? | Sidney
+How many churches are there? | 6
+How many floors has the dungeon Rabble Tower? | 3
+Which small monster has the highest level? | Tiamat
+In order to become the Devil, you must give away all your gold, items, magic and what? | Towns

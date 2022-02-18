@@ -34,6 +34,7 @@ public class Translator {
     }
 
     public void loadTranslationFile(String name) throws IOException {
+        System.out.println("Load Translation File : "+name);
         BufferedReader br = new BufferedReader(
                 new InputStreamReader(
                         Objects.requireNonNull(Translator.class.getClassLoader().getResourceAsStream(name)), StandardCharsets.UTF_8));
@@ -61,6 +62,15 @@ public class Translator {
                 }
             } else {
                 if (t.getTranslation() != null && !t.getTranslation().trim().isEmpty()) {
+                    if (!name.contains("Table 7") && name.contains("Table 6")) {
+                        /*if (t.getTranslation().length()>=40 && t.getTranslation().length()<=48) {
+                            System.out.println("pb:"+t.getTranslation());
+                            //t.setTranslation("Z{EL}");
+                        }*/
+                        /*System.out.println(t.getOffset());
+                        System.out.println(t.getValue().length());*/
+                    }
+
                     translations.add(t);
                 }
                 else {
@@ -299,6 +309,20 @@ public class Translator {
             if (length> LENGTH_DIALOG_LINE)
                 System.out.println("LINE TOO LONG "+line+" ("+length+")");
         }
+    }
+
+    public int getInGameLength(String english) {
+        String[] lines = english.split("\\{NL\\}");
+        int length = 0;
+        for (String line:lines) {
+            for (Map.Entry<String, SpecialChar> specialCharEntry : specialCharMap.entrySet()) {
+                int matches = StringUtils.countMatches(line, specialCharEntry.getKey());
+                length+=specialCharEntry.getValue().getInGameLength()*matches;
+                line = line.replace(specialCharEntry.getKey(),"");
+            }
+            length+=line.length();
+        }
+        return length;
     }
 
     public int checkDataLength(String english) {

@@ -17,7 +17,7 @@ VALUE=9601(0196)
 OFFSETDATA=31601
 DATA=c200 c300 0700 0120 a000 0020 2600 2500 1e00 1a00 2301 b300 0220 8301 7b01 0020 3900 2200 0b01 0c01 1400 4600 7d00 b501 b400 ffff 
 JAP=HPが{CR}0{CW}になった時,{CY}半分{CW}まで回復するヒ薬.{EL}
-ENG=Revives with {CG}half{CW} HP{NL}when you die.{EL}
+ENG=Automatically revives you with{NL}half of your max HP when you{NL}die.{EL}
 
 OFFSET=3148b
 VALUE=9635(3596)
@@ -45,14 +45,14 @@ VALUE=96df(df96)
 OFFSETDATA=316df
 DATA=0d01 0e01 e500 2900 8301 7b01 2900 ef00 1b00 4b00 2200 1b01 4700 4600 b300 0800 1c00 4200 0300 2500 b501 b400 0030 0501 0300 2300 9f00 9f00 9f00 ffff 
 JAP=所持金の半分の値だんで売れる,きちょうな薬.{NL}使うと...{EL}
-ENG=Sells for half of your current{NL}gold. Use it and...{EL}
+ENG=Doubles your attack, defense{NL}and speed for a week. Sells{NL}for half of your current gold.{EL}
 
 OFFSET=31493
 VALUE=971b(1b97)
 OFFSETDATA=3171b
 DATA=2400 0e00 0600 2900 fc00 3300 9101 3100 0e00 2300 0700 2200 0800 4600 0001 0101 2900 8100 b500 6f00 b400 ffff 
 JAP=どこかの村へ飛ぶことができる魔法のブーツ.{EL}
-ENG=Winged boots that can fly you{NL}to any town.{EL}
+ENG=Winged boots that can fly you{NL}to a random town.{EL}
 
 OFFSET=31495
 VALUE=9747(4797)
@@ -80,7 +80,7 @@ VALUE=97fd(fd97)
 OFFSETDATA=317fd
 DATA=7b00 7300 9600 5600 b500 7400 0700 1400 0c00 2100 bc01 0400 4600 8900 6300 6e00 5a00 4d00 4f00 7100 8b00 b400 ffff 
 JAP=バトルカードがすけて見えるマジックアイテム.{EL}
-ENG=Allows you to see through the{NL}battle cards.{EL}
+ENG=Reveals the cards before a{NL}battle. Single use.{EL}
 
 OFFSET=3149d
 VALUE=982b(2b98)
@@ -115,7 +115,7 @@ VALUE=9907(0799)
 OFFSETDATA=31907
 DATA=be01 7f01 1200 1a00 fc00 2600 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 4a00 0030 f500 f600 1000 1600 4600 0e00 2300 0700 2200 0800 4600 0001 0101 2900 0220 3f00 0020 b400 ffff 
 JAP=指定した村にビッグモンスターを{NL}移動させることができる魔法の{CY}や{CW}.{EL}
-ENG=Allows you to move a boss to{NL}a specified town.{EL}
+ENG=Spawns a boss in the target{NL}town. The current boss is{NL}removed.{EL}
 
 OFFSET=314a7
 VALUE=994d(4d99)
@@ -129,7 +129,7 @@ VALUE=9983(8399)
 OFFSETDATA=31983
 DATA=0e01 1e00 2100 0200 4600 1b00 0c00 2200 0030 0220 f800 f900 0a01 0020 0700 7e01 0700 4600 0001 0101 2900 9500 9b00 5b00 b400 ffff 
 JAP=持っているだけで{NL}{CY}攻撃力{CW}が上がる魔法のリング.{EL}
-ENG=Increases your {CY}attack{CW}.{EL}
+ENG=This ring grants {CY}+25% attack{CW}.{EL}
 
 OFFSET=314ab
 VALUE=99b7(b799)
@@ -262,14 +262,14 @@ VALUE=9d1b(1b9d)
 OFFSETDATA=31d1b
 DATA=0e01 1e00 2100 0200 4600 1b00 0c00 2200 0030 0220 fa00 fb00 0a01 0020 0700 7e01 0700 4600 0001 0101 2900 9500 9b00 5b00 b400 ffff 
 JAP=持っているだけで{NL}{CY}防御力{CW}が上がる魔法のリング.{EL}
-ENG=Increases your {CY}magic defense{CW}{NL}.{EL}
+ENG=This ring grants {CY}+25% defense{CW}.{EL}
 
 OFFSET=314d1
 VALUE=9d4f(4f9d)
 OFFSETDATA=31d4f
 DATA=0e01 1e00 2100 0200 4600 1b00 0c00 2200 0030 0220 1400 2b00 3f00 1000 0020 0700 7e01 0700 4600 0001 0101 2900 9500 9b00 5b00 b400 ffff 
 JAP=持っているだけで{NL}{CY}すばやさ{CW}が上がる魔法のリング.{EL}
-ENG=Increases your {CY}speed{CW}{NL}.{EL}
+ENG=This ring grants {CY}+25% speed{CW}.{EL}
 
 OFFSET=314d3
 VALUE=9d85(859d)
@@ -283,7 +283,7 @@ VALUE=9dd1(d19d)
 OFFSETDATA=31dd1
 DATA=1401 1501 b001 2900 2400 0e00 0600 2900 f400 3300 9101 3100 0e00 2300 0700 2200 0800 4600 0030 0001 0101 2900 8100 b500 6f00 b400 ffff 
 JAP=大陸内のどこかの店へ飛ぶことができる{NL}魔法のブーツ.{EL}
-ENG=Winged boots that can fly you{NL}to any shop.{EL}
+ENG=Vessel that can fly you{NL}to a random shop.{EL}
 
 OFFSET=314d7
 VALUE=9e07(079e)
@@ -297,7 +297,7 @@ VALUE=9e51(519e)
 OFFSETDATA=31e51
 DATA=1200 2b00 4400 0a00 2900 3601 0030 9600 b500 9700 6e00 7300 0700 a100 ae00 a500 9d01 2600 2500 4600 8900 6300 6e00 5a00 4d00 4f00 7100 8b00 b400 ffff 
 JAP=しばらくの間{NL}ルーレットが1~5個になるマジックアイテム.{EL}
-ENG=Gives you 1 to 5 spinners to{NL}move.{EL}
+ENG=Gives 1 to 5 spinners to move.{NL}(Random each day){NL}Lasts a week.{EL}
 
 OFFSET=314db
 VALUE=9e8d(8d9e)
@@ -311,14 +311,14 @@ VALUE=9ebd(bd9e)
 OFFSETDATA=31ebd
 DATA=0e00 4700 4a00 0e01 1e00 2100 0100 4600 2c01 0d01 3300 0200 0a00 2300 9f00 9f00 9f00 ffff 
 JAP=これを持ってある場所へいくと...{EL}
-ENG=Angel wings can take you{NL}somewhere...{EL}
+ENG=Take these angel wings to a{NL}high place...{EL}
 
 OFFSET=314df
 VALUE=9ee1(e19e)
 OFFSETDATA=31ee1
 DATA=1400 2b00 4400 1200 0200 7c00 9900 b500 4a00 2d00 3c00 1a00 c001 c101 2900 9500 9b00 5b00 b400 ffff 
 JAP=すばらしいパワーをひめた究極のリング.{EL}
-ENG=The Dokapon Ring is the{NL}ultimate ring. It holds a{NL}great power.{EL}
+ENG=The Dokapon Ring is the{NL}ultimate ring.{NL}{CY}+25% attack, defense and speed{CW}{EL}
 
 OFFSET=314e1
 VALUE=9f09(099f)
@@ -332,7 +332,7 @@ VALUE=9f47(479f)
 OFFSETDATA=31f47
 DATA=5001 2900 c301 2001 2600 f100 1e00 2100 3d00 5001 4a00 0300 0c00 2500 0a00 2500 4600 b300 2500 0700 0b00 1f00 b400 ffff 
 JAP=毒の沼地に入っても毒をうけなくなる,ながぐつ.{EL}
-ENG=Allows you to walk in the{NL}swamp safely.{EL}
+ENG=Allows you to walk through the{NL}toxic swamps safely.{EL}
 
 OFFSET=314e5
 VALUE=9f77(779f)
@@ -381,7 +381,7 @@ VALUE=a0a1(a1a0)
 OFFSETDATA=320a1
 DATA=7a01 7b01 4300 4500 b300 cc01 0200 9700 8400 9600 2900 8d00 9b00 6400 6a00 b500 0700 0030 2201 3201 1200 2500 0a00 2500 4600 4d00 4f00 7100 8b00 b400 ffff 
 JAP=自分より,弱いレベルのモンスターが{NL}出現しなくなるアイテム.{EL}
-ENG=Items from their own, the weak{NL}level of the monsters will not{NL}appear.{EL}
+ENG=Prevents monsters of lower{NL}level from appearing.{EL}
 
 OFFSET=314f3
 VALUE=a0df(dfa0)
@@ -437,7 +437,7 @@ VALUE=a301(01a3)
 OFFSETDATA=32301
 DATA=0220 9c01 1300 8900 6e00 8200 7e01 0020 2600 0200 4600 b300 0030 1400 3400 2100 2900 0220 8200 9700 4f00 8f00 b500 b300 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 0020 2600 0030 aa01 2900 ce01 0700 9101 4b00 2200 0200 0800 6b00 8c00 b500 6300 4a00 0100 1a00 0400 3900 1400 b400 ffff 
 JAP={CY}同じマップ上{CW}にいる,{NL}すべての{CY}プレイヤー,ビッグモンスター{CW}に{NL}光の玉が飛んでいきダメージをあたえます.{EL}
-ENG=Deals damage to {CY}every player{CW}{NL}and {CY}monster{CW} on the same{NL}continent.{EL}
+ENG=Deals damage to {CY}every player{CW}{NL}and {CY}boss{CW} on the same{NL}map.{EL}
 
 OFFSET=32177
 VALUE=a371(71a3)
@@ -549,7 +549,7 @@ VALUE=a6af(afa6)
 OFFSETDATA=326af
 DATA=9c01 1300 8900 6e00 8200 7e01 2600 0200 4600 0030 1400 3400 2100 2900 8200 9700 4f00 8f00 b500 4a00 7a01 7b01 2900 8900 6400 2600 4300 2e00 5a01 1600 3900 1400 b400 ffff 
 JAP=同じマップ上にいる{NL}すべてのプレイヤーを自分のマスによび寄せます.{EL}
-ENG=Brings all the players on this{NL}continent to your space.{EL}
+ENG=Brings all the players on this{NL}map to your space.{EL}
 
 OFFSET=32197
 VALUE=a6f3(f3a6)
@@ -857,7 +857,7 @@ VALUE=b1c3(c3b1)
 OFFSETDATA=331c3
 DATA=bf00 5700 b500 9b00 b900 ffff 
 JAP= ガーン!{EL}
-ENG=Damn!{EL}
+ENG=Darn!{EL}
 
 OFFSET=32fe3
 VALUE=b1cf(cfb1)
@@ -1025,7 +1025,7 @@ VALUE=b85d(5db8)
 OFFSETDATA=3385d
 DATA=5f00 9800 b500 b600 1600 1e00 1600 1e00 1600 1e00 9f00 9f00 9f00 ffff 
 JAP=ゴロー┌せっせっせっ...{EL}
-ENG=Demolition Man: Wooosh...
+ENG=Demolition Man: Wooosh...{EL}
 
 OFFSET=33013
 VALUE=b879(79b8)
@@ -1039,7 +1039,7 @@ VALUE=b8c9(c9b8)
 OFFSETDATA=338c9
 DATA=5f00 9800 b500 b600 1800 4700 1300 3e00 b500 0200 0800 3900 1400 1700 b900 0030 bf00 1800 4700 b900 0030 bf00 ffff 
 JAP=ゴロー┌それじゃーいきますぜ!{NL} それ!{NL} {EL}
-ENG=Demolition Man: Here we go!
+ENG=Demolition Man: Here we go!{EL}
 
 OFFSET=33017
 VALUE=b8f7(f7b8)
@@ -1697,7 +1697,7 @@ VALUE=d6af(afd6)
 OFFSETDATA=356af
 DATA=801c 4f00 2a00 5001 c301 4a00 bd01 0200 1a00 2900 2200 b300 5001 4a00 5101 0c00 1a00 b900 ffff
 JAP={801c 4f00}は毒沼を歩いたので,毒を受けた!{EL}
-ENG={801c 4f00} was poisoned because{NL}he walked in the poison swamp!{EL}
+ENG={801c 4f00} was poisoned because{NL}they walked through the toxic{NL}swamp!{EL}
 
 OFFSET=330d3
 VALUE=d6d5(d5d6)
@@ -1781,21 +1781,21 @@ VALUE=e173(73e1)
 OFFSETDATA=36173
 DATA=bf00 1800 4700 b900 ffff
 JAP= それ!{EL}
-ENG= Miss!{EL}
+ENG=There!{EL}
 
 OFFSET=330eb
 VALUE=e17d(7de1)
 OFFSETDATA=3617d
 DATA=8100 9400 6e00 5a00 cf00 9f00 cf00 b600 8000 6e00 8000 6e00 8000 6e00 9f00 9f00 9f00 1600 0200 0e00 0300 1b00 1e00 2f00 0030 bf00 2200 2a00 b300 1c00 4500 4200 0300 2d00 2300 1200 2100 0120 8314 5b85 0020 5f00 b500 9600 7400 0030 bf00 0200 1a00 1b00 0a00 1e00 2f00 b400 ffff
 JAP=ブラックJ.J┌フッフッフッ...せいこうだっぴ{NL} では,ちりょうひとして{CR}{8314 5b85}{CW}ゴールド{NL} いただくっぴ.{EL}
-ENG=Doctor: Huff...huff{NL}Procedure successful! Then, I{NL} need {CR}{8314 5b85}{CW} gold for that{NL}treatment.{EL}
+ENG=Doctor: Huff...huff{NL}Procedure successful!{NL}That will be {CR}{8314 5b85}{CW}G please.{EL}
 
 OFFSET=330ed
 VALUE=e1eb(ebe1)
 OFFSETDATA=361eb
 DATA=8100 9400 6e00 5a00 cf00 9f00 cf00 b600 ab01 2a00 0500 e500 2600 0030 bf00 0600 0400 4400 4700 2500 0200 0600 4400 1401 c901 2600 1400 4600 1e00 2f00 b900 ffff
 JAP=ブラックJ.J┌命はお金に{NL} かえられないから大事にするっぴ!{EL}
-ENG=Doctor: Life is like money,{NL}it's a serious matter!{EL}
+ENG=Doctor: Money can't replace{NL}life so take good care of it!{EL}
 
 OFFSET=330ef
 VALUE=e22b(2be2)
@@ -1809,14 +1809,14 @@ VALUE=e293(93e2)
 OFFSETDATA=36293
 DATA=8100 9400 6e00 5a00 cf00 9f00 cf00 b600 1d02 3501 0700 2500 0200 4300 0300 1b00 1e00 2f00 b900 0030 bf00 e201 2900 5e00 5100 7300 5100 db01 3802 0900 1300 4000 1f00 2200 b300 0301 1200 2100 0100 0d00 4600 1e00 2f00 b900 ffff
 JAP=ブラックJ.J┌元気がないようだっぴ!{NL} 私のコウトウ高額ぎじゅつで,治してあげるっぴ!{EL}
-ENG=Doctor: You don't seem very{NL}healthy! I'll cure you with my{NL}overpriced skills!{EL}
+ENG=Doctor: You seem unwell! I'll{NL}fix you quickly for a fee!{EL}
 
 OFFSET=330f3
 VALUE=e2ed(ede2)
 OFFSETDATA=362ed
 DATA=8100 9400 6e00 5a00 cf00 9f00 cf00 b600 f701 1e00 2100 0200 1a00 4300 9f00 9f00 9f00 0030 bf00 e201 2a00 1000 1400 4400 0200 2900 7400 5a00 6a00 b500 0030 bf00 8100 9400 6e00 5a00 cf00 9f00 cf00 9f00 9f00 9f00 1b00 1e00 2f00 1e00 ffff
 JAP=ブラックJ.J┌待っていたよ...{NL} 私はさすらいのドクター{NL} ブラックJ.J...だっぴっ{EL}
-ENG=Doctor: I was expecting{NL}you... I'm a travelling{NL}doctor. Doctor Exiles!{EL}
+ENG=Doctor: I was expecting you.{NL}I'm a travelling doctor.{NL}My name is Doctor Exiles!{EL}
 
 OFFSET=330f5
 VALUE=e34b(4be3)
@@ -1879,7 +1879,7 @@ VALUE=e6ef(efe6)
 OFFSETDATA=366ef
 DATA=2702 1f01 b600 0e00 4700 0700 4900 1200 2900 0320 8214 5985 0020 1300 3e00 b400 ffff
 JAP=老人┌これがわしの{CG}{8214 5985}{CW}じゃ.{EL}
-ENG=Beggar: Here is my {CG}{8214 5985}{CW}.{EL}
+ENG=Beggar: Here is my {CG}{8214 5985}{CW}.{NL}{NL}{NL}{EL}
 
 OFFSET=33107
 VALUE=e711(11e7)
@@ -2026,7 +2026,7 @@ VALUE=ec2d(2dec)
 OFFSETDATA=36c2d
 DATA=8014 5985 2a00 2600 0d00 1b00 1200 1a00 b900 ffff
 JAP={8014 5985}はにげだした!{EL}
-ENG={8014 5985} escaped!{EL}
+ENG={8014 5985} is escaping!{EL}
 
 OFFSET=36a5d
 VALUE=ec41(41ec)
@@ -2040,7 +2040,7 @@ VALUE=ec5f(5fec)
 OFFSETDATA=36c5f
 DATA=8014 5985 2a00 4900 1100 4a00 7801 1000 4700 1a00 b900 ffff
 JAP={8014 5985}はわざを返された!{EL}
-ENG={8014 5985} counters!{EL}
+ENG={8014 5985} gets countered!{EL}
 
 OFFSET=36a61
 VALUE=ec77(77ec)
@@ -2348,14 +2348,14 @@ VALUE=f20d(0df2)
 OFFSETDATA=3720d
 DATA=8014 5985 2a00 0220 8214 6985 0020 4a00 2a00 0200 1a00 b900 ffff
 JAP={8014 5985}は{CY}{8214 6985}{CW}をはいた!{EL}
-ENG={8014 5985} wears {CY}{8214 6985}{CW}!{EL}
+ENG={8014 5985} uses {CY}{8214 6985}{CW}!{EL}
 
 OFFSET=36abb
 VALUE=f227(27f2)
 OFFSETDATA=37227
 DATA=8014 5985 2a00 0220 6b02 3a00 0020 4a00 2a00 1a00 4400 0200 1a00 b900 ffff
 JAP={8014 5985}は{CY}盗み{CW}をはたらいた!{EL}
-ENG={8014 5985} stole!{EL}
+ENG={8014 5985} uses {CY}Steal{CW}!{EL}
 
 OFFSET=36abd
 VALUE=f245(45f2)
@@ -2726,7 +2726,7 @@ VALUE=fa9b(9bfa)
 OFFSETDATA=37a9b
 DATA=5300 9600 8100 9b00 8700 5100 2a00 b300 0600 3900 0200 1a00 1c00 4a00 9701 2e00 2201 1200 1a00 b900 ffff
 JAP=エルブンボウは,かまいたちを呼び出した!{EL}
-ENG=Elven Bow summoned a demon!{EL}
+ENG=Elven Bow summoned a tornado!{EL}
 
 OFFSET=36b2b
 VALUE=fac5(c5fa)

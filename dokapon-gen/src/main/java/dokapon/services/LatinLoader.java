@@ -24,6 +24,7 @@ public class LatinLoader {
     }
 
     public void loadLatin() {
+        System.out.println("Load Latin");
         latinChars.addAll(JsonLoader.loadLatin());
 
 
