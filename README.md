@@ -33,7 +33,7 @@ A remake for the Wii and PS2 was released in 2008.
 
 ## The English patch file
 
-The latest patch file is available : [Dokapon 3-2-1 English.bps](/patch/Dokapon%203-2-1%20-%20English.7z)
+The latest patch file is available : [Dokapon 3-2-1 English.zip](/patch/Dokapon%203-2-1%20-%20English.zip)
 
 It applies to the following ROM :\
 File: Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan)\
