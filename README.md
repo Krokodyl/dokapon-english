@@ -31,9 +31,11 @@ Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predece
 
 A remake for the Wii and PS2 was released in 2008.
 
-## The English patch file
+## The English patch file (v1.2)
 
-The latest patch file is available : [Dokapon 3-2-1 English.zip](/patch/Dokapon%203-2-1%20-%20English.zip)
+The latest patch file is available here : [Dokapon 3-2-1 English.zip](/patch/Dokapon%203-2-1%20-%20English.zip)
+
+Also available on romhacking.net https://www.romhacking.net/translations/5561/
 
 It applies to the following ROM :\
 File: Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan)\
