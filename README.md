@@ -33,7 +33,7 @@ A remake for the Wii and PS2 was released in 2008.
 
 ## The English patch file (v1.3)
 
-#### See 1.3 changes below.
+#### April 2022 Update - See 1.3 changes below.
 
 Patch file v1.3 is available here : [Dokapon 3-2-1 English v1.3.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.3.zip)\
 Previous patch (v1.2) is archived : [Dokapon 3-2-1 English v1.2.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.2.zip)
