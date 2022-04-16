@@ -85,11 +85,15 @@ He is always accompanied by 2 flexing bodyguards on whom he stands on.
 He is the owner of the Casino, the employer of Comacho, and the host of the Green Jr. Games.
 
 
-ミッチー        Mitch Digger
+ミッチー (Mitchie)       Mitch Digger
 A brown mole who tries to improve towns by drilling wells for them.
 He'll ask for a reasonable sum of money, but he often fails.
 When he drills, he will give a set of numbers between 2 and 6 (the more valuable the town, the fewer numbers you will receive) and run the spinner.
 If he does succeed, the value of the town (or occasionally, all your towns in a continent) will be doubled.
+
+One of his dialogue is なはっ!なはっ!なはっ! (Naha! Naha! Naha!).
+It could be a reference Mitsuo Senda, a popular radio and television show host in the 1970s who became famous for the "Naha" gag.
+Which would also explains the name Mitsuo / Mitch
 
 ぜニ      Zeni
 a round coin with a square hole in the middle
@@ -228,3 +232,23 @@ Jade Ring	65	52		+13
 65		52
 51		51
 65		65
+
+Introduction
+The English patch file
+Translations
+Special characters
+Variables
+Menus
+Know bugs / Improvements
+Fixes
+Missing translations
+Screenshots
+BPS Patcher
+
+Tips and Hints
+Scenario mode
+Locations
+Special chests
+Dokapon Ring
+Sky Palace
+Quizz

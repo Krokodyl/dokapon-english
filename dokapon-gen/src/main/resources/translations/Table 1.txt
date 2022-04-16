@@ -388,7 +388,7 @@ VALUE=e8ac(ace8)
 OFFSETDATA=168ac
 DATA=0220 4102 7f01 2900 fc00 4a00 2a00 3f00 0a00 7101 3902 1400 4600 0020 0800 4200 0300 1800 0300 0030 2400 0e00 2900 fc00 2600 2500 4600 0600 b300 3d02 0b01 9400 9b00 6b00 8b00 4300 b900 ffff 
 JAP={CY}特定の村をはやく解放する{CW}きょうそう{NL}どこの村になるか,毎回ランダムよ!{EL}
-ENG=Be the first to own a{NL}specific village. The village{NL}is randomly chosen.{EL}
+ENG=Be the first to free a{NL}specific village. The village{NL}is randomly chosen.{EL}
 
 OFFSET=15010
 VALUE=e8f8(f8e8)
@@ -773,7 +773,7 @@ VALUE=f7b6(b6f7)
 OFFSETDATA=177b6
 DATA=4601 4701 b600 1800 4b00 1b00 2b00 b300 0220 5800 9600 9700 b500 6400 0020 2900 af01 3900 4500 1b00 2b00 b900 0030 bf00 0401 2900 3401 3101 4a00 0220 2114 5985 0020 1f01 6702 1200 1a00 3101 2900 f601 1c00 1b00 2b00 b900 0030 bf00 ffff 
 JAP=王様┌そんだば,{CY}キルレース{CW}の始まりだば!{NL} 他の勇者を{CY}§{NAM}{CW}人倒した者の勝ちだば!{NL} {EL}
-ENG=King: It is the beginning of{NL}the {CY}Kill Race{CW}.{NL}The first player to reach{NL}{2114 5985} kills wins!{EL}
+ENG=King: The {CY}Kill Race{CW}{NL}begins. The first player to{NL}reach {2114 5985} kills wins!{EL}
 
 OFFSET=15082
 VALUE=f814(14f8)
@@ -801,35 +801,35 @@ VALUE=f8f0(f0f8)
 OFFSETDATA=178f0
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 0500 6a01 1000 3900 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 0500 1701 2900 3900 4900 4500 2600 8d00 9b00 6400 6a00 b500 1a00 1c00 0700 b900 0030 bf00 ffff 
 JAP= プリリン ┌お父さま!{NL}       お城のまわりにモンスターたちが!{NL} {EL}
-ENG=Penny: Father! Monsters are{NL}around the castle!{EL}
+ENG=Penny: Father! Monsters are{NL}around the castle!{NL} {EL}
 
 OFFSET=1508a
 VALUE=f93e(3ef9)
 OFFSETDATA=1793e
 DATA=bf00 4601 4701 bf00 b600 4900 0600 1e00 2100 4600 1b00 2b00 9f00 9f00 9f00 0030 bf00 0030 bf00 ffff 
 JAP= 王様 ┌わかってるだば...{NL} {NL} {EL}
-ENG=King: We found the heroes.{EL}
+ENG=King: I know, I know.{NL} {NL} {EL}
 
 OFFSET=1508c
 VALUE=f966(66f9)
 OFFSETDATA=17966
 DATA=bf00 4601 4701 bf00 b600 8200 9500 9500 9b00 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 3300 1800 0a00 4500 4a00 1b00 1400 2900 1b00 2b00 b900 0030 bf00 ffff 
 JAP= 王様 ┌プリリン!{NL}       へそくりをだすのだば!{NL} {EL}
-ENG=King: Penny! I give them a{NL}lot of gold!{EL}
+ENG=King: Penny!{NL}Go get the stashed gold.{NL} {EL}
 
 OFFSET=1508e
 VALUE=f9a6(a6f9)
 OFFSETDATA=179a6
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 5700 b900 5700 b500 9b00 b900 b900 b900 0030 bf00 0030 bf00 ffff 
 JAP= プリリン ┌ガ!ガーン!!!{NL} {NL} {EL}
-ENG=Penny: Oh my !!!{EL}
+ENG=Penny: Get the what?!?{NL} {NL} {EL}
 
 OFFSET=15090
 VALUE=f9ce(cef9)
 OFFSETDATA=179ce
 DATA=bf00 4601 4701 bf00 b600 0500 e500 4a00 1e01 3c00 4600 2900 1b00 2b00 b900 0030 bf00 bf00 bf00 bf00 bf00 bf00 bf00 1800 1200 2100 b300 fb01 2e00 3401 3101 4a00 9f00 9f00 9f00 0030 bf00 ffff 
 JAP= 王様 ┌お金を集めるのだば!{NL}       そして,再び勇者を...{NL} {EL}
-ENG=King: Collect money and{NL}become our hero.{EL}
+ENG=King: Gather money!{NL}And once again,{NL}a hero will return.{EL}
 
 OFFSET=15092
 VALUE=fa1a(1afa)
@@ -843,14 +843,14 @@ VALUE=fa9c(9cfa)
 OFFSETDATA=17a9c
 DATA=bf00 8200 9500 9500 9b00 bf00 b600 0500 6a01 1000 3900 9f00 9f00 9f00 3900 1a00 2200 1400 2900 b800 0030 bf00 0030 bf00 ffff 
 JAP= プリリン ┌お父さま...またですの?{NL} {NL} {EL}
-ENG=Penny: Dad, are you insane?{EL}
+ENG=Penny: Dad, again?{NL} {NL} {EL}
 
 OFFSET=15096
 VALUE=face(cefa)
 OFFSETDATA=17ace
 DATA=bf00 4601 4701 bf00 b600 0e00 b300 5801 ae01 2a00 1502 1602 1b00 2b00 b900 0030 bf00 bf00 bf00 1000 4400 2600 1b00 2b00 b300 2601 e801 4601 ec00 3d00 3602 3702 1400 4600 1b00 2b00 b900 0030 bf00 ffff 
 JAP= 王様 ┌こ,今度は本当だば!{NL}   さらにだば,次期王位も約束するだば!{NL} {EL}
-ENG=King: No, believe me.{NL}Soon enough, I'll give you my{NL}throne!{EL}
+ENG=King: This time it's real.{NL}The throne is on the line!{NL} {EL}
 
 OFFSET=15098
 VALUE=fb1e(1efb)
@@ -892,14 +892,14 @@ VALUE=fcb8(b8fc)
 OFFSETDATA=17cb8
 DATA=bf00 4601 4701 bf00 b600 4300 0200 2500 b300 8200 9500 9500 9b00 9f00 9f00 9f00 0030 bf00 0030 bf00 ffff 
 JAP= 王様 ┌よいな,プリリン...{NL} {NL} {EL}
-ENG=King: Be nice, Penny...{EL}
+ENG=King: Well, Penny...{NL} {NL} {EL}
 
 OFFSET=150a4
 VALUE=fce2(e2fc)
 OFFSETDATA=17ce2
 DATA=bf00 4601 4701 bf00 b600 1200 b300 1200 4b00 1300 2100 3600 1200 0200 1b00 2b00 b500 b900 b900 b900 0030 bf00 0030 bf00 ffff 
 JAP= 王様 ┌し,しんじてほしいだばー!!!{NL} {NL} {EL}
-ENG=King: I have faith in you!!!{EL}
+ENG=King: I have faith in you!!!{NL} {NL} {EL}
 
 OFFSET=150a6
 VALUE=fd14(14fd)

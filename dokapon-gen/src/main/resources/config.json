@@ -1,8 +1,8 @@
 {
   "config": {
-    "rom-input" : "../roms/Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan).sfc",
+    "rom-input" : "../roms/clean/Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan).sfc",
     "rom-output" : "../roms/Dokapon 3-2-1 - English.sfc",
-    "bps-patch-output": "../roms/Dokapon 3-2-1 - English.bps",
+    "bps-patch-output": "../roms/clean/Dokapon 3-2-1 - English - working.sfc",
     "file.jap" : "tables/table-complete.txt",
     "file.latin" : "tables/table-latin.txt",
     "file.names" : "tables/table-names.txt"
@@ -17,7 +17,7 @@
           "shift": 32768
         }
       ],
-      "new-data-start": 1573376,
+      "new-data-start": 1576960,
       "new-data-shift": 1540096
     },
     {
@@ -149,16 +149,13 @@
     },
     {
       "code": "E0 01",
-      "offset": "ae2e"
+      "offset": "ae2e",
+      "desc": "Text loading"
     },
     {
       "code": "E0 01",
-      "offset": "644a"
-    },
-    {
-      "code": "e0 01",
-      "offset": "ae2e",
-      "debug": true
+      "offset": "644a",
+      "desc": "Text loading (day of the week)"
     },
     {
       "code": "ff ff a2 00 ff 00",
@@ -171,16 +168,838 @@
       "debug": true
     },
     {
-      "code": "08 ab",
-      "offset": "103c7"
-    },
-    {
-      "code": "00 aa",
-      "offset": "10399"
-    },
-    {
       "code": "E6 00 1E 00 1A 00 29 00 28 00 27 00 BF 00 BF 00 BF 00 BF 00 82 10 73 85 00 30 E0 00 21 00 22 00 1E 00 25 00 1D 00 BF 00 BF 00 BF 00 BF 00 82 10 75 85 00 30 ED 00 2B 00 26 00 28 00 2B 00 BF 00 BF 00 BF 00 BF 00 BF 00 82 10 77 85 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 AF 00 0F 00 2D 00 1E 00 26 00 2C 00 B0 00 BF 00 BF 00 BF 00 AF 00 E2 00 1A 00 20 00 22 00 1C 00 B0 00 BF 00 00 30 82 10 79 85 BF 00 BF 00 82 10 89 85 00 30 82 10 7B 85 BF 00 BF 00 82 10 8B 85 00 30 82 10 7D 85 BF 00 BF 00 82 10 8D 85 00 30 82 10 7F 85 BF 00 BF 00 82 10 8F 85 00 30 82 10 81 85 BF 00 BF 00 82 10 91 85 00 30 82 10 83 85 BF 00 BF 00 82 10 93 85 00 30 82 10 85 85 BF 00 BF 00 82 10 95 85 00 30 82 10 87 85 BF 00 BF 00 82 10 97 85 FF FF",
       "offset": "18aa00"
+    },
+
+
+    {
+      "code": "A0 37 00 84 22 A0 00 80",
+      "offset": "6B81",
+      "for": "QUOTE SCREEN",
+      "description": "Moves sprites from x112D22 to x1B8000"
+    },
+    {
+      "code": "A0 37 00 84 22 A0 00 88",
+      "offset": "6BB6",
+      "for": "QUOTE SCREEN",
+      "description": "Moves sprite order from x112B2E to x1B8800"
+    },
+    {
+      "code": "",
+      "offset": "1B8000",
+      "for": "QUOTE SCREEN",
+      "description": "Quote sprites",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1B8800",
+      "for": "QUOTE SCREEN",
+      "description": "Quote sprite order",
+      "file": true
+    },
+
+
+
+    {
+      "code": "00 00 00 00 00 00 01 20 02 20 03 20 04 20 05 20 06 20 07 20 08 20 09 20 00 00 20 20 21 20 22 20 23 20 24 20 25 20 26 20 27 20 28 20 29 20 2A 20 2B 20 2C 20 2D 20 2E 20 2F 20 00 00 00 00 00 00 00 00 00 00 00 00 11 20 12 20 13 20 14 20 15 20 16 20 17 20 18 20 19 20 00 00 30 20 31 20 32 20 33 20 34 20 35 20 36 20 37 20 38 20 39 20 3A 20 3B 20 3C 20 3D 20 3E 20 3F 20 00 00 00 00 00 00",
+      "offset": "177A4A",
+      "for": "INTRODUCTION",
+      "description": "Sprite order for the intro text あれから...1年の月日が流れた / Since then... One year has passed"
+    },
+    {
+      "code": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 20 41 20 42 20 43 20 44 20 45 20 46 20 47 20 48 20 49 20 4A 20 4B 20 4C 20 4D 20 4E 20 4F 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 20 51 20 52 20 53 20 54 20 55 20 56 20 57 20 58 20 59 20 5A 20 5B 20 5C 20 5D 20 5E 20 5F 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": "177ACA",
+      "for": "INTRODUCTION",
+      "description": "Sprite order for the intro text 平和の訪れたドカポン王国に / Dokapon was peaceful"
+    },
+    {
+      "code": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0A 20 0B 20 0C 20 0D 20 0E 20 0F 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1A 20 1B 20 1C 20 1D 20 1E 20 1F 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": "177B4A",
+      "for": "INTRODUCTION",
+      "description": "Sprite order for the intro text ふたたび... / Again..."
+    },
+    {
+      "code": "",
+      "offset": "1712E2",
+      "for": "INTRODUCTION",
+      "description": "Sprites for the 3 intro texts (must be compressed under 1184 bytes)",
+      "file": true
+    },
+
+
+
+    {
+      "code": "DC 9A F0 05 A9 DC 9A 80 03 A9 00 AA",
+      "offset": "10394",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
+    },
+    {
+      "code": "DC 9A 8F A4 7D 7E E2 20 C2 20 AF A4 7D 7E C9 00 AA",
+      "offset": "103C7",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
+    },
+    {
+      "code": "",
+      "offset": "18AA00",
+      "for": "LOOK - SIDE MENU",
+      "description": "Right side menu when looking at a monster or player",
+      "file": true
+    },
+
+
+
+    {
+      "code": "A0 39 00",
+      "offset": "11B33",
+      "for": "SCORE SCREEN",
+      "description": "Title of the score screen"
+    },
+    {
+      "code": "55 00 55 00 55 00 22 08 23 08 24 08 00 08 25 08 26 08 55 00 27 08 28 08 29 08 2A 08 55 08 00 00 55 08 00 00 00 00 55 08 55 08 00 08 00 08 2E 08 2F 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 32 08 33 08 34 08 00 08 35 08 36 08 00 08 37 08 38 08 39 08 3A 08 55 08 00 00 55 08 00 00 00 00 00 00 00 00 00 00 00 00 3E 08 3F 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": "CEF46",
+      "for": "SCORE SCREEN",
+      "description": "End of week"
+    },
+    {
+      "code": "02 0C 03 0C 04 0C 05 0C 06 0C 00 00 07 0C 08 0C 09 0C 0A 0C 0B 0C 0C 0C 0D 0C 0E 0C 0F 0C 42 08 00 00 00 00 55 08 00 00 00 00 00 00 00 00 2E 08 2F 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 12 0C 13 0C 14 0C 15 0C 16 0C 00 00 17 0C 18 0C 19 0C 1A 0C 1B 0C 1C 0C 1D 0C 1E 0C 1F 0C 52 08 00 00 00 00 55 08 00 00 00 00 00 00 00 00 3E 08 3F 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": "CEFC6",
+      "for": "SCORE SCREEN",
+      "description": "Weeks remaining"
+    },
+    {
+      "code": "55 00 55 00 55 00 22 08 23 08 24 08 00 08 25 08 26 08 55 00 0F 0C 0A 0C 09 0C 08 0C 4C 08 4D 08 44 08 45 08 48 08 49 08 4E 08 4F 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 32 08 33 08 34 08 00 08 35 08 36 08 00 08 1F 0C 1A 0C 19 0C 18 0C 5C 08 5D 08 54 08 55 08 58 08 59 08 5E 08 5F 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": "CF1C6",
+      "for": "SCORE SCREEN",
+      "description": "    End of game"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1CDD63",
+      "for": "SCORE SCREEN",
+      "description": "Sprites for the title of the score graph screen",
+      "file": true
+    },
+
+
+    {
+      "code": "22 B0 82 30 5C CB F7 80",
+      "offset": "77B3",
+      "debug": false,
+      "description": "Jumps to $30/82B0 (x1802B0), Jumps to $80/F7CB      x1802B0 is a subroutine for loading overworld map sprites"
+    },
+    {
+      "code": "22 30 82 30 5C 87 F9 80",
+      "offset": "796F",
+      "debug": false,
+      "description": "Jumps to $30/8230 (x180230), Jumps to $80/F987      x180230 is a subroutine for loading overworld map sprites"
+    },
+    {
+      "code": "22 30 81 30 5C 44 FB 80",
+      "offset": "7B1E",
+      "debug": false,
+      "description": "Jumps to $30/8130 (x180130), Jumps to $80/FB44      x180130 is a subroutine for loading overworld map sprites"
+    },
+    {
+      "code": "22 A0 81 30 5C 40 FC 80",
+      "offset": "7C20",
+      "debug": false,
+      "description": "Jumps to $30/81A0 (x1801A0), Jumps to $80/FC3E      x1801A0 is a subroutine for loading overworld map sprites"
+    },
+    {
+      "code": "00 80 BC 00 80 BB 00 80 BA",
+      "original": "39 BA 97 95 DC 97 28 A5 96",
+      "modif": "00 80 BC 00 80 BB 00 80 BA",
+      "offset": "7D15",
+      "debug": false,
+      "description": [
+        "Changes 3 pointers",
+        "Overworld map sprite order from $97:BA39 to $BC:8000 (x1E0000)",
+        "Overworld map sprite (4x4 tiles) definition from $97:DC95 to $BB:8000 (x1D8000)",
+        "Overworld map tile definition from $96:A528 to $BA:8000 (x1D0000)"
+      ]
+    },
+    {
+      "code": "CB 00 34 FF",
+      "offset": "7FDC",
+      "description": "I don't remember why I made this change. Original value was 8A 4A 75 B5. Hope it's not game breaking.",
+      "debug": true
+    },
+    {
+      "code": "A0 39 00",
+      "offset": "11B4B",
+      "description": "",
+      "debug": true
+    },
+    {
+      "code": "A0 00 FA",
+      "offset": "11B50",
+      "description": "",
+      "debug": true
+    },
+    {
+      "code": "20",
+      "offset": "BE332",
+      "description": "",
+      "debug": true
+    },
+    {
+      "code": "C9 DB 5F 10 27 A7 30 8D 18 21 E6 30 E6 30 A7 30 8D 18 21 E6 30 E6 30 A5 2C 18 69 20 00 8D 16 21 A7 30 8D 18 21 E6 30 E6 30 A7 30 6B E9 DC 5F 18 69 00 80 18 85 F0 A9 B2 00 85 F2 A7 F0 8D 18 21 E6 F0 E6 F0 A7 F0 8D 18 21 E6 F0 E6 F0 A5 2C 18 69 20 00 8D 16 21 A7 F0 8D 18 21 E6 F0 E6 F0 A7 F0 6B",
+      "offset": "180130",
+      "description": "Subroutine for loading overworld map sprites - Called from x7B1E"
+    },
+    {
+      "code": "C9 DB 5F 10 21 A7 30 9F DC 5F 7E E6 30 E6 30 A7 30 9F DE 5F 7E E6 30 E6 30 A7 30 9F 1C 60 7E E6 30 E6 30 A7 30 6B E9 DC 5F 18 69 00 80 18 85 F0 A9 B2 00 85 F2 A7 F0 9F DC 5F 7E E6 F0 E6 F0 A7 F0 9F DE 5F 7E E6 F0 E6 F0 A7 F0 9F 1C 60 7E E6 F0 E6 F0 A7 F0 6B",
+      "offset": "1801A0",
+      "description": "Subroutine for loading overworld map sprites - Called from x7C20"
+    },
+    {
+      "code": "C9 DB 5F 10 19 BD 00 00 99 00 00 BD 02 00 99 02 00 BD 04 00 99 48 00 BD 06 00 99 4A 00 6B E9 DC 5F 18 69 00 80 18 AA 86 F0 A9 B2 00 85 F2 A7 F0 99 00 00 E8 E8 86 F0 A7 F0 99 02 00 E8 E8 86 F0 A7 F0 99 48 00 E8 E8 86 F0 A7 F0 99 4A 00 6B",
+      "offset": "180230",
+      "description": "Subroutine for loading overworld map sprites - Called from x796F"
+    },
+    {
+      "code": "C9 DB 5F 10 19 BD 00 00 99 00 00 BD 02 00 99 40 00 BD 04 00 99 02 00 BD 06 00 99 42 00 6B E9 DC 5F 18 69 00 80 18 AA 86 F0 A9 B2 00 85 F2 A7 F0 99 00 00 E8 E8 86 F0 A7 F0 99 40 00 E8 E8 86 F0 A7 F0 99 02 00 E8 E8 86 F0 A7 F0 99 42 00 6B",
+      "offset": "1802B0",
+      "description": "Subroutine for loading overworld map sprites - Called from x77B3"
+    },
+    {
+      "code": "",
+      "offset": "190000",
+      "description": "Sprite (4x4 tiles) definition for the town names on the map",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1E0000",
+      "description": "Overworld map sprite order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1D0000",
+      "description": "Overworld map sprites",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1D8000",
+      "description": "Overworld map 4x4 tiles",
+      "file": true
+    },
+
+
+    {
+      "code": "A0 BE 00 84 22 A0 00 80 84 20",
+      "offset": "428A2",
+      "for": "TITLE_SCREEN",
+      "description": "Pointer to title screen sprites"
+    },
+    {
+      "code": "A0 BF 00 84 22 A0 00 80 84 20",
+      "offset": "428D7",
+      "for": "TITLE_SCREEN",
+      "description": "Pointer to title screen sprites order"
+    },
+    {
+      "code": "",
+      "offset": "1F0000",
+      "for": "TITLE_SCREEN",
+      "description": "Title screen sprites",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1F8000",
+      "for": "TITLE_SCREEN",
+      "description": "Title screen sprites order",
+      "file": true
+    },
+
+
+    {
+      "code": "00 B0 B6",
+      "offset": "7DD8",
+      "for": "TRAINING_MAP",
+      "description": "Pointer to training map sprites"
+    },
+    {
+      "code": "00 90 B7",
+      "offset": "7DD2",
+      "for": "TRAINING_MAP",
+      "description": "Pointer to training map sprites order"
+    },
+    {
+      "code": "00 B0 B7",
+      "offset": "7DD5",
+      "for": "TRAINING_MAP",
+      "description": "Pointer to training map tiles definition"
+    },
+    {
+      "code": "",
+      "offset": "1B3000",
+      "for": "TRAINING_MAP",
+      "description": "Training map sprites",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1B9000",
+      "for": "TRAINING_MAP",
+      "description": "Training map sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1BB000",
+      "for": "TRAINING_MAP",
+      "description": "Training map sprites tiles definition",
+      "file": true
+    },
+
+
+    {
+      "code": "",
+      "offset": "1C8000",
+      "for": "FREETOWN_SCREEN",
+      "description": "Free town screen sprites",
+      "file": true
+    },
+    {
+      "code": "00 80 B9",
+      "offset": "22154",
+      "for": "FREETOWN_SCREEN",
+      "description": "Free town screen sprites pointer"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1CA000",
+      "for": "DOC_SCREEN",
+      "description": "Doc screen sprites",
+      "file": true
+    },
+    {
+      "code": "00 A0 B9",
+      "offset": "21A95",
+      "for": "DOC_SCREEN",
+      "description": "Doc screen sprites pointer"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1CC000",
+      "for": "SALESMAN_SCREEN",
+      "description": "Salesman screen sprites",
+      "file": true
+    },
+    {
+      "code": "00 C0 B9",
+      "offset": "21A59",
+      "for": "SALESMAN_SCREEN",
+      "description": "Salesman screen sprites pointer"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1DA000",
+      "for": "ROSHAMBO_SCREEN",
+      "description": "Roshambo screen sprites",
+      "file": true
+    },
+    {
+      "code": "00 A0 BB",
+      "offset": "21A6B",
+      "for": "ROSHAMBO_SCREEN",
+      "description": "Roshambo screen sprites pointer"
+    },
+
+
+
+    {
+      "code": "",
+      "offset": "1FA000",
+      "for": "PENNY_OMG_SCREEN",
+      "description": "Penny omg screen sprites",
+      "file": true
+    },
+    {
+      "code": "A0 BF 00 84 22 A0 00 A0",
+      "offset": "43276",
+      "for": "PENNY_OMG_SCREEN",
+      "description": "Penny omg screen sprites pointer"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1BC500",
+      "for": "RICO",
+      "description": "Rico sprites",
+      "file": true
+    },
+    {
+      "code": "00 C5 B7",
+      "offset": "72162",
+      "for": "RICO",
+      "description": "Rico pointer"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1C0000",
+      "for": "BATTLE CARDS",
+      "description": "Battle cards sprites",
+      "file": true
+    },
+    {
+      "code": "A0 B8 00 84 22 A0 00 80",
+      "offset": "E954",
+      "for": "BATTLE CARDS",
+      "description": "Battle cards pointer"
+    },
+
+
+
+    {
+      "code": "",
+      "offset": "1DC000",
+      "for": "BILL_SCREEN",
+      "description": "End of chapter 6 - Invoice screen sprites",
+      "file": true
+    },
+    {
+      "code": "A0 BB 00 84 22 A0 00 C0",
+      "offset": "23C3E",
+      "for": "BILL_SCREEN",
+      "description": "End of chapter 6 - Invoice screen sprites pointer"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1FC000",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter end screen sprites",
+      "file": true
+    },
+    {
+      "code": "A0 BF 00 84 22 A0 00 C0",
+      "offset": "2367D",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter end screen sprites pointer"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 24 44 20",
+      "offset": "C86E4",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 1 end screen sprites positions"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 14 47 20",
+      "offset": "C8703",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 2 end screen sprites positions"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 14 4B 20",
+      "offset": "C8722",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 3 end screen sprites positions"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 14 80 20",
+      "offset": "C8741",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 4 end screen sprites positions"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 14 84 20",
+      "offset": "C8760",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 5 end screen sprites positions"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 14 88 20",
+      "offset": "C877F",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 6 end screen sprites positions"
+    },
+    {
+      "code": "06 01 EB D0 00 20 01 EB F1 04 20 01 EB 12 08 20 01 C3 D4 0C 20 01 C3 F6 40 20 01 C3 14 8C 20",
+      "offset": "C879E",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 7 end screen sprites positions"
+    },
+    {
+      "code": "01 01 D6 D9 00 20 02 01 D6 D9 00 20 01 D6 FA 04 20 03 01 D6 D9 00 20 01 D6 FA 04 20 01 D6 12 C8 20",
+      "offset": "C87BD",
+      "for": "CHAPTER_END_SCREEN",
+      "description": "Chapter 8 end screen sprites positions"
+    },
+
+
+    {
+      "code": "",
+      "offset": "1F3000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter end screen sprites",
+      "file": true
+    },
+    {
+      "code": "A0 BE 00 84 22 A0 00 B0",
+      "offset": "24965",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter end screen sprites pointer"
+    },
+    {
+      "code": "",
+      "offset": "1E8020",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 1 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1E9000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 2 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1EA000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 3 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1EB000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 4 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1EC000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 5 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1ED000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 6 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1EE000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 7 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "",
+      "offset": "1EF000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter 8 start screen sprites order",
+      "file": true
+    },
+    {
+      "code": "A0 BD 00 84 22 A0 00 80",
+      "offset": "24980",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter end screen sprites order pointer loading"
+    },
+    {
+      "code": "20 80 00 90 00 A0 00 B0 00 C0 00 D0 00 E0 00 F0",
+      "offset": "1E8000",
+      "for": "CHAPTER_START_SCREEN",
+      "description": "Chapter end screen sprites order pointers"
+    }
+  ],
+  "town-signs": [
+    {
+      "offset": "0948",
+      "town": "AKUREYRI",
+      "value": "(AKUREYRI)wx"
+    },
+    {
+      "offset": "0976",
+      "town": "OSLO",
+      "value": "[OSLO]--"
+    },
+    {
+      "offset": "0A16",
+      "town": "JUNEAU",
+      "value": "[JUNEAU]"
+    },
+    {
+      "offset": "0CEA",
+      "town": "IRKUTSK",
+      "value": "(IRKUTSK)-"
+    },
+    {
+      "offset": "0D6C",
+      "town": "DERRY",
+      "value": "(DERRY)-"
+    },
+    {
+      "offset": "0F78",
+      "town": "DUBLIN",
+      "value": "[DUBLIN]"
+    },
+    {
+      "offset": "1254",
+      "town": "NUUK",
+      "value": "[NUUK]"
+    },
+    {
+      "offset": "1486",
+      "town": "TALLINN",
+      "value": "(TALLINNyt"
+    },
+    {
+      "offset": "18AE",
+      "town": "MOSCOW",
+      "value": "-[MOSCOW]-"
+    },
+    {
+      "offset": "19E0",
+      "town": "HARBIN",
+      "value": "[HARBIN]"
+    },
+    {
+      "offset": "1C30",
+      "town": "DENVER",
+      "value": "[DENVER]"
+    },
+    {
+      "offset": "1C80",
+      "town": "RIGA",
+      "value": "-[RIGA]---"
+    },
+    {
+      "offset": "1C96",
+      "town": "POZNAN",
+      "value": "[POZNAŃ]"
+    },
+    {
+      "offset": "1D12",
+      "town": "SEATTLE",
+      "value": "(SEATTLE)-"
+    },
+    {
+      "offset": "2064",
+      "town": "LONDON",
+      "value": "(LONDON)"
+    },
+    {
+      "offset": "2130",
+      "town": "DALLAS",
+      "value": "(DALLAS)"
+    },
+    {
+      "offset": "2596",
+      "town": "PRAGUE",
+      "value": "(PRAGUE)"
+    },
+    {
+      "offset": "2674",
+      "town": "PARIS",
+      "value": "(PARIS)-"
+    },
+    {
+      "offset": "26AC",
+      "town": "ASTANA",
+      "value": "(ASTANA)"
+    },
+    {
+      "offset": "2748",
+      "town": "NEW YORK",
+      "value": "(NEW_YORK)"
+    },
+    {
+      "offset": "2916",
+      "town": "PORTLAND",
+      "value": "-(PORTLANDyt"
+    },
+    {
+      "offset": "2A92",
+      "town": "VIENNA",
+      "value": "[VIENNA]"
+    },
+    {
+      "offset": "3018",
+      "town": "ANAHEIM",
+      "value": "(ANAHEIM)-"
+    },
+    {
+      "offset": "30B2",
+      "town": "LHASA",
+      "value": "(LHASA)-"
+    },
+    {
+      "offset": "317E",
+      "town": "ROME",
+      "value": "[ROME]"
+    },
+    {
+      "offset": "332C",
+      "town": "HOUSTON",
+      "value": "[HOUSTON]-"
+    },
+    {
+      "offset": "33C2",
+      "town": "SHANGHAI",
+      "value": "(SHANGHAI)"
+    },
+    {
+      "offset": "359E",
+      "town": "KABUL",
+      "value": "[KABUL]-"
+    },
+    {
+      "offset": "35DC",
+      "town": "TOKYO",
+      "value": "TOKYO]"
+    },
+    {
+      "offset": "3A64",
+      "town": "SEVILLA",
+      "value": "-(SEVILLA)"
+    },
+    {
+      "offset": "3C8C",
+      "town": "AMMAN",
+      "value": "(AMMAN}d"
+    },
+    {
+      "offset": "3DBA",
+      "town": "MACAU",
+      "value": "[MACAU]---"
+    },
+    {
+      "offset": "4584",
+      "town": "CAIRO",
+      "value": "[CAIRO]-"
+    },
+    {
+      "offset": "4662",
+      "town": "RABAT",
+      "value": "-(RABAT)"
+    },
+    {
+      "offset": "471A",
+      "town": "BOGOTA",
+      "value": "[BOGOTA]"
+    },
+    {
+      "offset": "472C",
+      "town": "CARACAS",
+      "value": "-(CARACAS)"
+    },
+    {
+      "offset": "4D20",
+      "town": "MANAUS",
+      "value": "-[MANAUS]-"
+    },
+    {
+      "offset": "4E6C",
+      "town": "NIAMEY",
+      "value": "bnNIAMEY,;"
+    },
+    {
+      "offset": "4E8C",
+      "town": "NAIROBI",
+      "value": "-(NAIROBI)"
+    },
+    {
+      "offset": "4F30",
+      "town": "BRASILIA",
+      "value": "(BRASILIA)"
+    },
+    {
+      "offset": "4F40",
+      "town": "RIO",
+      "value": "-[RIO]--"
+    },
+    {
+      "offset": "4F60",
+      "town": "BAMAKO",
+      "value": "-(BAMAKO)-"
+    },
+    {
+      "offset": "4FC8",
+      "town": "ALICE",
+      "value": "[ALICE]-"
+    },
+    {
+      "offset": "53E0",
+      "town": "CAIRNS",
+      "value": "(CAIRNS)"
+    },
+    {
+      "offset": "5418",
+      "town": "LIMA",
+      "value": "(LIMA)"
+    },
+    {
+      "offset": "5622",
+      "town": "LA PAZ",
+      "value": "[LA_PAZ]"
+    },
+    {
+      "offset": "5676",
+      "town": "LOME",
+      "value": "[LOME]--"
+    },
+    {
+      "offset": "56C8",
+      "town": "ULURU",
+      "value": "-[ULURU]"
+    },
+    {
+      "offset": "621C",
+      "town": "SANTIAGO",
+      "value": "(SANTIAGO)"
+    },
+    {
+      "offset": "63CC",
+      "town": "ADELAIDE",
+      "value": "[ADELAIDE]"
+    },
+    {
+      "offset": "6670",
+      "town": "PRETORIA",
+      "value": "jkPRETORIAlm"
+    },
+    {
+      "offset": "66A4",
+      "town": "PERTH",
+      "value": "[PERTH]-"
+    },
+    {
+      "offset": "67D8",
+      "town": "SIDNEY",
+      "value": "(SIDNEY)"
+    },
+    {
+      "offset": "67EA",
+      "town": "AUCKLAND",
+      "value": "(AUCKLAND)"
     }
   ],
   "input-patches": [
@@ -1012,6 +1831,13 @@
       "type": "SINGLE",
       "sprite": {
         "image": "images/single-chars/latin/char-053.png"
+      }
+    },
+    {
+      "value": "↓",
+      "type": "SINGLE",
+      "sprite": {
+        "image": "images/single-chars/latin/char-104.png"
       },
       "location": {
         "offset": "d92e0",

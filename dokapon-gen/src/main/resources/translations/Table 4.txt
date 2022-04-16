@@ -38,7 +38,7 @@ VALUE=83d8(d883)
 OFFSETDATA=1503d8
 DATA=af00 9214 ea85 b000 0030 4214 6785 fc00 2a00 b300 8d00 9b00 6400 6a00 b500 2600 2901 2a01 1000 4700 2100 0200 3900 1400 b400 ffff 
 JAP=[{9214}{ea85}]{NL}{4214}{6785}村は,モンスターに支配されています.{EL}
-ENG=[{9214}{ea85}]{NL}{4214}{6785} is overrun by{NL}monsters.{EL}
+ENG=[{9214}{ea85}]{NL}{4214}{6785} is overrun by monsters.{EL}
 
 OFFSET=15000c
 VALUE=840c(0c84)
@@ -409,7 +409,7 @@ VALUE=8e2e(2e8e)
 OFFSETDATA=150e2e
 DATA=8014 5985 2a00 0030 0320 8314 6985 0020 5f00 b500 9600 7400 4501 2600 f100 4700 1a00 b900 0030 3201 3301 2900 0d01 0e01 e500 8314 6d85 5f00 b500 9600 7400 b400 ffff 
 JAP={PLAYER NAME}は{NL}{CG}{8314}{6985}{CW}ゴールド手に入れた!{NL}現在の所持金{8314}{6d85}ゴールド.{EL}
-ENG={8014 5985} gets {CG}{8314}{6985} gold.{NL}They have {8314}{6d85} gold.{EL}
+ENG={8014 5985} gets {CG}{8314}{6985} gold.{NL}They have {8314}{6d85} gold.{NL} {EL}
 
 OFFSET=150076
 VALUE=8e70(708e)
@@ -437,7 +437,7 @@ VALUE=8f4a(4a8f)
 OFFSETDATA=150f4a
 DATA=bf00 5401 2b00 0600 4500 2900 5501 2200 1400 0700 b300 2400 0300 1900 0500 5601 3c00 0a00 1b00 1000 0200 b400 ffff 
 JAP= 心ばかりの品ですが,どうぞお納めください.{EL}
-ENG=You have all our gratitude.{EL}
+ENG=Take this as a token of our{NL}gratitude.{EL}
 
 OFFSET=15007e
 VALUE=8f78(788f)
@@ -472,7 +472,7 @@ VALUE=90b6(b690)
 OFFSETDATA=1510b6
 DATA=fc00 5201 b600 0100 4500 0700 2300 0300 0f00 1100 0200 3900 1400 b400 0030 bf00 fc00 0700 5701 0600 2600 2500 4500 b300 f000 f100 0700 3000 0400 3900 1200 1a00 b900 0030 bf00 ffff 
 JAP=村長┌ありがとうございます.{NL} 村が豊かになり,収入がふえました!{NL} {EL}
-ENG=Mayor: Thank you very much.{NL}Our income has increased!{EL}
+ENG=Mayor: Thank you very much.{NL}Our income has increased!{NL} {EL}
 
 OFFSET=150088
 VALUE=90fe(fe90)
@@ -1592,7 +1592,7 @@ VALUE=ac4a(4aac)
 OFFSETDATA=152c4a
 DATA=8014 5985 2a00 9801 9901 9a01 2500 0a01 2600 6701 0800 5a01 1600 4400 4700 1a00 b900 ffff 
 JAP={8014 5985}は不思議な力に引き寄せられた!{EL}
-ENG={8014 5985} was drawn to a{NL}mysterious force!{EL}
+ENG={8014 5985} is drawn by a{NL}mysterious force!{EL}
 
 OFFSET=1501c8
 VALUE=ac6e(6eac)

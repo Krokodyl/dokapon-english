@@ -1,28 +1,8 @@
 ## Know bugs / Improvements
 
-- [ ] Yes/No questions are sometimes hidden under the Yes/No menu
-- [ ] Bug on the ranking table
-- [ ] Bug on the Kill Race starting level
-- [ ] Menu after a player kill is not wide enough
-- [ ] Bug on menu after a player escapes another player
-- [ ] Bug on the rename screen (after a player kill)
-- [ ] Bug on sell gear (Steal x10) the x is shown as DC-OW
-- [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
-- [ ] In the menus, differentiate Towns and Castles
-- [ ] The main menu guy has no background (could be an emulator issue)
-- [ ] Bad translation: "Who will play together"
-- [ ] Typo: "Knifes"
+- Yes/No questions are sometimes hidden under the Yes/No menu
+- Move the AI menu to the left to show full words instead of Wea, Nor, Har
 
-Some quest related names (last part of Table 6) have to match with same names in other translations.
-
-
-Yes/No questions are sometimes hidden under the Yes/No menu
-- Do you want to continue t/he /game?
-
-
-パワーリング (lit. Power Ring = Ruby Ring)
-Increases your {CY}attack{CW}.{EL}
-シールドリング (lit. Shield Ring = Onyx Ring)
-Increases your {CY}defense{CW}.{EL}
-スピードリング (lit. Speed Ring = Jade Ring)
-Increases your {CY}speed{CW}.{EL}
+Translations:
+- "On strike" sign on the event
+- City name in the training area

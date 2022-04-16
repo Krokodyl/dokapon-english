@@ -46,4 +46,4 @@
 ターウイ=Alice
 フリッツ=Cairns
 リンン =Auckland
-リントン=Lynton
+リントン=Auckland
