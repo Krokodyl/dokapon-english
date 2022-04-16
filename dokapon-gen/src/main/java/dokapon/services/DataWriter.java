@@ -30,7 +30,8 @@ public class DataWriter {
         for (int i=0;i<EXTRA_DATA_BANK_REQUIRED;i++) {
             int k = Integer.parseInt("180000", 16)+Integer.parseInt("8000", 16)*i;
             for (int j=0;j<Integer.parseInt("8000", 16);j++) {
-                data[k+j] = (byte)(16 + i);
+                //data[k+j] = (byte)(16 + i);
+                data[k+j] =0;
             }
         }
         return data;

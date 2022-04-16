@@ -1,6 +1,7 @@
 package dokapon.characters;
 
 import dokapon.enums.CharSide;
+import dokapon.services.Utils;
 
 import java.util.Objects;
 
@@ -51,7 +52,7 @@ public class SpriteLocation {
     @Override
     public String toString() {
         return "SpriteLocation{" +
-                "offset=" + offset +
+                "offset=" + Utils.toHexString(offset,6) +
                 ", side=" + side +
                 '}';
     }

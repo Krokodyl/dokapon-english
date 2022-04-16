@@ -155,6 +155,7 @@ public class DataReader {
 
     public static void generateCredits() throws IOException {
         List<String> nicknames = Arrays.asList(
+                "Krokodyl",
                 "everyone",
                 "Porsche",
                 "Tired",

@@ -9,14 +9,17 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.apache.commons.io.IOUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.*;
 
 import static dokapon.Constants.TRANSLATION_KEY_ENG;
 import static dokapon.Constants.TRANSLATION_KEY_JAP;
+import static dokapon.services.Utils.bytesToHex;
 
 public class JsonLoader {
 
@@ -126,8 +129,19 @@ public class JsonLoader {
         JSONArray array = json.getJSONArray("code-patches");
         for (Object o : array) {
             JSONObject next = (JSONObject) o;
-            String code = next.getString("code");
+            String code = "";
             int offset = Integer.parseInt(next.getString("offset"), 16);
+            if (next.has("file") && next.getBoolean("file")) {
+                try {
+                    System.out.println("Loading code patch "+"src/main/resources/data/output/" + next.getString("offset") + ".data");
+                    byte[] bytes = Files.readAllBytes(new File("src/main/resources/data/output/" + next.getString("offset") + ".data").toPath());
+                    code = bytesToHex(bytes);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            } else {
+                code = next.getString("code");
+            }
             CodePatch codePatch = new CodePatch(code, offset);
             if (next.has("debug")) codePatch.setDebug(next.getBoolean("debug"));
             codePatches.add(codePatch);
@@ -212,6 +226,23 @@ public class JsonLoader {
             chars.add(c);
         }
         return chars;
+    }
+
+    public static List<TownSign> loadTownSigns() {
+        List<TownSign> list = new ArrayList<>();
+
+        JSONObject json = new JSONObject(loadJson());
+
+        JSONArray array = json.getJSONArray("town-signs");
+        for (Object o : array) {
+            JSONObject next = (JSONObject) o;
+            String town = next.getString("town");
+            String value = next.getString("value");
+            int offset = Integer.parseInt(next.getString("offset"), 16);
+            TownSign ts = new TownSign(offset, town, value);
+            list.add(ts);
+        }
+        return list;
     }
 
 }

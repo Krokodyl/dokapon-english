@@ -1,8 +1,11 @@
 package dokapon;
 
-import dokapon.bps.Patcher;
+import dokapon.characters.LatinChar;
 import dokapon.entities.*;
+import dokapon.lz.entities.Header;
 import dokapon.services.*;
+import dokapon.sprites.FontImageReader;
+import dokapon.sprites.SpriteMaker;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import static dokapon.services.Utils.toHexString;
 
 public class Dokapon {
 
@@ -21,10 +26,10 @@ public class Dokapon {
     static List<PointerTable> tables;
     static Config config;
 
-    public static int EXTRA_DATA_BANK_REQUIRED = 7;
+    public static int EXTRA_DATA_BANK_REQUIRED = 16;
     public static boolean DEBUG = false;
     //f200 f300 b300 f400
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         latinLoader = new LatinLoader();
         spriteWriter = new SpriteWriter();
         translator = new Translator(latinLoader);
@@ -41,6 +46,63 @@ public class Dokapon {
             Logger.getLogger(Dokapon.class.getName()).log(Level.SEVERE, null, ex);
         }
         data = DataWriter.fillDataWithPlaceHolders(data);
+
+        if (DEBUG) {
+            Header headerSprites = new Header(
+                    (byte) Integer.parseInt("00", 16),
+                    (byte) Integer.parseInt("10", 16),
+                    (byte) Integer.parseInt("05", 16)
+            );
+            Header headerOrder = new Header(
+                    (byte) Integer.parseInt("00", 16),
+                    (byte) Integer.parseInt("08", 16),
+                    (byte) Integer.parseInt("07", 16)
+            );
+            System.out.println(headerOrder.getMaxPosition());
+            System.out.println(headerOrder.getMaxSize());
+            System.out.println(headerSprites.getMaxPosition());
+            System.out.println(headerSprites.getMaxSize());
+
+            tables = JsonLoader.loadTables();
+            for (PointerTable table:tables) {
+                List<PointerRange> ranges = table.getRanges();
+                for (PointerRange range : ranges) {
+                    System.out.println("table "+table.getId()+"  "+toHexString(range.getStart(),6)+" - "+toHexString(range.getEnd(),6));
+                }
+
+            }
+
+
+
+            return;
+        }
+
+        List<TownSign> townSigns = JsonLoader.loadTownSigns();
+        SpriteMaker spriteMaker = new SpriteMaker(data);
+        spriteMaker.generateSigns(data, townSigns, "src/main/resources/data/190000.data");
+        spriteMaker.generateMapOrder(townSigns, "src/main/resources/data/jpn/BBA39.data", "src/main/resources/data/map-order-uncompressed.data");
+        //spriteMaker.printMap("src/main/resources/data/jpn/BBA39.data");
+        FontImageReader imageReader = new FontImageReader();
+        imageReader.titleScreen();
+        imageReader.titleScreenOrder();
+        imageReader.mapOrder();
+        imageReader.freeTownBanner();
+        imageReader.doc();
+        imageReader.salesman();
+        imageReader.roshambo();
+        imageReader.pennyOmg();
+        imageReader.chapterEnd();
+        imageReader.chapterStart();;
+        imageReader.chapterStartOrder();
+        imageReader.trainingMapOrder();
+        imageReader.trainingMapTilesDefinition();
+        imageReader.rico();
+        imageReader.battleCards();
+        imageReader.bill();
+
+
+        //spriteMaker.generateDataFile("src/main/resources/data/190000.data");
+
         latinLoader.loadLatin();
         spriteWriter.writeLatinChars(latinLoader.getLatinChars(), data);
 
@@ -168,7 +230,18 @@ public class Dokapon {
         System.out.println("Saving rom-output...");
         DataWriter.saveData(config.getRomOutput(), data);
         System.out.println("Saving bps-patch-output...");
-        Patcher.generatePatch(new File(config.getRomInput()), new File(config.getRomOutput()), new File(config.getBpsPatchOutput()), "https://github.com/Krokodyl/dokapon-english");
+        //Patcher.generatePatch(new File(config.getRomInput()), new File(config.getRomOutput()), new File(config.getBpsPatchOutput()), "https://github.com/Krokodyl/dokapon-english");
         System.out.println("Process complete");
+    }
+
+    public static long start = -1;
+
+    public static void resetTime() {
+        start = System.currentTimeMillis();
+    }
+
+    public static long getTime() {
+        if (start<0) start = System.currentTimeMillis();
+        return (System.currentTimeMillis()-start)/1000;
     }
 }

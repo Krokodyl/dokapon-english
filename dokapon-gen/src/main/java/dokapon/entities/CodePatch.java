@@ -1,10 +1,13 @@
 package dokapon.entities;
 
+import static dokapon.services.Utils.bytesToHex;
+
 public class CodePatch {
 
     String code;
     int offset;
     boolean debug = false;
+    boolean file = false;
 
     public CodePatch(int offset) {
         this.offset = offset;
@@ -12,6 +15,11 @@ public class CodePatch {
 
     public CodePatch(String code, int offset) {
         this.code = code;
+        this.offset = offset;
+    }
+
+    public CodePatch(byte[] code, int offset) {
+        this.code = bytesToHex(code);
         this.offset = offset;
     }
 

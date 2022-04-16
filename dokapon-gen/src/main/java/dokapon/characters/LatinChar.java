@@ -99,4 +99,15 @@ public class LatinChar {
                 "      },";
         return s;
     }
+
+    public String toPrintString() {
+        return "LatinChar{" +
+                "value='" + value + '\'' +
+                ", igValue='" + igValue + '\'' +
+                ", code='" + code + '\'' +
+                ", spriteLocation=" + spriteLocation +
+                ", sprite=" + sprite +
+                ", type=" + type +
+                '}';
+    }
 }
