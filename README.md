@@ -31,9 +31,12 @@ Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predece
 
 A remake for the Wii and PS2 was released in 2008.
 
-## The English patch file (v1.2)
+## The English patch file (v1.3)
 
-The latest patch file is available here : [Dokapon 3-2-1 English.zip](/patch/Dokapon%203-2-1%20-%20English.zip)
+#### See 1.3 changes below.
+
+Patch file v1.3 is available here : [Dokapon 3-2-1 English v1.3.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.3.zip)\
+Previous patch (v1.2) is archived : [Dokapon 3-2-1 English v1.2.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.2.zip)
 
 Also available on romhacking.net https://www.romhacking.net/translations/5561/
 
@@ -42,6 +45,32 @@ File: Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan)\
 No-Intro: Super Nintendo Entertainment System (v. 20180813-062835)\
 ROM SHA-1: 9343CA8D3161DEA847E0369A4A91CD7F8DC2D3AE\
 ROM CRC32: FC353400
+
+## Update v1.3 (Translated sprites & backgrounds)
+
+Japanese | English
+------------ | -------------
+![image 01](/screenshots/1.3/japanese/01.png) | ![image 01](/screenshots/1.3/english/01.png)
+![image 01](/screenshots/1.3/japanese/02.png) | ![image 01](/screenshots/1.3/english/02.png)
+![image 01](/screenshots/1.3/japanese/03.png) | ![image 01](/screenshots/1.3/english/03.png)
+![image 01](/screenshots/1.3/japanese/04.png) | ![image 01](/screenshots/1.3/english/04.png)
+![image 01](/screenshots/1.3/japanese/05.png) | ![image 01](/screenshots/1.3/english/05.png)
+![image 01](/screenshots/1.3/japanese/06.png) | ![image 01](/screenshots/1.3/english/06.png)
+![image 01](/screenshots/1.3/japanese/07.png) | ![image 01](/screenshots/1.3/english/07.png)
+![image 01](/screenshots/1.3/japanese/08.png) | ![image 01](/screenshots/1.3/english/08.png)
+![image 01](/screenshots/1.3/japanese/09.png) | ![image 01](/screenshots/1.3/english/09.png)
+![image 01](/screenshots/1.3/japanese/10.png) | ![image 01](/screenshots/1.3/english/10.png)
+![image 01](/screenshots/1.3/japanese/11.png) | ![image 01](/screenshots/1.3/english/11.png)
+![image 01](/screenshots/1.3/japanese/12.png) | ![image 01](/screenshots/1.3/english/12.png)
+![image 01](/screenshots/1.3/japanese/13.png) | ![image 01](/screenshots/1.3/english/13.png)
+![image 01](/screenshots/1.3/japanese/14.png) | ![image 01](/screenshots/1.3/english/14.png)
+![image 01](/screenshots/1.3/japanese/15.png) | ![image 01](/screenshots/1.3/english/15.png)
+![image 01](/screenshots/1.3/japanese/16.png) | ![image 01](/screenshots/1.3/english/16.png)
+ | ![image 01](/screenshots/1.3/english/battle-cards.png)
+ | ![image 01](/screenshots/1.3/english/casino-100.png)
+ | ![image 01](/screenshots/1.3/english/casino-1000.png)
+| ![image 01](/screenshots/1.3/english/casino-10000.png)
+| ![image 01](/screenshots/1.3/english/town-signs.png)
 
 ## How to generate the patch yourself
 
@@ -173,10 +202,22 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 ## Know bugs / Improvements
 
 - [ ] Yes/No questions are sometimes hidden under the Yes/No menu
-- [ ] Move the AI menu to the left to show full words instead of Wea, Nor, Har
-- [ ] When using Look on a square with 2 or more characters, only shows 1st char.
 
 ## Fixes
+
+v1.3 (March 2022)
+- [X] Improvement : Translated the quote after the logo
+- [X] Improvement : Translated the introduction texts
+- [X] Improvement : Translated the town names on the map
+- [X] Fix : Move the AI menu to the left to show full words instead of Wea, Nor, Har
+- [X] Fix : When using Look on a square with 2 or more characters, only shows 1st char.
+- [X] Changes :
+- Dakar -> Bamako
+- Bamako -> Niamey
+- Ciuaba -> Manaus
+- Lynton -> Auckland
+- Weak AI -> Easy AI
+
 v1.2 (February 2022)
 - [X] Fixed the ranking table for 3 and 4 players
 - [X] In the menus, differentiate Towns and Castles
@@ -298,7 +339,7 @@ The Sky Palace is a place with many blue, yellow and white chests and one specia
 
 ### Quizz
 
-The quizz is a series of 8 random questions. According to your results, you are given a recommendation of the AI to play against (weak, normal or hard).
+The quizz is a series of 8 random questions. According to your results, you are given a recommendation of the AI to play against (easy, normal or hard).
 The last question (times played) is always the same and seems to have no purpose.
 
 Question | Answer
@@ -334,3 +375,7 @@ How many churches are there? | 6
 How many floors has the dungeon Rabble Tower? | 3
 Which small monster has the highest level? | Tiamat
 In order to become the Devil, you must give away all your gold, items, magic and what? | Towns
+
+### Hidden message
+In the middle of the South Atlantic ocean, there's a tree on an island.
+Examine it for the credit roll of the dev team.
