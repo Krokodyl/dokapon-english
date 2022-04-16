@@ -8,6 +8,17 @@ The IV refers to the possibility of having 4 players.
 Second game : Dokapon 3-2-1: Arashi o Yobu Yuujou
 
 
+
+But in terms of dokapon games
+Kessen (Un translated)
+321 (You fan translated)
+Ikari (untranslated)
+DX (Untranslated)
+World (Untranslated)
+Kingdom
+Journey
+
+
 ##### TABLES #####
 1
 
@@ -409,4 +420,20 @@ JAP=
 {NL}{1112 7785}位{8010 7885}{CR}{2010 8885}{CW}{8310 8c85}{NL}人{CY}{2112 7685}{CW}ボス{2112 9085}村{2112 9285}死亡{CR}{2112 9185}{CW}{NL}{NL}{1112 9485}位{8010 9585}{CR}{2010 a585}{CW}{8310 a985}{NL}人{CY}{2112 9385}{CW}ボス{2112 ad85}村{2112 af85}死亡{CR}{2112 ae85}{CW}{NL}{NL}{1112 b185}位{8010 b285}{CR}{2010 c285}{CW}{8310 c685}{NL}人{CY}{2112 b085}{CW}ボス{2112 ca85}村{2112 cc85}死亡{CR}{2112 cb85}{CW}{EL}
 
 
+
+Look Side Menu
+
+$82/83C0 B5 39       LDA $39,x  [$00:0543]   A:FFFF X:050A Y:03D2 P:eNvMxdIzc
+$82/83C2 F0 0B       BEQ $0B    [$83CF]      A:FF00 X:050A Y:03D2 P:envMxdIZc
+$82/83CF C2 20       REP #$20                A:FF00 X:050A Y:03D2 P:envMxdIZc
+$82/83D1 AF A4 7D 7E LDA $7E7DA4[$7E:7DA4]   A:FF00 X:050A Y:03D2 P:envmxdIZc
+$82/83D5 C9 D4 87    CMP #$87D4              A:8644 X:050A Y:03D2 P:eNvmxdIzc
+$82/83D8 E2 20       SEP #$20                A:8644 X:050A Y:03D2 P:eNvmxdIzc
+$82/83DA F0 0E       BEQ $0E    [$83EA]      A:8644 X:050A Y:03D2 P:eNvMxdIzc
+$82/83DC A0 19 85    LDY #$8519              A:8644 X:050A Y:03D2 P:eNvMxdIzc
+$82/83DF 22 BA 95 83 JSL $8395BA[$83:95BA]   A:8644 X:050A Y:8519 P:eNvMxdIzc
+
+x10394	44 86
+x10399	44 86
+x103C7	44 86
 
