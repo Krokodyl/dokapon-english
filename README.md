@@ -46,7 +46,7 @@ No-Intro: Super Nintendo Entertainment System (v. 20180813-062835)\
 ROM SHA-1: 9343CA8D3161DEA847E0369A4A91CD7F8DC2D3AE\
 ROM CRC32: FC353400
 
-Japanese rom size : 1.5 Mb (1 572 864 bytes)
+Japanese rom size : 1.5 Mb (1 572 864 bytes)\
 Patched rom size : 2.0 Mb (2 097 152 bytes)
 
 ## Update v1.3 (Translated sprites & backgrounds)
