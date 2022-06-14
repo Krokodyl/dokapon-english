@@ -18,7 +18,7 @@ Dokapon Ring<br/>
 Sky Palace<br/>
 Quizz
 
-# Dokapon Gen
+# Dokapon 3-2-1 - English
 
 This project is a Java program that generates a translation file (.bps) for the Super Famicom video game\
 **Dokapon 3-2-1: Arashi o Yobu Yuujou** (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
