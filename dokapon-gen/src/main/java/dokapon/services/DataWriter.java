@@ -132,6 +132,7 @@ public class DataWriter {
     }
 
     public static void saveData(String romOutput, byte[] data) {
+        System.out.println("Save Data "+romOutput);
         FileOutputStream stream = null;
         try {
             stream = new FileOutputStream(new File(romOutput));

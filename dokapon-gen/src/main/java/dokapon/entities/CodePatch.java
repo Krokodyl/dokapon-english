@@ -30,7 +30,7 @@ public class CodePatch {
         for (String s:codeHexa) {
             codeInt[z++]=Integer.parseInt(s, 16);
         }
-        for (int i=0;i<codeInt.length;i++) data[offset+i]=(byte)codeInt[i];
+        for (int i=0;i<codeInt.length;i++) data[offset+i]= (byte) (codeInt[i] & 0xFF);
         return data;
     }
 

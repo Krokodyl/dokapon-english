@@ -6,6 +6,7 @@ import dokapon.lz.entities.Header;
 import dokapon.services.*;
 import dokapon.sprites.FontImageReader;
 import dokapon.sprites.SpriteMaker;
+import services.FontImageReaderRevised;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,6 +35,7 @@ public class Dokapon {
         spriteWriter = new SpriteWriter();
         translator = new Translator(latinLoader);
         config = JsonLoader.loadConfig();
+        JsonLoader.loadCodePatches();
 
         System.out.println("Loading config");
         System.out.println("rom-input="+config.getRomInput());
@@ -79,13 +81,25 @@ public class Dokapon {
 
         List<TownSign> townSigns = JsonLoader.loadTownSigns();
         SpriteMaker spriteMaker = new SpriteMaker(data);
-        spriteMaker.generateSigns(data, townSigns, "src/main/resources/data/190000.data");
-        spriteMaker.generateMapOrder(townSigns, "src/main/resources/data/jpn/BBA39.data", "src/main/resources/data/map-order-uncompressed.data");
+        //spriteMaker.generateSigns(data, townSigns, "src/main/resources/data/190000.data");
+        //spriteMaker.generateMapOrder(townSigns, "src/main/resources/data/jpn/BBA39.data", "src/main/resources/data/map-order-uncompressed.data");
         //spriteMaker.printMap("src/main/resources/data/jpn/BBA39.data");
-        FontImageReader imageReader = new FontImageReader();
+        FontImageReaderRevised imageReader = new FontImageReaderRevised();
+        
+        imageReader.trainingMap();
+        imageReader.trainingMapOrder();
+        imageReader.trainingMapTilesDefinition();
+        
+        imageReader.introQuote();
+        imageReader.introQuoteOrder();
+        imageReader.introTexts();
+        imageReader.score();
+        
+        imageReader.map(); // !!! Takes a few minutes to run. Yikes!!!
+        imageReader.mapOrder();
+        
         imageReader.titleScreen();
         imageReader.titleScreenOrder();
-        imageReader.mapOrder();
         imageReader.freeTownBanner();
         imageReader.doc();
         imageReader.salesman();
@@ -94,8 +108,6 @@ public class Dokapon {
         imageReader.chapterEnd();
         imageReader.chapterStart();;
         imageReader.chapterStartOrder();
-        imageReader.trainingMapOrder();
-        imageReader.trainingMapTilesDefinition();
         imageReader.rico();
         imageReader.battleCards();
         imageReader.bill();

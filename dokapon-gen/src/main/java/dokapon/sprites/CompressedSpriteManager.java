@@ -20,6 +20,8 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static services.Utils.h;
+
 public class CompressedSpriteManager {
 
     byte[] data;
@@ -169,11 +171,11 @@ public class CompressedSpriteManager {
         compressor.compress();
         byte[] compressedBytes = compressor.getCompressedBytes();
 
-        /*System.out.println();
-        System.out.println("Compressed length : "+ compressedBytes.length);
         System.out.println();
-        System.out.println("Compressed bytes : "+Utils.bytesToHex(compressedBytes));
-        System.out.println("Time : "+(Dokapon.getTime()));*/
+        System.out.println("Compressed length : "+ h(compressedBytes.length));
+        System.out.println();
+        //System.out.println("Compressed bytes : "+Utils.bytesToHex(compressedBytes));
+        System.out.println("Time : "+(Dokapon.getTime()));
 
         System.out.println("Compressing data - output : "+output);
 

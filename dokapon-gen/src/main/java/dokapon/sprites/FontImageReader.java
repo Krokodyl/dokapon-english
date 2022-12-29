@@ -344,7 +344,7 @@ public class FontImageReader {
         compressedSpriteManager.compressCopyFile(uncomp, Header.MAP_ORDER_HEADER, outputFile);
     }
 
-    private static String generateSpriteDataFromImage(String image, String output, Palette palette, int bpp) throws IOException {
+    protected static String generateSpriteDataFromImage(String image, String output, Palette palette, int bpp) throws IOException {
         System.out.println("Generating Sprite Data from image "+image);
         FontImageReader fontImageReader = new FontImageReader();
         String s = "";
