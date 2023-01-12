@@ -5,7 +5,7 @@ import java.util.Map;
 
 import static dokapon.enums.FontColor.*;
 
-public class PaletteBill extends Palette {
+public class PaletteBill extends OldPalette {
 
     Map<String, FontColor> mapGameColors = new HashMap<String, FontColor>(){{
         put("529c8c", MAP_COLOR_01);

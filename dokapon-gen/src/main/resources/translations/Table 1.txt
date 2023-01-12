@@ -17,7 +17,7 @@ VALUE=d19a(9ad1)
 OFFSETDATA=1519a
 DATA=6600 b500 9600 6400 8900 9b00 b600 0f01 1001 2900 0e00 0300 1200 0800 4a00 0500 4c01 0400 1200 3900 1200 4200 0300 0030 bf00 3900 1500 b300 7a01 7b01 2900 f800 f900 0a01 4a00 a100 9f00 a500 8401 1200 3900 1400 0030 bf00 1800 0e00 0600 4400 b300 9401 4501 2900 fa00 fb00 0a01 4a00 6701 0800 0030 6600 b500 9600 6400 8900 9b00 b600 1800 2900 ef00 4a00 a500 8401 1200 1a00 fe00 0700 b300 0030 bf00 0220 f800 f900 0020 3c02 0220 fa00 fb00 0020 2200 0100 1a00 0400 4600 6b00 8c00 b500 6300 2200 1400 0030 bf00 0220 f800 f900 0020 3c02 0220 5600 5100 9b00 6a00 b500 b300 0001 0101 fa00 fb00 0020 2900 2c01 f200 2a00 b300 0030 6600 b500 9600 6400 8900 9b00 b600 1000 4400 2600 6b00 8c00 b500 6300 0700 3000 0400 4600 2300 9901 1e00 2100 8101 1000 0200 ffff 
 JAP=せールスマン┌戦闘のこうしきをお教えしましょう{NL} まず,自分の攻撃力を1.5倍します{NL} そこから,相手の防御力を引き{NL}せールスマン┌その値を5倍した数が,{NL} {CY}攻撃{CW}対{CY}防御{CW}であたえるダメージです{NL} {CY}攻撃{CW}対{CY}カウンター,魔法防御{CW}の場合は,{NL}せールスマン┌さらにダメージがふえると思って下さい{EL}
-ENG=Salesman: Let me tell you{NL}about how combat works. First,{NL}multiply your attack power by{NL}1.5. From there, subtract the{NL}defense power of your{NL}opponent. The value obtained{NL}by multiplying that value by 5{NL}is the damage given for{NL}{CY}attack{CW} vs. {CY}defense{CW}{NL}and {CY}attack{CW} vs {CY}counter{CW}.{NL}Damage will increase further{NL}in the case of magic defense.{EL}
+ENG=Salesman: Let me tell you{NL}about how combat works. First,{NL}multiply your attack power by{NL}1.5. From there, subtract the{NL}defense power of your{NL}opponent. The value obtained{NL}multiplied by 5.5{NL}is the damage given for{NL}{CY}attack{CW} vs. {CY}defense{CW}{NL}and {CY}attack{CW} vs {CY}counter{CW}.{NL}Damage will increase further{NL}in the case of magic defense.{EL}
 
 OFFSET=14f70
 VALUE=d2c6(c6d2)
@@ -73,7 +73,7 @@ VALUE=d7f4(f4d7)
 OFFSETDATA=157f4
 DATA=8a00 6e00 6c00 b500 b600 1601 1701 4a00 4501 2600 f100 4700 1a00 4400 1800 2900 1401 1501 b001 2900 fc00 4a00 0030 bf00 2500 4600 3400 0a00 1a00 0a00 1000 4b00 7101 3902 1400 4600 4b00 3f00 ffff 
 JAP=ミッチー┌小城を手に入れたらその大陸内の村を{NL} なるべくたくさん解放するんや{EL}
-ENG=Mitch: Once you own a castle,{NL}you should free as many towns{NL}on that continent as much as{NL}possible.{EL}
+ENG=Mitch: Once you own a castle,{NL}you should free as many towns{NL}on that continent as you can{NL}to increase the income.{EL}
 
 OFFSET=14f8e
 VALUE=d842(42d8)
@@ -136,7 +136,7 @@ VALUE=db76(76db)
 OFFSETDATA=15b76
 DATA=5700 6e00 6f00 b600 2400 0300 0a00 1f00 2500 2400 2900 2302 8900 6e00 8200 2600 2a00 0030 bf00 0220 3900 3600 0300 2900 5600 5900 0020 2200 1200 0600 4101 0600 2500 0200 3801 3901 0700 0100 4600 4400 1200 0200 ffff 
 JAP=ガッツ┌どうくつなどの別マップには{NL} {CY}まほうのカギ{CW}でしか開かない宝箱があるらしい{EL}
-ENG=Guts:In some dungeons, there{NL}are treasure boxes that only{NL}open with a {CY}Magic Key{CW}.{EL}
+ENG=Guts: In some dungeons, there{NL}are treasure chests that only{NL}open with a {CY}Magic Key{CW}.{EL}
 
 OFFSET=14fb4
 VALUE=dbcc(ccdb)
@@ -157,21 +157,21 @@ VALUE=dcb0(b0dc)
 OFFSETDATA=15cb0
 DATA=9900 6e00 6f00 b600 8f01 4001 6901 9001 2600 2a00 0030 bf00 7c00 9900 b500 9500 9b00 5b00 0700 0100 4600 1e00 2100 ff01 1b00 1700 ffff 
 JAP=ワッツ┌海底神殿には{NL} パワーリングがあるって話だぜ{EL}
-ENG=Watts:They say there is a{NL}Ruby Ring in the{NL}{CY}Sea Temple{CW}.{EL}
+ENG=Watts: They say there is a{NL}Ruby Ring in the{NL}{CY}Sea Temple{CW}.{EL}
 
 OFFSET=14fc0
 VALUE=dce6(e6dc)
 OFFSETDATA=15ce6
 DATA=9900 6e00 6f00 b600 7e00 7e00 9600 8900 5100 9b00 7100 9b00 2600 2a00 0030 bf00 6400 7f00 b500 7400 9500 9b00 5b00 0700 0100 4600 1e00 2100 0300 4900 1000 1b00 b900 ffff 
 JAP=ワッツ┌ビビルマウンテンには{NL} スピードリングがあるってうわさだ!{EL}
-ENG=Watts:They say there is a{NL}Jade Ring in the{NL}{CY}Freaky Mountains{CW}.{EL}
+ENG=Watts: They say there is a{NL}Jade Ring in the{NL}{CY}Freaky Mountains{CW}.{EL}
 
 OFFSET=14fc2
 VALUE=dd2a(2add)
 OFFSETDATA=15d2a
 DATA=9900 6e00 6f00 b600 4d00 5600 8000 9500 1401 1501 2900 1000 2b00 0a00 2900 2d01 2600 0030 bf00 7f00 9400 8a00 6e00 7400 0700 0100 4600 4b00 1b00 b900 0030 bf00 1800 2900 2d01 2600 2a00 6200 b500 9600 7400 9500 9b00 5b00 1e00 2100 4100 2e00 4900 0700 0100 4600 4400 1200 0200 1900 ffff 
 JAP=ワッツ┌アカフリ大陸のさばくの中に{NL} ピラミッドがあるんだ!{NL} その中にはシールドリングってゆびわがあるらしいぞ{EL}
-ENG=Watts:In Africa, there are{NL}pyramids in the desert.{NL}There is an Onyx Ring.{EL}
+ENG=Watts: In Africa, there are{NL}pyramids in the desert.{NL}There is an Onyx Ring.{EL}
 
 OFFSET=14fc4
 VALUE=dd9c(9cdd)
@@ -276,7 +276,7 @@ VALUE=e404(04e4)
 OFFSETDATA=16404
 DATA=6200 7500 9500 5500 8d00 b500 7400 9f00 9f00 9f00 0030 7400 5600 8800 9b00 4601 c601 2600 0100 4600 b300 a700 1f00 2900 1401 1501 4a00 3c00 0b00 1e00 2100 0030 2601 ba00 2600 3d01 7701 1400 4600 4f00 8400 9b00 7300 4a00 0800 1800 0200 0100 1e00 2100 5a00 9500 4d00 1200 2100 0200 0a00 2900 ffff 
 JAP=シナリオモード...{NL}ドカポン王国にある,7つの大陸をめぐって{NL}次 に発生するイベントをきそいあってクリアしていくの{EL}
-ENG=Scenario mode.{NL}Compete in an eventful story{NL}on the seven continents.{EL}
+ENG=Story mode.{NL}Compete in an eventful story{NL}on the seven continents.{EL}
 
 OFFSET=14fec
 VALUE=e47a(7ae4)
@@ -304,21 +304,21 @@ VALUE=e576(76e5)
 OFFSETDATA=16576
 DATA=0220 6200 7500 9500 5500 8d00 b500 7400 0020 2200 0200 0200 0600 1200 4400 b800 ffff 
 JAP={CY}シナリオモード{CW}でいいかしら?{EL}
-ENG={CY}Scenario mode{CW}. Are you sure?{EL}
+ENG={CY}Story mode{CW}.{NL}Are you sure?{EL}
 
 OFFSET=14ff4
 VALUE=e598(98e5)
 OFFSETDATA=16598
 DATA=0220 7b00 7300 9600 9800 4f00 8f00 9600 0020 2200 0200 0200 0600 1200 4400 b800 ffff 
 JAP={CY}バトルロイヤル{CW}でいいかしら?{EL}
-ENG={CY}Battle Royale{CW}. Are you sure?{EL}
+ENG={CY}Battle Royale{CW}.{NL}Are you sure?{EL}
 
 OFFSET=14ff6
 VALUE=e5ba(bae5)
 OFFSETDATA=165ba
 DATA=0220 7400 5600 8800 9b00 6c00 5200 6e00 5a00 0020 2200 0200 0200 0600 1200 4400 b800 ffff 
 JAP={CY}ドカポンチェック{CW}でいいかしら?{EL}
-ENG={CY}Dokapon Quizz{CW}. Are you sure?{EL}
+ENG={CY}Dokapon Quizz{CW}.{NL}Are you sure?{EL}
 
 OFFSET=14ff8
 VALUE=e5de(dee5)
@@ -542,7 +542,7 @@ VALUE=ef56(56ef)
 OFFSETDATA=16f56
 DATA=fa00 fb00 0001 0101 0220 8900 8600 6a00 6400 9400 0020 0030 0b01 0c01 1400 4600 b300 0001 0101 0b01 fe00 2a00 0200 1e00 1a00 0200 0200 0a00 1f00 2200 1200 4200 0300 b800 ffff 
 JAP=防御魔法{CY}マホタスラ{CW}{NL}回復する,魔法回数はいったいいくつでしょう?{EL}
-ENG=What is the magic defense{NL}bonus of {CY}Deflect{CW}?{EL}
+ENG=How many magic uses does the{NL}magic defense {CY}Seize+{CW} give?{EL}
 
 OFFSET=1503c
 VALUE=ef9c(9cef)
@@ -913,5 +913,5 @@ VALUE=fe24(24fe)
 OFFSETDATA=17e24
 DATA=0220 7900 b500 8900 9600 8d00 b500 7400 0020 2200 0200 0200 0600 1200 4400 b800 ffff 
 JAP={CY}ノーマルモード{CW}でいいかしら?{EL}
-ENG={CY}Normal mode{CW}. Are you sure?{EL}
+ENG={CY}Normal mode{CW}.{NL}Are you sure?{EL}
 

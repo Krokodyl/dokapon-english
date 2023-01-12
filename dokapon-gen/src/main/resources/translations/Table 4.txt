@@ -24,7 +24,7 @@ VALUE=8352(5283)
 OFFSETDATA=150352
 DATA=af00 9214 ea85 b000 0030 4214 6785 fc00 2a00 b300 8014 6985 0700 0201 0301 1200 2100 0200 3900 1400 b400 0030 2601 2900 9700 8400 9600 2600 2a00 b300 0220 6314 7985 0020 5f00 b500 9600 7400 2701 2801 2200 1400 b400 ffff 
 JAP=[{9214}{ea85}]{NL}{4214}{6785}村は,{8014}{6985}が統治しています.{NL}次のレベルには,{CY}{6314}{7985}{CW}ゴールド必要です.{EL}
-ENG=[{9214}{ea85}]{NL}{4214}{6785} is ruled by {8014}{6985}.{NL}Next upgrade requires {CY}{6314}{7985}{CW}G.{EL}
+ENG=[{9214}{ea85}]{NL}{4214}{6785} is ruled by {8014}{6985}.{NL}Next upgrade requires {CY}{6314}{7985}G{CW}.{EL}
 
 OFFSET=150008
 VALUE=83aa(aa83)
@@ -59,7 +59,7 @@ VALUE=8484(8484)
 OFFSETDATA=150484
 DATA=801c 4f00 2a00 0220 5800 9200 6300 8e00 5a00 6a00 4f00 6200 6f00 0020 2200 0030 0220 a100 8900 6400 0020 1200 0600 f500 f600 1400 4600 0e00 2300 2a00 2200 0800 3900 1600 4b00 b900 0030 f500 f600 1200 3900 1400 0600 b800 ffff 
 JAP={801c 4f00}は{CY}キョジャクタイシツ{CW}で{NL}{CY}1マス{CW}しか移動することはできません!{NL}移動しますか?{EL}
-ENG={801c 4f00}, you are {CY}weak{CW}.{NL}You can only move 1 square!{NL}Do you want to move?{EL}
+ENG={801c 4f00}, you are {CY}weak{CW}.{NL}You can only move 1 space{NL}Do you want to move?{EL}
 
 OFFSET=150012
 VALUE=84de(de84)
@@ -80,28 +80,28 @@ VALUE=852a(2a85)
 OFFSETDATA=15052a
 DATA=2e01 0800 1a00 0200 8900 6400 2600 5600 b500 6800 9600 4a00 0100 4900 1600 0030 0220 c800 8700 6a00 9b00 0020 4a00 2f01 1200 2100 0a00 1b00 1000 0200 b400 0030 0220 c400 8700 6a00 9b00 0020 2200 f700 3400 4600 0e00 2300 3d00 2200 0800 3900 1400 b400 ffff 
 JAP=行きたいマスにカーソルをあわせ{NL}{CY}Aボタン{CW}を押してください.{NL}{CY}Xボタン{CW}で調べることもできます.{EL}
-ENG=Press {CY}{BUT}A{CW} to move the cursor{NL}where you want to go.{NL}Press {CY}{BUT}X{CW} to examine things.{EL}
+ENG=Press {CY}{BUT}A{CW} to find a path to{NL}where the cursor is.{NL}Press {CY}{BUT}X{CW} to examine things.{EL}
 
 OFFSET=150018
 VALUE=8590(9085)
 OFFSETDATA=150590
 DATA=1800 4700 2200 2a00 f700 3400 2100 3a00 3900 1400 b400 ffff 
 JAP=それでは調べてみます.{EL}
-ENG=Take a look.{EL}
+ENG=Finding a path...{EL}
 
 OFFSET=15001a
 VALUE=85a8(a885)
 OFFSETDATA=1505a8
 DATA=1800 0e00 2600 2e01 0a00 0e00 2300 2a00 b300 2200 0800 2500 0200 4300 0300 2200 1400 9f00 9f00 9f00 ffff 
 JAP=そこに行くことは,できないようです...{EL}
-ENG=It seems you can't go in{NL}there...{EL}
+ENG=No path to go there.{EL}
 
 OFFSET=15001c
 VALUE=85d2(d285)
 OFFSETDATA=1505d2
 DATA=1800 0e00 2600 2e01 0a00 3001 eb00 4a00 3a00 1f00 0c00 3900 1200 1a00 b900 0030 f500 f600 1200 3900 1400 0600 b800 ffff 
 JAP=そこに行く道順をみつけました!{NL}移動しますか?{EL}
-ENG=I found a way to go there!{NL}Do you want to move?{EL}
+ENG=I found a path!{NL}Do you want to go there?{EL}
 
 OFFSET=15001e
 VALUE=8602(0286)
@@ -206,7 +206,7 @@ VALUE=8968(6889)
 OFFSETDATA=150968
 DATA=4601 4701 b600 2500 4b00 2300 b300 8014 5985 0700 0500 4801 0200 2600 0030 bf00 0320 4214 6985 fc00 0020 4a00 0a00 4700 4600 1800 0300 1b00 2b00 b400 ffff 
 JAP=王様┌なんと,{PLAYER NAME}がお祝いに{NL} {CG}{4214}{6985}村{CW}をくれるそうだば.{EL}
-ENG=King:How nice, {8014 5985} will{NL}give the town {CG}{4214}{6985}{CW} for the{NL}celebration.{EL}
+ENG=King: For the celebration,{NL}{8014 5985} offers {CG}{4214}{6985}{CW}{NL}as a present.{EL}
 
 OFFSET=15003c
 VALUE=89a6(a689)
@@ -423,7 +423,7 @@ VALUE=8eea(ea8e)
 OFFSETDATA=150eea
 DATA=8014 5b85 2a00 b300 0320 4214 5985 fc00 0020 4a00 4501 2600 f100 4700 1a00 b400 ffff 
 JAP={8014}{5b85}は,{CG}{4214}{5985}村{CW}を手に入れた.{EL}
-ENG={8014 5b85} owns now {CG}{4214}{5985}{CW}.{EL}
+ENG={8014 5b85} now owns {CG}{4214}{5985}{CW}.{EL}
 
 OFFSET=15007a
 VALUE=8f0c(0c8f)
@@ -444,7 +444,7 @@ VALUE=8f78(788f)
 OFFSETDATA=150f78
 DATA=fc00 5201 b600 8014 5985 4701 2900 0500 0600 0d00 2200 0030 bf00 fc00 2a00 2300 2100 3d00 5701 0600 2600 3f00 4500 3900 1200 1a00 b400 0030 bf00 5801 e000 2a00 4100 1e00 0a00 4500 1301 4b00 2200 0a00 1b00 1000 0200 b400 ffff 
 JAP=村長┌{PLAYER NAME}様のおかげで{NL} 村はとても豊かにやりました.{NL} 今日はゆっくり休んでください.{EL}
-ENG=Mayor: {8014 5985}, you bring us{NL}wealth.{NL}Have a nice stay.{EL}
+ENG=Mayor: Thanks to {8014 5985},{NL}the town is thriving.{NL}Have a nice stay.{EL}
 
 OFFSET=150080
 VALUE=8fd2(d28f)
@@ -577,7 +577,7 @@ VALUE=937e(7e93)
 OFFSETDATA=15137e
 DATA=fc00 5201 b600 8014 5985 4701 2600 2a00 0030 bf00 2500 0200 1200 4200 2600 1200 2100 0500 0200 2100 0a00 1b00 1000 0200 2800 b400 ffff 
 JAP=村長┌{PLAYER NAME}様には{NL} ないしょにしておいてくださいね.{EL}
-ENG=Mayor: {8014 5985},{NL} please leave it out.{EL}
+ENG=Mayor: Please don't let{NL}{8014 5985} know about this.{EL}
 
 OFFSET=1500a6
 VALUE=93b4(b493)
@@ -647,7 +647,7 @@ VALUE=9524(2495)
 OFFSETDATA=151524
 DATA=f400 6501 b600 0500 0200 b300 0500 0200 bf00 3d00 0300 5e01 4600 2900 0600 b800 ffff 
 JAP=店員┌おい,おい もう帰るのか?{EL}
-ENG=Clerk: Are you good to go?{EL}
+ENG=Clerk: Are you leaving?{EL}
 
 OFFSET=1500ba
 VALUE=9546(4695)
@@ -703,35 +703,35 @@ VALUE=963c(3c96)
 OFFSETDATA=15163c
 DATA=f400 6501 b600 0220 8214 5985 0020 2a00 0030 bf00 0320 8314 5b85 0020 5f00 b500 9600 7400 2200 6701 0800 6801 4600 0700 0030 bf00 4300 0200 0600 2500 b800 ffff 
 JAP=店員┌{CY}{8214}{5985}{CW}は{NL} {CG}{8314}{5b85}{CW}ゴールドで引き取るが{NL} よいかな?{EL}
-ENG=Clerk: I can buy your {CY}{8214}{5985}{CW}{NL}for {CG}{8314}{5b85}{CW} gold. Is it okay?{EL}
+ENG=Clerk: I can buy your{NL}{CY}{8214}{5985}{CW}for {CG}{8314}{5b85}{CW} gold.{NL}Is it okay?{EL}
 
 OFFSET=1500ca
 VALUE=967c(7c96)
 OFFSETDATA=15167c
 DATA=f400 6501 b600 0220 8214 5985 0020 2a00 0030 bf00 0320 8314 5b85 0020 5f00 b500 9600 7400 2200 6701 0800 6801 4600 0700 0030 bf00 1800 4700 2200 0200 0200 0600 0200 b800 ffff 
 JAP=店員┌{CY}{8214}{5985}{CW}は{NL} {CG}{8314}{5b85}{CW}ゴールドで引き取るが{NL} それでいいかい?{EL}
-ENG=Clerk: Your {CY}{8214}{5985}{CW} is worth{NL}{CG}{8314}{5b85}{CW} gold. Is it okay?{EL}
+ENG=Clerk: Your {CY}{8214}{5985}{CW} is{NL}worth {CG}{8314}{5b85}{CW} gold.{NL}Do you sell it?{EL}
 
 OFFSET=1500cc
 VALUE=96c2(c296)
 OFFSETDATA=1516c2
 DATA=f400 6501 b600 2400 4700 4a00 1b01 1e00 2100 0a00 4700 4600 2900 b800 ffff 
 JAP=店員┌どれを売ってくれるの?{EL}
-ENG=Clerk: Which one are you{NL}selling?{EL}
+ENG=Which one are you selling?{EL}
 
 OFFSET=1500ce
 VALUE=96e0(e096)
 OFFSETDATA=1516e0
 DATA=f400 6501 b600 2400 4700 4a00 1b01 4500 1a00 0200 4b00 1300 3e00 b800 ffff 
 JAP=店員┌どれを売りたいんじゃ?{EL}
-ENG=Clerk: Which one do you want{NL}to sell?{EL}
+ENG=Which one do you sell?{EL}
 
 OFFSET=1500d0
 VALUE=96fe(fe96)
 OFFSETDATA=1516fe
 DATA=f400 6501 b600 2400 4700 4a00 1b01 4500 1a00 0200 4b00 1b00 b800 ffff 
 JAP=店員┌どれを売りたいんだ?{EL}
-ENG=Clerk: Which one will you{NL}sell?{EL}
+ENG=Clerk: What do you sell?{EL}
 
 OFFSET=1500d2
 VALUE=971a(1a97)
@@ -780,21 +780,21 @@ VALUE=984c(4c98)
 OFFSETDATA=15184c
 DATA=f400 6501 b600 0220 8214 ad85 0020 2200 0200 0200 2900 b800 ffff 
 JAP=店員┌{CY}{8214}{ad85}{CW}でいいの?{EL}
-ENG=Clerk: Do you buy {CY}{8214}{ad85}{CW}?{EL}
+ENG=Do you buy {CY}{8214}{ad85}{CW}?{EL}
 
 OFFSET=1500e0
 VALUE=9866(6698)
 OFFSETDATA=151866
 DATA=f400 6501 b600 0220 8214 ad85 0020 2200 0200 0200 0600 2500 b800 ffff 
 JAP=店員┌{CY}{8214}{ad85}{CW}でいいかな?{EL}
-ENG=Clerk: Do you want {CY}{8214}{ad85}{CW}?{EL}
+ENG=Clerk: Do you buy {CY}{8214}{ad85}{CW}?{EL}
 
 OFFSET=1500e2
 VALUE=9882(8298)
 OFFSETDATA=151882
 DATA=f400 6501 b600 0220 8214 ad85 0020 2200 0200 0200 0600 b800 ffff 
 JAP=店員┌{CY}{8214}{ad85}{CW}でいいか?{EL}
-ENG=Clerk: Do you buy {CY}{8214}{ad85}{CW}?{EL}
+ENG=Do you buy {CY}{8214}{ad85}{CW}?{EL}
 
 OFFSET=1500e4
 VALUE=989c(9c98)
@@ -829,14 +829,14 @@ VALUE=9914(1499)
 OFFSETDATA=151914
 DATA=f400 6501 b600 0220 8214 ad85 0020 2800 b400 0030 bf00 8214 af85 2a00 0320 8314 b185 0020 5f00 b500 9600 7400 2200 0030 bf00 6701 0800 6801 4600 0c00 2400 0200 0200 0600 1200 4400 b800 ffff 
 JAP=店員┌{CY}{8214}{ad85}{CW}ね.{NL} {8214}{af85}は{CG}{8314}{b185}{CW}ゴールドで{NL} 引き取るけどいいかしら?{EL}
-ENG=Clerk: You have {CY}{8214}{ad85}{CW}.{NL}{8214}{af85} is worth {CG}{8314}{b185}{CW} gold.{NL} Can I take it?{EL}
+ENG=Clerk: You want {CY}{8214}{ad85}{CW}.{NL}{8214}{af85} is worth {CG}{8314}{b185}{CW} gold.{NL}Can I take it?{EL}
 
 OFFSET=1500ee
 VALUE=9960(6099)
 OFFSETDATA=151960
 DATA=f400 6501 b600 0220 8214 ad85 0020 1300 3e00 2500 b400 0030 bf00 8214 af85 2a00 0320 8314 b185 0020 5f00 b500 9600 7400 2200 0030 bf00 6701 0800 6801 4600 0700 4300 0200 0600 2500 b800 ffff 
 JAP=店員┌{CY}{8214}{ad85}{CW}じゃな.{NL} {8214}{af85}は{CG}{8314}{b185}{CW}ゴールドで{NL} 引き取るがよいかな?{EL}
-ENG=Clerk: You have {CY}{8214}{ad85}{CW}.{NL}{8214}{af85} is worth {CG}{8314}{b185}{CW} gold.{NL} May I take it?{EL}
+ENG=Clerk: You want {CY}{8214}{ad85}{CW}.{NL}{8214}{af85} is worth {CG}{8314}{b185}{CW} gold.{NL}May I take it?{EL}
 
 OFFSET=1500f0
 VALUE=99ac(ac99)
@@ -857,7 +857,7 @@ VALUE=9a1c(1c9a)
 OFFSETDATA=151a1c
 DATA=f400 6501 b600 0220 8214 ad85 0020 2a00 b300 0e01 1e00 2100 0500 4600 1900 b900 ffff 
 JAP=店員┌{CY}{8214}{ad85}{CW}は,持っておるぞ!{EL}
-ENG=Clerk: I have {CY}{8214}{ad85}{CW}!{EL}
+ENG=Clerk: You have {CY}{8214}{ad85}{CW}!{EL}
 
 OFFSET=1500f6
 VALUE=9a3e(3e9a)
@@ -906,21 +906,21 @@ VALUE=9b4e(4e9b)
 OFFSETDATA=151b4e
 DATA=f400 6501 b600 2900 4800 4900 4700 2100 0200 4600 0701 0801 2a00 0030 bf00 0300 1c00 2200 2a00 6701 0800 6801 4700 2500 0200 2800 b900 ffff 
 JAP=店員┌のろわれている武器は{NL} うちでは引き取れないね!{EL}
-ENG=Clerk: A cursed weapon.{NL}I can't buy it.{EL}
+ENG=Clerk: That thing is cursed.{NL}I can't buy it.{EL}
 
 OFFSET=150104
 VALUE=9b86(869b)
 OFFSETDATA=151b86
 DATA=f400 6501 b600 2900 4800 4900 4700 2100 0200 4600 0701 0801 2a00 0030 bf00 0300 1c00 2200 2a00 6701 0800 6801 4700 4b00 1900 b900 ffff 
 JAP=店員┌のろわれている武器は{NL} うちでは引き取れんぞ!{EL}
-ENG=Clerk: I don't buy cursed{NL}weapons.{EL}
+ENG=Clerk: I don't buy cursed{NL}equipment.{EL}
 
 OFFSET=150106
 VALUE=9bbc(bc9b)
 OFFSETDATA=151bbc
 DATA=f400 6501 b600 2900 4800 4900 4700 2100 4600 0701 0801 2a00 0030 bf00 0300 1c00 1300 3e00 6701 0800 6801 4700 2800 b500 2500 b900 ffff 
 JAP=店員┌のろわれてる武器は{NL} うちじゃ引き取れねーな!{EL}
-ENG=Clerk: I'm not buying a cursed{NL}weapon.{EL}
+ENG=Clerk: I'm not buying that,{NL}it's cursed.{EL}
 
 OFFSET=150108
 VALUE=9bf2(f29b)
@@ -934,7 +934,7 @@ VALUE=9c44(449c)
 OFFSETDATA=151c44
 DATA=4601 4701 b600 5801 2900 5800 8a00 2900 f800 f900 0a01 2200 2a00 b300 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 4a00 0030 bf00 6702 1400 0e00 2300 2a00 2200 0800 2500 0200 4300 0300 1b00 2b00 b900 bf00 6b01 1200 0200 0701 0801 4a00 1a01 1e00 2100 0030 bf00 0a01 4a00 1f00 0c00 2100 0600 4400 6702 1200 2600 2e01 0a00 1b00 2b00 b900 ffff 
 JAP=王様┌今のキミの攻撃力では,ビッグモンスターを{NL} 倒すことはできないようだば! 新しい武器を買って{NL} 力をつけてから倒しに行くだば!{EL}
-ENG=King: If you can't defeat a{NL}big monster with your current{NL}attack power, you should buy a{NL}new weapon, gain strength, and{NL}then go defeat it!{EL}
+ENG=King: You can't defeat the{NL}big monster with your current{NL}attack power, you should buy a{NL}new weapon, gain strength, and{NL}then go defeat it!{EL}
 
 OFFSET=15010c
 VALUE=9cca(ca9c)
@@ -997,7 +997,7 @@ VALUE=9f20(209f)
 OFFSETDATA=151f20
 DATA=801c 4f00 2a00 b300 0f01 0300 3401 3501 0700 4900 0200 2100 0800 1a00 b900 ffff 
 JAP={801c 4f00}は,戦う勇気がわいてきた!{EL}
-ENG={801c 4f00} has the courage{NL}to fight!{EL}
+ENG={801c 4f00} pulls themselves{NL}together!{EL}
 
 OFFSET=15011e
 VALUE=9f40(409f)
@@ -1011,14 +1011,14 @@ VALUE=9f58(589f)
 OFFSETDATA=151f58
 DATA=801c 4f00 2a00 b300 6214 5985 2600 7501 7601 1000 4700 2100 0200 3900 1400 b400 ffff 
 JAP={801c 4f00}は,{6214}{5985}に安置されています.{EL}
-ENG={801c 4f00} lies in {6214}{5985}.{EL}
+ENG={801c 4f00} is resting in {CY}{6214}{5985}{CW}.{EL}
 
 OFFSET=150122
 VALUE=9f7a(7a9f)
 OFFSETDATA=151f7a
 DATA=801c 4f00 2a00 b300 7701 0800 7801 1e00 1a00 b900 ffff 
 JAP={801c 4f00}は,生き返った!{EL}
-ENG={801c 4f00} is alive!{EL}
+ENG={801c 4f00} comes back to life!{EL}
 
 OFFSET=150124
 VALUE=9f90(909f)
@@ -1032,7 +1032,7 @@ VALUE=9fa8(a89f)
 OFFSETDATA=151fa8
 DATA=801c 4f00 2a00 b300 8014 5985 2600 0100 3f00 1f00 4400 4700 2100 0200 4600 b400 ffff 
 JAP={801c 4f00}は,{8014 5985}にあやつられている.{EL}
-ENG={801c 4f00} is struck{NL}by {8014 5985}.{EL}
+ENG={801c 4f00} is controlled{NL}by {8014 5985}.{EL}
 
 OFFSET=150128
 VALUE=9fca(ca9f)
@@ -1088,7 +1088,7 @@ VALUE=a0e4(e4a0)
 OFFSETDATA=1520e4
 DATA=1e01 e500 1200 2500 0a00 2100 0200 0200 4b00 2200 1400 2800 b800 ffff 
 JAP=集金しなくていいんですね?{EL}
-ENG=Do you want to collect money?{EL}
+ENG=Are you done?{EL}
 
 OFFSET=150138
 VALUE=a100(00a1)
@@ -1130,7 +1130,7 @@ VALUE=a1aa(aaa1)
 OFFSETDATA=1521aa
 DATA=9700 8400 9600 4d00 6e00 8200 1400 4600 2600 2a00 0220 6314 7985 0020 5f00 b500 9600 7400 0030 0600 0600 4500 3900 1400 0700 b300 4300 4800 1200 0200 2200 1400 0600 b800 ffff 
 JAP=レベルアップするには{CY}{6314}{7985}{CW}ゴールド{NL}かかりますが,よろしいですか?{EL}
-ENG=It takes {CY}{6314 7985}{CW} gold{NL}to level up. Are you sure?{EL}
+ENG=It takes {CY}{6314 7985}{CW} gold{NL}to level up.{NL}Are you sure?{EL}
 
 OFFSET=150144
 VALUE=a1f0(f0a1)
@@ -1319,7 +1319,7 @@ VALUE=a634(34a6)
 OFFSETDATA=152634
 DATA=1401 6201 1b00 b900 bf00 801c 4f00 2900 0d01 0e01 e500 0700 0030 0120 a000 0020 2600 2500 1e00 2100 1200 3900 1e00 1a00 b900 0030 3201 3301 2900 0d01 0e01 e500 831c 3b00 5f00 b500 9600 7400 b400 ffff 
 JAP=大変だ! {801c 4f00}の所持金が{NL}{CR}0{CW}になってしまった!{NL}現在の所持金{831c 3b00}ゴールド.{EL}
-ENG=Darn! {801c 4f00}'s money is{NL}now {CR}0{CW}!They now have{NL}{831c 3b00} gold.{EL}
+ENG=Darn! {801c 4f00}'s money is{NL}now {CR}0{CW}! They now have{NL}{831c 3b00} gold.{EL}
 
 OFFSET=15017a
 VALUE=a684(84a6)
@@ -1473,21 +1473,21 @@ VALUE=a97e(7ea9)
 OFFSETDATA=15297e
 DATA=8014 5985 2900 f800 f900 0a01 2a00 6201 4900 4400 2500 0600 1e00 1a00 b900 ffff 
 JAP={8014 5985}の攻撃力は変わらなかった!{EL}
-ENG={8014 5985}'s attack has not{NL}changed!{EL}
+ENG={8014 5985}'s attack unchanged!{EL}
 
 OFFSET=1501a6
 VALUE=a99e(9ea9)
 OFFSETDATA=15299e
 DATA=8014 5985 2900 fa00 fb00 0a01 2a00 6201 4900 4400 2500 0600 1e00 1a00 b900 ffff 
 JAP={8014 5985}の防御力は変わらなかった!{EL}
-ENG={8014 5985}'s defense has not{NL}changed!{EL}
+ENG={8014 5985}'s defense unchanged!{EL}
 
 OFFSET=1501a8
 VALUE=a9be(bea9)
 OFFSETDATA=1529be
 DATA=8014 5985 2900 1400 2b00 3f00 1000 2a00 6201 4900 4400 2500 0600 1e00 1a00 b900 ffff 
 JAP={8014 5985}のすばやさは変わらなかった!{EL}
-ENG={8014 5985}'s health has not{NL}changed!{EL}
+ENG={8014 5985}'s health unchanged!{EL}
 
 OFFSET=1501aa
 VALUE=a9e0(e0a9)
@@ -1599,14 +1599,14 @@ VALUE=ac6e(6eac)
 OFFSETDATA=152c6e
 DATA=8014 5985 2a00 801c 4f00 2600 0100 3f00 1f00 4400 4700 1a00 b900 ffff 
 JAP={8014 5985}は{801c 4f00}にあやつられた!{EL}
-ENG={8014 5985} was attacked{NL}by {801c 4f00}!{EL}
+ENG={8014 5985} is now controlled{NL}by {801c 4f00}!{EL}
 
 OFFSET=1501ca
 VALUE=ac8a(8aac)
 OFFSETDATA=152c8a
 DATA=2400 2900 fc00 2600 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 4a00 9701 2e00 3900 1400 0600 b800 0030 5600 b500 6800 9600 2200 4e01 4b00 2200 0a00 1b00 1000 0200 b400 ffff 
 JAP=どの村にビッグモンスターを呼びますか?{NL}カーソルで選んでください.{EL}
-ENG=Which village do you call the{NL}big monsters in?{NL}Select with the cursor.{EL}
+ENG=Which town do you call the{NL}big monster in?{NL}Select with the cursor.{EL}
 
 OFFSET=1501cc
 VALUE=acce(ceac)
@@ -1627,14 +1627,14 @@ VALUE=ad36(36ad)
 OFFSETDATA=152d36
 DATA=2400 2900 fc00 2600 8d00 9b00 6400 6a00 b500 4a00 2201 3201 1000 1600 3900 1400 0600 b800 0030 5600 b500 6800 9600 2200 4e01 4b00 2200 0a00 1b00 1000 0200 b400 ffff 
 JAP=どの村にモンスターを出現させますか?{NL}カーソルで選んでください.{EL}
-ENG=In which village do you want{NL}the monster to appear?{NL}Select with the cursor.{EL}
+ENG=In which town do you want{NL}the monster to appear?{NL}Select with the cursor.{EL}
 
 OFFSET=1501d2
 VALUE=ad78(78ad)
 OFFSETDATA=152d78
 DATA=4214 5985 fc00 2600 8d00 9b00 6400 6a00 b500 4a00 2201 3201 1000 1600 3900 1400 0600 b800 ffff 
 JAP={4214}{5985}村にモンスターを出現させますか?{EL}
-ENG={4214 5985}, Would you like to{NL}spawn a monster in the{NL}village?{EL}
+ENG={4214 5985}, Would you like to{NL}spawn a monster in the{NL}town?{EL}
 
 OFFSET=1501d4
 VALUE=ad9e(9ead)
@@ -1662,14 +1662,14 @@ VALUE=ae22(22ae)
 OFFSETDATA=152e22
 DATA=0e00 0e00 2600 7601 0800 3900 1400 0600 b800 ffff 
 JAP=ここに置きますか?{EL}
-ENG=Would you like to put it here?{EL}
+ENG=Would you like to place{NL}it here?{EL}
 
 OFFSET=1501dc
 VALUE=ae36(36ae)
 OFFSETDATA=152e36
 DATA=2e01 0c00 4600 2a00 4b00 0200 0700 0200 2900 8900 6400 2600 7601 0a00 0e00 2300 2a00 2200 0800 3900 1600 4b00 b900 ffff 
 JAP=行けるはんいがいのマスに置くことはできません!{EL}
-ENG=You can't put it in the space{NL}where you can go!{EL}
+ENG=You must select an accessible{NL}space!{EL}
 
 OFFSET=1501de
 VALUE=ae66(66ae)

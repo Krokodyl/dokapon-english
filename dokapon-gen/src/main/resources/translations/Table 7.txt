@@ -31,7 +31,7 @@ VALUE=967d(7d96)
 OFFSETDATA=3167d
 DATA=1600 0200 2500 4600 0a01 2200 2900 4800 0200 4a00 7101 0a00 0e00 2300 0700 2200 0800 4600 b300 3f00 0a00 4300 0c00 3700 0300 b400 ffff 
 JAP=せいなる力でのろいを解くことができる,やくよけぼう.{EL}
-ENG=Amulet that dispells curse.{EL}
+ENG=Amulet that dispels curse.{EL}
 
 OFFSET=3148f
 VALUE=96b3(b396)
@@ -486,7 +486,7 @@ VALUE=a4cf(cfa4)
 OFFSETDATA=324cf
 DATA=be01 7f01 1200 1a00 9401 4501 4a00 0220 5001 0020 2200 0500 0600 1200 3900 1400 b400 ffff 
 JAP=指定した相手を{CY}毒{CW}でおかします.{EL}
-ENG=The target enemy is poisonned.{EL}
+ENG=The target enemy is poisoned.{EL}
 
 OFFSET=32185
 VALUE=a4f3(f3a4)
@@ -570,7 +570,7 @@ VALUE=a759(59a7)
 OFFSETDATA=32759
 DATA=1200 2b00 4400 0a00 2900 3601 b300 be01 7f01 1200 1a00 8200 9700 4f00 8f00 b500 2900 0030 8000 4e00 b500 9600 7400 0001 0101 4a00 3000 0300 0200 4b00 1200 3900 1400 b400 ffff 
 JAP=しばらくの間,指定したプレイヤーの{NL}フィールド魔法をふういんします.{EL}
-ENG=The target player cannot{NL}use field magic for a week.{EL}
+ENG=The target player cannot{NL}use magic for a week.{EL}
 
 OFFSET=3219d
 VALUE=a79f(9fa7)
@@ -605,7 +605,7 @@ VALUE=a873(73a8)
 OFFSETDATA=32873
 DATA=9c01 1300 8900 6e00 8200 7e01 2600 0200 4600 1400 3400 2100 2900 8200 9700 4f00 8f00 b500 2900 0030 8000 4e00 b500 9600 7400 0001 0101 4a00 3000 0300 0200 4b00 1200 3900 1400 b400 ffff 
 JAP=同じマップ上にいるすべてのプレイヤーの{NL}フィールド魔法をふういんします.{EL}
-ENG=Every player on the continent{NL}cannot use field magic for a{NL}week.{EL}
+ENG=Every player on the continent{NL}cannot use magic for a{NL}week.{EL}
 
 OFFSET=321a7
 VALUE=a8bd(bda8)
@@ -731,112 +731,112 @@ VALUE=ac4b(4bac)
 OFFSETDATA=32c4b
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 0220 6601 7201 da01 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}{CY}無効化{CW}します{EL}
-ENG=Slightly reduces the damage{NL}inflicted by magic.{EL}
+ENG=Repels magic attacks.{EL}
 
 OFFSET=32c2d
 VALUE=ac77(77ac)
 OFFSETDATA=32c77
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 7a01 7b01 2900 0220 f800 f900 0001 0101 0b01 fe00 2600 bd00 a100 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}自分の{CY}攻撃魔法回数に+1{CW}します{EL}
-ENG={CG}Magic defense +1{CW}{NL}and reduces damage inflicted{NL}by magic.{EL}
+ENG=Repels magic attacks and{NL}gives {CG}+1{CW} magic use.{EL}
 
 OFFSET=32c2f
 VALUE=acb5(b5ac)
 OFFSETDATA=32cb5
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 7a01 7b01 2900 0220 f800 f900 0001 0101 0b01 fe00 2600 bd00 a300 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}自分の{CY}攻撃魔法回数に+3{CW}します{EL}
-ENG={CG}Magic defense +3{CW}{NL}and reduces damage inflicted{NL}by magic.{EL}
+ENG=Repels magic attacks and{NL}gives {CG}+3{CW} magic use.{EL}
 
 OFFSET=32c31
 VALUE=acf3(f3ac)
 OFFSETDATA=32cf3
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 7a01 7b01 2900 0220 f800 f900 0001 0101 0b01 fe00 2600 bd00 a500 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}自分の{CY}攻撃魔法回数に+5{CW}します{EL}
-ENG={CG}Magic defense +5{CW}{NL}and reduces damage inflicted{NL}by magic.{EL}
+ENG=Repels magic attacks and{NL}gives {CG}+5{CW} magic use.{EL}
 
 OFFSET=32c33
 VALUE=ad31(31ad)
 OFFSETDATA=32d31
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 7a01 7b01 2900 c200 c300 4a00 0220 a100 a000 a000 0b01 0c01 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}自分のHPを{CY}100回復{CW}します{EL}
-ENG=Heals {CG}100HP{CW}{NL}and reduces damage inflicted{NL}by magic.{EL}
+ENG=Repels magic attacks and{NL}heals {CG}100HP{CW}.{EL}
 
 OFFSET=32c35
 VALUE=ad6d(6dad)
 OFFSETDATA=32d6d
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 7a01 7b01 2900 c200 c300 4a00 0220 a200 a000 a000 0b01 0c01 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}自分のHPを{CY}200回復{CW}します{EL}
-ENG=Heals {CG}200HP{CW}{NL}and reduces damage inflicted{NL}by magic.{EL}
+ENG=Repels magic attacks and{NL}heals {CG}200HP{CW}.{EL}
 
 OFFSET=32c37
 VALUE=ada9(a9ad)
 OFFSETDATA=32da9
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 7a01 7b01 2900 c200 c300 4a00 0220 a100 a000 a000 0b01 0c01 0020 b300 0030 1000 4400 2600 0220 f800 f900 0001 0101 0b01 fe00 4a00 bd00 a300 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}自分のHPを{CY}100回復{CW},{NL}さらに{CY}攻撃魔法回数を+3{CW}します{EL}
-ENG=Heals {CG}100HP{CW}, {CG}Magic attack +3{CW}{NL}and reduces damage inflicted{NL}by magic.{EL}
+ENG=Repels magic attacks,{NL}heals {CG}100HP{CW}{NL}and gives {CG}+3{CW} magic use.{EL}
 
 OFFSET=32c39
 VALUE=ae05(05ae)
 OFFSETDATA=32e05
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 2a00 2800 7801 1200 0030 9401 4501 2900 0220 f800 f900 0001 0101 4a00 3000 0300 1300 3900 1400 0020 ffff 
 JAP=相手の攻撃魔法をはね返し{NL}相手の{CY}攻撃魔法をふうじます{CW}{EL}
-ENG=Reduces damage inflicted by{NL}magic and seals opponent's{NL}magic attack.{EL}
+ENG=Repels magic attacks and{NL}seals opponent's magic attack.{EL}
 
 OFFSET=32c3b
 VALUE=ae3f(3fae)
 OFFSETDATA=32e3f
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 2a00 2800 7801 1200 0030 9401 4501 2900 0220 f800 f900 0001 0101 b300 fa00 fb00 0001 0101 4a00 3000 0300 1300 3900 1400 0020 ffff 
 JAP=相手の攻撃魔法をはね返し{NL}相手の{CY}攻撃魔法,防御魔法をふうじます{CW}{EL}
-ENG=Reduces damage inflicted by{NL}magic and seals opponent's{NL}magic attack and defense.{EL}
+ENG=Repels magic attacks and{NL}seals opponent's magic attack{NL}and magic defense.{EL}
 
 OFFSET=32c3d
 VALUE=ae83(83ae)
 OFFSETDATA=32e83
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 2a00 2800 7801 1200 0030 9401 4501 4a00 0220 f600 0c00 2500 0a00 0020 1200 3900 1400 ffff 
 JAP=相手の攻撃魔法をはね返し{NL}相手を{CY}動けなく{CW}します{EL}
-ENG=Reduces damage and paralyzes{NL}the oppponent, preventing them{NL}from moving.{EL}
+ENG=Repels magic attacks and{NL}seals opponent's {CY}Counter{CW}{NL}and {CY}Escape{CW}.{EL}
 
 OFFSET=32c3f
 VALUE=aeb7(b7ae)
 OFFSETDATA=32eb7
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 2a00 2800 7801 1200 0030 6b00 8c00 b500 6300 4a00 0100 1a00 0400 3900 1400 ffff 
 JAP=相手の攻撃魔法をはね返し{NL}ダメージをあたえます{EL}
-ENG=Reduces damage and reflects{NL}half the damage back to the{NL}enemy. Cancels effects too.{EL}
+ENG=Repels magic attacks and{NL}reflects damage back to the{NL}enemy.{EL}
 
 OFFSET=32c41
 VALUE=aee7(e7ae)
 OFFSETDATA=32ee7
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 0220 0001 0a01 0020 4a00 db01 3c00 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}{CY}魔力{CW}を高めます{EL}
-ENG=Increases {CY}magic{CW} and reduces{NL}damage.{EL}
+ENG=Repels magic attacks and{NL}doubles {CY}Magic{CW} until end{NL}of fight.{EL}
 
 OFFSET=32c43
 VALUE=af15(15af)
 OFFSETDATA=32f15
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 1400 0200 6801 4500 0030 0220 fa00 fb00 0a01 0020 4a00 db01 3c00 3900 1400 ffff 
 JAP=相手の攻撃魔法をすい取り{NL}{CY}防御力{CW}を高めます{EL}
-ENG=Increases {CY}defense{CW} and reduces{NL}damage.{EL}
+ENG=Repels magic attacks and{NL}doubles {CY}Defense{CW} until end{NL}of fight.{EL}
 
 OFFSET=32c45
 VALUE=af45(45af)
 OFFSETDATA=32f45
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 2a00 2800 7801 1200 0030 9401 4501 2900 0220 f800 f900 4a00 3000 0300 1300 3900 1400 0020 ffff 
 JAP=相手の攻撃魔法をはね返し{NL}相手の{CY}攻撃をふうじます{CW}{EL}
-ENG=Reduces magic damage and seals{NL}opponent's attack.{EL}
+ENG=Repels magic attacks and{NL}seals opponent's {CY}Attack{CW}{NL}and {CY}Strike{CW}.{EL}
 
 OFFSET=32c47
 VALUE=af7b(7baf)
 OFFSETDATA=32f7b
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 0220 dc01 dd01 b300 2a00 2800 7801 1200 3900 1400 0020 ffff 
 JAP=相手の攻撃魔法を{CY}直接,はね返します{CW}{EL}
-ENG=Send the opponent's magic{NL}right back at them.{EL}
+ENG=Returns the opponent's magic{NL}right back at them.{EL}
 
 OFFSET=32c49
 VALUE=afa3(a3af)
 OFFSETDATA=32fa3
 DATA=9401 4501 2900 f800 f900 0001 0101 4a00 2a00 2800 7801 1200 0030 1400 1000 3900 1300 0200 6b00 8c00 b500 6300 4a00 0100 1a00 0400 3900 1400 ffff 
 JAP=相手の攻撃魔法をはね返し{NL}すさまじいダメージをあたえます{EL}
-ENG=Send the opponent's magic{NL}right back at them with{NL}increased damage.{EL}
+ENG=Repels magic attacks and{NL}reflects increased damage back{NL}to the enemy.{EL}
 
 OFFSET=32fdd
 VALUE=b11d(1db1)
@@ -899,7 +899,7 @@ VALUE=b2e3(e3b2)
 OFFSETDATA=332e3
 DATA=2500 4b00 2300 b300 0500 1701 2600 0e01 1e00 2100 0a00 4600 2300 1c00 4000 0300 2200 0030 0e00 4900 4700 2100 1200 3900 1e00 1a00 4300 0300 2200 1400 b400 1200 0600 1200 b300 4601 4701 2900 0200 4400 0200 2a00 0030 7301 1a00 1600 3900 1200 1a00 b400 3c00 2200 1a00 1200 b300 3c00 2200 1a00 1200 b400 ffff 
 JAP=なんと,お城に持ってくるとちゅうで{NL}こわれてしまったようです.しかし,王様のいらいは{NL}果たせました.めでたし,めでたし.{EL}
-ENG=It seems that when I brought{NL}it to the castle, it broke.{NL}However, the king's request{NL}was fulfilled. All is well{NL}that ends well.{EL}
+ENG=It must have broken on the way{NL}to the castle.{NL}{NL}However, the king's request{NL}was fulfilled. All is well{NL}that ends well.{EL}
 
 OFFSET=32fef
 VALUE=b35d(5db3)
@@ -934,14 +934,14 @@ VALUE=b4a3(a3b4)
 OFFSETDATA=334a3
 DATA=801c 4f00 1000 4b00 0500 bc01 c901 b900 0030 1000 2100 b300 1a00 1b00 5801 2900 eb00 ec00 2a00 b800 0030 1000 1e00 1800 0a00 5b00 9400 8000 4a00 bc01 2100 3a00 3900 1200 4200 0300 b400 ffff 
 JAP={801c 4f00}さんお見事!{NL}さて,ただ今の順位は?{NL}さっそくグラフを見てみましょう.{EL}
-ENG={801c 4f00} is admirable!{NL}What is your current ranking?{NL}Have a look at the graph.{EL}
+ENG=Congrats to {801c 4f00}!{NL}What is your current ranking?{NL}Have a look at the graph.{EL}
 
 OFFSET=32ff9
 VALUE=b4ef(efb4)
 OFFSETDATA=334ef
 DATA=2200 2a00 b300 5d00 b500 8b00 4a00 0602 0c00 3900 1400 0600 b800 ffff 
 JAP=では,ゲームを続けますか?{EL}
-ENG=Do you want to continue the{NL}game?{EL}
+ENG=Do you want to continue{NL}the game?{EL}
 
 OFFSET=32ffb
 VALUE=b50b(0bb5)
@@ -1018,14 +1018,14 @@ VALUE=b81d(1db8)
 OFFSETDATA=3381d
 DATA=5f00 9800 b500 b600 0e00 0200 1f00 4a00 0e00 4900 1600 2b00 0200 0200 4b00 1b00 2500 b400 0030 bf00 3900 0100 b300 3900 0600 1600 2100 0a00 4700 0030 bf00 ffff 
 JAP=ゴロー┌こいつをこわせばいいんだな.{NL} まあ,まかせてくれ{NL} {EL}
-ENG=Demolition Man:I just have to{NL}break it. Well, leave it to{NL}me.{EL}
+ENG=Demolition Man: I just have to{NL}break it.{NL}Well, leave it to me.{EL}
 
 OFFSET=33011
 VALUE=b85d(5db8)
 OFFSETDATA=3385d
 DATA=5f00 9800 b500 b600 1600 1e00 1600 1e00 1600 1e00 9f00 9f00 9f00 ffff 
 JAP=ゴロー┌せっせっせっ...{EL}
-ENG=Demolition Man: Wooosh...{EL}
+ENG=Demolition Man: *hard-working*{EL}
 
 OFFSET=33013
 VALUE=b879(79b8)
@@ -1095,14 +1095,14 @@ VALUE=ba99(99ba)
 OFFSETDATA=33a99
 DATA=0e00 2900 3300 4b00 2200 2d00 2300 1f00 b300 5600 5c00 2600 2200 4600 0600 9f00 9f00 9f00 ffff 
 JAP=このへんでひとつ,カケにでるか...{EL}
-ENG=Is this one out of the way...{EL}
+ENG=I'm going out on a limb...{EL}
 
 OFFSET=33027
 VALUE=babf(bfba)
 OFFSETDATA=33abf
 DATA=1600 0200 1200 4b00 4a00 1e01 2d01 1200 2100 9f00 9f00 9f00 ffff 
 JAP=せいしんを集中して...{EL}
-ENG=Focus your mind...{EL}
+ENG=Let's stay focused...{EL}
 
 OFFSET=33029
 VALUE=bad9(d9ba)
@@ -1130,7 +1130,7 @@ VALUE=bb1f(1fbb)
 OFFSETDATA=33b1f
 DATA=0100 1e00 1c00 2600 3d00 2e01 0800 1a00 0200 1200 9f00 9f00 9f00 0030 0100 1e00 b900 0e00 1e00 1c00 3d00 0200 0200 2500 9f00 9f00 9f00 ffff 
 JAP=あっちにも行きたいし...{NL}あっ!こっちもいいな...{EL}
-ENG=I want to go there...{NL}Ah! This is good too ...{EL}
+ENG=I want to go there...{NL}Ah! This is good too...{EL}
 
 OFFSET=33031
 VALUE=bb57(57bb)
@@ -1165,21 +1165,21 @@ VALUE=bc0f(0fbc)
 OFFSETDATA=33c0f
 DATA=0500 3801 2a00 2400 0e00 0600 2500 b800 ffff 
 JAP=お宝はどこかな?{EL}
-ENG=Where is the treasure?{EL}
+ENG=Where's the treasure?{EL}
 
 OFFSET=3303b
 VALUE=bc21(21bc)
 OFFSETDATA=33c21
 DATA=0400 b500 b900 b800 0100 1a00 1200 7e00 9500 2500 2900 b800 ffff 
 JAP=えー!?あたしビリなの?{EL}
-ENG=Eh !? Is it my turn?{EL}
+ENG=Eh!? Is it my turn?{EL}
 
 OFFSET=3303d
 VALUE=bc3b(3bbc)
 OFFSETDATA=33c3b
 DATA=4300 1200 b900 5d02 2900 2f02 0f01 2200 2e01 0a00 0600 b900 ffff 
 JAP=よし!例の作戦で行くか!{EL}
-ENG=Alright!{NL}Let's go with the usual{NL}strategy?{EL}
+ENG=Alright!{NL}Let's go with the plan.{EL}
 
 OFFSET=3303f
 VALUE=bc55(55bc)
@@ -1221,7 +1221,7 @@ VALUE=bd1d(1dbd)
 OFFSETDATA=33d1d
 DATA=2400 0e00 0700 9f00 9f00 9f00 2800 4400 0200 ea00 0600 9f00 9f00 9f00 ffff 
 JAP=どこが...ねらい目か...{EL}
-ENG=Let's see...{NL}Where is the objective?{EL}
+ENG=Let's see...{NL}Who's a good target?{EL}
 
 OFFSET=3304b
 VALUE=bd3b(3bbd)
@@ -1235,7 +1235,7 @@ VALUE=bd55(55bd)
 OFFSETDATA=33d55
 DATA=8014 5985 3c00 b900 bf00 2400 0e00 3300 2e01 1e00 1a00 9f00 9f00 9f00 ffff 
 JAP={8014 5985}め! どこへ行った...{EL}
-ENG={8014 5985}! Where did you go...{EL}
+ENG={8014 5985}! Where did you go?{EL}
 
 OFFSET=3304f
 VALUE=bd73(73bd)
@@ -1298,21 +1298,21 @@ VALUE=c05f(5fc0)
 OFFSETDATA=3405f
 DATA=0001 4601 b600 5b00 6e00 9f00 9f00 9f00 3f00 2a00 4500 2001 7e01 2200 2a00 9f00 9f00 9f00 0030 bf00 8014 5985 b900 0800 1000 3900 2900 fd00 2a00 b300 1802 4700 4b00 1900 9f00 9f00 9f00 0030 bf00 ffff 
 JAP=魔王┌グッ...やはり地上では...{NL} {8014 5985}!きさまの名は,忘れんぞ...{NL} {EL}
-ENG=Good... after all...{NL}{8014 5985}! I'll never forget{NL}your name ...{EL}
+ENG=Gosh...{NL}An earthling...{8014 5985}!{NL}I'll never forget your name.{EL}
 
 OFFSET=33061
 VALUE=c0af(afc0)
 OFFSETDATA=340af
 DATA=0001 4601 b600 5e00 9500 3d00 1600 1500 b300 3900 1a00 3f00 1e00 2100 0800 1a00 0600 9f00 9f00 9f00 0030 bf00 8000 6e00 8000 6e00 8000 6e00 b300 0001 c501 2200 2a00 e201 2900 0a01 2a00 b300 0030 bf00 8801 e401 2900 a100 a200 a800 8401 9f00 9f00 9f00 1800 4b00 2500 0e00 2300 2a00 2500 0200 0700 2500 9f00 9f00 9f00 0030 0001 4601 b600 1200 0600 1200 b300 7d01 b201 4300 4500 7c00 9900 b500 4d00 6e00 8200 1200 1a00 4900 0700 0a01 0030 bf00 2300 0a00 2300 bc01 1600 2100 0a00 4700 4300 0300 b900 0030 bf00 ffff 
 JAP=魔王┌コリもせず,またやってきたか...{NL} フッフッフッ,魔界では私の力は,{NL} 通常の128倍...そんなことはないがな...{NL}魔王┌しかし,以前よりパワーアップしたわが力{NL} とくと見せてくれよう!{NL} {EL}
-ENG=You come over again you{NL}trouble maker! Ha ha ha, in{NL}the demon world, my power is{NL}128 times more than usual.{NL}However, let me show you my{NL}strength that has been{NL}enhanced more than ever!{EL}
+ENG=You've come again without a{NL}hitch!{NL}*evil laugh*{NL}In the demon world, my power{NL}is 128 times higher.{NL}{NL}Let me show you just how much{NL}more powerful I've become!{EL}
 
 OFFSET=33063
 VALUE=c17b(7bc1)
 OFFSETDATA=3417b
 DATA=0001 4601 b600 5b00 6e00 9f00 9f00 9f00 a200 ae01 3900 2200 3d00 9f00 9f00 9f00 0030 bf00 1f01 3601 0f00 2300 0800 2600 9f00 9f00 9f00 6702 1000 4700 4600 2300 2a00 9f00 9f00 9f00 0030 bf00 0030 0001 4601 b600 0100 9f00 9f00 9f00 0100 0100 9f00 9f00 9f00 3900 1e00 2100 0a00 4700 9f00 9f00 9f00 0030 bf00 e201 2900 2201 1002 3d00 9f00 9f00 9f00 3d00 0300 0e00 4700 3900 2200 9f00 9f00 9f00 0030 bf00 0100 0100 9f00 9f00 9f00 3d00 0300 0a02 1200 6600 9500 8000 4a00 9f00 9f00 9f00 ffff 
 JAP=魔王┌グッ...2度までも...{NL} 人間ごときに...倒されるとは...{NL} {NL}魔王┌あ...ああ...まってくれ...{NL} 私の出番も...もうこれまで...{NL} ああ...もう少しせリフを...{EL}
-ENG=Good ... even twice ... by a{NL}human ... beaten ... Ah ... oh{NL}... wait ... my turn ... so{NL}far ... oh ... a little more{NL}riff ...{EL}
+ENG=Argh...Twice...{NL}A human being...{NL}Defeated by a mortal...{NL}Ah...Ah...Wait...{NL}I'm not done...Oh...{NL}I just need a few more turns.{EL}
 
 OFFSET=33065
 VALUE=c23d(3dc2)
@@ -1424,7 +1424,7 @@ VALUE=c5a3(a3c5)
 OFFSETDATA=345a3
 DATA=4601 4701 b600 801c 4f00 2a00 6802 6902 4a00 0030 bf00 2400 0e00 2600 1802 4700 2100 0800 1a00 1b00 2b00 b900 bf00 0600 4900 0200 1800 0300 1b00 0600 4400 0030 bf00 5801 b300 1c00 3900 1a00 2200 2a00 3f00 1e00 2100 0200 4600 6802 6902 4a00 3f00 4600 0600 4400 0030 4601 4701 b600 5801 ae01 2a00 1401 f201 2600 1400 4600 1b00 2b00 b900 0030 801c 4f00 2a00 4601 4701 0600 4400 b300 0320 821c c900 0020 0030 0320 821c cb00 0020 b300 0320 821c cd00 0020 4a00 3d00 4400 1e00 1a00 b900 ffff 
 JAP=王様┌{801c 4f00}は装備を{NL} どこに忘れてきただば! かわいそうだから{NL} 今,ちまたではやっている装備をやるから{NL}王様┌今度は大切にするだば!{NL}{801c 4f00}は王様から,{CG}{821c c900}{CW}{NL}{CG}{821c cb00}{CW},{CG}{821c cd00}{CW}をもらった!{EL}
-ENG=King: Where did I leave the{NL}equipment for {801c 4f00}? Let me{NL}find it now and please take{NL}care of it! {801c 4f00} receives{NL}{CG}{821c c900}{CW}, {CG}{821c cb00}{CW} and{NL}{CG}{821c cd00}{CW} from the king!{EL}
+ENG=King: Where did your gear go?{NL}Let me replace it and please{NL}take care of it this time.{NL}{801c 4f00} receives{NL}{CG}{821c c900}{CW}, {CG}{821c cb00}{CW} and{NL}{CG}{821c cd00}{CW} from the king!{EL}
 
 OFFSET=33085
 VALUE=c665(65c6)
@@ -1480,7 +1480,7 @@ VALUE=c8f7(f7c8)
 OFFSETDATA=348f7
 DATA=4601 4701 b600 3c01 1002 0500 e500 4a00 0600 1600 0200 1b00 3101 4a00 3d01 5102 1400 4600 b201 2600 0030 bf00 6202 b101 4a00 3d01 5102 1b00 2b00 b400 0030 bf00 ffff 
 JAP=王様┌一番お金をかせいだ者を発表する前に{NL} 各賞を発表だば.{NL} {EL}
-ENG=King: Let's announce each{NL}award before announcing who{NL}has made the most money.{EL}
+ENG=King: Let's present each{NL}award before announcing who{NL}has made the most money.{EL}
 
 OFFSET=33095
 VALUE=c939(39c9)
@@ -1746,14 +1746,14 @@ VALUE=e015(15e0)
 OFFSETDATA=36015
 DATA=801c 4f00 2a00 b300 9900 7500 4a00 bc01 f201 1e00 1a00 b900 ffff
 JAP={801c 4f00}は,ワナを見切った!{EL}
-ENG={801c 4f00} passed through the{NL}trap!{EL}
+ENG={801c 4f00} dodged the trap!{EL}
 
 OFFSET=330e1
 VALUE=e02f(2fe0)
 OFFSETDATA=3602f
 DATA=4601 4701 b600 0500 3f00 b900 bf00 0500 2700 1200 fd00 b201 4a00 6201 0400 4400 4700 1a00 1b00 2b00 0600 b900 0030 bf00 0220 8314 5985 0020 5f00 b500 9600 7400 2a00 4400 0400 2b00 0030 bf00 fd00 b201 4a00 6201 0400 4600 6c00 8e00 9b00 6400 4a00 3f00 4600 0700 b300 2400 0300 1b00 2b00 b800 ffff
 JAP=王様┌おや! おぬし名前を変えられただばか!{NL} {CY}{8314 5985}{CW}ゴールドはらえば{NL} 名前を変えるチャンスをやるが,どうだば?{EL}
-ENG=King: If you spend 200 gold,{NL}you can change your name. Do{NL}you pay?{EL}
+ENG=King: For {CY}{8314 5985}{CW} gold,{NL}you can change your name.{NL}Do you pay?{EL}
 
 OFFSET=330e3
 VALUE=e0a5(a5e0)
@@ -1900,7 +1900,7 @@ VALUE=e781(81e7)
 OFFSETDATA=36781
 DATA=4601 4701 b600 2500 4b00 2300 b300 9214 5d85 2a00 0030 bf00 7101 3902 1000 4700 1a00 fc00 0700 a100 1f00 3d00 2500 0200 1b00 2b00 0030 bf00 5800 8a00 1a00 1c00 2a00 2501 4a00 3f00 1e00 2100 0200 4600 1b00 2b00 b900 0030 4601 4701 b600 0e00 4700 2200 2a00 b300 0220 6214 5985 1701 0020 2900 ee00 ef00 2a00 0120 a000 0020 1b00 2b00 0030 bf00 0e00 4700 0600 4400 2a00 b300 1601 1701 4a00 4501 2600 f100 4700 4600 b201 2600 0030 bf00 1800 2900 1401 1501 2900 fc00 4a00 b300 2200 0800 4600 1b00 0c00 7101 3902 1200 2100 0500 0a00 1b00 2b00 b400 ffff
 JAP=王様┌なんと,{9214 5d85}は{NL} 解放された村が1つもないだば{NL} キミたちは何をやっているだば!{NL}王様┌これでは,{CY}{6214 5985}城{CW}の価値は{CR}0{CW}だば{NL} これからは,小城を手に入れる前に{NL} その大陸の村を,できるだけ解放しておくだば.{EL}
-ENG=King:What, {9214 5d85} has no{NL}freed towns! What are you guys{NL}doing? With this, the castle{NL}{CY}{6214 5985}{CW} is worth {CR}0{CW}. From now{NL}on, before you get the castle,{NL}free as many towns on that{NL}continent as possible.{EL}
+ENG=King: Not a single town in{NL}{9214 5d85} is free!{NL}What are you guys doing?{NL}Because of that,{NL}the castle {CY}{6214 5985}{CW} is{NL}worth {CR}0{CW}.{NL}You should free as many towns{NL}as possible before I hand you{NL}the castle, from now on.{EL}
 
 OFFSET=3310d
 VALUE=e85b(5be8)
@@ -2047,7 +2047,7 @@ VALUE=ec77(77ec)
 OFFSETDATA=36c77
 DATA=8014 5985 2a00 5600 5100 9b00 6a00 b500 4a00 5f01 6001 1200 1a00 b900 ffff
 JAP={8014 5985}はカウンターを失敗した!{EL}
-ENG={8014 5985} failed to counter!{EL}
+ENG={8014 5985} tried to counter!{EL}
 
 OFFSET=36a63
 VALUE=ec95(95ec)
@@ -2089,42 +2089,42 @@ VALUE=ed27(27ed)
 OFFSETDATA=36d27
 DATA=8014 5985 2a00 0001 0101 4a00 a801 f000 1200 1a00 b900 ffff
 JAP={8014 5985}は魔法を吸収した!{EL}
-ENG={8014 5985} has absorbed magic!{EL}
+ENG={8014 5985} repels the attack!{EL}
 
 OFFSET=36a6f
 VALUE=ed3f(3fed)
 OFFSETDATA=36d3f
 DATA=8014 5985 2a00 0001 0101 0700 0220 a100 0020 8800 4f00 9b00 7300 0b01 0c01 1200 1a00 b900 ffff
 JAP={8014 5985}は魔法が{CY}1{CW}ポイント回復した!{EL}
-ENG={8014 5985} has recovered {CY}1{CW}{NL}point of magic!{EL}
+ENG={8014 5985} regains {CY}1{CW} magic use!{EL}
 
 OFFSET=36a71
 VALUE=ed65(65ed)
 OFFSETDATA=36d65
 DATA=8014 5985 2a00 0001 0101 0700 0220 a300 0020 8800 4f00 9b00 7300 0b01 0c01 1200 1a00 b900 ffff
 JAP={8014 5985}は魔法が{CY}3{CW}ポイント回復した!{EL}
-ENG={8014 5985} has recovered {CY}3{CW}{NL}points of magic!{EL}
+ENG={8014 5985} regains {CY}3{CW} magic uses!{EL}
 
 OFFSET=36a73
 VALUE=ed8b(8bed)
 OFFSETDATA=36d8b
 DATA=8014 5985 2a00 0001 0101 0700 0220 a500 0020 8800 4f00 9b00 7300 0b01 0c01 1200 1a00 b900 ffff
 JAP={8014 5985}は魔法が{CY}5{CW}ポイント回復した!{EL}
-ENG={8014 5985} has recovered {CY}5{CW}{NL}points of magic!{EL}
+ENG={8014 5985} regains {CY}5{CW} magic uses!{EL}
 
 OFFSET=36a75
 VALUE=edb1(b1ed)
 OFFSETDATA=36db1
 DATA=8014 5985 2a00 c200 c300 0700 0220 a100 a000 a000 0020 8800 4f00 9b00 7300 0b01 0c01 1200 1a00 b900 ffff
 JAP={8014 5985}はHPが{CY}100{CW}ポイント回復した!{EL}
-ENG={8014 5985} has recovered {CY}100{CW} HP!{EL}
+ENG={8014 5985} recovers {CY}100{CW} HP!{EL}
 
 OFFSET=36a77
 VALUE=eddb(dbed)
 OFFSETDATA=36ddb
 DATA=8014 5985 2a00 c200 c300 0700 0220 a200 a000 a000 0020 8800 4f00 9b00 7300 0b01 0c01 1200 1a00 b900 ffff
 JAP={8014 5985}はHPが{CY}200{CW}ポイント回復した!{EL}
-ENG={8014 5985} has recovered {CY}200{CW} HP!{EL}
+ENG={8014 5985} recovers {CY}200{CW} HP!{EL}
 
 OFFSET=36a79
 VALUE=ee05(05ee)
@@ -2159,7 +2159,7 @@ VALUE=ee9d(9dee)
 OFFSETDATA=36e9d
 DATA=0e00 4700 2200 4300 4800 1200 0200 2200 1400 0600 b800 ffff
 JAP=これでよろしいですか?{EL}
-ENG=Are you sure you want this?{EL}
+ENG=Is it correct?{EL}
 
 OFFSET=36a85
 VALUE=eeb5(b5ee)
@@ -2215,14 +2215,14 @@ VALUE=ef6d(6def)
 OFFSETDATA=36f6d
 DATA=8014 5985 2a00 b300 3a00 0300 0f00 0800 0700 2300 4700 2500 0a00 2500 1e00 1a00 b900 ffff
 JAP={8014 5985}は,みうごきがとれなくなった!{EL}
-ENG={8014 5985} got stuck!{EL}
+ENG={8014 5985} gets constricted!{EL}
 
 OFFSET=36a95
 VALUE=ef91(91ef)
 OFFSETDATA=36f91
 DATA=8014 5985 2a00 a901 3501 2600 3d00 2400 1e00 1a00 b900 ffff
 JAP={8014 5985}は正気にもどった!{EL}
-ENG={8014 5985} has returned to{NL}sanity!{EL}
+ENG={8014 5985} comes back to{NL}their senses!{EL}
 
 OFFSET=36a97
 VALUE=efa9(a9ef)
@@ -2243,7 +2243,7 @@ VALUE=efe7(e7ef)
 OFFSETDATA=36fe7
 DATA=8014 5985 2a00 b300 0001 0101 2900 3000 0300 0200 4b00 0700 2300 0c00 1a00 b900 b900 ffff
 JAP={8014 5985}は,魔法のふういんがとけた!!{EL}
-ENG={801c 4f00} can use magic!{EL}
+ENG={8014 5985} can use magic!{EL}
 
 OFFSET=36a9d
 VALUE=f00b(0bf0)
@@ -2376,7 +2376,7 @@ VALUE=f27d(7df2)
 OFFSETDATA=3727d
 DATA=8014 5985 2a00 b300 2a00 0d00 1200 0a00 0100 2b00 4700 3900 4900 1e00 1a00 b900 ffff
 JAP={8014 5985}は,はげしくあばれまわった!{EL}
-ENG={8014 5985} is enraged!{EL}
+ENG={8014 5985} goes berserk!{EL}
 
 OFFSET=36ac3
 VALUE=f29f(9ff2)
@@ -2439,7 +2439,7 @@ VALUE=f451(51f4)
 OFFSETDATA=37451
 DATA=1401 2001 0700 4100 4700 af01 3c00 1a00 9f00 9f00 9f00 b900 ffff
 JAP=大地がゆれ始めた...!{EL}
-ENG=The earth began to shake ...!{EL}
+ENG=The ground begins to shake...{EL}
 
 OFFSET=36ad5
 VALUE=f46b(6bf4)
@@ -2453,7 +2453,7 @@ VALUE=f485(85f4)
 OFFSETDATA=37485
 DATA=8014 5985 2900 0120 8214 6985 0020 0700 0a00 1500 4700 1000 1e00 1a00 b900 ffff
 JAP={8014 5985}の{CR}{8214 6985}{CW}がくずれさった!{EL}
-ENG={8014 5985}'s {CR}{8214 6985}{CW} collapses!{EL}
+ENG={8014 5985}'s {CR}{8214 6985}{CW} turns{NL}to dust!{EL}
 
 OFFSET=36ad9
 VALUE=f4a5(a5f4)
@@ -2488,7 +2488,7 @@ VALUE=f523(23f5)
 OFFSETDATA=37523
 DATA=8900 6400 b001 2600 0200 4600 b300 1400 3400 2100 2900 8200 9700 4f00 8f00 b500 2900 c200 9f00 c300 0700 0030 0220 a100 5c00 6a00 0020 2600 2500 1e00 1a00 b900 ffff
 JAP=マス内にいる,すべてのプレイヤーのH.Pが{NL}{CY}1ケタ{CW}になった!{EL}
-ENG=The HP of all players in the{NL}square have become a single{NL}digit!{EL}
+ENG=The HP of all enemies on this{NL}space are reduced to one{NL}digit!{EL}
 
 OFFSET=36ae3
 VALUE=f565(65f5)
@@ -2516,7 +2516,7 @@ VALUE=f5eb(ebf5)
 OFFSETDATA=375eb
 DATA=7b00 9400 9b00 6400 4a00 0a00 1500 1200 2100 2501 3d00 2200 0800 2500 0200 b900 ffff
 JAP=バランスをくずして何もできない!{EL}
-ENG=You can't break the balance!{EL}
+ENG=You lose your balance!{EL}
 
 OFFSET=36aed
 VALUE=f60d(0df6)
@@ -2530,14 +2530,14 @@ VALUE=f62d(2df6)
 OFFSETDATA=3762d
 DATA=8014 5985 2900 0001 0101 f800 f900 0b01 fe00 0700 0120 a100 0020 3300 1e00 1a00 b900 ffff
 JAP={8014 5985}の魔法攻撃回数が{CR}1{CW}へった!{EL}
-ENG={8014 5985}'s magic attack count{NL}is reduced to 1!{EL}
+ENG={8014 5985}'s magic use{NL}is reduced by {CR}1{CW}!{EL}
 
 OFFSET=36af1
 VALUE=f651(51f6)
 OFFSETDATA=37651
 DATA=2500 2600 3d00 0500 0e00 4400 2500 0600 1e00 1a00 9f00 9f00 9f00 ffff
 JAP=なにもおこらなかった...{EL}
-ENG=Nothing happened...{EL}
+ENG=Nothing happened.{EL}
 
 OFFSET=36af3
 VALUE=f66d(6df6)
@@ -2551,21 +2551,21 @@ VALUE=f68d(8df6)
 OFFSETDATA=3768d
 DATA=8014 5985 2a00 3a00 4500 4200 0300 1000 4700 1a00 b900 ffff
 JAP={8014 5985}はみりょうされた!{EL}
-ENG={8014 5985} resists the charm!{EL}
+ENG={8014 5985} has been charmed!{EL}
 
 OFFSET=36af7
 VALUE=f6a5(a5f6)
 OFFSETDATA=376a5
 DATA=8014 5985 2a00 0030 b101 e500 0320 8316 6985 0020 5f00 b500 9600 7400 4a00 3d00 4400 1e00 1a00 b900 ffff
 JAP={8014 5985}は{NL}賞金{CG}{8316 6985}{CW}ゴールドをもらった!{EL}
-ENG={8014 5985} got a prize of {CG}{8316 6985}{CW}{NL}gold!{EL}
+ENG={8014 5985} claims the bounty{NL}of {CG}{8316 6985}{CW} gold!{EL}
 
 OFFSET=36af9
 VALUE=f6cf(cff6)
 OFFSETDATA=376cf
 DATA=8014 5985 2900 fd00 b201 4a00 0600 0400 3900 1400 0600 b800 ffff
 JAP={8014 5985}の名前をかえますか?{EL}
-ENG=Change the name of {8014 5985}?{EL}
+ENG=Change the name of{NL}{8014 5985}?{EL}
 
 OFFSET=36afb
 VALUE=f6e9(e9f6)
@@ -2593,7 +2593,7 @@ VALUE=f7b3(b3f7)
 OFFSETDATA=377b3
 DATA=8014 5985 b600 0100 3900 0200 2500 b900 3401 3101 1000 4b00 9f00 9f00 9f00 0030 bf00 0030 bf00 0030 8014 5985 2a00 b300 0200 1c00 3d00 0a00 1000 4b00 2600 2600 0d00 1b00 1200 1a00 b900 ffff
 JAP={8014 5985}┌あまいな!勇者さん...{NL} {NL} {NL}{8014 5985}は,いちもくさんににげだした!{EL}
-ENG={8014 5985}: Sweet! Brave hero...{NL} {NL} {NL}{8014 5985} escapes quickly!{EL}
+ENG={8014 5985}: You're kind,{NL}brave hero!{NL} {NL}{8014 5985} escapes quickly!{EL}
 
 OFFSET=36b03
 VALUE=f7ff(fff7)
@@ -2642,7 +2642,7 @@ VALUE=f8d3(d3f8)
 OFFSETDATA=378d3
 DATA=8014 5985 2a00 7a01 7b01 4a00 f800 f900 1200 2100 1200 3900 1e00 1a00 b900 ffff
 JAP={8014 5985}は自分を攻撃してしまった!{EL}
-ENG={8014 5985} has attacked himself!{EL}
+ENG={8014 5985} hit themselves!{EL}
 
 OFFSET=36b13
 VALUE=f8f3(f3f8)
@@ -2670,7 +2670,7 @@ VALUE=f989(89f9)
 OFFSETDATA=37989
 DATA=0a01 0700 3a00 2500 0900 1e00 2100 0800 1a00 b900 b900 b900 ffff
 JAP=力がみなぎってきた!!!{EL}
-ENG=I'm at full strength!!!{EL}
+ENG=Critical Hit!!!{EL}
 
 OFFSET=36b1b
 VALUE=f9a3(a3f9)
@@ -2705,7 +2705,7 @@ VALUE=fa31(31fa)
 OFFSETDATA=37a31
 DATA=8014 5985 2a00 9300 9800 4f00 0700 a001 0a00 2100 f600 0c00 2500 0200 b900 ffff
 JAP={8014 5985}はヨロイが重くて動けない!{EL}
-ENG={8014 5985} cannot move because{NL}the armor is heavy!{EL}
+ENG={8014 5985} cannot dodge because{NL}their armor is so heavy!{EL}
 
 OFFSET=36b25
 VALUE=fa51(51fa)
@@ -2733,7 +2733,7 @@ VALUE=fac5(c5fa)
 OFFSETDATA=37ac5
 DATA=0800 0e00 0300 0c00 4b00 0600 4400 b300 0a01 0700 2500 0700 4700 0e00 4b00 2200 0a00 4600 b900 0030 8014 5985 2a00 0220 1a00 3c00 4600 0020 0e00 2300 1200 0600 2200 0800 2500 0200 b900 ffff
 JAP=きこうけんから,力がながれこんでくる!{NL}{8014 5985}は{CY}ためる{CW}ことしかできない!{EL}
-ENG=Power comes from your{NL}contribution!{NL}{8014 5985} cannot save up!{EL}
+ENG=Power flows from the{NL}Qigong Fist!{NL}{8014 5985} has to focus!{EL}
 
 OFFSET=36b2d
 VALUE=fb11(11fb)
@@ -2796,7 +2796,7 @@ VALUE=fc8f(8ffc)
 OFFSETDATA=37c8f
 DATA=8014 5985 2a00 3000 4600 0400 0100 0700 1e00 1a00 b900 0030 0220 0e00 0300 1000 4b00 0020 1200 0600 2200 0800 2500 0200 b900 ffff
 JAP={8014 5985}はふるえあがった!{NL}{CY}こうさん{CW}しかできない!{EL}
-ENG={8014 5985} is shaken up!{NL}They can only {CY}Escape{CW}{EL}
+ENG={8014 5985} starts trembling!{NL}They can only {CY}escape{CW}{EL}
 
 OFFSET=36b3f
 VALUE=fcc3(c3fc)
@@ -2887,7 +2887,7 @@ VALUE=fee7(e7fe)
 OFFSETDATA=37ee7
 DATA=8014 5985 2a00 5600 b500 7400 4a00 bc01 f201 1e00 1a00 b900 ffff
 JAP={8014 5985}プリリはカードを見切った!{EL}
-ENG={8014 5985} looks at the card!{EL}
+ENG={8014 5985} looks at the cards!{EL}
 
 OFFSET=36b59
 VALUE=ff01(01ff)
@@ -2915,7 +2915,7 @@ VALUE=ff61(61ff)
 OFFSETDATA=37f61
 DATA=8014 5985 2a00 1200 3c00 1f00 0c00 4400 4700 1a00 b900 b900 ffff
 JAP={8014 5985}プリリはしめつけられた!!{EL}
-ENG={8014 5985} is tightened!{EL}
+ENG={8014 5985} is constricted!{EL}
 
 OFFSET=36b61
 VALUE=ff7b(7bff)

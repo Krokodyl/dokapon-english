@@ -2,7 +2,7 @@ package dokapon.enums;
 
 import static dokapon.enums.FontColor.*;
 
-public class PaletteIntro extends Palette {
+public class PaletteIntro extends OldPalette {
 
     public FontColor getFontColor(int i) {
         if (i==-16777216) return BLACK;

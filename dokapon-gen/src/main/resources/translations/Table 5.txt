@@ -101,7 +101,7 @@ VALUE=b6da(dab6)
 OFFSETDATA=1536da
 DATA=7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 0700 6b02 3a00 4a00 2a00 1a00 4400 0200 1a00 b900 ffff 
 JAP=ビッグモンスターが盗みをはたらいた! {EL} 
-ENG=Big monsters stole!{EL}
+ENG=The big monster stole!{EL}
 
 OFFSET=1531c6
 VALUE=b700(00b7)
@@ -178,21 +178,21 @@ VALUE=b8b6(b6b8)
 OFFSETDATA=1538b6
 DATA=0001 4601 b600 1b00 0200 3100 2100 0e00 1500 1e00 2100 0200 4600 4701 1b00 2500 b400 0030 bf00 0500 b201 2900 5801 0e01 1e00 2100 0200 4600 0220 e500 b300 4d00 4f00 7100 8b00 0030 bf00 0220 0001 0101 b300 fc00 b300 0020 ed00 2100 e201 2600 4300 0e00 1600 2b00 0030 0001 4601 b600 0500 b201 2600 0200 1b00 0200 2500 4600 0220 4401 2900 0a01 0020 0030 bf00 4a00 1000 1500 0c00 4300 0300 b400 0500 b201 2a00 0200 1b00 0200 2500 4600 0030 bf00 0220 4401 2900 0a01 0020 4a00 e301 1e00 2100 0200 4600 0600 b800 ffff 
 JAP=魔王┌だいぶてこずっている様だな. {NL}  お前の今持っている {CY} 金,アイテム {NL}   {CY} 魔法,村, {CW} 全て私によこせば {NL} 魔王┌お前にいだいなる {CY} 悪の力 {CW}  {NL}  をさずけよう.お前はいだいなる {NL}   {CY} 悪の力 {CW} を知っているか? {EL} 
-ENG=Devil: It looks like you're in{NL}trouble. If you give all the{NL}{CY}money, items, magic, towns{CW} you{NL}have now, I will give you {NL}the {CY}Evil Power{CW}. Do you know{NL}the {CY}Evil Power{CW}?{EL}
+ENG=Devil: It looks like you're in{NL}trouble. If you give all the{NL}{CY}money, items, magic, towns{CW} you{NL}have now, I will give you {NL}the {CY}Evil Power{CW}.{NL}Do you know about it?{EL}
 
 OFFSET=1531dc
 VALUE=b982(82b9)
 OFFSETDATA=153982
 DATA=0001 4601 b600 0200 1b00 0200 2500 4600 0220 4401 2900 0a01 0020 2300 2a00 0030 bf00 ed00 2100 2900 7c00 9400 8c00 b500 6a00 2a00 0220 a300 8401 0020 b900 0030 bf00 f500 f600 2a00 e401 2600 0220 7b00 7b00 7b00 4f00 9b00 0020 e501 e601 b900 0030 0001 4601 b600 8d00 9b00 6400 6a00 b500 2900 fc00 2200 0901 0a01 0b01 0c01 0030 bf00 8d00 9b00 6400 6a00 b500 2900 0200 2500 0200 fc00 2200 2a00 0030 bf00 6b01 1a00 2500 4600 8d00 9b00 6400 6a00 b500 4a00 9701 3100 0e00 2300 0700 2200 0800 4600 b900 0030 0001 4601 b600 1a00 1b00 1200 b300 f400 2600 f100 4600 0e00 2300 2a00 2200 0800 2500 0200 b900 0030 bf00 3801 3901 2600 2300 3900 1e00 2100 3d00 0220 4d00 4f00 7100 8b00 0020 2500 2400 4a00 0030 bf00 4501 2600 f100 4700 4600 0e00 2300 2a00 2200 0800 2500 0200 b900 ffff 
 JAP=魔王┌いだいなる {CY} 悪の力 {CW} とは {NL}  全てのパラメータは {CY} 3倍 {CW} ! {NL}  移動は常に {CY} バババイン {CW} 状態! {NL} 魔王┌モンスターの村で体力回復 {NL}  モンスターのいない村では {NL}  新たなるモンスターを呼ぶことができる! {NL} 魔王┌ただし,店に入ることはできない! {NL}  宝箱にとまっても {CY} アイテム {CW} などを {NL}  手に入れることはできない! {EL} 
-ENG=Devil: What is the {NL}{CY}Evil Power{CW}?{NL}All stats {CY}tripled{CW}!{NL}Move is always {CY}X Spins{CW}!{NL}All monsters health restored!{NL}You can call a new monster in{NL}a town without monsters!{NL}However, you cannot enter the{NL}store and you cannot open{NL}{CY}item{CW} treasure chests!{EL}
+ENG=Devil: What is the {NL}{CY}Evil Power{CW}?{NL}All stats {CY}tripled{CW}!{NL}Move is always {CY}*Spinner{CW}!{NL}All monsters health restored!{NL}You can call a new monster in{NL}a town without monsters!{NL}However, you cannot enter the{NL}store and you cannot open{NL}{CY}item{CW} treasure chests!{EL}
 
 OFFSET=1531de
 VALUE=bab6(b6ba)
 OFFSETDATA=153ab6
 DATA=0001 4601 b600 e201 2600 6a00 8900 6200 4f00 4a00 0300 4600 0600 b800 ffff 
 JAP=魔王┌私にタマシイをうるか? {EL} 
-ENG=Devil: Will you give me your{NL}soul?{EL}
+ENG=Devil: Will you give me{NL}your soul?{EL}
 
 OFFSET=1531e0
 VALUE=bad4(d4ba)
@@ -269,7 +269,7 @@ VALUE=bc96(96bc)
 OFFSETDATA=153c96
 DATA=4f00 8400 9b00 7300 2900 9700 8400 9600 2a00 b300 1116 5985 2200 1400 b400 0030 4f00 8400 9b00 7300 4a00 2401 0e00 1200 3900 1400 0600 b800 ffff 
 JAP=イベントのレベルは,§{NAM}です. {NL} イベントを起こしますか? {EL} 
-ENG=The event level is {1116 5985}.{NL}Increase the level?{EL}
+ENG=The event level is {1116 5985}.{NL}Do you trigger an event?{EL}
 
 OFFSET=1531f6
 VALUE=bcd0(d0bc)
@@ -403,6 +403,7 @@ OFFSETDATA=154224
 DATA=4601 4701 b600 3401 3101 1200 4200 0a00 4b00 b300 5800 8a00 1a00 1c00 2900 f801 0800 2200 0030 bf00 0500 1701 2900 f901 4500 2900 8d00 9b00 6400 6a00 b500 3d00 0600 2500 4500 fa01 1e00 2100 0800 1a00 1b00 2b00 0030 bf00 0e00 0e00 4400 2200 0500 1701 4a00 fb01 fc01 1200 4300 0300 2300 9901 0300 4b00 1b00 2b00 9f00 9f00 9f00 ffff 
 JAP=王様┌勇者しょくん,キミたちの働きで {NL}  お城の周りのモンスターもかなり減ってきただば {NL}  ここらでお城を再建しようと思うんだば... {EL} 
 ENG=King: The monsters around the{NL}castle have decreased{NL}considerably due to the work{NL}of the brave heroes. I'm{NL}thinking of rebuilding the{NL}castle here.{EL}
+King: Thanks to your efforts,{NL}the number of monsters around{NL}the castle has dwindled a lot.{NL}It's a good time to rebuild{NL}the castle.{EL}
 
 OFFSET=15321c
 VALUE=c2a8(a8c2)
@@ -437,7 +438,7 @@ VALUE=c65a(5ac6)
 OFFSETDATA=15465a
 DATA=4601 4701 b600 0e00 4700 0600 4400 3d00 b300 3501 4a00 1f00 0c00 2100 0502 4a00 0602 0c00 4600 1b00 2b00 b400 ffff 
 JAP=王様┌これからも,気をつけて旅を続けるだば. {EL} 
-ENG=King: Take care!{EL}
+ENG=King: Keep up the good work!{EL}
 
 OFFSET=153226
 VALUE=c688(88c6)
@@ -619,7 +620,7 @@ VALUE=d4e0(e0d4)
 OFFSETDATA=1554e0
 DATA=4601 4701 b600 0220 8214 6403 0020 4a00 a500 9d01 2b00 0600 4500 0e01 1e00 2100 0800 2100 0030 bf00 3600 1200 0200 1b00 2b00 b400 0030 bf00 3d00 1c00 4800 4b00 b300 0f00 3600 0300 2e00 2a00 0100 0d00 4600 0600 4400 9f00 9f00 9f00 a401 0200 3101 f601 1c00 1b00 2b00 b400 ffff 
 JAP=王様┌ {CY}{8214 6403}{CW} を5個ばかり持ってきて {NL}  ほしいだば. {NL}  もちろん,ごほうびはあげるから...早い者勝ちだば. {EL}
-ENG=King: Please bring 5 {CY}{8214 6403}{CW}.{NL}Of course, I'll give you a{NL}reward... first come,{NL}first served.{EL}
+ENG=King: Please bring 5 {CY}{8214 6403}{CW}{NL}for a nice reward...{NL}First come, first served.{EL}
 
 OFFSET=15325a
 VALUE=d54e(4ed5)
@@ -682,21 +683,21 @@ VALUE=d7aa(aad7)
 OFFSETDATA=1557aa
 DATA=4601 4701 b600 0200 1f00 3900 2200 0b00 1500 0b00 1500 1200 2100 0500 4600 2900 1b00 2b00 b900 0030 bf00 6802 6902 2900 0e00 2300 2500 4400 5401 2a01 0200 4400 2700 0600 4400 0030 bf00 1000 1e00 1000 2300 6300 8e00 9b00 8200 1200 2100 0a00 4600 1b00 2b00 b900 ffff 
 JAP=王様┌いつまでぐずぐずしておるのだば! {NL}  装備のことなら心配いらぬから {NL}  さっさとジャンプしてくるだば! {EL} 
-ENG=King: How long I've been{NL}waiting! You don't have to{NL}worry about the equipment, you{NL}can jump right in!{EL}
+ENG=King: What's taking you{NL}so long?{NL}Don't worry about your gear!{NL}I'll give you a hand!{EL}
 
 OFFSET=15326c
 VALUE=d814(14d8)
 OFFSETDATA=155814
 DATA=4601 4701 b600 2400 0300 3f00 4400 ed00 6501 1800 4800 1e00 1a00 4300 0300 1b00 2b00 0030 bf00 0e00 4700 0600 4400 0700 1502 1602 2900 3700 0300 0c00 4b00 2900 af01 3900 4500 1b00 2b00 b400 0030 bf00 5702 4a00 5a00 9500 4d00 b500 1400 4600 1a00 3c00 2600 2a00 b300 0030 4601 4701 b600 3900 1500 b300 7e00 6e00 5b00 8d00 9b00 6400 6a00 b500 4a00 fe00 0901 6702 1200 0030 bf00 1800 2900 1e02 2600 2401 0e00 4600 5702 4f00 8400 9b00 7300 4a00 5a00 9500 4d00 b500 1400 4700 2b00 0200 0200 1b00 2b00 0030 bf00 0a00 4700 0b00 4700 3d00 1702 3601 4900 4700 2500 2400 1200 1c00 3e00 0200 0c00 2500 0200 1b00 2b00 b400 ffff 
 JAP=王様┌どうやら全員そろったようだば {NL}  これからが本当のぼうけんの始まりだば. {NL}  章をクリアーするためには, {NL} 王様┌まず,ビッグモンスターを数体倒し {NL}  その後に起こる章イベントをクリアーすればいいだば {NL}  くれぐれも仲間われなどしちゃいけないだば. {EL} 
-ENG=King: Apparently everyone{NL}seems to have arrived. It's{NL}the beginning of the real{NL}adventure. In order to clear{NL}the chapter, first you must{NL}defeat several big monsters{NL}and complete the chapter event{NL}that occurs after that.{EL}
+ENG=King: It looks like we're all{NL}here.{NL}Now the real adventure begins.{NL}In order to clear the chapter,{NL}you must defeat several{NL}big monsters{NL}and complete the chapter quest{NL}that occurs after that.{EL}
 
 OFFSET=15326e
 VALUE=d90a(0ad9)
 OFFSETDATA=15590a
 DATA=4601 4701 b600 4300 0a00 3f00 1e00 2100 0a00 4700 1a00 2800 801c 4f00 b900 0030 bf00 0e00 4700 2200 3f00 1e00 2300 4214 5985 fc00 3d00 0e02 0f02 2600 2500 4600 1b00 2b00 b400 0030 bf00 ffff
 JAP=王様┌よくやってくれたね{801c 4f00}!{NL}これでやっと{4214}{5985}村も平和になるだば.{NL}{EL}
-ENG=King: You did well, {801c 4f00}!{NL}This will finally bring peace{NL}to {4214}{5985}{EL}
+ENG=King: Well done, {801c 4f00}!{NL}This finally brings peace{NL}to {4214}{5985}.{EL}
 
 OFFSET=153270
 VALUE=d956(56d9)
@@ -710,7 +711,7 @@ VALUE=d9a6(a6d9)
 OFFSETDATA=1559a6
 DATA=4601 4701 b600 2500 4b00 2300 b300 3a00 2500 2900 3d00 2900 0700 0500 4801 0200 2600 0030 bf00 0500 e500 4a00 0a00 4700 4600 1800 0300 1b00 2b00 b400 ffff
 JAP=王様┌なんと,みなのものがお祝いに{NL}お金をくれるそうだば.{EL}
-ENG=King: If everyone seems to{NL}give money for the{NL}celebration.{EL}
+ENG=King: For the celebration,{NL}everyone gives you money{NL}as a present.{EL}
 
 OFFSET=153274
 VALUE=d9e4(e4d9)
@@ -731,21 +732,21 @@ VALUE=dab0(b0da)
 OFFSETDATA=155ab0
 DATA=4601 4701 b600 0220 4214 5985 fc00 0020 4a00 0201 0301 1400 4600 3101 0700 0200 2500 0a00 2100 0030 bf00 0e00 3900 1e00 2100 0500 1e00 1a00 2300 0e00 4800 1b00 2b00 b400 0030 bf00 5800 8a00 2600 0220 4214 5985 fc00 0020 2900 0201 0301 4a00 3900 0600 1400 2300 1400 4600 1b00 2b00 b400 ffff
 JAP=王様┌{CY}{4214}{5985}村{CW}を統治する者がいなくて{NL}こまっておったところだば.{NL}キミに{CY}{4214}{5985}村{CW}の統治をまかすとするだば.{EL}
-ENG=King: If there's no one who{NL}governs {CY}{4214}{5985}{CW},{NL}I'll leave you in charge of{NL}{CY}{4214}{5985}{CW}.{EL}
+ENG=King: Since nobody rules {CY}{4214}{5985}{CW},{NL}I'll leave you in charge.{NL}{EL}
 
 OFFSET=15327a
 VALUE=db24(24db)
 OFFSETDATA=155b24
 DATA=4601 4701 b600 2500 4b00 2300 b300 8014 5985 0700 0500 4801 0200 2600 0030 bf00 0320 8214 6985 0020 4a00 0a00 4700 4600 1800 0300 1b00 2b00 b400 ffff
 JAP=王様┌なんと,{8014}{5985}がお祝いに{NL}{CG}{8214}{6985}{CW}をくれるそうだば.{EL}
-ENG=King: For the celebration,{NL}{8014}{5985} will offer {CG}{8214}{6985}{CW}.{EL}
+ENG=King: For the celebration,{NL}{8014 5985} offers {CG}{8214}{6985}{CW}{NL}as a present.{EL}
 
 OFFSET=15327c
 VALUE=db60(60db)
 OFFSETDATA=155b60
 DATA=4601 4701 b600 1a00 1e00 b900 bf00 1a00 1e00 b900 bf00 1a00 1e00 b900 bf00 1401 6201 1b00 2b00 b900 0030 bf00 0800 4200 0300 3000 2900 0120 1b00 0200 0600 4b00 2b00 1f00 0020 0700 2401 0e00 1e00 2100 1200 3900 1e00 1a00 1b00 2b00 b900 0030 bf00 0500 0600 0d00 2200 fc00 2600 1902 3900 1e00 2100 0200 1a00 0500 e500 0700 0030 4601 4701 b600 6601 0a00 2500 1e00 2100 1200 3900 1e00 1a00 1b00 2b00 b400 ffff
 JAP=王様┌たっ!たっ!たっ!大変だば!{NL}きょうふの{CR}だいかんばつ{CW}が起こってしまっただば!{NL}おかげで村に貯まっていたお金が{NL}王様┌無くなってしまっただば.{EL}
-ENG=King: Darn! A severe {CR}drought{CW}{NL}happened today!{NL}Because of that, the money{NL}saved in the villages is gone.{EL}
+ENG=King: Darn!{NL}A severe {CR}drought{CW}{NL}happened today!{NL}Because of that,{NL}the money saved in the towns{NL}is gone.{EL}
 
 OFFSET=15327e
 VALUE=dc02(02dc)
@@ -815,14 +816,14 @@ VALUE=dfd8(d8df)
 OFFSETDATA=155fd8
 DATA=0e00 0300 1200 2100 7400 5600 8800 9b00 1701 2a00 b300 1d02 8801 4500 fb01 fc01 1000 4700 3900 1200 1a00 b400 ffff
 JAP=こうしてドカポン城は,元通り再建されました.{EL}
-ENG=Thus Dokapon Castle was{NL}rebuilt as it was.{EL}
+ENG=Thus Dokapon Castle was{NL}rebuilt.{EL}
 
 OFFSET=153292
 VALUE=e006(06e0)
 OFFSETDATA=156006
 DATA=5f00 9800 b500 b600 0e00 4700 2200 8201 e500 2a00 1c00 4200 b500 0c00 1200 1b00 b900 ffff
 JAP=ゴロー┌これで借金はちょーけしだ!{EL}
-ENG=Demolition Man:The debt is{NL}dealt with!{EL}
+ENG=Demolition Man: The debt is{NL}dealt with!{EL}
 
 OFFSET=153294
 VALUE=e02a(2ae0)
@@ -843,28 +844,28 @@ VALUE=e096(96e0)
 OFFSETDATA=156096
 DATA=f400 6501 b600 5800 8e00 b500 bf00 1b00 4700 0600 b500 bf00 0f00 0300 2300 0300 4300 b500 0030 bf00 0e00 b300 0e00 b300 0e00 4b00 2500 0e00 2300 4a00 1200 2100 0030 bf00 1a00 1b00 2200 1400 3b00 2300 0500 3d00 1e00 2100 4600 2900 b800 ffff
 JAP=店員┌キャーだれかーごうとうよー{NL}こ,こ,こんなことをして{NL}ただですむとおもってるの?{EL}
-ENG=Clerk: Do you think you can{NL}just do something like this?{EL}
+ENG=Clerk: Do you think you{NL}can just do something{NL}like this?{EL}
 
 OFFSET=15329a
 VALUE=e0f6(f6e0)
 OFFSETDATA=1560f6
 DATA=f400 6501 b600 2500 b300 2500 b300 2501 4a00 1400 4600 4b00 1300 3e00 b900 0030 bf00 0e00 4b00 2500 0e00 2300 4a00 1400 4700 2b00 0030 bf00 1e02 2200 2400 0300 2500 4600 0600 b300 4900 0600 1e00 2100 0500 4600 2900 0600 b800 ffff
 JAP=店員┌な,な,何をするんじゃ!{NL}こんなことをすれば{NL}後でどうなるか,わかっておるのか?{EL}
-ENG=Clerk: What are you doing? Do{NL}you know what happens when you{NL}do this?{EL}
+ENG=Clerk: Excuse me!{NL}Are you really going to{NL}do this?{EL}
 
 OFFSET=15329c
 VALUE=e152(52e1)
 OFFSETDATA=156152
 DATA=f400 6501 b600 3600 3600 b500 bf00 0200 0200 2400 0800 4200 0300 1200 2100 4600 1300 3e00 2800 b500 0600 b900 0030 bf00 0500 1800 0400 4600 3d00 4b00 2500 4400 b300 0500 1800 1e00 2100 3a00 3f00 0700 4700 b500 b900 ffff
 JAP=店員┌ほほーいいどきょうしてるじゃねーか!{NL}おそえるもんなら,おそってみやがれー!{EL}
-ENG=Clerk: You must have some{NL}nerves to do that! If you're{NL}stupid, go ahead!{EL}
+ENG=Clerk: You must have some{NL}nerves to do that! If you{NL}are stupid, go ahead!{EL}
 
 OFFSET=15329e
 VALUE=e1aa(aae1)
 OFFSETDATA=1561aa
 DATA=f400 6501 b600 0500 1f02 0200 b900 bf00 0e00 4700 7d01 7e01 2501 3d00 1200 2500 0200 2200 b400 0030 bf00 0600 4900 4500 2600 0e00 4700 4a00 0100 0d00 4600 0600 4400 b400 0030 bf00 e201 0700 ab01 2900 2601 2600 1401 f201 2600 1200 2100 0200 4600 0220 8214 5985 0020 4300 b900 ffff
 JAP=店員┌お願い!これ以上何もしないで.{NL}かわりにこれをあげるから.{NL}私が命の次に大切にしている{CY}{8214}{5985}{CW}よ!{EL}
-ENG=Clerk: Please stop.{NL}I'll give you this instead.{NL}My life for a {CY}{8214}{5985}{CW}!{EL}
+ENG=Clerk: Please stop.{NL}I give you this instead.{NL}My life for a {CY}{8214}{5985}{CW}!{EL}
 
 OFFSET=1532a0
 VALUE=e21a(1ae2)
@@ -899,7 +900,7 @@ VALUE=e354(54e3)
 OFFSETDATA=156354
 DATA=bf00 4900 2100 0700 0500 4b00 1600 4b00 ed01 3101 2900 8a00 6e00 6c00 b500 1b00 1400 b400 0030 bf00 0100 4b00 1000 4b00 2900 0220 4214 5985 fc00 0020 2200 0500 4b00 1600 4b00 3600 1e00 2100 3a00 0200 3300 4b00 0600 b800 0030 8a00 6e00 6c00 b500 b600 5801 2500 4400 0220 8314 5b85 0020 5f00 b500 9600 7400 2200 1e00 1600 b900 0030 bf00 0030 bf00 ffff
 JAP= わてがおんせん業者のミッチーだす.{NL}あんさんの{CY}{4214}{5985}村{CW}でおんせんほってみいへんか?{NL}ミッチー┌今なら{CY}{8314}{5b85}{CW}ゴールドでっせ!{NL}{NL}{EL}
-ENG=I'm Mitch Digger, an onsen{NL}maker.{NL}Do you want an onsen in {CY}{4214}{5985}{CW}?{NL}It's only {CY}{8314}{5b85}{CW} gold!{EL}
+ENG=I'm Mitch Digger, an onsen{NL}maker.{NL}Do you want an onsen{NL}in {CY}{4214}{5985}{CW}?{NL}It's only {CY}{8314}{5b85}{CW} gold!{EL}
 
 OFFSET=1532aa
 VALUE=e3e0(e0e3)
@@ -1074,35 +1075,35 @@ VALUE=eb88(88eb)
 OFFSETDATA=156b88
 DATA=4601 4701 b600 0500 0500 b900 bf00 7400 5600 8800 9b00 4601 c601 2d01 2200 b300 1401 5701 2f02 1b00 2b00 b900 0030 bf00 4300 4800 0e00 3400 3401 3101 1200 4200 0a00 4b00 b900 0030 bf00 fc00 0600 4400 0500 e500 0700 2300 2400 0200 2100 0500 4600 1b00 2b00 b400 0030 4601 4701 b600 e701 2900 2d01 b300 4401 0200 0e00 2300 2b00 0600 4500 2200 2a00 2500 0200 1b00 2b00 9f00 9f00 9f00 ffff
 JAP=王様┌おお!ドカポン王国中で,大豊作だば!{NL}よろこべ勇者しょくん!{NL}村からお金がとどいておるだば.{NL}王様┌世の中,悪いことばかりではないだば...{EL}
-ENG=King: Oh! In the Dokapon{NL}Kingdom, a great harvest, a{NL}happy hero, money coming from{NL}the villages. The world isn't{NL}all bad after all...{EL}
+ENG=King: Good news everyone!{NL}We have an amazing harvest{NL}all over Dokapon Kingdom.{NL}Money flows from all the{NL}towns!{EL}
 
 OFFSET=1532dc
 VALUE=ec22(22ec)
 OFFSETDATA=156c22
 DATA=0500 4002 1000 4b00 b600 0502 2900 0500 2102 b300 3d00 1200 4300 4800 1200 0c00 4700 2b00 0030 bf00 0e00 2900 5301 4d01 4a00 0220 4214 5985 fc00 0020 3900 2200 0030 bf00 2300 2400 0c00 2100 3d00 4400 0400 3900 1600 4b00 0600 b800 ffff
 JAP=お姉さん┌旅のお方,もしよろしければ{NL}この荷物を{CY}{4214}{5985}村{CW}まで{NL}とどけてもらえませんか?{EL}
-ENG=Young Girl: Can you bring{NL}this package to {CY}{4214}{5985}{CW}?{EL}
+ENG=Young Girl: Can you take{NL}this package to {CY}{4214}{5985}{CW}?{NL}{EL}
 
 OFFSET=1532de
 VALUE=ec80(80ec)
 OFFSETDATA=156c80
 DATA=0500 4002 1000 4b00 b600 0100 4500 0700 2300 0300 0f00 1100 0200 3900 1400 b400 0030 bf00 0e00 4700 2a00 0220 0e00 4900 4700 3d00 2900 0020 2200 1400 0600 4400 b300 0a00 4700 0b00 4700 3d00 0030 bf00 3d00 3c00 c901 2600 3002 0800 3102 3900 4700 2500 0200 4300 0300 2600 0500 1f02 0200 1200 3900 1400 b400 ffff
 JAP=お姉さん┌ありがとうございます.{NL}これは{CY}こわれもの{CW}ですから,くれぐれも{NL}もめ事に巻き込まれないようにお願いします.{EL}
-ENG=Young Girl: Thank you. This{NL}is fragile, so please do not{NL}get into a fight.{EL}
+ENG=Young Girl: Thank you.{NL}This is fragile, so please{NL}do not get into a fight.{EL}
 
 OFFSET=1532e0
 VALUE=ecfc(fcec)
 OFFSETDATA=156cfc
 DATA=0500 4002 1000 4b00 b600 1800 0300 2200 1400 0600 b400 ff00 5b01 2200 1400 b400 ffff
 JAP=お姉さん┌そうですか.残念です.{EL}
-ENG=Young Girl: Really? That's{NL}disappointing.{EL}
+ENG=Young Girl: Really?{NL}That's disappointing.{EL}
 
 OFFSET=1532e2
 VALUE=ed1e(1eed)
 OFFSETDATA=156d1e
 DATA=6300 8e00 9b00 5800 b500 b600 0500 1800 0a00 2100 4300 b900 0030 bf00 0e00 2900 4900 1a00 0a00 1200 2300 6300 8e00 9b00 5c00 9b00 2200 1200 4200 b500 3100 4300 b900 0030 bf00 0100 2500 1a00 0700 1b02 0c00 4700 2b00 0d01 0e01 e500 2900 8301 7b01 4a00 0200 1a00 1b00 0a00 4900 b900 0030 6300 8e00 9b00 5800 b500 b600 e201 0700 1b02 0c00 2100 3d00 2500 b500 4b00 2600 3d00 2500 1200 4300 b400 ffff
 JAP=ジャンキー┌おそくてよ!{NL}このわたくしとジャンケンでしょーぶよ!{NL}あなたが負ければ所持金の半分をいただくわ!{NL}ジャンキー┌私が負けてもなーんにもなしよ.{EL}
-ENG=Roche: Let's play{NL}rock-paper-scissors! If you{NL}lose, I'll get half your{NL}money! If I lose, nothing{NL}happens.{EL}
+ENG=Roche: Let's play{NL}rock-paper-scissors!{NL}{NL}You lose, I get half your{NL}money!{NL}I lose, you get nothing.{EL}
 
 OFFSET=1532e4
 VALUE=edbc(bced)
@@ -1123,14 +1124,14 @@ VALUE=ee42(42ee)
 OFFSETDATA=156e42
 DATA=6300 8e00 9b00 5800 b500 b600 0100 4400 b300 7300 b500 6700 9b00 2900 3202 7301 2200 1400 4900 2800 b400 0030 bf00 1800 4700 2200 2a00 0500 e500 2a00 0200 1a00 1b00 0800 3900 1400 4900 b900 ffff
 JAP=ジャンキー┌あら,トーぜンの結果ですわね.{NL}それではお金はいただきますわ!{EL}
-ENG=Roche: Oh, the result is a{NL}victory. Then I will get the{NL}money!{EL}
+ENG=Roche: Oh, this is a victory.{NL}So hand me the money!{NL}{EL}
 
 OFFSET=1532ea
 VALUE=ee90(90ee)
 OFFSETDATA=156e90
 DATA=6300 8e00 9b00 5800 b500 b600 0e00 2900 0200 1a00 1b00 0200 1a00 0500 e500 2a00 0220 8014 5985 0020 1000 4b00 2600 0030 bf00 8200 9700 6700 9b00 7300 1200 1c00 3e00 0200 3900 1400 4900 b900 bf00 9400 6e00 5800 b500 2500 2102 2800 b400 ffff
 JAP=ジャンキー┌このいただいたお金は{CY}{8014}{5985}{CW}さんに{NL}プレぜントしちゃいますわ!ラッキーな方ね.{EL}
-ENG=Roche : This money will be{NL}presented to {CY}{8014}{5985}{CW}!{NL}Lucky one.{EL}
+ENG=Roche: I give this money{NL}to {CY}{8014}{5985}{CW} as a present!{EL}
 
 OFFSET=1532ec
 VALUE=eef0(f0ee)
@@ -1151,91 +1152,91 @@ VALUE=ef7e(7eef)
 OFFSETDATA=156f7e
 DATA=6300 8e00 9b00 5800 b500 b600 1800 4700 1300 3e00 7b00 4f00 7e00 b500 2200 1400 4900 b400 ffff
 JAP=ジャンキー┌それじゃバイビーですわ.{EL}
-ENG=Roche: Well then goodbye.{EL}
+ENG=Roche: Bye-bye!{EL}
 
 OFFSET=1532f2
 VALUE=efa4(a4ef)
 OFFSETDATA=156fa4
 DATA=5700 6e00 6f00 b600 4300 1e00 b900 0030 bf00 5500 9700 2a00 1c00 3900 1a00 2200 0300 4900 1000 2900 0701 0801 2602 1f01 5700 6e00 6f00 1b00 b900 0030 bf00 e500 1000 0400 0a00 4700 4500 3e00 b500 0220 8100 5800 0020 4a00 2f02 1e00 2100 3a00 1600 4600 1700 b400 0030 5700 6e00 6f00 b600 2400 0300 1b00 0220 8314 5985 0020 5f00 b500 9600 7400 0030 bf00 0100 1500 0c00 2100 3a00 2800 0400 0600 b800 ffff
 JAP=ガッツ┌よっ!{NL}オレはちまたでうわさの武器商人ガッツだ!{NL}金さえくれりゃー{CY}ブキ{CW}を作ってみせるぜ.{NL}ガッツ┌どうだ{CY}{8314}{5985}{CW}ゴールド{NL}あずけてみねえか?{EL}
-ENG=Gutz: Yeah! I'm Gutz, a{NL}wandering blacksmith! If you{NL}give me money, I'll make a{NL}{CY}weapon{CW}. How about {CY}{8314}{5985}{CW} gold?{EL}
+ENG=Gutz: Hey! I'm Gutz,{NL}a wandering blacksmith!{NL}{NL}If you give me money,{NL}I'll make a {CY}weapon{CW}.{NL}How about {CY}{8314}{5985}{CW} gold?{EL}
 
 OFFSET=1532f4
 VALUE=f044(44f0)
 OFFSETDATA=157044
 DATA=9400 6e00 6f00 b600 4300 1e00 b900 0030 bf00 5500 9700 2a00 1c00 3900 1a00 2200 0300 4900 1000 2900 0701 0801 2602 1f01 9400 6e00 6f00 1b00 b900 0030 bf00 e500 1000 0400 0a00 4700 4500 3e00 b500 0220 6a00 7100 0020 4a00 2f02 1e00 2100 3a00 1600 4600 1700 b400 0030 9400 6e00 6f00 b600 2400 0300 1b00 0220 8314 5985 0020 5f00 b500 9600 7400 0030 bf00 0100 1500 0c00 2100 3a00 2800 0400 0600 b800 ffff
 JAP=ラッツ┌よっ!{NL}オレはちまたでうわさの武器商人ラッツだ!{NL}金さえくれりゃー{CY}タテ{CW}を作ってみせるぜ.{NL}ラッツ┌どうだ{CY}{8314}{5985}{CW}ゴールド{NL}あずけてみねえか?{EL}
-ENG=Ratz: Yeah! I'm Ratz, a{NL}wandering blacksmith! If you{NL}give me money, I'll make a{NL}{CY}shield{CW}. How about {CY}{8314}{5985}{CW} gold?{EL}
+ENG=Ratz: Hey! I'm Ratz,{NL}a wandering blacksmith!{NL}{NL}If you give me money,{NL}I'll make a {CY}shield{CW}.{NL}How about {CY}{8314}{5985}{CW} gold?{EL}
 
 OFFSET=1532f6
 VALUE=f0e4(e4f0)
 OFFSETDATA=1570e4
 DATA=9900 6e00 6f00 b600 4300 1e00 b900 0030 bf00 5500 9700 2a00 1c00 3900 1a00 2200 0300 4900 1000 2900 0701 0801 2602 1f01 9900 6e00 6f00 1b00 b900 0030 bf00 e500 1000 0400 0a00 4700 4500 3e00 b500 0220 9300 9800 4f00 0020 4a00 2f02 1e00 2100 3a00 1600 4600 1700 b400 0030 9900 6e00 6f00 b600 2400 0300 1b00 0220 8314 5985 0020 5f00 b500 9600 7400 0030 bf00 0100 1500 0c00 2100 3a00 2800 0400 0600 b800 ffff
 JAP=ワッツ┌よっ!{NL}オレはちまたでうわさの武器商人ワッツだ!{NL}金さえくれりゃー{CY}ヨロイ{CW}を作ってみせるぜ.{NL}ワッツ┌どうだ{CY}{8314}{5985}{CW}ゴールド{NL}あずけてみねえか?{EL}
-ENG=Watz: Yeah! I'm Watz, a{NL}wandering blacksmith! If you{NL}give me money, I'll make an{NL}{CY}armor{CW}. How about {CY}{8314}{5985}{CW} gold?{EL}
+ENG=Watz: Hey! I'm Watz,{NL}a wandering blacksmith!{NL}{NL}If you give me money,{NL}I'll make an {CY}armor{CW}.{NL}How about {CY}{8314}{5985}{CW} gold?{EL}
 
 OFFSET=1532f8
 VALUE=f186(86f1)
 OFFSETDATA=157186
 DATA=5700 6e00 6f00 b600 4300 b500 1200 1e00 b900 bf00 1300 3e00 3302 1200 3a00 2600 1200 2100 0a00 4700 b400 0030 bf00 0700 1e00 2a00 1e00 2a00 1e00 2a00 1e00 9f00 9f00 9f00 ffff
 JAP=ガッツ┌よーしっ!じゃ楽しみにしてくれ.{NL}がっはっはっはっ...{EL}
-ENG=Gutz: Good! Look forward to{NL}it. Hahahahahahaha...{EL}
+ENG=Gutz: Alright!{NL}Looking forward to it.{NL}Hahaha...{EL}
 
 OFFSET=1532fa
 VALUE=f1cc(ccf1)
 OFFSETDATA=1571cc
 DATA=9400 6e00 6f00 b600 4300 b500 1200 1e00 b900 bf00 1300 3e00 3302 1200 3a00 2600 1200 2100 0a00 4700 b400 0030 bf00 0700 1e00 2a00 1e00 2a00 1e00 2a00 1e00 9f00 9f00 9f00 ffff
 JAP=ラッツ┌よーしっ!じゃ楽しみにしてくれ.{NL}がっはっはっはっ...{EL}
-ENG=Ratz: Good! Look forward to{NL}it. Hahahahahahaha...{EL}
+ENG=Ratz: Alright!{NL}Looking forward to it.{NL}Hahaha...{EL}
 
 OFFSET=1532fc
 VALUE=f212(12f2)
 OFFSETDATA=157212
 DATA=9900 6e00 6f00 b600 4300 b500 1200 1e00 b900 bf00 1300 3e00 3302 1200 3a00 2600 1200 2100 0a00 4700 b400 0030 bf00 0700 1e00 2a00 1e00 2a00 1e00 2a00 1e00 9f00 9f00 9f00 ffff
 JAP=ワッツ┌よーしっ!じゃ楽しみにしてくれ.{NL}がっはっはっはっ...{EL}
-ENG=Watz: Good! Look forward to{NL}it. Hahahahahahaha...{EL}
+ENG=Watz: Alright!{NL}Looking forward to it.{NL}Hahaha...{EL}
 
 OFFSET=1532fe
 VALUE=f258(58f2)
 OFFSETDATA=157258
 DATA=5700 6e00 6f00 b600 1c00 1e00 b900 bf00 1200 0c00 1a00 8f00 6f00 1b00 2500 b500 b400 0030 bf00 0401 2900 8f00 6f00 2600 0100 1a00 1e00 2100 3a00 4600 0600 9f00 9f00 9f00 ffff
 JAP=ガッツ┌ちっ!しけたヤツだなー.{NL}他のヤツにあたってみるか...{EL}
-ENG=Gutz: Damn! It's a bad guy.{NL}Would you like to hit another{NL}guy...{EL}
+ENG=Gutz: Damn!{NL}Your loss, you fool!{NL}I'll try with someone else...{EL}
 
 OFFSET=153300
 VALUE=f29e(9ef2)
 OFFSETDATA=15729e
 DATA=9400 6e00 6f00 b600 1c00 1e00 b900 bf00 1200 0c00 1a00 8f00 6f00 1b00 2500 b500 b400 0030 bf00 0401 2900 8f00 6f00 2600 0100 1a00 1e00 2100 3a00 4600 0600 9f00 9f00 9f00 ffff
 JAP=ラッツ┌ちっ!しけたヤツだなー.{NL}他のヤツにあたってみるか...{EL}
-ENG=Ratz: Damn! It's a bad guy.{NL}Would you like to hit another{NL}guy...{EL}
+ENG=Ratz: Damn!{NL}Your loss, you fool!{NL}I'll try with someone else...{EL}
 
 OFFSET=153302
 VALUE=f2e4(e4f2)
 OFFSETDATA=1572e4
 DATA=9900 6e00 6f00 b600 1c00 1e00 b900 bf00 1200 0c00 1a00 8f00 6f00 1b00 2500 b500 b400 0030 bf00 0401 2900 8f00 6f00 2600 0100 1a00 1e00 2100 3a00 4600 0600 9f00 9f00 9f00 ffff
 JAP=ワッツ┌ちっ!しけたヤツだなー.{NL}他のヤツにあたってみるか...{EL}
-ENG=Watz: Damn! It's a bad guy.{NL}Would you like to hit another{NL}guy...{EL}
+ENG=Watz: Damn!{NL}Your loss, you fool!{NL}I'll try with someone else...{EL}
 
 OFFSET=153304
 VALUE=f32a(2af3)
 OFFSETDATA=15732a
 DATA=5700 6e00 6f00 b600 0500 0300 b900 bf00 3f00 1e00 2300 4a01 0400 1a00 1700 b900 bf00 6d01 2a00 8100 5800 4a00 0030 bf00 2f02 4600 2900 2600 1101 e500 0700 5c01 4500 2500 0a00 2500 1e00 1c00 3900 1e00 2100 0030 bf00 3d00 0300 0220 8314 5985 0020 5f00 b500 9600 7400 0a00 4700 2800 0400 0600 b800 ffff
 JAP=ガッツ┌おう!やっと会えたぜ!実はブキを{NL}作るのに資金が足りなくなっちまって{NL}もう{CY}{8314}{5985}{CW}ゴールドくれねえか?{EL}
-ENG=Gutz: Nice! I finally meet{NL}you! Actually, I don't have{NL}enough money to make a weapon,{NL}can you give me {CY}{8314}{5985}{CW} gold?{EL}
+ENG=Gutz: Nice to see you again!{NL}I ran out of money trying{NL}to make your weapon.{NL}Can you give me an extra{NL}{CY}{8314}{5985}{CW} gold?{EL}
 
 OFFSET=153306
 VALUE=f3a2(a2f3)
 OFFSETDATA=1573a2
 DATA=9400 6e00 6f00 b600 0500 0300 b900 bf00 3f00 1e00 2300 4a01 0400 1a00 1700 b900 bf00 6d01 2a00 6a00 7100 4a00 0030 bf00 2f02 4600 2900 2600 1101 e500 0700 5c01 4500 2500 0a00 2500 1e00 1c00 3900 1e00 2100 0030 bf00 3d00 0300 0220 8314 5985 0020 5f00 b500 9600 7400 0a00 4700 2800 0400 0600 b800 ffff
 JAP=ラッツ┌おう!やっと会えたぜ!実はタテを{NL}作るのに資金が足りなくなっちまって{NL}もう{CY}{8314}{5985}{CW}ゴールドくれねえか?{EL}
-ENG=Ratz: Nice! I finally meet{NL}you! Actually, I don't have{NL}enough money to make a shield,{NL}can you give me {CY}{8314}{5985}{CW} gold?{EL}
+ENG=Ratz: Nice to see you again!{NL}I ran out of money trying{NL}to make your shield.{NL}Can you give me an extra{NL}{CY}{8314}{5985}{CW} gold?{EL}
 
 OFFSET=153308
 VALUE=f41a(1af4)
 OFFSETDATA=15741a
 DATA=9900 6e00 6f00 b600 0500 0300 b900 bf00 3f00 1e00 2300 4a01 0400 1a00 1700 b900 bf00 6d01 2a00 9300 9800 4f00 4a00 0030 bf00 2f02 4600 2900 2600 1101 e500 0700 5c01 4500 2500 0a00 2500 1e00 1c00 3900 1e00 2100 0030 bf00 3d00 0300 0220 8314 5985 0020 5f00 b500 9600 7400 0a00 4700 2800 0400 0600 b800 ffff
 JAP=ワッツ┌おう!やっと会えたぜ!実はヨロイを{NL}作るのに資金が足りなくなっちまって{NL}もう{CY}{8314}{5985}{CW}ゴールドくれねえか?{EL}
-ENG=Watz: Nice! I finally meet{NL}you! Actually, I don't have{NL}enough money to make an armor,{NL}can you give me {CY}{8314}{5985}{CW} gold?{EL}
+ENG=Watz: Nice to see you again!{NL}I ran out of money trying{NL}to make your armor.{NL}Can you give me an extra{NL}{CY}{8314}{5985}{CW} gold?{EL}
 
 OFFSET=15330a
 VALUE=f494(94f4)
@@ -1263,49 +1264,49 @@ VALUE=f584(84f5)
 OFFSETDATA=157584
 DATA=5700 6e00 6f00 b600 0500 3900 1c00 2400 b500 1000 4b00 b300 3f00 1e00 2300 2200 0800 1a00 1700 b900 0030 bf00 0e00 0200 1f00 0700 0320 8214 5985 0020 1b00 b900 0030 bf00 0600 4900 0200 0700 1e00 2100 3f00 1e00 2100 0a00 4700 4300 2500 b900 ffff
 JAP=ガッツ┌おまちどーさん,やっとできたぜ!{NL}こいつが{CG}{8214}{5985}{CW}だ!{NL}かわいがってやってくれよな!{EL}
-ENG=Gutz: Sorry for the wait!{NL}Here is a {CG}{8214}{5985}{CW}! Take care{NL}of it!{EL}
+ENG=Gutz: Sorry for the wait!{NL}Here is a {CG}{8214}{5985}{CW}!{NL}Take care of it!{EL}
 
 OFFSET=153312
 VALUE=f5e6(e6f5)
 OFFSETDATA=1575e6
 DATA=9400 6e00 6f00 b600 0500 3900 1c00 2400 b500 1000 4b00 b300 3f00 1e00 2300 2200 0800 1a00 1700 b900 0030 bf00 0e00 0200 1f00 0700 0320 8214 5985 0020 1b00 b900 0030 bf00 0600 4900 0200 0700 1e00 2100 3f00 1e00 2100 0a00 4700 4300 2500 b900 ffff
 JAP=ラッツ┌おまちどーさん,やっとできたぜ!{NL}こいつが{CG}{8214}{5985}{CW}だ!{NL}かわいがってやってくれよな!{EL}
-ENG=Ratz: Sorry for the wait!{NL}Here is a {CG}{8214}{5985}{CW}! Take care{NL}of it!{EL}
+ENG=Ratz: Sorry for the wait!{NL}Here is a {CG}{8214}{5985}{CW}!{NL}Take care of it!{EL}
 
 OFFSET=153314
 VALUE=f648(48f6)
 OFFSETDATA=157648
 DATA=9900 6e00 6f00 b600 0500 3900 1c00 2400 b500 1000 4b00 b300 3f00 1e00 2300 2200 0800 1a00 1700 b900 0030 bf00 0e00 0200 1f00 0700 0320 8214 5985 0020 1b00 b900 0030 bf00 0600 4900 0200 0700 1e00 2100 3f00 1e00 2100 0a00 4700 4300 2500 b900 ffff
 JAP=ワッツ┌おまちどーさん,やっとできたぜ!{NL}こいつが{CG}{8214}{5985}{CW}だ!{NL}かわいがってやってくれよな!{EL}
-ENG=Watz: Sorry for the wait!{NL}Here is a {CG}{8214}{5985}{CW}! Take care{NL}of it!{EL}
+ENG=Watz: Sorry for the wait!{NL}Here is a {CG}{8214}{5985}{CW}!{NL}Take care of it!{EL}
 
 OFFSET=153316
 VALUE=f6aa(aaf6)
 OFFSETDATA=1576aa
 DATA=5700 6e00 6f00 b600 4900 4500 0200 1e00 b900 bf00 6d01 2a00 5f01 6001 1200 1c00 3900 1e00 2100 9f00 9f00 9f00 0030 bf00 3d00 0300 1200 4900 0c00 2500 0200 9f00 9f00 9f00 ffff
 JAP=ガッツ┌わりいっ!実は失敗しちまって...{NL}もうしわけない...{EL}
-ENG=Gutz: I'm sorry! I actually{NL}made a mistake...sorry...{EL}
+ENG=Gutz: I'm sorry!{NL}I screwed up the forging...{NL}My apologies.{EL}
 
 OFFSET=153318
 VALUE=f6f0(f0f6)
 OFFSETDATA=1576f0
 DATA=9400 6e00 6f00 b600 4900 4500 0200 1e00 b900 bf00 6d01 2a00 5f01 6001 1200 1c00 3900 1e00 2100 9f00 9f00 9f00 0030 bf00 3d00 0300 1200 4900 0c00 2500 0200 9f00 9f00 9f00 ffff
 JAP=ラッツ┌わりいっ!実は失敗しちまって...{NL}もうしわけない...{EL}
-ENG=Ratz: I'm sorry! I actually{NL}made a mistake...sorry...{EL}
+ENG=Ratz: I'm sorry!{NL}I screwed up the forging...{NL}My apologies.{EL}
 
 OFFSET=15331a
 VALUE=f736(36f7)
 OFFSETDATA=157736
 DATA=9900 6e00 6f00 b600 4900 4500 0200 1e00 b900 bf00 6d01 2a00 5f01 6001 1200 1c00 3900 1e00 2100 9f00 9f00 9f00 0030 bf00 3d00 0300 1200 4900 0c00 2500 0200 9f00 9f00 9f00 ffff
 JAP=ワッツ┌わりいっ!実は失敗しちまって...{NL}もうしわけない...{EL}
-ENG=Watz: I'm sorry! I actually{NL}made a mistake...sorry...{EL}
+ENG=Watz: I'm sorry!{NL}I screwed up the forging...{NL}My apologies.{EL}
 
 OFFSET=15331c
 VALUE=f77c(7cf7)
 OFFSETDATA=15777c
 DATA=2702 1f01 b600 0500 3f00 b800 bf00 801c 4f00 2400 2900 2200 2a00 2500 0200 2200 1400 0600 b800 0030 bf00 3401 3101 2300 3d00 0100 4800 0300 3101 0700 b300 1800 4b00 2500 7d00 9b00 6300 8e00 5a00 2500 6802 6902 4a00 1200 2100 b900 0030 bf00 2400 0300 2200 1400 0600 2500 b800 bf00 4900 1200 0700 5801 0e01 1e00 2100 0500 4600 6802 6902 2300 0030 2702 1f01 b600 0500 2700 1200 2900 6802 6902 9f00 9f00 9f00 0e00 0300 0600 4b00 1200 2100 3a00 4b00 0600 2900 b800 ffff
 JAP=老人┌おや?{801c 4f00}どのではないですか?{NL}勇者ともあろう者が,そんなヒンジャクな装備をして!{NL}どうですかな?わしが今持っておる装備と{NL}老人┌おぬしの装備...こうかんしてみんかの?{EL}
-ENG=Beggar: Oh? {801c 4f00} is it?{NL}Brave heroes shouldn't wear{NL}such junky gear! How about you{NL}exchange your gear for mine?{NL}What do you say?{EL}
+ENG=Beggar: Oh? {801c 4f00} is it?{NL}Brave heroes shouldn't wear{NL}such junky gear!{NL}You should exchange{NL}your gear for mine.{NL}What do you say?{EL}
 
 OFFSET=15331e
 VALUE=f836(36f8)
@@ -1361,7 +1362,7 @@ VALUE=fa86(86fa)
 OFFSETDATA=157a86
 DATA=2602 1f01 b600 5100 8000 8000 6e00 b900 bf00 1800 0e00 4a00 2e01 0a00 3401 3101 1000 4b00 9f00 9f00 9f00 0030 bf00 0200 0200 2900 0700 f100 1e00 2100 4600 4b00 1b00 0c00 2400 bc01 2100 0200 0600 2500 0200 b800 0030 bf00 0e00 4700 4300 b300 0e00 4700 b900 bf00 0320 8214 5985 0020 9f00 9f00 9f00 0030 2602 1f01 b600 5801 2500 4400 0220 8314 5b85 0020 5f00 b500 9600 7400 b900 0030 bf00 0500 2402 1000 4b00 1b00 0600 4400 0e00 2900 ee00 3402 b900 0030 bf00 3d00 1c00 4800 4b00 1a01 1e00 2100 0a00 4700 4600 4900 4300 2800 b800 ffff
 JAP=商人┌ウフフッ!そこを行く勇者さん...{NL}いいのが入ってるんだけど見ていかない?{NL}これよ,これ!{CG}{8214}{5985}{CW}...{NL}商人┌今なら{CY}{8314}{5b85}{CW}ゴールド!{NL}お客さんだからこの価格!{NL}もちろん買ってくれるわよね?{EL}
-ENG=Merchant: Uhhhhh! The hero{NL}who goes there...There's a{NL}good stuff in there, why not{NL}look at it? How about a{NL}{CG}{8214}{5985}{CW} for {CY}{8314}{5b85}{CW} gold! This{NL}price is only for you! Do you{NL}buy it?{EL}
+ENG=Merchant: Hey brave hero!{NL}I got some good stuff here.{NL}Take a look!{NL}How about a {CG}{8214}{5985}{CW}{NL}for {CY}{8314}{5b85}{CW} gold!{NL}Do you want it?{EL}
 
 OFFSET=15332e
 VALUE=fb5a(5afb)
@@ -1389,14 +1390,14 @@ VALUE=fc5e(5efc)
 OFFSETDATA=157c5e
 DATA=1e01 e500 1f01 b600 2400 0300 1b00 0200 b900 bf00 801c 4f00 1000 4b00 b900 0030 bf00 e500 3d00 0300 0c00 2900 3600 0300 2a00 b300 2a00 0600 2400 1e00 2100 0200 4600 0600 0200 b800 0030 bf00 ffff
 JAP=集金人┌どうだい!{801c 4f00}さん!{NL}金もうけのほうは,はかどっているかい?{NL}{EL}
-ENG=Tax Collector: How are you{NL}{801c 4f00}? How are your{NL}finances?{EL}
+ENG=Tax Collector: {801c 4f00}!{NL}How is it going?{NL}How are your finances?{EL}
 
 OFFSET=153336
 VALUE=fcac(acfc)
 OFFSETDATA=157cac
 DATA=1e01 e500 1f01 b600 4501 fe00 3502 4a00 0a02 1200 1b00 0c00 0030 bf00 0a00 4700 4700 2b00 b300 0100 4b00 1a00 2900 0201 0301 1200 2100 0200 4600 0030 bf00 ed00 2100 2900 fc00 0600 4400 1e01 e500 1200 2100 0800 2100 3f00 4600 4300 b900 ffff
 JAP=集金人┌手数料を少しだけ{NL}くれれば,あんたの統治している{NL}全ての村から集金してきてやるよ!{EL}
-ENG=Tax Collector: If you pay me{NL}a small fee, I will collect{NL}money from all the towns you{NL}rule!{EL}
+ENG=Tax Collector: For a small fee{NL}I will collect money from all{NL}the towns you rule!{NL}What do you say?{EL}
 
 OFFSET=153338
 VALUE=fd0c(0cfd)
@@ -1424,14 +1425,14 @@ VALUE=fdd4(d4fd)
 OFFSETDATA=157dd4
 DATA=9500 6400 5800 b500 b600 8000 6e00 8000 6e00 8000 6e00 9f00 9f00 9f00 4900 1a00 0a00 1200 2900 fd00 2a00 9500 6400 5800 b500 0030 bf00 e701 c501 4a00 3900 1a00 2600 0600 0c00 4600 1401 7400 9800 9f00 9f00 9f00 3d00 2300 0200 6200 b500 8000 8900 6400 6a00 b500 b900 0030 bf00 ffff
 JAP=リスキー┌フッフッフッ...わたくしの名はリスキー{NL}世界をまたにかける大ドロ...もといシーフマスター!{NL}{EL}
-ENG=Risque: Whhhhhhhhh...My name{NL}is Risque, better known around{NL}the world as...Thief Master!{EL}
+ENG=Risque: Hehehe...{NL}My name is Risque, better{NL}known as...Thief Master!{EL}
 
 OFFSET=153340
 VALUE=fe44(44fe)
 OFFSETDATA=157e44
 DATA=9500 6400 5800 b500 b600 e701 2900 2d01 0800 4700 0200 c901 2b00 0600 4500 1300 3e00 b300 3f00 1e00 2100 0c00 3900 1600 4b00 4300 b900 0030 bf00 b201 e500 0220 8314 a803 0020 5f00 b500 9600 7400 2200 0030 bf00 0401 2900 8200 9700 4f00 8f00 b500 0600 4400 b300 0200 0200 4d01 4a00 6b02 4b00 2200 0800 3900 1400 0700 0030 9500 6400 5800 b500 b600 0200 0600 0700 0200 1a00 1200 3900 1200 4200 0300 b800 0030 bf00 0030 bf00 ffff
 JAP=リスキー┌世の中きれい事ばかりじゃ,やってけませんよ!{NL}前金{CY}{8314}{a803}{CW}ゴールドで{NL}他のプレイヤーから,いい物を盗んできますが{NL}リスキー┌いかがいたしましょう?{NL}{NL}{EL}
-ENG=Risque: You can't always be{NL}nice! Hand me {CY}{8314}{a803}{CW} gold and{NL}I'll steal good things from{NL}other players. What do you{NL}think?{EL}
+ENG=Risque: You have to play dirty{NL}sometimes to make it in this{NL}world.{NL}Hand me {CY}{8314}{a803}{CW} gold and{NL}I might steal good things from{NL}your rivals.{NL}Pay {CY}{8314}{a803}{CW} gold?{EL}
 
 OFFSET=153342
 VALUE=feee(eefe)
@@ -1445,7 +1446,7 @@ VALUE=ff2e(2eff)
 OFFSETDATA=157f2e
 DATA=9500 6400 5800 b500 b600 0e00 2900 ff01 2a00 2500 0600 1e00 1a00 0e00 2300 2600 1200 3900 1200 4200 0300 9f00 9f00 9f00 0030 bf00 1800 4700 2200 2a00 5f01 6301 1200 3900 1400 b400 ffff
 JAP=リスキー┌この話はなかったことにしましょう...{NL}それでは失礼します.{EL}
-ENG=Risque: Let's not talk about{NL}this...So you'll excuse me.{EL}
+ENG=Risque: Let's pretend we never{NL}met.{NL}Now if you'll excuse me.{EL}
 
 OFFSET=153346
 VALUE=ff78(78ff)

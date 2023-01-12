@@ -85,6 +85,7 @@ public class Dokapon {
         //spriteMaker.generateMapOrder(townSigns, "src/main/resources/data/jpn/BBA39.data", "src/main/resources/data/map-order-uncompressed.data");
         //spriteMaker.printMap("src/main/resources/data/jpn/BBA39.data");
         FontImageReaderRevised imageReader = new FontImageReaderRevised();
+        imageReader.disable();
         
         imageReader.trainingMap();
         imageReader.trainingMapOrder();
@@ -95,7 +96,7 @@ public class Dokapon {
         imageReader.introTexts();
         imageReader.score();
         
-        imageReader.map(); // !!! Takes a few minutes to run. Yikes!!!
+        imageReader.map();
         imageReader.mapOrder();
         
         imageReader.titleScreen();
@@ -112,7 +113,9 @@ public class Dokapon {
         imageReader.battleCards();
         imageReader.bill();
 
-
+        //imageReader.enable();
+        //imageReader.monsterGremlin();
+        
         //spriteMaker.generateDataFile("src/main/resources/data/190000.data");
 
         latinLoader.loadLatin();

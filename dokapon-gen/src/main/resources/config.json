@@ -1,7 +1,7 @@
 {
   "config": {
     "rom-input" : "../roms/2023/Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan).sfc",
-    "rom-output" : "../roms/2023/Dokapon 3-2-1 - English.sfc",
+    "rom-output" : "../roms/2023/Dokapon 3-2-1 - English - P3.sfc",
     "bps-patch-output": "../roms/clean/Dokapon 3-2-1 - English - working.sfc",
     "file.jap" : "tables/table-complete.txt",
     "file.latin" : "tables/table-latin.txt",
@@ -230,24 +230,55 @@
 
 
 
-    {
-      "code": "DC 9A F0 05 A9 DC 9A 80 03 A9 00 AA",
-      "offset": "10394",
-      "for": "LOOK - SIDE MENU",
-      "desc" : "Side menu when examining a player on the map"
-    },
-    {
-      "code": "DC 9A 8F A4 7D 7E E2 20 C2 20 AF A4 7D 7E C9 00 AA",
-      "offset": "103C7",
-      "for": "LOOK - SIDE MENU",
-      "desc" : "Side menu when examining a player on the map"
-    },
+
     {
       "code": "",
       "offset": "18AA00",
       "for": "LOOK - SIDE MENU",
-      "description": "Right side menu when looking at a monster or player",
+      "description": "Right side menu when looking at a monster or player - Weapon/Items",
       "file": true
+    },
+    {
+      "code": "",
+      "offset": "18AC00",
+      "for": "LOOK - SIDE MENU",
+      "description": "Right side menu when looking at a monster or player - Status",
+      "file": true
+    },
+    {
+      "code": "C9 04 AC",
+      "orig": "C9 44 86",
+      "offset": "10393",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
+    },
+    {
+      "code": "A9 04 AC",
+      "orig": "A9 44 86",
+      "offset": "10398",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
+    },
+    {
+      "code": "A9 04 AA",
+      "orig": "A9 D4 87",
+      "offset": "1039D",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
+    },
+    {
+      "code": "A9 04 AC",
+      "orig": "A9 44 86",
+      "offset": "103C6",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
+    },
+    {
+      "code": "C9 04 AA",
+      "orig": "C9 D4 87",
+      "offset": "103D5",
+      "for": "LOOK - SIDE MENU",
+      "desc" : "Side menu when examining a player on the map"
     },
 
 
@@ -728,7 +759,39 @@
       "offset": "1E8000",
       "for": "CHAPTER_START_SCREEN",
       "description": "Chapter end screen sprites order pointers"
+    },
+
+
+
+    {
+      "code": "A9 1E",
+      "offset": "AAAB",
+      "for": "CONTINENT NAMES",
+      "description": "Prevents ghost value next to the continent names when going up and down the list"
+    },
+    {
+      "code": "22 00 84 30 EA EA E2 20 EA EA EA EA",
+      "offset": "ABCC",
+      "for": "CONTINENT NAMES",
+      "description": "Prevents ghost value next to the continent names when going up and down the list"
+    },
+    {
+      "code": "E0 18 00 F0 0D BF 00 80 AD 85 20 E2 20 A9 AD 85 22 6B A9 00 AE 85 20 E2 20 A9 31 85 22 6B",
+      "offset": "180400",
+      "for": "CONTINENT NAMES",
+      "description": "Prevents ghost value next to the continent names when going up and down the list"
+    },
+    {
+      "code": "BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 ED 00 2C 00 22 00 1A 00 BF 00 BF 00 BF 00 BF 00 BF 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 E7 00 2E 00 2B 00 28 00 29 00 1E 00 BF 00 BF 00 BF 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 13 00 08 00 ED 00 26 00 1E 00 2B 00 22 00 1C 00 1A 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 E0 00 08 00 ED 00 26 00 1E 00 2B 00 22 00 1C 00 1A 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 0E 00 2B 00 1E 00 1E 00 27 00 25 00 1A 00 27 00 1D 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 ED 00 1F 00 2B 00 22 00 1C 00 1A 00 BF 00 BF 00 BF 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 00 30 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 AF 00 ED 00 2E 00 2C 00 2D 00 2B 00 1A 00 25 00 22 00 1A 00 B0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 FF FF",
+      "offset": "18AE00",
+      "for": "CONTINENT NAMES",
+      "description": "Prevents ghost value next to the continent names when going up and down the list",
+      "desc": "OFFSETDATA=168910 is ignored when this is not disabled"
     }
+
+    
+    
+    
   ],
   "town-signs": [
     {

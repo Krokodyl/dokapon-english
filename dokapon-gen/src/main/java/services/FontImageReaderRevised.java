@@ -8,6 +8,7 @@ import dokapon.sprites.CompressedSpriteManager;
 import dokapon.sprites.FontImageReader;
 import services.lz.LzCompressor;
 import services.lz.REPEAT_ALGORITHM;
+import services.palettes.Palette4bpp;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,6 +20,8 @@ import static services.Utils.h;
 
 public class FontImageReaderRevised extends FontImageReader {
 
+    boolean enabled = true;
+    
     @Override
     public void trainingMap() throws IOException {
         generateSpriteDataFromImage(
@@ -286,8 +289,21 @@ public class FontImageReaderRevised extends FontImageReader {
         optimizedCompression(uncomp, outputFile);
     }
 
+    /*public void monsterGremlin() throws IOException {
+        generateSpriteDataFromImage(
+                "src/main/resources/images/sprites/monster-gremlin.png",
+                "src/main/resources/data/sprite-uncompressed.data",
+                new Palette4bpp("/palettes/monster-gremlin.png"),
+                4
+        );
+        String uncomp = "src/main/resources/data/sprite-uncompressed.data";
+        String outputFile = "src/main/resources/data/output/192000.data";
+        optimizedCompression(uncomp, outputFile);
+    }*/
+
     void optimizedCompression(String input, String output) throws IOException {
         
+        if (!enabled) return;
         //Map<LzCompressor, byte[]> compressorMap = new HashMap<>();
         byte[] bestCompression = null; 
 
@@ -339,5 +355,13 @@ public class FontImageReaderRevised extends FontImageReader {
         System.out.println("Revised Compressing data - output : "+output);
 
         Files.write(new File(output).toPath(), compressedBytes);
+    }
+
+    public void disable() {
+        enabled = false;
+    }
+
+    public void enable() {
+        enabled = true;
     }
 }

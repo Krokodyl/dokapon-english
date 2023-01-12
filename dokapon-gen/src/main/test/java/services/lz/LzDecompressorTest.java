@@ -27,10 +27,30 @@ class LzDecompressorTest {
         return null;
     }
 
+    byte[] loadRom(String input) {
+        try {
+            return Files.readAllBytes(new File(input).toPath());
+        } catch (IOException ex) {
+            Logger.getLogger(LzDecompressorTest.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
+    }
+
+    @Test
+    void testDecompressMapTiles() {
+        //byte[] data = loadRom("D:\\git\\dokapon-english\\roms\\2023\\Dokapon 3-2-1 - English.sfc");
+        byte[] data = loadRom(INPUT_ROM);
+        int offset = x("16B4AC");
+        LzDecompressor decompressor = new LzDecompressor();
+        decompressor.decompressData(data, offset,
+                "D:\\git\\dokapon-english\\dokapon-gen\\src\\main\\resources\\data\\trash\\"+h(offset)+".data"
+        );
+    }
+    
     @Test
     void testDecompress() {
         byte[] data = loadRom();
-        int offset = x("BF746");
+        int offset = x("77515");
         LzDecompressor decompressor = new LzDecompressor();
         decompressor.decompressData(data, offset, 
                 "D:\\git\\dokapon-english\\dokapon-gen\\src\\main\\resources\\data\\trash\\"+h(offset)+".data"
