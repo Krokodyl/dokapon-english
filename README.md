@@ -31,12 +31,17 @@ Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predece
 
 A remake for the Wii and PS2 was released in 2008.
 
-## The English patch file (v1.3)
+## The English patch file (v1.4)
 
-#### April 2022 Update - See 1.3 changes below.
+#### January 2023 Update - v1.4
 
-Patch file v1.3 is available here : [Dokapon 3-2-1 English v1.3.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.3.zip)\
-Previous patch (v1.2) is archived : [Dokapon 3-2-1 English v1.2.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.2.zip)
+Patch file v1.4 is available here : [Dokapon 3-2-1 English v1.4.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.4.zip)\
+New wiki: https://github.com/Krokodyl/dokapon-english/wiki
+
+#### Previous patches
+
+Patch v1.3 : [Dokapon 3-2-1 English v1.3.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.3.zip)\
+Patch v1.2 : [Dokapon 3-2-1 English v1.2.zip](/patch/Dokapon%203-2-1%20-%20English%20v1.2.zip)
 
 Also available on romhacking.net https://www.romhacking.net/translations/5561/
 
@@ -180,7 +185,7 @@ Special code | In game
 {BUT} | Button icon
 
 #### Variables
-Many translations contains variables (player name, gold amount, health points etc) which are usually represented by two codes (e.g. **{8014 5985}** is current player name)
+Many translations contain variables (player name, gold amount, health points etc) which are usually represented by two codes (e.g. **{8014 5985}** is current player name)
 These are 2-character long in the data but can go from 2 (monster level) to 9 (gold amount) printed characters.
 These codes are listed (not all) under "special" in config.json and used to calculate the length of a given translation to make sure they don't go over 30 printed characters.
 This list is not exhaustive.
@@ -207,6 +212,20 @@ I wrote a function DataReader.checkMenuData to check if a menu is out of bound b
 - [ ] Yes/No questions are sometimes hidden under the Yes/No menu
 
 ## Fixes
+v1.4 (January 2023)
+- New wiki for the translated game: https://github.com/Krokodyl/dokapon-english/wiki/
+- Better compression algorithm
+- Translations rewritten (about 200)
+ - Renamed Magic (to match the visuals): Blaze, Shock, Frost, Rust, Berserk, Seize, Bounce, Mirror
+ - Renamed Items: Detector
+- Fixed many menus where Yes/No was overlapping text
+- Updated fonts
+- Fixed "ghost" values next to the continent names in the town list
+- Side-by-side comparison shows that the long AI decision-making is
+  inherent to the game. (The worst situation is an AI using spinners
+  when Asia, Europe, NA, Africa and Greenland are all open)
+  This is due to the path finding algorithm.
+
 
 v1.3 (March 2022)
 - [X] Improvement : Translated the quote after the logo
@@ -265,18 +284,9 @@ It's still experimental and is not very well optimized but it seems to work.
 
 ## Tips and Hints
 
-### Scenario mode
+### Story mode
 
-The scenario mode starts in a training area. There, you have two weeks to collect basic equipments from chest. There are no monsters in this area.
-
-The first players to reach the castle will get bonus points to put in their stats.
-
-Once every player is done with the training area, the story starts. It's divided into chapters.
-
-Each chapter follows the same structure. Walk around fighting monsters, freeing towns, leveling up, gearing up in order to kill bosses (Represented by a green dragon on the map).
-After a certain number of bosses is killed, the special quest for the chapter will be triggered. Completing the quest will unlock the next continent and the next chapter.
-
-At the end of the last chapter, the player with the highest worth (town value + gold) is the winner.
+See wiki: https://github.com/Krokodyl/dokapon-english/wiki/Game-modes#story-mode
 
 ### Locations
 
@@ -296,38 +306,7 @@ Hell<br/>Devil's Castle | Last chapter in scenario mode
 
 ### Special chests
 
-Location | Content | Description
------------- | ------------- | -------------
-Spring Cave (top left)			|Portal|[Item] Teleports you to Dokapon Castle or a town you own
-Spring Cave (top right)			|Convoke|[Field Magic] Brings all the players on this map to your space.
-Spring Cave (bottom right)		|Gold Bug|[Item] A bug that can double your gold or take it all. Sells for a good value.
-Casino Cave (bottom left)		|*Spinner|[Item] Gives 1 to 5 spinners to move. (Random each day) Lasts a week.
-Casino Cave (top right)			|Revival|[Item] Automatically revives you with half of your max HP when you die.
-Casino Cave (center)			|Tonic|[Item] Doubles your attack, defense and speed for a week. Sells for half of your current gold.
-Lava Cave 2F (top side)			|Spyglass| [Item] Reveals the cards before a battle. Single use.
-Lava Cave 2F (bottom side)		|Mix-up|[Field Magic] See effect below
-Lava Cave 3F (right) 			|Elven Mantle | [Armor]
-Lava Cave 3F (top left) 		|Fire Sword	| [Weapon] with 136 attack
-Lava Cave 3F (bottom left) 		|Athena Shield | [Shield] with 103 defense
-Lost Wood (near shop)			|Gold Bug|[Item] A bug that can double your gold or take it }all. Sells for a good value.
-Lost Wood (near stump)			|Invasion|[Field Magic] Summons monsters in all the towns of the continent.
-Freaky Mountain 2F (right)		|Jade Ring | [Item] Ring that gives +25% speed
-Freaky Mountain 2F (left)		|Fireball|[Field Magic] Deals damage to every player and boss on the same map.
-Sky Palace						|Divine Fist | [Weapon] with 179 attack
-Sea Temple 2B					|Ruby Ring | [Item] Ring that gives +25% attack
-Ruins 2F						|Onyx Ring | [Item] Ring that gives +25% defense
-Underground	(top left)				|Bribe|[Item] Allows you to take over the town of another player.
-Underground	(bottom left)			|Puppet| See effect below
-Underground (left of item shop)		|Bait| [Item] Spawns a boss in the target town. The current boss is removed.
-Underground (right of item shop)	|Mirror| [Item] Protects from any field magic once.
-Rabble Tower 1F (right)			|Frost|[Field Magic] Deals ice damage to everyone on the target space.
-Rabble Tower 1F (left)			|Mix-up|[Field Magic] Random effect among those:<br/>- Gives +2 to all stats<br/>- Spawns traps all over the continent<br/>- Swaps everyone's gear randomly<br/>- Swaps everyone's items and magic randomly<br/>- Swaps everyone's gold randomly
-Rabble Tower 2F (left)			|Onyx Ring | [Item] Ring that gives +25% defense
-Rabble Tower 2F (right)			|Ruby Ring | [Item] Ring that gives +25% attack
-Rabble Tower 2F (middle)		|Jade Ring | [Item] Ring that gives +25% speed
-Rabble Tower 3F (left)			|Dokapon Orb | [Item] Sells for 490 000 gold in a shop or for 90 000 to the king
-Rabble Tower 3F (middle left)	|Wings | [Item] Used to access the Sky Palace
-Rabble Tower 3F (middle right)	|Puppet| [Field Magic] Takes control of the target player for one turn.
+See wiki: https://github.com/Krokodyl/dokapon-english/wiki/Spaces#special-chests
 
 ### Dokapon Ring
 
@@ -336,48 +315,13 @@ AFAIK, the Dokapon Ring only has the combine effects of the three rings but it o
 
 ### Sky Palace
 
-Beating Rico Jr. (random spawn in some dungeons, or fixed spawn in scenario mode) will give you the item [Wings].
+Beating Rico Jr. (random spawn in some dungeons, or fixed spawn in story mode) will give you the item [Wings].
 Going to the top of the Freaky Mountain (in South America), with the Wings will take you to the Sky Palace.
 The Sky Palace is a place with many blue, yellow and white chests and one special chest.
 
 ### Quizz
 
-The quizz is a series of 8 random questions. According to your results, you are given a recommendation of the AI to play against (easy, normal or hard).
-The last question (times played) is always the same and seems to have no purpose.
-
-Question | Answer
------------- | -------------
-In Look mode, what do the buttons L and R do? | Move fast
-Which of the following Field Magic deals damage to everyone on a targeted square? | Thunder+
-Which button do you use to examine a square? | X Button
-Which item protects once from a Field Magic? | Mirror
-Where do you find this item :Ruby Ring? | Sea Temple
-There is a place in Dokapon Kingdom where powerful weapons lie. Where is it? | Lava Cave
-What color is the weapon treasure chest? | Red
-What is the coin-shaped square on the map? | Tax Office
-What does the shop with a red roof sell ? | Weapons
-What button allows to scroll faster when in examine mode? | Y button
-What is the effect of the Weak status? | Move 1
-What is the name of the Devil's weapon? | Union Sword
-Which of these weapons is the most expensive? | Halberd
-What are the base damage of Thunder+? | 30
-What item allows the wearer to pass through the toxic swamp safely? | Boots
-Which cursed weapon can attack its owner? | Draco Blade
-What is the selling price of an item compared to the purchasing price? | 50%
-Which battle skill can sometimes one-shot an enemy, regardless of the HP? | Slash
-What is the magic defense bonus of Deflect? | +3
-There is a Warp Space fountain. Where is it? | Spring Cave
-What is the name of the princess of Dokapon Kingdom? | Poring
-Which starting job is missing: Fighter, Warrior, Knight, Thief? | Mage
-How much is the Dokapon Orb, the ultimate treasure, worth? | 490000
-A Contract is used for a deal with the Devil. For how much can you sell it to a shop? | 1
-Which item is the most expensive? | 3-Spinner
-There is a martial arts expert in Dokapon Kingdom. What's their name? | Chen Li
-Which town has the highest value? | Sidney
-How many churches are there? | 6
-How many floors has the dungeon Rabble Tower? | 3
-Which small monster has the highest level? | Tiamat
-In order to become the Devil, you must give away all your gold, items, magic and what? | Towns
+See wiki: https://github.com/Krokodyl/dokapon-english/wiki/Game-modes#quiz
 
 ### Hidden message
 In the middle of the South Atlantic ocean, there's a tree on an island.
