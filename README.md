@@ -54,6 +54,10 @@ ROM CRC32: FC353400
 Japanese rom size : 1.5 Mb (1 572 864 bytes)\
 Patched rom size : 2.0 Mb (2 097 152 bytes)
 
+## Disclaimer
+
+<img src="https://raw.githubusercontent.com/Krokodyl/Krokodyl/main/warning.png" />
+
 ## Update v1.3 (Translated sprites & backgrounds)
 
 Japanese | English
